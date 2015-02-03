@@ -124,12 +124,41 @@ body {
 .mastfoot {
   color: #999; /* IE8 proofing */
   color: rgba(255,255,255,.5);
+  display: none;
 }
 
+.title {
+    font-size: 40pt;
+}
 
-/*
- * Affix and center
- */
+.segue {
+    font-size: 15pt;
+    font-style: italic;
+    margin-bottom: -20px;
+}
+
+.subtitle {
+    font-size: 15pt;
+    font-style: italic;
+    margin-top: -10px;
+}
+
+@media (min-width: 480px) {
+    .title {
+        font-size: 64pt;
+    }
+
+    .segue {
+        font-size: 32pt;
+    }
+
+    .subtitle {
+        font-size: 24pt;
+    }
+    .mastfoot {
+        display: block;
+    }
+}
 
 @media (min-width: 768px) {
   /* Pull out the header and footer */
@@ -159,20 +188,4 @@ body {
   .cover-container {
     width: 950px;
   }
-}
-
-.title {
-    font-size: 64pt;
-}
-
-.segue {
-    font-size: 32pt;
-    font-style: italic;
-    margin-bottom: -25px;
-}
-
-.subtitle {
-    font-size: 24pt;
-    font-style: italic;
-    margin-top: -15px;
 }

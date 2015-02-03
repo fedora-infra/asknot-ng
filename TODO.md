@@ -3,7 +3,7 @@
 - [ ] get the naked domain cname working if possible.
 - [ ] get it working in chromium
 - [X] get it working in midori
-- [ ] get it working on my phone
+- [X] get it working on my phone
 - [ ] import work from mizmo’s mockups https://fedorahosted.org/design-team/ticket/354
 - [ ] get clearance for url usage // trademark
 - [ ] solicit docs stuff from randomuser
