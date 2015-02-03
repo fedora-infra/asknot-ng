@@ -2,7 +2,7 @@
 - [ ] Have a nice big warning in place in JS fails to unhide the cards.
 - [ ] get the naked domain cname working if possible.
 - [ ] get it working in chromium
-- [ ] get it working in midori
+- [X] get it working in midori
 - [ ] get it working on my phone
 - [ ] import work from mizmo’s mockups https://fedorahosted.org/design-team/ticket/354
 - [ ] get clearance for url usage // trademark

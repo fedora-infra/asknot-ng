@@ -1,3 +1,8 @@
+// Setup our own endsWith definition since midori doesn't know about it.
+String.prototype.endsWith = function(suffix) {
+    return this.indexOf(suffix, this.length - suffix.length) !== -1;
+};
+
 $(document).ready(function() {
     var first = question_tree['children'][0]['id'];
 
