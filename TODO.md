@@ -1,3 +1,17 @@
+- [ ] Get a README - encourage people to list their deployments
 - [ ] Have a nice big warning in place in JS fails to unhide the cards.
 - [ ] get the naked domain cname working if possible.
-
+- [ ] get it working in chromium
+- [ ] get it working in midori
+- [ ] get it working on my phone
+- [ ] import work from mizmo’s mockups https://fedorahosted.org/design-team/ticket/354
+- [ ] get clearance for url usage // trademark
+- [ ] solicit docs stuff from randomuser
+- [ ] solicit qa stuff from adamw
+- [ ] solicit releng stuff from dgilmore
+- [ ] solicit secondary arch stuff from ??
+- [ ] solicit translation stuff from ??
+- [ ] tell the mozilla devs
+- [ ] tell the fedora list
+- [ ] tell the osas list
+- [ ] Make this whole thing translatable.
