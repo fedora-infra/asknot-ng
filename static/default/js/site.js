@@ -10,7 +10,7 @@ $(document).ready(function() {
     });
     if (! found) {
         $("#" + first).removeClass('hidden');
-        history.replaceState({}, '', location.href + SEP + first);
+        history.pushState({}, '', location.href + SEP + first);
     }
 
 
