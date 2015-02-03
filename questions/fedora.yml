@@ -1,15 +1,20 @@
 title: What can I do for Fedora?
 negatives:
+    - "No"
     - Nope, nope, nope
     - Nope
     - No, thanks
     - Not on your life
+    - Doesn't sound like me
 affirmatives:
+    - "Yes"
     - Sounds awesome
     - Tell me more
     - That's me!
+    - Totally
 backlinks:
     - I was wrong, take me back
+    - I think I made a mistake
 
 navlinks:
     - name: Join
@@ -18,46 +23,49 @@ navlinks:
       link: https://getfedora.org
 
 tree:
-  segue: What's your area of expertise?
+  segue1: Want to help Fedora?  Tell me...
+  segue2: what's your area of expertise?
   children:
   - title: Design
-    subtitle: Pixel Ninjas
-    segue: So you enjoy working on the way users interact with websites and programs?  How about the...
+    subtitle: pixel ninjas
+    segue1: So you enjoy working on the way users interact with websites and programs?
+    segue2: How about the...
     children:
 
     - title: Websites Team
-      subtitle: The group that builds <a href="https://getfedora.org">getfedora.org</a> and other awesome sites.
+      subtitle: the group that builds <a href="https://getfedora.org">getfedora.org</a> and other awesome sites
       href: https://fedoraproject.org/wiki/Websites
 
     - title: Design Team
-      subtitle: Creatives serving as a design firm for the Fedora community, creating artwork and designs on request.
+      subtitle: creatives serving as a design firm for the Fedora community, creating artwork and designs on request
       href: https://fedoraproject.org/wiki/Design
 
   - title: Coding
-    subtitle: Hacking the Gibson
-    segue: "Zeroes and ones #allday?  Me too.  What's your favorite language?"
+    subtitle: hacking the gibson
+    segue1: "Zeroes and ones #allday?  Me too."
+    segue2: What's your favorite language?"
     children:
 
     - title: Python
-      subtitle: A dynamic language for rapid development
+      subtitle: a dynamic language for rapid development
       href: https://github.com/fedora-infra
 
     - title: C
-      subtitle: Close to the metal
+      subtitle: close to the metal
       href: http://lkml.org
 
     - title: Ruby
-      subtitle: Hashrockets and bare words
+      subtitle: hashrockets and bare words
       href: http://fedoraproject.org/wiki/Ruby_SIG
 
   - title: Packaging
-    subtitle: Getting new software into Fedora
+    subtitle: getting new software into Fedora
     href: "#"
 
   - title: Writing docs
-    subtitle: So people know how to use these crazy things
+    subtitle: so people know how to use these crazy things
     href: "#"
 
   - title: QA and Testing
-    subtitle: As they say, "if it's not tested, it's broken"
+    subtitle: as they say, "if it's not tested, it's broken"
     href: "#"

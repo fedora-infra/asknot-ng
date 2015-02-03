@@ -50,12 +50,19 @@
             </div>
           </div>
 
-          <%def name="card(node, next, segue=None, toplevel=False)">
+          <%def name="card(node, next, segue1=None, segue2=None, toplevel=False)">
 
             <div id="${node['id']}" class="inner cover hidden">
 
-              % if segue:
-              <p class="segue">${segue}</p>
+              % if segue1:
+              <p class="segue1">${segue1}</p>
+              % endif
+
+              % if segue2:
+              <p class="segue2">${segue2}</p>
+              % endif
+
+              % if segue1 or segue2:
               <hr/>
               % endif
 
@@ -84,14 +91,14 @@
 
             % if 'children' in node:
               % for i, child in enumerate(node['children']):
-                ${card(child, node['children'][(i + 1) % len(node['children'])]['id'], segue=node.get('segue', None))}
+                ${card(child, node['children'][(i + 1) % len(node['children'])]['id'], segue1=node.get('segue1'), segue2=node.get('segue2'))}
               % endfor
             % endif
 
           </%def>
 
           % for i, child in enumerate(tree['children']):
-          ${card(child, tree['children'][(i + 1) % len(tree['children'])]['id'], segue=tree['segue'], toplevel=True)}
+          ${card(child, tree['children'][(i + 1) % len(tree['children'])]['id'], segue1=tree.get('segue1'), segue2=tree.get('segue2'), toplevel=True)}
           % endfor
 
           <div class="mastfoot">

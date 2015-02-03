@@ -131,7 +131,13 @@ body {
     font-size: 40pt;
 }
 
-.segue {
+.segue1 {
+    font-size: 15pt;
+    font-style: italic;
+    margin-bottom: -20px;
+}
+
+.segue2 {
     font-size: 15pt;
     font-style: italic;
     margin-bottom: -20px;
@@ -148,7 +154,11 @@ body {
         font-size: 64pt;
     }
 
-    .segue {
+    .segue1 {
+        font-size: 28pt;
+    }
+
+    .segue2 {
         font-size: 32pt;
     }
 
