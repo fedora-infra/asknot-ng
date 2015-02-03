@@ -20,7 +20,8 @@ $(document).ready(function() {
         $(this).parent().parent().addClass('hidden');
         var next = $(this).attr('data-next');
         $('#' + next).removeClass('hidden');
-        history.pushState({}, '', location.href + SEP + next);
+        var original = location.href.replace(/\/$/, "")
+        history.pushState({}, '', original + SEP + next);
     });
 
     // Wire up the "nope" links
@@ -31,7 +32,8 @@ $(document).ready(function() {
         console.log('next is ' + next);
         $('#' + next).removeClass('hidden');
         history.go(-1);
-        history.pushState({}, '', location.href + SEP + next);
+        var original = location.href.replace(/\/$/, "")
+        history.pushState({}, '', original + SEP + next);
     });
 
     // Wire up the "back" links
