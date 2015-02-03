@@ -15,3 +15,4 @@
 - [ ] tell the fedora list
 - [ ] tell the osas list
 - [ ] Make this whole thing translatable.
+- [ ] favicon.ico
