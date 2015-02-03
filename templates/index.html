@@ -11,7 +11,7 @@
     <title>${title}</title>
 
     <link href="static/bootstrap/css/bootstrap.css" rel="stylesheet">
-    <link href="static/${theme}/css/cover.css" rel="stylesheet">
+    <link href="static/${theme}/css/site.css" rel="stylesheet">
     <script>
         var SEP = '${SEP}';
         var all_ids = ${all_ids_as_json};
@@ -55,28 +55,29 @@
             <div id="${node['id']}" class="inner cover hidden">
 
               % if segue:
-              <p>${segue}</p>
+              <p class="segue">${segue}</p>
+              <hr/>
               % endif
 
               % if 'title' in node:
-              <h1 class="cover-heading">${node['title']}</h1>
+              <h1 class="title">${node['title']}</h1>
               % endif
 
               % if 'subtitle' in node:
-              <p class="lead">${node['subtitle']}</p>
+              <p class="subtitle">${node['subtitle']}</p>
               % endif
 
               <p class="lead">
                 % if 'children' in node:
-                  <a id="yes" data-next="${node['children'][0]['id']}" class="btn btn-lg btn-primary">${node['affirmative']}</a>
+                  <a id="yes" data-next="${node['children'][0]['id']}" class="btn btn-lg btn-primary"><span class="glyphicon glyphicon-ok-sign"></span> ${node['affirmative']}</a>
                 % else:
-                  <a href="${node['href']}" target="_blank" class="btn btn-lg btn-primary">${node['affirmative']}</a>
+                  <a href="${node['href']}" target="_blank" class="btn btn-lg btn-primary"><span class="glyphicon glyphicon-ok-sign"></span> ${node['affirmative']}</a>
                 % endif:
-                <a id="nope" data-next="${next}" class="btn btn-lg btn-danger">${node['negative']}</a>
+                <a id="nope" data-next="${next}" class="btn btn-lg btn-danger"><span class="glyphicon glyphicon-remove-sign"></span> ${node['negative']}</a>
               </p>
               % if not toplevel:
               <p class="lead">
-                <a id="back" class="btn btn-lg btn-warning">${node['backlink']}</a>
+                <a id="back" class="btn btn-lg btn-warning"><span class="glyphicon glyphicon-circle-arrow-left"></span> ${node['backlink']}</a>
               </p>
               % endif
             </div>

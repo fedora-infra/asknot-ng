@@ -19,7 +19,6 @@ a:hover {
   border: 1px solid #fff;
 }
 
-
 /*
  * Base structure
  */
@@ -160,4 +159,20 @@ body {
   .cover-container {
     width: 700px;
   }
+}
+
+.title {
+    font-size: 64pt;
+}
+
+.segue {
+    font-size: 32pt;
+    font-style: italic;
+    margin-bottom: -25px;
+}
+
+.subtitle {
+    font-size: 24pt;
+    font-style: italic;
+    margin-top: -20px;
 }
