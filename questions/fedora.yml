@@ -1,0 +1,32 @@
+title: What can I do for Fedora?
+negatives:
+    - Nope, nope, nope
+    - Nope
+    - No, thanks
+    - Not on your life
+affirmatives:
+    - Sounds awesome
+    - Tell me more
+    - That's me!
+backlinks:
+    - I was wrong, take me back
+
+navlinks:
+    - name: Join
+      link: "#"
+    - name: Get Fedora
+      link: https://getfedora.org
+
+tree:
+  segue: What's your area of expertise?
+  children:
+  - title: Coding
+    subtitle: Hacking the Gibson
+    segue: Down in the sewers, eh?  What's your favorite language?
+    children:
+    - title: Python
+      subtitle: Dynamic
+      href: https://github.com/fedora-infra
+    - title: C
+      subtitle: Close to the metal
+      href: http://lkml.org
