@@ -62,17 +62,16 @@
               <p class="segue2">${segue2}</p>
               % endif
 
-              % if segue1 or segue2:
-              <hr/>
-              % endif
+              <div class="bandana">
+                % if 'title' in node:
+                <h1 class="title">${node['title']}</h1>
+                % endif
 
-              % if 'title' in node:
-              <h1 class="title">${node['title']}</h1>
-              % endif
-
-              % if 'subtitle' in node:
-              <p class="subtitle">${node['subtitle']}</p>
-              % endif
+                % if 'subtitle' in node:
+                <p class="subtitle">${node['subtitle']}</p>
+                % endif
+              </div>
+              <div class="bandana-hem"></div>
 
               <p class="lead">
                 % if 'children' in node:

@@ -30,7 +30,6 @@ defaults = {
     ),
     'asknot_version': asknot_version(),
     'icon': 'whatever',
-    'theme': 'default',
     'navlinks': [],
     'negatives': ['No, thanks'],
     'affirmatives': ['Yes, please'],
@@ -97,6 +96,7 @@ def main(config, template, outfile=None, **args):
 
     kwargs = copy.copy(defaults)
     kwargs.update(data)
+    kwargs.update(args)
     html = template.render(**kwargs)
 
     if outfile:
@@ -113,6 +113,8 @@ def process_args():
                         "for the site.")
     parser.add_argument("config", help="Path to a .yaml file "
                         "containing the config and question tree.")
+    parser.add_argument("-t", "--theme", default="default",
+                        help="Theme name to use.")
     parser.add_argument("-o", "--outfile", default="asknot.html",
                         help="Where to write output.")
     return parser.parse_args()
