@@ -11,9 +11,6 @@ tree:
     segue2: We need people to...
 
     children:
-    - title: Triage Bugs
-      subtitle: you'll need a heart of gold
-      href: https://fedoraproject.org/wiki/QA/Join#triage
     - title: Validate Releases
       subtitle: when there's an upcoming release, that is
       href: https://fedoraproject.org/wiki/QA/Join#release-validation
@@ -42,3 +39,13 @@ tree:
       - title: fedora-easy-karma
         subtitle: a handsome tool to ease testing updates
         href: https://fedoraproject.org/wiki/Fedora_Easy_Karma
+
+    - title: Take Over
+      subtitle: some basically abandoned tasks
+      segue1: That's huge of you.
+      segue2: we need someone to head up...
+
+      children:
+      - title: Bug Triage
+        subtitle: you'll need a heart of gold
+        href: https://fedoraproject.org/wiki/QA/Join#triage
