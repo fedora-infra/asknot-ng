@@ -66,8 +66,18 @@ body {
  * Header
  */
 .masthead-brand {
-  margin-top: 10px;
+  margin-top: 0px;
   margin-bottom: 10px;
+  margin-right: auto;
+  margin-left: auto;
+
+  display: block;
+  width: 155px;
+  height: 45px;
+  background: url('../img/fedora-logo-inverted.png');
+  background-repeat: no-repeat;
+  /* This is hilarious. */
+  text-indent: -9999px;
 }
 
 .masthead-nav > li {
@@ -125,11 +135,11 @@ body {
   position: absolute;
   left: 0;
   right: 0;
-  height: 125px;
+  height: 150px;
 
 }
 .bandana-hem {
-  height: 150px;
+  height: 175px;
 }
 
 .mastfoot {
@@ -159,6 +169,7 @@ body {
     font-size: 15pt;
     font-style: italic;
     margin-top: -10px;
+    padding-bottom: 12px;
     color: #3c6eb4;
     border-bottom: dashed 1px #3c6eb4;
     display: inline;
@@ -174,9 +185,9 @@ body {
 
     .subtitle { font-size: 24pt; }
     .mastfoot { display: block; }
-    .bandana-hem { height: 200px; }
+    .bandana-hem { height: 225px; }
     .bandana {
-      height: 175px;
+      height: 200px;
       background-image:
         -moz-radial-gradient(center top, ellipse farthest-side, rgba(116, 116, 116, 0.5), rgba(116, 116, 116, 0) 95%),
         -moz-radial-gradient(center top, ellipse farthest-side, rgba(36, 36, 36, 0.5), rgba(36, 36, 36, 0)),
