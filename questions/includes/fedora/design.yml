@@ -1,9 +1,30 @@
 tree:
+
   children:
     - title: Websites Team
       subtitle: the group that builds <a href="https://getfedora.org">getfedora.org</a> and other awesome sites
       href: https://fedoraproject.org/wiki/Websites
 
     - title: Design Team
-      subtitle: creatives serving as a design firm for the Fedora community, creating artwork and designs on request
-      href: https://fedoraproject.org/wiki/Design
+      subtitle: creatives serving as a design firm for the Fedora community
+      segue1: Ok.
+      segue2: Would you like something more
+
+      children:
+      - title: General
+        subtitle: on how to join the team?
+        href: https://fedoraproject.org/wiki/Join_the_Design_Team
+
+      - title: Specific
+        subtitle: on different kinds of tasks
+        segue1: Excellent!
+        segue2: How does this sound?
+
+        children:
+        - title: Hackergotchis
+          subtitle: making cute cut-outs of people's faces
+          href: https://fedoraproject.org/wiki/Artwork/HackergotchiService
+
+        - title: Fedora Badges
+          subtitle: make awesome badge art that fuels <a href="https://badges.fedoraproject.org">badges.fp.o</a>
+          href: https://fedorahosted.org/fedora-badges/
