@@ -34,33 +34,13 @@ tree:
     subtitle: pixel ninjas
     segue1: So you enjoy working on the way users interact with websites and programs?
     segue2: How about the...
-    children:
-
-    - title: Websites Team
-      subtitle: the group that builds <a href="https://getfedora.org">getfedora.org</a> and other awesome sites
-      href: https://fedoraproject.org/wiki/Websites
-
-    - title: Design Team
-      subtitle: creatives serving as a design firm for the Fedora community, creating artwork and designs on request
-      href: https://fedoraproject.org/wiki/Design
+    children: includes/fedora/design.yml
 
   - title: Coding
     subtitle: hacking the gibson
     segue1: "Zeroes and ones #allday?  Me too."
     segue2: What's your favorite language?"
-    children:
-
-    - title: Python
-      subtitle: a dynamic language for rapid development
-      href: https://github.com/fedora-infra
-
-    - title: C
-      subtitle: close to the metal
-      href: http://lkml.org
-
-    - title: Ruby
-      subtitle: hashrockets and bare words
-      href: http://fedoraproject.org/wiki/Ruby_SIG
+    children: includes/fedora/coding.yml
 
   - title: Packaging
     subtitle: getting new software into Fedora

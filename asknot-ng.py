@@ -9,6 +9,7 @@ from __future__ import print_function
 import argparse
 import copy
 import json
+import os
 import random
 
 import mako.template
@@ -37,24 +38,47 @@ defaults = {
     'SEP': '#',  # Make this '/' for cool prod environments
 }
 
-def load_yaml(config):
-    with open(config, 'r') as f:
-        return yaml.load(f.read())
+
+def load_yaml(filename):
+    with open(filename, 'r') as f:
+        data = yaml.load(f.read())
+
+    basedir = os.path.dirname(filename)
+
+    try:
+        validate_yaml(data, basedir)
+    except:
+        print("Problem with %r due to..." % filename)
+        raise
+
+    return data
 
 
-def validate_yaml(data):
+def validate_yaml(data, basedir):
     assert 'tree' in data
-    validate_tree(data['tree'])
+    assert 'children' in data['tree']
+    validate_tree(data['tree'], basedir)
 
 
-def validate_tree(node):
+def validate_tree(node, basedir):
     if not 'children' in node:
         if not 'href' in node:
             raise ValueError('%r must have either a "href" value or '
                              'a "children" list' % node)
     else:
+        # Handle recursive includes in yaml files. The children of a node
+        # may be defined in a separate file
+        if isinstance(node['children'], basestring):
+            include_file = node['children']
+            if not os.path.isabs(include_file):
+                include_file = os.path.join(basedir, include_file)
+
+            node['children'] = load_yaml(include_file)['tree']['children']
+
+        # Finally, validate all the children whether they are from a separately
+        # included file, or not.
         for child in node['children']:
-            validate_tree(child)
+            validate_tree(child, basedir)
 
 
 def slugify(title):
@@ -88,7 +112,7 @@ def main(config, template, outfile=None, **args):
     template = load_template(template)
 
     data = load_yaml(config)
-    validate_yaml(data)
+
     data['tree'] = prepare_tree(data, data['tree'])
     data['all_ids'] = list(gather_ids(data['tree']))
     data['all_ids_as_json'] = json.dumps(data['all_ids'], indent=4)

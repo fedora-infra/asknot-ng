@@ -1,0 +1,9 @@
+tree:
+  children:
+    - title: Websites Team
+      subtitle: the group that builds <a href="https://getfedora.org">getfedora.org</a> and other awesome sites
+      href: https://fedoraproject.org/wiki/Websites
+
+    - title: Design Team
+      subtitle: creatives serving as a design firm for the Fedora community, creating artwork and designs on request
+      href: https://fedoraproject.org/wiki/Design
