@@ -55,6 +55,9 @@ tree:
         segue2: How does this sound?
 
         children:
+        - title: Artwork Requests
+          subtitle: there are people in need of good taste -- you can help
+          href: https://fedorahosted.org/design-team/report/1
         - title: Hackergotchis
           subtitle: making cute cut-outs of people's faces
           href: https://fedoraproject.org/wiki/Artwork/HackergotchiService
