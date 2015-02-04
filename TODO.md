@@ -2,7 +2,7 @@
 - [X] Get a README - encourage people to list their deployments
 - [X] Have a nice big warning in place in JS fails to unhide the cards.
 - [X] get the naked domain cname working if possible.
-- [ ] get it working in chromium, pushState is weird.
+- [X] get it working in chromium, pushState is weird.
 - [X] get it working in midori
 - [X] get it working on my phone
 - [X] import work from mizmo’s mockups https://fedorahosted.org/design-team/ticket/354

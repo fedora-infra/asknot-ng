@@ -36,19 +36,18 @@ $(document).ready(function() {
     $("a.nope").click(function(event) {
         $(this).parent().parent().addClass('hidden');
         var next = $(this).attr('data-next');
-        console.log('next is ' + next);
         $('#' + next).removeClass('hidden');
-        history.go(-1);
-        var original = location.href.replace(/\/$/, "")
-        history.pushState({}, '', original + SEP + next);
+        var tokens = location.href.replace(/\/$/, "").split(SEP).slice(0, -1);
+        tokens.push(next);
+        history.replaceState({}, '', tokens.join(SEP));
     });
 
     // Wire up the "back" links
     $("a.back").click(function(event) {
         $(this).parent().parent().addClass('hidden');
-        history.go(-1);
-        var tokens = location.href.split(SEP);
+        var tokens = location.href.replace(/\/$/, "").split(SEP).slice(0, -1);
         var next = tokens.slice(-1).pop();
+        history.go(-1);
         $('#' + next).removeClass('hidden');
     });
 
