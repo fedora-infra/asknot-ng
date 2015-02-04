@@ -1,0 +1,7 @@
+#!/bin/bash
+# The logic to start up your application should be put in this
+# script. The application will work only if it binds to
+# $OPENSHIFT_DIY_IP:8080
+
+${OPENSHIFT_REPO_DIR}/.openshift/action_hooks/build
+nohup $OPENSHIFT_REPO_DIR/.openshift/diy/testrubyserver.rb $OPENSHIFT_DIY_IP $OPENSHIFT_REPO_DIR/.openshift/diy |& /usr/bin/logshifter -tag diy &

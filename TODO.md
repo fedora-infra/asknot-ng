@@ -1,4 +1,4 @@
-- [ ] unify the project and openshift repos
+- [X] unify the project and openshift repos
 - [ ] Get a README - encourage people to list their deployments
 - [ ] Have a nice big warning in place in JS fails to unhide the cards.
 - [ ] get the naked domain cname working if possible.

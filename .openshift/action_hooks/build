@@ -1,0 +1,30 @@
+#!/bin/bash -xv
+# This is a simple build script and will be executed on your CI system if 
+# available.  Otherwise it will execute while your application is stopped
+# before the deploy step.  This script gets executed directly, so it
+# could be python, php, ruby, etc.
+
+cd ${OPENSHIFT_DATA_DIR}
+
+virtualenv ${OPENSHIFT_DATA_DIR}venv
+VENV=${OPENSHIFT_DATA_DIR}venv
+source ${VENV}/bin/activate
+
+pip install \
+    -r ${OPENSHIFT_REPO_DIR}/requirements.txt \
+    -b ${OPENSHIFT_DATA_DIR}/pip \
+    --log-file ${OPENSHIFT_DATA_DIR}/inst.log
+
+echo "* Generating site"
+# This would be cool.. but we need the server to ignore lots of stuff..
+#echo "SEP: /" >> questions/fedora.yml
+${OPENSHIFT_REPO_DIR}/asknot-ng.py \
+    ${OPENSHIFT_REPO_DIR}/templates/index.html \
+    ${OPENSHIFT_REPO_DIR}/questions/fedora.yml \
+    -t fedora
+
+mv asknot.html                      ${OPENSHIFT_REPO_DIR}/.openshift/diy/index.html
+rm -rf                              ${OPENSHIFT_REPO_DIR}/.openshift/diy/static
+cp -rf ${OPENSHIFT_REPO_DIR}/static ${OPENSHIFT_REPO_DIR}/.openshift/diy/static
+
+echo "* Done"
