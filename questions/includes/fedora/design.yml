@@ -2,7 +2,7 @@ tree:
 
   children:
     - title: Websites Team
-      subtitle: CSS savants that build <a href="https://getfedora.org">getfedora.org</a> and other awesome sites
+      subtitle: Web developers that build <a href="https://getfedora.org">getfedora.org</a> and other awesome sites
       segue1: Ok.
       segue2: Would you like something more
 
