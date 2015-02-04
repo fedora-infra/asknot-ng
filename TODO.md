@@ -12,7 +12,7 @@
 - [ ] solicit design stuff from FAD attendees
 - [ ] troll through the join-fedora docs for starter material
 - [ ] solicit docs stuff from randomuser
-- [ ] solicit qa stuff from adamw
+- [X] solicit qa stuff from adamw
 - [ ] solicit releng stuff from dgilmore
 - [ ] solicit secondary arch stuff from ??
 - [ ] solicit translation stuff from ??
