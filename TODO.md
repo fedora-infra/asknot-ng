@@ -5,8 +5,10 @@
 - [ ] get it working in chromium, pushState is weird.
 - [X] get it working in midori
 - [X] get it working on my phone
-- [ ] import work from mizmo’s mockups https://fedorahosted.org/design-team/ticket/354
-- [ ] get clearance for url usage // trademark
+- [X] import work from mizmo’s mockups https://fedorahosted.org/design-team/ticket/354
+- [ ] get the logo straightend out
+- [ ] get clearance for url, logo usage // trademark
+- [ ] troll through the join-fedora docs for starter material
 - [ ] solicit docs stuff from randomuser
 - [ ] solicit qa stuff from adamw
 - [ ] solicit releng stuff from dgilmore
