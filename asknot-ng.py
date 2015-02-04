@@ -9,6 +9,7 @@ from __future__ import print_function
 import argparse
 import copy
 import json
+import hashlib
 import os
 import random
 
@@ -81,18 +82,24 @@ def validate_tree(node, basedir):
             validate_tree(child, basedir)
 
 
-def slugify(title):
-    return title.replace(' ', '-').lower()
+def slugify(title, seen):
+    idx = title.replace(' ', '-').lower()
+    while idx in seen:
+        idx = idx + hashlib.md5(idx).hexdigest()[0]
+    return idx
 
 
-def prepare_tree(data, node, parent_idx=None):
-    node['id'] = slugify(node.get('title', 'foo'))
+def prepare_tree(data, node, parent_idx=None, seen=None):
+    seen = seen or []
+    node['id'] = slugify(node.get('title', 'foo'), seen)
+    seen.append(node['id'])
+
     node['affirmative'] = random.choice(data['affirmatives'])
     node['negative'] = random.choice(data['negatives'])
     node['backlink'] = random.choice(data['backlinks'])
 
     for i, child in enumerate(node.get('children', [])):
-        node['children'][i] = prepare_tree(data, child, node['id'])
+        node['children'][i] = prepare_tree(data, child, node['id'], seen)
 
     return node
 
