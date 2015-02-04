@@ -1,3 +1,16 @@
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat-Regular'), url(../fonts/montserrat.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(../fonts/open-sans.ttf) format('truetype');
+}
+
 a,
 a:focus,
 a:hover {
@@ -21,6 +34,7 @@ body {
 }
 body {
   color: #fff;
+  font-family: 'Open Sans';
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
@@ -67,6 +81,7 @@ body {
   padding-left: 0;
   font-size: 16px;
   font-weight: bold;
+  font-family: Montserrat;
   color: #fff; /* IE8 proofing */
   color: rgba(255,255,255,.75);
   border-bottom: 2px solid transparent;
@@ -111,6 +126,7 @@ body {
   left: 0;
   right: 0;
   height: 125px;
+
 }
 .bandana-hem {
   height: 150px;
@@ -124,6 +140,7 @@ body {
 
 .title {
     font-size: 40pt;
+    font-weight: 900;
     color: #294172;
 }
 
@@ -142,8 +159,11 @@ body {
     font-size: 15pt;
     font-style: italic;
     margin-top: -10px;
-    color: #87a6d1;
+    color: #3c6eb4;
+    border-bottom: dashed 1px #3c6eb4;
+    display: inline;
 }
+
 
 @media (min-width: 480px) {
     .title { font-size: 64pt; }
@@ -154,8 +174,29 @@ body {
 
     .subtitle { font-size: 24pt; }
     .mastfoot { display: block; }
-    .bandana { height: 175px; }
     .bandana-hem { height: 200px; }
+    .bandana {
+      height: 175px;
+      background-image:
+        -moz-radial-gradient(center top, ellipse farthest-side, rgba(116, 116, 116, 0.5), rgba(116, 116, 116, 0) 95%),
+        -moz-radial-gradient(center top, ellipse farthest-side, rgba(36, 36, 36, 0.5), rgba(36, 36, 36, 0)),
+        -moz-radial-gradient(center top, ellipse farthest-side, rgba(36, 36, 36, 0.3), rgba(36, 36, 36, 0));
+      background-image:
+        -webkit-radial-gradient(center top, ellipse farthest-side, rgba(116, 116, 116, 0.5), rgba(116, 116, 116, 0) 95%),
+        -webkit-radial-gradient(center top, ellipse farthest-side, rgba(36, 36, 36, 0.5), rgba(36, 36, 36, 0)),
+        -webkit-radial-gradient(center top, ellipse farthest-side, rgba(36, 36, 36, 0.3), rgba(36, 36, 36, 0));
+      background-image:
+        -o-radial-gradient(center top, ellipse farthest-side, rgba(116, 116, 116, 0.5), rgba(116, 116, 116, 0) 95%),
+        -o-radial-gradient(center top, ellipse farthest-side, rgba(36, 36, 36, 0.5), rgba(36, 36, 36, 0)),
+        -o-radial-gradient(center top, ellipse farthest-side, rgba(36, 36, 36, 0.3), rgba(36, 36, 36, 0));
+      background-image:
+        radial-gradient(center top, ellipse farthest-side, rgba(116, 116, 116, 0.5), rgba(116, 116, 116, 0) 95%),
+        radial-gradient(center top, ellipse farthest-side, rgba(36, 36, 36, 0.5), rgba(36, 36, 36, 0)),
+        radial-gradient(center top, ellipse farthest-side, rgba(36, 36, 36, 0.3), rgba(36, 36, 36, 0));
+      background-size: 100% 5px, 100% 20px, 100% 35px;
+      background-repeat: no-repeat;
+    }
+
 }
 
 @media (min-width: 768px) {
