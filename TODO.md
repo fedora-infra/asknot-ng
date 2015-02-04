@@ -6,8 +6,8 @@
 - [X] get it working in midori
 - [X] get it working on my phone
 - [X] import work from mizmo’s mockups https://fedorahosted.org/design-team/ticket/354
-- [ ] get the logo straightend out
-- [ ] get clearance for url, logo usage // trademark
+- [X] get the logo straightend out
+- [X] get clearance for url, logo usage // trademark
 - [ ] troll through the join-fedora docs for starter material
 - [ ] solicit docs stuff from randomuser
 - [ ] solicit qa stuff from adamw
