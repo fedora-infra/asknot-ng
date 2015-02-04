@@ -68,7 +68,7 @@ Happy Hacking!
 [requirements]: https://github.com/fedora-infra/asknot-ng/blob/develop/requirements.txt
 [patches]: https://help.github.com/articles/editing-files-in-another-user-s-repository/
 [wcidfm]: http://whatcanidoformozilla.org
-[wcidff]: http://www.whatcanidoforfedora.org
+[wcidff]: http://whatcanidoforfedora.org
 [jdm]: http://www.joshmatthews.net
 [wham]: http://wham.fi
 [asknot-contribs]: https://github.com/jdm/asknot/contributors
