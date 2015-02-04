@@ -61,6 +61,9 @@ body {
   padding: 30px;
 }
 
+#js-warning .panel-body {
+  background-color: #3c6eb4;
+}
 
 /*
  * Header

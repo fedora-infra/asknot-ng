@@ -50,6 +50,23 @@
             </div>
           </div>
 
+          <div id='js-warning'>
+            <div class=" panel panel-warning">
+              <div class="panel-heading clearfix">
+                <span class="pull-left"> This page requires JavaScript </span>
+              </div>
+              <div class="panel-body">
+                <p class="lead">This page only works with JavaScript enabled.</p>
+                <p>If you have JavaScript disabled with a plugin like NoScript, please
+                disable that plugin and reload the page.  If you trust us, you
+                might find it convenient to enable JavaScript just
+                for this domain.</p>
+                <p>If you are opposed to JavaScript in principle, you're not left out!
+                You can read the page source to get at all the data.</p>
+              </div>
+            </div>
+          </div>
+
           <%def name="card(node, next, segue1=None, segue2=None, toplevel=False)">
 
             <div id="${node['id']}" class="inner cover hidden">

@@ -4,6 +4,9 @@ String.prototype.endsWith = function(suffix) {
 };
 
 $(document).ready(function() {
+    // First thing.. hide the warning about javascript being required.
+    $("#js-warning").addClass('hidden');
+
     var first = question_tree['children'][0]['id'];
 
     var found = false;
