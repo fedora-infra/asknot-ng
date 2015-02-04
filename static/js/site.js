@@ -24,7 +24,7 @@ $(document).ready(function() {
 
 
     // Wire up the "yes" links
-    $("a#yes").click(function(event) {
+    $("a.yes").click(function(event) {
         $(this).parent().parent().addClass('hidden');
         var next = $(this).attr('data-next');
         $('#' + next).removeClass('hidden');
@@ -33,8 +33,7 @@ $(document).ready(function() {
     });
 
     // Wire up the "nope" links
-    $("a#nope").click(function(event) {
-        console.log('called');
+    $("a.nope").click(function(event) {
         $(this).parent().parent().addClass('hidden');
         var next = $(this).attr('data-next');
         console.log('next is ' + next);
@@ -45,7 +44,7 @@ $(document).ready(function() {
     });
 
     // Wire up the "back" links
-    $("a#back").click(function(event) {
+    $("a.back").click(function(event) {
         $(this).parent().parent().addClass('hidden');
         history.go(-1);
         var tokens = location.href.split(SEP);

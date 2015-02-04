@@ -92,15 +92,15 @@
 
               <p class="lead">
                 % if 'children' in node:
-                  <a id="yes" data-next="${node['children'][0]['id']}" class="btn btn-lg btn-primary"><span class="glyphicon glyphicon-ok-sign"></span> ${node['affirmative']}</a>
+                  <a data-next="${node['children'][0]['id']}" class="yes btn btn-lg btn-primary"><span class="glyphicon glyphicon-ok-sign"></span> ${node['affirmative']}</a>
                 % else:
                   <a href="${node['href']}" target="_blank" class="btn btn-lg btn-primary"><span class="glyphicon glyphicon-ok-sign"></span> ${node['affirmative']}</a>
                 % endif:
-                <a id="nope" data-next="${next}" class="btn btn-lg btn-danger"><span class="glyphicon glyphicon-remove-sign"></span> ${node['negative']}</a>
+                <a data-next="${next}" class="nope btn btn-lg btn-danger"><span class="glyphicon glyphicon-remove-sign"></span> ${node['negative']}</a>
               </p>
               % if not toplevel:
               <p class="lead">
-                <a id="back" class="btn btn-lg btn-warning"><span class="glyphicon glyphicon-circle-arrow-left"></span> ${node['backlink']}</a>
+                <a class="back btn btn-lg btn-warning"><span class="glyphicon glyphicon-circle-arrow-left"></span> ${node['backlink']}</a>
               </p>
               % endif
             </div>
