@@ -9,6 +9,7 @@
 - [X] get the logo straightend out
 - [X] get clearance for url, logo usage // trademark
 - [X] troll through design FAD reports to find material for design tree
+- [ ] add fedora-tagger in there
 - [ ] solicit design stuff from FAD attendees
 - [ ] troll through the join-fedora docs for starter material
 - [ ] solicit docs stuff from randomuser
