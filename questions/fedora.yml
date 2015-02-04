@@ -28,7 +28,7 @@ navlinks:
 
 tree:
   segue1: Want to help Fedora?  Tell me...
-  segue2: what's your area of expertise?
+  segue2: what's your area of interest?
   children:
   - title: Design
     subtitle: pixel ninjas
