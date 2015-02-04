@@ -42,6 +42,10 @@ tree:
     segue2: What's your favorite language?"
     children: includes/fedora/coding.yml
 
+  - title: Translation
+    subtitle: it's all Greek to me
+    href: "#"
+
   - title: Packaging
     subtitle: getting new software into Fedora
     href: "#"
@@ -52,4 +56,4 @@ tree:
 
   - title: QA and Testing
     subtitle: as they say, "if it's not tested, it's broken"
-    href: "#"
+    children: includes/fedora/qa.yml
