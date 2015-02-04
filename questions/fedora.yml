@@ -6,15 +6,18 @@ negatives:
     - No, thanks
     - Not on your life
     - Doesn't sound like me
+    - Absolutely not
 affirmatives:
     - "Yes"
     - Sounds awesome
     - Tell me more
     - That's me!
     - Totally
+    - Sure
 backlinks:
     - I was wrong, take me back
     - I think I made a mistake
+    - Get me outta here!
 
 navlinks:
     - name: Join
