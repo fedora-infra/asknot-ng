@@ -8,6 +8,8 @@
 - [X] import work from mizmo’s mockups https://fedorahosted.org/design-team/ticket/354
 - [X] get the logo straightend out
 - [X] get clearance for url, logo usage // trademark
+- [ ] troll through design FAD reports to find material for design tree
+- [ ] solicit design stuff from FAD attendees
 - [ ] troll through the join-fedora docs for starter material
 - [ ] solicit docs stuff from randomuser
 - [ ] solicit qa stuff from adamw
