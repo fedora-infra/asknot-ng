@@ -56,4 +56,6 @@ tree:
 
   - title: QA and Testing
     subtitle: as they say, "if it's not tested, it's broken"
+    segue1: So you like to push all the buttons and break all the things?
+    segue2: Are you more interested in something...
     children: includes/fedora/qa.yml

@@ -2,11 +2,11 @@ tree:
 
   children:
   - title: General
-    subtitle: on how to join the QA team?
+    subtitle: about how to join the QA team?
     href: https://fedoraproject.org/wiki/QA/Join
 
   - title: Specific
-    subtitle: on different kinds of QA and testing tasks
+    subtitle: about different QA and testing tasks
     segue1: Certainly.
     segue2: We need people to...
 
