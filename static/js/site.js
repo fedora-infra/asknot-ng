@@ -11,7 +11,7 @@ $(document).ready(function() {
 
     var found = false;
     $.each(all_ids, function(i, idx) {
-        if (location.href.endsWith(idx)) {
+        if (location.href.endsWith(SEP + idx)) {
             $("#" + idx).removeClass('hidden');
             found = true;
         }
