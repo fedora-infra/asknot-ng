@@ -1,0 +1,9 @@
+tree:
+  children:
+    - title: The Installer
+      subtitle: projects under the Anaconda umbrella
+      href: https://fedoraproject.org/wiki/Anaconda/Contribute
+
+    - title: Web Services
+      subtitle: Fedora Infra maintains many of these
+      href: https://fedoraproject.org/wiki/Infrastructure/GettingStarted

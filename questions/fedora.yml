@@ -46,6 +46,10 @@ tree:
     subtitle: it's all Greek to me
     href: "#"
 
+  - title: Advocacy
+    subtitle: spreading the good word
+    href: "#"
+
   - title: Packaging
     subtitle: getting new software into Fedora
     href: "#"

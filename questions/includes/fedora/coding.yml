@@ -2,7 +2,9 @@ tree:
   children:
     - title: Python
       subtitle: a dynamic language for rapid development
-      href: https://github.com/fedora-infra
+      segue1: So, you enjoy traceback-driven development?
+      segue2: Are you interested in hacking on...
+      children: coding/python.yml
 
     - title: C
       subtitle: close to the metal
