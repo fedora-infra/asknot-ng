@@ -6,13 +6,13 @@ Written by [@ralphbean][threebean].  Inspired by [the original work][wcidfm] of
 [Josh Matthews][jdm], [Henri Koivuneva][wham], and [others][asknot-contribs].
 
 I stumbled upon and loved the original [whatcanidoformozilla.org][wcidfm] and
-wanted to deploy it for the [Fedora Community][fedora], but found that I
+wanted to deploy it for the [Fedora Community][fedora] but I found that I
 couldn’t easily change the questions and links that were presented.  A year
-went by, and in 2015 I wrote this:  “asknot-ng”.
+went by and in 2015 I wrote this:  “asknot-ng”.
 
 The gist of this “next generation” rewrite is to make it as configurable as
-possible, so others can benefit.  There is a primary script, ``asknot-ng.py``
-that functions as a static-site generator.  It takes as input three things:
+possible.  There is a primary script, ``asknot-ng.py``
+that works like a static-site generator.  It takes as input three things:
 
 - A questions file, written in yaml (see the [example][example-questions] or
   [Fedora’s file][fedora-questions]).  You’ll have to write your own one of
