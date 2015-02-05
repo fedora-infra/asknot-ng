@@ -1,0 +1,5 @@
+tree:
+  children:
+    - title: FAS 3 API Client
+      subtitle: Play with FAS without playing with Python! ;)
+      href: https://github.com/fedora-infra/fas3-api-haskell

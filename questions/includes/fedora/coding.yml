@@ -8,8 +8,24 @@ tree:
 
     - title: C
       subtitle: close to the metal
-      href: http://lkml.org
+      href: https://lkml.org
+
+    - title: Haskell
+      subtitle: a nondynamic language for rapid development
+      segue1: Yay, types!
+      segue2: How about...
+      href: https://fedoraproject.org/wiki/Haskell_SIG
+      children: coding/haskell.yml
+
+    - title: Java
+      subtitle: a nondynamic language for nonrapid development
+      href: https://fedoraproject.org/wiki/SIGs/Java
+      children: coding/java.yml
+
+    - title: Scala
+      subtitle: a nondynamic language for semirapid development
+      children: coding/scala.yml
 
     - title: Ruby
       subtitle: hashrockets and bare words
-      href: http://fedoraproject.org/wiki/Ruby_SIG
+      href: https://fedoraproject.org/wiki/Ruby_SIG

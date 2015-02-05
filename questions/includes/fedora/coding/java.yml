@@ -1,0 +1,9 @@
+tree:
+  children:
+    - title: fedmsg-java
+      subtitle: Interact with fedmsg from the JVM
+      href: https://github.com/fedora-infra/fedmsg-java
+
+    - title: jenkins-fedmsg-emit
+      subtitle: Send fedmsg messages related to Jenkins builds
+      href: https://github.com/fedora-infra/jenkins-fedmsg-emit
