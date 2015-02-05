@@ -42,6 +42,12 @@ tree:
     segue2: What's your favorite language?"
     children: includes/fedora/coding.yml
 
+  - title: Categorization
+    subtitle: labelling things, perhaps obsessively
+    segue1: So you like putting things in their place?
+    segue2: How about...
+    children: includes/fedora/categorization.yml
+
   - title: Translation
     subtitle: it's all Greek to me
     href: "#"
