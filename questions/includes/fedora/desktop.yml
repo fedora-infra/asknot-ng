@@ -1,7 +1,7 @@
 tree:
   children:
     - title: Desktop SIG
-      subtitle: the special-interest-group for Fedora Server
+      subtitle: the special-interest-group for Fedora Workstation
       href: https://fedoraproject.org/wiki/SIGs/Desktop
 
     - title: KDE SIG
