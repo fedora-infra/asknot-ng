@@ -1,0 +1,5 @@
+tree:
+  children:
+    - title: Fedora Mobile
+      subtitle: Interact with Fedora's community on the go!
+      href: https://github.com/fedora-infra/mobile

@@ -1,0 +1,9 @@
+tree:
+  children:
+    - title: Haskell Special Interest Group
+      subtitle: Work with the community to make Haskell development in Fedora be awesome!
+      href: https://fedoraproject.org/wiki/Haskell_SIG
+
+    - title: FAS 3 API Client
+      subtitle: Play with FAS without playing with Python! ;)
+      href: https://github.com/fedora-infra/fas3-api-haskell

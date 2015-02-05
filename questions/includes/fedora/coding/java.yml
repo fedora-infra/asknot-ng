@@ -1,0 +1,13 @@
+tree:
+  children:
+    - title: Java SIG
+      subtitle: Work with the community on Java packaging and development
+      href: https://fedoraproject.org/wiki/SIGs/Java
+
+    - title: fedmsg-java
+      subtitle: Interact with fedmsg from the JVM
+      href: https://github.com/fedora-infra/fedmsg-java
+
+    - title: jenkins-fedmsg-emit
+      subtitle: Send fedmsg messages related to Jenkins builds
+      href: https://github.com/fedora-infra/jenkins-fedmsg-emit
