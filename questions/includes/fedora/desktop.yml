@@ -1,0 +1,17 @@
+tree:
+  children:
+    - title: Desktop SIG
+      subtitle: the special-interest-group for Fedora Server
+      href: https://fedoraproject.org/wiki/SIGs/Desktop
+
+    - title: KDE SIG
+      subtitle: to provide high-quality, usable KDE software packages
+      href: https://fedoraproject.org/wiki/SIGs/KDE
+
+    - title: XFCE SIG
+      subtitle: for those excited about integration of the Xfce desktop environment
+      href: https://fedoraproject.org/wiki/SIGs/Xfce
+
+    - title: LXDE SIG
+      subtitle: to define a high-quality LXDE experience for Fedora users
+      href: https://fedoraproject.org/wiki/LXDE_SIG

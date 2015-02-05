@@ -55,8 +55,10 @@ tree:
     children: includes/fedora/categorization.yml
 
   - title: Translation
-    subtitle: it's all Greek to me
-    href: "#"
+    subtitle: we're an international effort, after all
+    segue1:  So you know more than one language?  We need you!
+    segue2: Would you be more interested in...
+    children: includes/fedora/translation.yml
 
   - title: Advocacy
     subtitle: spreading the good word
@@ -75,3 +77,21 @@ tree:
     segue1: So you like to push all the buttons and break all the things?
     segue2: Are you more interested in something...
     children: includes/fedora/qa.yml
+
+  - title: The Desktop
+    subtitle: we all have our favorite
+    segue1: So you're into making the OS polished and easy to use?
+    segue2: You probably want to join the Fedora...
+    children: includes/fedora/desktop.yml
+
+  - title: The Server
+    subtitle: the best and latest for the datacenter
+    segue1: So you're into making the OS powerful and flexible?
+    segue2: You probably want to join the Fedora...
+    children: includes/fedora/server.yml
+
+  - title: The Cloud
+    subtitle: it's where the future lives
+    segue1: High-minded?
+    segue2: You probably want to join the Fedora...
+    children: includes/fedora/cloud.yml

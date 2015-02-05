@@ -1,0 +1,27 @@
+tree:
+  children:
+  - title: General
+    subtitle: about how to join the L10N team?
+    href: https://fedoraproject.org/wiki/L10N#Joining_the_Fedora_Localization_Project
+
+  - title: Specific
+    subtitle: about L10N tasks
+    segue1: Let's get down to business.
+    segue2: Perhaps you'd be interested in translating...
+
+    children:
+    - title: User Interfaces
+      subtitle: there are some essential projects that need translating
+      href: https://fedoraproject.org/wiki/L10N_GUI
+    - title: Wiki Pages
+      subtitle: usually from English to another language
+      href: https://fedoraproject.org/wiki/FedoraProject:Translating
+    - title: Documentation
+      subtitle: all the guides and release notes
+      href: https://fedoraproject.org/wiki/Docs_Project_guides_table
+    - title: GNOME
+      subtitle: which has it's own translation resources
+      href: https://wiki.gnome.org/TranslationProject
+    - title: KDE
+      subtitle: also with it's own translation process
+      href: http://l10n.kde.org/docs/translation-howto/

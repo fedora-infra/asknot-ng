@@ -1,0 +1,5 @@
+tree:
+  children:
+    - title: Server SIG
+      subtitle: the special-interest-group for Fedora Server
+      href: https://fedoraproject.org/wiki/SIGs/Server

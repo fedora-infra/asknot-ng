@@ -15,7 +15,8 @@
 - [ ] troll through the join-fedora docs for starter material
 - [X] solicit docs stuff from #fedora-docs
 - [X] solicit qa stuff from adamw
-- [ ] solicit translation stuff from ??
+- [X] solicit translation stuff from ??
+- [X] Add a desktop/spins subtree
 - [ ] add more stuff to the coding subtree
 - [ ] tell the mozilla devs
 - [ ] tell the fedora list
