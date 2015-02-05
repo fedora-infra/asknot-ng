@@ -14,12 +14,10 @@ tree:
       subtitle: a nondynamic language for rapid development
       segue1: Yay, types!
       segue2: How about...
-      href: https://fedoraproject.org/wiki/Haskell_SIG
       children: coding/haskell.yml
 
     - title: Java
       subtitle: a nondynamic language for nonrapid development
-      href: https://fedoraproject.org/wiki/SIGs/Java
       children: coding/java.yml
 
     - title: Scala
