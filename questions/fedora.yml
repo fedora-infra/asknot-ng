@@ -60,6 +60,9 @@ tree:
 
   - title: Advocacy
     subtitle: spreading the good word
+    segue1: So you're a people person?
+    segue2: How about becoming a Fedora...
+    children: includes/fedora/advocacy.yml
     href: "#"
 
   - title: Packaging
