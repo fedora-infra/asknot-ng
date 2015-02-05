@@ -9,12 +9,6 @@ a:hover {
   color: #fff;
 }
 
-.bandana a,
-.bandana a:focus,
-.bandana a:hover {
-  color: #27ae60;
-}
-
 /* Custom default button */
 .btn-default,
 .btn-default:hover,
