@@ -19,7 +19,7 @@ tree:
         - title: Wiki Gardening
           subtitle: it tends to get a little overgrown
           href: https://fedoraproject.org/wiki/Wiki_gardening_tasks
-        - title: A Beat
+        - title: A Beat (Section of the Release Notes)
           subtitle: a good place for new contributors
           href: https://fedoraproject.org/wiki/Category:Documentation_beats
         - title: A Guide
