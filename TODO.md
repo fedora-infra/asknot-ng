@@ -15,7 +15,6 @@
 - [ ] troll through the join-fedora docs for starter material
 - [X] solicit docs stuff from #fedora-docs
 - [X] solicit qa stuff from adamw
-- [ ] solicit releng stuff from dgilmore
 - [ ] solicit secondary arch stuff from ??
 - [ ] solicit translation stuff from ??
 - [ ] add more stuff to the coding subtree
