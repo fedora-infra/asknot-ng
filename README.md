@@ -29,7 +29,7 @@ We have a [Fedora instance up and running][wcidff] if you’d like to poke it.
 The site-generator script is written in Python, so you’ll need that.
 Furthermore, see [requirements.txt][requirements] or just run::
 
-    $ sudo yum install python-mako PyYAML
+    $ sudo yum install python-mako PyYAML python-pygraphviz
 
 ## Giving it a run
 

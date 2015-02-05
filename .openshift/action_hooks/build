@@ -21,9 +21,10 @@ echo "* Generating site"
 ${OPENSHIFT_REPO_DIR}/asknot-ng.py \
     ${OPENSHIFT_REPO_DIR}/templates/index.html \
     ${OPENSHIFT_REPO_DIR}/questions/fedora.yml \
-    -t fedora
+    -g -t fedora
 
 mv asknot.html                      ${OPENSHIFT_REPO_DIR}/.openshift/diy/index.html
+mv fedora.svg                       ${OPENSHIFT_REPO_DIR}/.openshift/diy/fedora.svg
 rm -rf                              ${OPENSHIFT_REPO_DIR}/.openshift/diy/static
 cp -rf ${OPENSHIFT_REPO_DIR}/static ${OPENSHIFT_REPO_DIR}/.openshift/diy/static
 

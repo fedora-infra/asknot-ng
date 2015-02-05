@@ -13,6 +13,7 @@ import hashlib
 import os
 import random
 
+import pygraphviz
 import mako.template
 import yaml
 
@@ -111,11 +112,24 @@ def gather_ids(node):
             yield idx
 
 
+def produce_graph(tree, dot=None):
+    dot = dot or pygraphviz.AGraph(directed=True)
+
+    idx = tree.get('id', 'root')
+    dot.add_node(idx, label=tree.get('title', 'Root'))
+
+    for child in tree.get('children', []):
+        dot = produce_graph(child, dot)
+        dot.add_edge(idx, child['id'])
+
+    return dot
+
+
 def load_template(filename):
     return mako.template.Template(filename=filename, strict_undefined=True)
 
 
-def main(config, template, outfile=None, **args):
+def main(config, template, graph, outfile=None, **args):
     template = load_template(template)
 
     data = load_yaml(config)
@@ -128,6 +142,14 @@ def main(config, template, outfile=None, **args):
     kwargs = copy.copy(defaults)
     kwargs.update(data)
     kwargs.update(args)
+
+    if graph:
+        dot = produce_graph(kwargs['tree'])
+        dot.layout(prog='dot')
+        filename = '%s.svg' % kwargs.get('theme', 'asknot')
+        dot.draw(filename)
+        print("Wrote", filename)
+
     html = template.render(**kwargs)
 
     if outfile:
@@ -148,6 +170,8 @@ def process_args():
                         help="Theme name to use.")
     parser.add_argument("-o", "--outfile", default="asknot.html",
                         help="Where to write output.")
+    parser.add_argument("-g", "--graph", default=False, action="store_true",
+                        help="Also generate a graph of the question tree.")
     return parser.parse_args()
 
 
