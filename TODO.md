@@ -13,7 +13,7 @@
 - [X] add fedora-tagger in there
 - [X] solicit design stuff from FAD attendees
 - [ ] troll through the join-fedora docs for starter material
-- [ ] solicit docs stuff from randomuser
+- [X] solicit docs stuff from #fedora-docs
 - [X] solicit qa stuff from adamw
 - [ ] solicit releng stuff from dgilmore
 - [ ] solicit secondary arch stuff from ??
