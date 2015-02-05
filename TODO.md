@@ -17,6 +17,7 @@
 - [ ] solicit releng stuff from dgilmore
 - [ ] solicit secondary arch stuff from ??
 - [ ] solicit translation stuff from ??
+- [ ] add more stuff to the coding subtree
 - [ ] tell the mozilla devs
 - [ ] tell the fedora list
 - [ ] tell the osas list
