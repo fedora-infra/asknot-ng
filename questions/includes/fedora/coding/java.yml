@@ -1,6 +1,6 @@
 tree:
   children:
-    - title: Java SIG
+    - title: Java Special Interest Group
       subtitle: Work with the community on Java packaging and development
       href: https://fedoraproject.org/wiki/SIGs/Java
 
