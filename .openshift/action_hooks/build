@@ -6,8 +6,10 @@
 
 cd ${OPENSHIFT_DATA_DIR}
 
-virtualenv ${OPENSHIFT_DATA_DIR}venv
+rm -rf ${OPENSHIFT_DATA_DIR}/pip
+
 VENV=${OPENSHIFT_DATA_DIR}venv
+virtualenv ${VENV}
 source ${VENV}/bin/activate
 
 pip install \
