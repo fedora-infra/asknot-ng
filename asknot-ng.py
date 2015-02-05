@@ -13,7 +13,6 @@ import hashlib
 import os
 import random
 
-import pygraphviz
 import mako.template
 import yaml
 
@@ -113,6 +112,7 @@ def gather_ids(node):
 
 
 def produce_graph(tree, dot=None):
+    import pygraphviz
     dot = dot or pygraphviz.AGraph(directed=True)
 
     idx = tree.get('id', 'root')

@@ -29,7 +29,12 @@ We have a [Fedora instance up and running][wcidff] if you’d like to poke it.
 The site-generator script is written in Python, so you’ll need that.
 Furthermore, see [requirements.txt][requirements] or just run::
 
-    $ sudo yum install python-mako PyYAML python-pygraphviz
+    $ sudo yum install python-mako PyYAML
+
+The script can optionally generate an svg visualizing your question tree.  This
+requires pygraphviz which you could install like so:
+
+    $ sudo yum install python-pygraphviz
 
 ## Giving it a run
 
