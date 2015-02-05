@@ -42,6 +42,12 @@ tree:
     segue2: What's your favorite language?"
     children: includes/fedora/coding.yml
 
+  - title: Writing
+    subtitle: wordsmithery
+    segue1: So, you have a way with words?
+    segue2: Would you be more interested in...
+    children: includes/fedora/writing.yml
+
   - title: Categorization
     subtitle: labelling things, perhaps obsessively
     segue1: So you like putting things in their place?
@@ -58,10 +64,6 @@ tree:
 
   - title: Packaging
     subtitle: getting new software into Fedora
-    href: "#"
-
-  - title: Writing docs
-    subtitle: so people know how to use these crazy things
     href: "#"
 
   - title: QA and Testing

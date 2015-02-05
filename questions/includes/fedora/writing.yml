@@ -1,0 +1,52 @@
+tree:
+  children:
+    - title: Documentation
+      subtitle: so people know how to use this crazy stuff
+      segue1: Without you no-one would be able to "RTFM", as they say.
+      segue2: Would you be interested in something...
+
+      children:
+      - title: General
+        subtitle: about how to join the docs team?
+        href: https://fedoraproject.org/wiki/Join_the_Docs_Project
+
+      - title: Specific
+        subtitle: about documentation related tasks
+        segue1: Now we're talking!
+        segue2: Let's see.  How about working on...
+
+        children:
+        - title: Wiki Gardening
+          subtitle: it tends to get a little overgrown
+          href: https://fedoraproject.org/wiki/Wiki_gardening_tasks
+        - title: A Beat
+          subtitle: a good place for new contributors
+          href: https://fedoraproject.org/wiki/Category:Documentation_beats
+        - title: A Guide
+          subtitle: a more technical type of documentation
+          href: https://fedoraproject.org/wiki/Category:Docs_Project_tasks#Guides
+        - title: Real Issues
+          subtitle: that people have reported
+          href: https://bugzilla.redhat.com/buglist.cgi?bug_status=NEW&bug_status=ASSIGNED&classification=Fedora&list_id=3214328&product=Fedora%20Documentation&query_format=advanced
+
+    - title: Blogging
+      subtitle: 21st century journalism, my friend
+      segue1: Only the news that's fit to print.
+      segue2: How about something...
+      children:
+      - title: More Formal
+        subtitle: something "official"
+        segue1: Yes!  The spotlight!
+        segue2: You should get involved in writing for...
+        children:
+        - title: Fedora Magazine
+          subtitle: all Fedora news, all the Fedora time
+          href: http://fedoraproject.org/wiki/FWN/Join
+      - title: Less Formal
+        subtitle: something more personal
+        segue1: We have just the thing for you.
+        segue2: Get your own blog added to the...
+        children:
+        - title: Fedora Planet
+          subtitle: an aggregator of Fedora bloggers
+          href: https://fedoraproject.org/wiki/Planet
