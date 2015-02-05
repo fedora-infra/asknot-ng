@@ -1,0 +1,5 @@
+tree:
+  children:
+    - title: Package Maintainer
+      subtitle: steward of the packages in Fedora
+      href: https://fedoraproject.org/wiki/Join_the_package_collection_maintainers#How_to_join_the_Fedora_Package_Collection_Maintainers.3F

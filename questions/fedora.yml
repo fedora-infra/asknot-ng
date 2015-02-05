@@ -63,11 +63,12 @@ tree:
     segue1: So you're a people person?
     segue2: How about becoming a Fedora...
     children: includes/fedora/advocacy.yml
-    href: "#"
 
   - title: Packaging
     subtitle: getting new software into Fedora
-    href: "#"
+    segue1: So you want to help build the OS?  Excellent.
+    segue2: Then you'll need to become a Fedora...
+    children: includes/fedora/packaging.yml
 
   - title: QA and Testing
     subtitle: as they say, "if it's not tested, it's broken"
