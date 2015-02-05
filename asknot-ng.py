@@ -145,7 +145,7 @@ def main(config, template, graph, outfile=None, **args):
 
     if graph:
         dot = produce_graph(kwargs['tree'])
-        dot.layout(prog='dot')
+        dot.layout()#prog='dot')
         filename = '%s.svg' % kwargs.get('theme', 'asknot')
         dot.draw(filename)
         print("Wrote", filename)
