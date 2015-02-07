@@ -22,7 +22,6 @@ $(document).ready(function() {
         history.pushState({}, '', original + SEP + first);
     }
 
-
     // Wire up the "yes" links
     $("a.yes").click(function(event) {
         $(this).parent().parent().addClass('hidden');
@@ -52,3 +51,7 @@ $(document).ready(function() {
     });
 
 });
+function reloadHome() {
+    window.location = "#";
+    window.location.reload();
+}
