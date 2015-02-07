@@ -22,7 +22,7 @@ backlinks:
 
 navlinks:
     - name: Join
-      link: "#"
+      link: "javascript:reloadHome();"
     - name: Get Fedora
       link: https://getfedora.org
 

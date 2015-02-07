@@ -24,6 +24,15 @@ tree:
       subtitle: a nondynamic language for semirapid development
       children: coding/scala.yml
 
+    - title: JavaScript
+      subtitle: a dynamic web-oriented language for backend and frontend
+      children:
+        - title: Websites Team
+          subtitle: web developers that build <a href="https://getfedora.org">getfedora.org</a> and other awesome sites
+          segue1: Great!
+          segue2: Would you like something more
+          children: coding/web.yml
+
     - title: Ruby
       subtitle: hashrockets and bare words
       href: https://fedoraproject.org/wiki/Ruby_SIG

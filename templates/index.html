@@ -37,11 +37,11 @@
             <nav>
               <ul class="nav masthead-nav">
                 % for info in navlinks:
-                <li
-                % if info['link'] == '#':
-                class="active"
-                % endif
-                ><a href="${info['link']}">${info['name']}</a></li>
+                    <li
+                    % if info['link'] == 'javascript:reloadHome();':
+                    class="active"
+                    % endif
+                    ><a href="${info['link']}">${info['name']}</a></li>
                 % endfor
               </ul>
             </nav>

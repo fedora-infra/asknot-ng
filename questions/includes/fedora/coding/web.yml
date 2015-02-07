@@ -1,0 +1,34 @@
+tree:
+
+  children:
+      - title: General
+        subtitle: on how to join the websites team?
+        href: https://fedoraproject.org/wiki/Websites/Join
+
+      - title: Specific
+        subtitle: on different kinds of website tasks
+        segue1: That's my style too.
+        segue2: How about working on the...
+
+        children:
+        - title: Release Site
+          subtitle: "<a href='http://getfedora.org'>getfedora.org</a> is awesome"
+          href: https://fedoraproject.org/wiki/Websites
+        - title: Magazine
+          subtitle: "did you even know we had a <a href='http://fedoramagazine.org'>magazine</a>?"
+          href: http://fedoraproject.org/wiki/Magazine
+        - title: Wiki Theme
+          subtitle: it's a little crusty
+          href: "https://fedoraproject.org/wiki/Websites#Wiki_Theme_Update"
+        - title: General Theme
+          subtitle: there's a list of sites that need standardizing
+          href: "https://fedoraproject.org/wiki/Websites#All_Fedora_Websites_Theme_Update"
+        - title: Translations
+          subtitle: we're an international community after all
+          href: https://fedoraproject.org/wiki/Websites#Translations
+        - title: User Gallery
+          subtitle:  gallery for mini-interview-style user profiles and stories
+          href: https://fedoraproject.org/wiki/Websites#User_gallery
+        - title: AskNot Site
+          subtitle: this thing -- the page you're looking at right now!
+          href: https://github.com/fedora-infra/asknot-ng

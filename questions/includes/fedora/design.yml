@@ -1,66 +1,31 @@
 tree:
+    children:
+      - title: Websites Team
+        subtitle: web developers that build <a href="https://getfedora.org">getfedora.org</a> and other awesome sites
+        children: coding/web.yml
 
-  children:
-    - title: Websites Team
-      subtitle: Web developers that build <a href="https://getfedora.org">getfedora.org</a> and other awesome sites
-      segue1: Ok.
-      segue2: Would you like something more
-
-      children:
-      - title: General
-        subtitle: on how to join the websites team?
-        href: https://fedoraproject.org/wiki/Websites/Join
-
-      - title: Specific
-        subtitle: on different kinds of website tasks
-        segue1: That's my style too.
-        segue2: How about working on the...
+      - title: Design Team
+        subtitle: creatives serving as a design firm for the Fedora community
+        segue1: Ok.
+        segue2: Would you like something more
 
         children:
-        - title: Release Site
-          subtitle: "<a href='http://getfedora.org'>getfedora.org</a> is awesome"
-          href: https://fedoraproject.org/wiki/Websites
-        - title: Magazine
-          subtitle: "did you even know we had a <a href='http://fedoramagazine.org'>magazine</a>?"
-          href: http://fedoraproject.org/wiki/Magazine
-        - title: Wiki Theme
-          subtitle: it's a little crusty
-          href: "https://fedoraproject.org/wiki/Websites#Wiki_Theme_Update"
-        - title: General Theme
-          subtitle: there's a list of sites that need standardizing
-          href: "https://fedoraproject.org/wiki/Websites#All_Fedora_Websites_Theme_Update"
-        - title: Translations
-          subtitle: we're an international community after all
-          href: https://fedoraproject.org/wiki/Websites#Translations
-        - title: User Gallery
-          subtitle:  gallery for mini-interview-style user profiles and stories
-          href: https://fedoraproject.org/wiki/Websites#User_gallery
-        - title: AskNot Site
-          subtitle: this thing -- the page you're looking at right now!
-          href: https://github.com/fedora-infra/asknot-ng
+        - title: General
+          subtitle: on how to join the design team?
+          href: https://fedoraproject.org/wiki/Join_the_Design_Team
 
-    - title: Design Team
-      subtitle: creatives serving as a design firm for the Fedora community
-      segue1: Ok.
-      segue2: Would you like something more
+        - title: Specific
+          subtitle: on different kinds of design tasks
+          segue1: Excellent!
+          segue2: How does this sound?
 
-      children:
-      - title: General
-        subtitle: on how to join the design team?
-        href: https://fedoraproject.org/wiki/Join_the_Design_Team
-
-      - title: Specific
-        subtitle: on different kinds of design tasks
-        segue1: Excellent!
-        segue2: How does this sound?
-
-        children:
-        - title: Artwork Requests
-          subtitle: there are people in need of good taste -- you can help
-          href: https://fedorahosted.org/design-team/report/1
-        - title: Hackergotchis
-          subtitle: making cute cut-outs of people's faces
-          href: https://fedoraproject.org/wiki/Artwork/HackergotchiService
-        - title: Fedora Badges
-          subtitle: make awesome badge art that fuels <a href="https://badges.fedoraproject.org">badges.fp.o</a>
-          href: https://fedorahosted.org/fedora-badges/
+          children:
+          - title: Artwork Requests
+            subtitle: there are people in need of good taste -- you can help
+            href: https://fedorahosted.org/design-team/report/1
+          - title: Hackergotchis
+            subtitle: making cute cut-outs of people's faces
+            href: https://fedoraproject.org/wiki/Artwork/HackergotchiService
+          - title: Fedora Badges
+            subtitle: make awesome badge art that fuels <a href="https://badges.fedoraproject.org">badges.fp.o</a>
+            href: https://fedorahosted.org/fedora-badges/
