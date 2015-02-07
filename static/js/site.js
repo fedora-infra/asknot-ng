@@ -7,7 +7,7 @@ $(document).ready(function() {
     // First thing.. hide the warning about javascript being required.
     $("#js-warning").addClass('hidden');
 
-    var first = question_tree['children'][0]['id'];
+    var first = question_tree.children[0].id;
 
     var found = false;
     $.each(all_ids, function(i, idx) {
@@ -18,7 +18,7 @@ $(document).ready(function() {
     });
     if (! found) {
         $("#" + first).removeClass('hidden');
-        var original = location.href.replace(/\/$/, "")
+        var original = location.href.replace(/\/$/, "");
         history.pushState({}, '', original + SEP + first);
     }
 
@@ -28,7 +28,7 @@ $(document).ready(function() {
         $(this).parent().parent().addClass('hidden');
         var next = $(this).attr('data-next');
         $('#' + next).removeClass('hidden');
-        var original = location.href.replace(/\/$/, "")
+        var original = location.href.replace(/\/$/, "");
         history.pushState({}, '', original + SEP + next);
     });
 
