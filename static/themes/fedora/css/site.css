@@ -151,8 +151,16 @@ body {
   background-color: #fff;
   width: 100%;
   margin-bottom: 25px;
-  padding: 10px;
-  padding-bottom: 35px;
+  padding: 20px;
+}
+
+.main-text {
+  vertical-align:middle;
+  display: inline-block;
+}
+.bandana img {
+  vertical-align:middle;
+  display: none;
 }
 
 .mastfoot {
@@ -225,6 +233,7 @@ body {
   .segue1 { font-size: 18pt; }
   .segue2 { font-size: 32pt; }
   .subtitle { font-size: 24pt; }
+  .bandana img { display: inline-block; }
   /* Handle the widths */
   .masthead,
   .mastfoot {

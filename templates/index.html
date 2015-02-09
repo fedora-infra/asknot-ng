@@ -80,13 +80,19 @@
               % endif
 
               <div class="bandana">
-                % if 'title' in node:
-                <h1 class="title">${node['title']}</h1>
+                % if 'image' in node:
+                <img src="${node['image']}"/>
                 % endif
 
-                % if 'subtitle' in node:
-                <p class="subtitle"><span>${node['subtitle']}</span></p>
-                % endif
+                <span class="main-text">
+                  % if 'title' in node:
+                  <h1 class="title">${node['title']}</h1>
+                  % endif
+
+                  % if 'subtitle' in node:
+                  <p class="subtitle"><span>${node['subtitle']}</span></p>
+                  % endif
+                </span>
               </div>
 
               <p class="lead">

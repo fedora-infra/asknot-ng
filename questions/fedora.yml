@@ -32,6 +32,7 @@ tree:
   children:
   - title: Design
     subtitle: pixel ninjas
+    image: https://badges.fedoraproject.org/pngs/design-team.png
     segue1: So you enjoy working on the way users interact with websites and programs?
     segue2: How about the...
     children: includes/fedora/design.yml
