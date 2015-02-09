@@ -39,60 +39,70 @@ tree:
 
   - title: Coding
     subtitle: hacking the gibson
+    image: https://badges.fedoraproject.org/pngs/fas-trust-me-i-know-what-i-am-doing.png
     segue1: "Zeroes and ones #allday?  Me too."
     segue2: What's your favorite language?"
     children: includes/fedora/coding.yml
 
   - title: Writing
     subtitle: wordsmithery
+    image: https://badges.fedoraproject.org/pngs/the-write-stuff.png
     segue1: So, you have a way with words?
     segue2: Would you be more interested in...
     children: includes/fedora/writing.yml
 
   - title: Categorization
     subtitle: labelling things, perhaps obsessively
+    image: https://badges.fedoraproject.org/pngs/tagger-01.png
     segue1: So you like putting things in their place?
     segue2: How about...
     children: includes/fedora/categorization.yml
 
   - title: Translation
     subtitle: we're an international effort, after all
+    image: https://badges.fedoraproject.org/pngs/irc-support-sig_member.png
     segue1:  So you know more than one language?  We need you!
     segue2: Would you be more interested in...
     children: includes/fedora/translation.yml
 
   - title: Advocacy
     subtitle: spreading the good word
+    image: https://badges.fedoraproject.org/pngs/fedora-ambassador-mentor.png
     segue1: So you're a people person?
     segue2: How about becoming a Fedora...
     children: includes/fedora/advocacy.yml
 
   - title: Packaging
     subtitle: getting new software into Fedora
+    image: https://badges.fedoraproject.org/pngs/copr-build.png
     segue1: So you want to help build the OS?  Excellent.
     segue2: Then you'll need to become a Fedora...
     children: includes/fedora/packaging.yml
 
   - title: QA and Testing
     subtitle: as they say, "if it's not tested, it's broken"
+    image: https://badges.fedoraproject.org/pngs/kernel-tester.png
     segue1: So you like to push all the buttons and break all the things?
     segue2: Are you more interested in something...
     children: includes/fedora/qa.yml
 
   - title: The Desktop
     subtitle: we all have our favorite
+    image: https://getfedora.org/static/images/logo-color-workstation.png
     segue1: So you're into making the OS polished and easy to use?
     segue2: You probably want to join the Fedora...
     children: includes/fedora/desktop.yml
 
   - title: The Server
     subtitle: the best and latest for the datacenter
+    image: https://getfedora.org/static/images/logo-color-server.png
     segue1: So you're into making the OS powerful and flexible?
     segue2: You probably want to join the Fedora...
     children: includes/fedora/server.yml
 
   - title: The Cloud
     subtitle: it's where the future lives
+    image: https://getfedora.org/static/images/logo-color-cloud.png
     segue1: High-minded?
     segue2: You probably want to join the Fedora...
     children: includes/fedora/cloud.yml
