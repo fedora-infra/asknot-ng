@@ -89,7 +89,7 @@ def slugify(title, seen):
     return idx
 
 
-def prepare_tree(data, node, parent_idx=None, seen=None):
+def prepare_tree(data, node, seen=None):
     seen = seen or []
     node['id'] = slugify(node.get('title', 'foo'), seen)
     seen.append(node['id'])
@@ -99,7 +99,7 @@ def prepare_tree(data, node, parent_idx=None, seen=None):
     node['backlink'] = random.choice(data['backlinks'])
 
     for i, child in enumerate(node.get('children', [])):
-        node['children'][i] = prepare_tree(data, child, node['id'], seen)
+        node['children'][i] = prepare_tree(data, child, seen)
 
     return node
 
