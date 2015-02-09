@@ -152,15 +152,34 @@ body {
   width: 100%;
   margin-bottom: 25px;
   padding: 20px;
+
+  position: relative;
+  overflow: hidden;
 }
 
 .main-text {
-  vertical-align:middle;
+  vertical-align: middle;
   display: inline-block;
+  /* This has to be relative just so z-index applies */
+  position: relative;
+  z-index: 2;
 }
-.bandana img {
-  vertical-align:middle;
+
+.bandana .img {
   display: none;
+
+  margin-top: -100px;
+  margin-bottom: -100px;
+  position: absolute;
+  right: 10%;
+  opacity: 0.5;
+  z-index: 0;
+}
+
+.bandana .img img {
+  z-index: -1;
+  height: 400px;
+  width: 400px
 }
 
 .mastfoot {
@@ -233,7 +252,7 @@ body {
   .segue1 { font-size: 18pt; }
   .segue2 { font-size: 32pt; }
   .subtitle { font-size: 24pt; }
-  .bandana img { display: inline-block; }
+  .bandana .img { display: inline-block; }
   /* Handle the widths */
   .masthead,
   .mastfoot {
