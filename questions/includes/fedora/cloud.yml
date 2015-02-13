@@ -3,3 +3,6 @@ tree:
     - title: Cloud SIG
       subtitle: the special-interest-group for Fedora Cloud
       href: https://fedoraproject.org/wiki/Cloud_SIG
+    - title: RDO
+      subtitle: the OpenStack distro for Fedora
+      href: https://rdoproject.org/Get_involved
