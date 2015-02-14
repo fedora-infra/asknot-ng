@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 """ Utilities module used by asknot scripts. """
 
-import argparse
-import copy
-import json
 import hashlib
 import os
 import random
@@ -19,6 +16,9 @@ if sys.version_info[0] == 3:
     _ = t.gettext
 else:
     _ = t.ugettext
+
+translatable_collections = ['negatives', 'affirmatives', 'backlinks']
+translatable_fields = ['title', 'description', 'segue1', 'segue2', 'subtitle']
 
 
 VERSION = "0.0"
@@ -95,6 +95,15 @@ def slugify(title, seen):
 
 
 def prepare_tree(data, node, parent=None, seen=None):
+    # Markup strings for translation
+    for field in translatable_fields:
+        if field in node:
+            node[field] = _(node[field])
+
+    for collection in translatable_collections:
+        if collection in data:
+            data[collection] = [_(s) for s in data[collection]]
+
     seen = seen or []
     node['id'] = slugify(node.get('title', 'foo'), seen)
     seen.append(node['id'])
@@ -103,9 +112,6 @@ def prepare_tree(data, node, parent=None, seen=None):
     node['negative'] = random.choice(data['negatives'])
     node['backlink'] = random.choice(data['backlinks'])
 
-    # Markup strings for translation
-    if 'title' in node:
-        node['title'] = _(node['title'])
 
     # Propagate parent images to children unless otherwise specified.
     if parent and not 'image' in node and 'image' in parent:
@@ -140,3 +146,54 @@ def produce_graph(tree, dot=None):
 
 def load_template(filename):
     return mako.template.Template(filename=filename, strict_undefined=True)
+
+
+def translatable_strings(data, content):
+    """ A generator that yields tuples containing translatable strings. """
+    for key in translatable_fields:
+        if key in data:
+            yield data['__line__'], data[key], key
+
+    for key in translatable_collections:
+        if key in data:
+            for string in data[key]:
+                yield data['__line__'], string, key[:-1]
+
+    for item in data.get('navlinks', []):
+        yield data['__line__'], item['name'], 'navlink'
+
+    if 'tree' in data:
+        for items in translatable_strings(data['tree'], content):
+            yield items
+
+    children = data.get('children', [])
+    if isinstance(children, basestring):
+        pass
+    else:
+        for child in children:
+            for items in translatable_strings(child, content):
+                yield items
+
+
+def extract(fileobj, keywords, comment_tags, options):
+    """ Babel entry-point for extracting translatable strings from our yaml """
+    loader = yaml.Loader(fileobj.read())
+    def compose_node(parent, index):
+        # the line number where the previous token has ended (plus empty lines)
+        line = loader.line
+        node = yaml.composer.Composer.compose_node(loader, parent, index)
+        node.__line__ = line + 1
+        return node
+
+    def construct_mapping(node, deep=False):
+        constructor = yaml.constructor.Constructor.construct_mapping
+        mapping = constructor(loader, node, deep=deep)
+        mapping['__line__'] = node.__line__
+        return mapping
+
+    loader.compose_node = compose_node
+    loader.construct_mapping = construct_mapping
+    data = loader.get_single_data()
+
+    for lineno, string, comment in translatable_strings(data, content):
+        yield lineno, None, [string], [comment]

@@ -52,6 +52,19 @@ Run the script with the Fedora configuration::
 
 .. and open up `asknot.html` in your favorite browser.
 
+## Preparing Translations
+
+First, setup a virtualenv, install Babel, and build the egg info.
+
+    $ virtualenv venv
+    $ source venv/bin/activate
+    $ pip install Babel
+    $ python setup.py develop
+
+Then, extract the translatable strings:
+
+    $ python setup.py extract_messages --output-file locale/asknot-ng.pot
+
 ## Contributing back
 
 ``asknot-ng`` is licensed GPLv3+ and we’d love to get patches back containing
