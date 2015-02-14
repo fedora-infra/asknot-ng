@@ -148,7 +148,7 @@ def load_template(filename):
     return mako.template.Template(filename=filename, strict_undefined=True)
 
 
-def translatable_strings(data, content):
+def translatable_strings(data):
     """ A generator that yields tuples containing translatable strings. """
     for key in translatable_fields:
         if key in data:
@@ -163,7 +163,7 @@ def translatable_strings(data, content):
         yield data['__line__'], item['name'], 'navlink'
 
     if 'tree' in data:
-        for items in translatable_strings(data['tree'], content):
+        for items in translatable_strings(data['tree']):
             yield items
 
     children = data.get('children', [])
@@ -171,13 +171,14 @@ def translatable_strings(data, content):
         pass
     else:
         for child in children:
-            for items in translatable_strings(child, content):
+            for items in translatable_strings(child):
                 yield items
 
 
-def extract(fileobj, keywords, comment_tags, options):
-    """ Babel entry-point for extracting translatable strings from our yaml """
+def load_yaml_with_linenumbers(fileobj):
+    """ Return yaml with line numbers included in the dict. """
     loader = yaml.Loader(fileobj.read())
+
     def compose_node(parent, index):
         # the line number where the previous token has ended (plus empty lines)
         line = loader.line
@@ -193,7 +194,12 @@ def extract(fileobj, keywords, comment_tags, options):
 
     loader.compose_node = compose_node
     loader.construct_mapping = construct_mapping
-    data = loader.get_single_data()
+    return loader.get_single_data()
 
-    for lineno, string, comment in translatable_strings(data, content):
+
+def extract(fileobj, keywords, comment_tags, options):
+    """ Babel entry-point for extracting translatable strings from our yaml """
+    data = load_yaml_with_linenumbers(fileobj)
+
+    for lineno, string, comment in translatable_strings(data):
         yield lineno, None, [string], [comment]
