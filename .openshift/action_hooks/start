@@ -4,4 +4,5 @@
 # $OPENSHIFT_DIY_IP:8080
 
 ${OPENSHIFT_REPO_DIR}/.openshift/action_hooks/build
-nohup $OPENSHIFT_REPO_DIR/.openshift/diy/testrubyserver.rb $OPENSHIFT_DIY_IP $OPENSHIFT_REPO_DIR/.openshift/diy |& /usr/bin/logshifter -tag diy &
+cd ${OPENSHIFT_REPO_DIR}/.openshift/diy/
+nohup $OPENSHIFT_REPO_DIR/.openshift/diy/pythonserver.py $OPENSHIFT_DIY_IP |& /usr/bin/logshifter -tag diy &

@@ -6,6 +6,8 @@
 
 cd ${OPENSHIFT_DATA_DIR}
 
+rm -rf build/
+find ${OPENSHIFT_REPO_DIR}/.openshift/diy/. ! -name 'pythonserver.py' -exec rm -rf {} \;
 rm -rf ${OPENSHIFT_DATA_DIR}/pip
 
 VENV=${OPENSHIFT_DATA_DIR}venv
@@ -23,10 +25,10 @@ echo "* Generating site"
 ${OPENSHIFT_REPO_DIR}/asknot-ng.py \
     ${OPENSHIFT_REPO_DIR}/templates/index.html \
     ${OPENSHIFT_REPO_DIR}/questions/fedora.yml \
+    -s ${OPENSHIFT_REPO_DIR}/static/ \
+    -L ${OPENSHIFT_REPO_DIR}/locale/ \
     -t fedora
 
-mv asknot.html                      ${OPENSHIFT_REPO_DIR}/.openshift/diy/index.html
-rm -rf                              ${OPENSHIFT_REPO_DIR}/.openshift/diy/static
-cp -rf ${OPENSHIFT_REPO_DIR}/static ${OPENSHIFT_REPO_DIR}/.openshift/diy/static
+mv build/*                          ${OPENSHIFT_REPO_DIR}/.openshift/diy/.
 
 echo "* Done"
