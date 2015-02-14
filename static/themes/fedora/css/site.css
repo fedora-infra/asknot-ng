@@ -118,9 +118,17 @@ body {
 }
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
-.masthead-nav > .active > a:focus {
+.masthead-nav > .active > a:focus,
+.masthead-nav > .open > a,
+.masthead-nav > .open > a:hover,
+.masthead-nav > .open > a:focus {
   color: #fff;
+  background-color: transparent;
   border-bottom-color: #fff;
+}
+
+.dropdown-menu {
+    min-width: 105px;
 }
 
 .masthead, .mastfoot {

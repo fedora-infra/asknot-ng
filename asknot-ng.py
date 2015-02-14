@@ -26,7 +26,7 @@ from asknot_lib import (
 
 
 
-def work(config, template, lang, graph, build, static, _, **kw):
+def work(config, template, lang, languages, graph, build, static, _, **kw):
 
     template = load_template(template)
 
@@ -40,6 +40,8 @@ def work(config, template, lang, graph, build, static, _, **kw):
     kwargs = copy.copy(defaults)
     kwargs.update(data)
     kwargs.update(kw)
+    kwargs['lang'] = lang
+    kwargs['languages'] = languages
 
     if graph:
         dot = produce_graph(kwargs['tree'])
@@ -97,7 +99,7 @@ def main(localedir, languages, strict, **kw):
         else:
             _ = translation.ugettext
 
-        work(_=_, lang=lang, **kw)
+        work(_=_, lang=lang, languages=languages, **kw)
 
 
 def process_args():
