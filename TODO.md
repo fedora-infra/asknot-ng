@@ -22,5 +22,5 @@
 - [ ] tell the mozilla devs
 - [ ] tell the fedora list
 - [ ] tell the osas list
-- [ ] Make this whole thing translatable.
+- [X] Make this whole thing translatable.
 - [ ] favicon.ico
