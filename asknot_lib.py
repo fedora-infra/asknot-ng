@@ -4,18 +4,9 @@
 import hashlib
 import os
 import random
-import sys
 
 import mako.template
 import yaml
-
-import gettext
-t = gettext.translation('asknot-ng', 'locale', fallback=True)
-
-if sys.version_info[0] == 3:
-    _ = t.gettext
-else:
-    _ = t.ugettext
 
 translatable_collections = ['negatives', 'affirmatives', 'backlinks']
 translatable_fields = ['title', 'description', 'segue1', 'segue2', 'subtitle']
@@ -94,15 +85,16 @@ def slugify(title, seen):
     return idx
 
 
-def prepare_tree(data, node, parent=None, seen=None):
+def prepare_tree(data, node, parent=None, seen=None, _=lambda x: x):
     # Markup strings for translation
+    if node is data.get('tree'):
+        for collection in translatable_collections:
+            if collection in data:
+                data[collection] = [_(s) for s in data[collection]]
+
     for field in translatable_fields:
         if field in node:
             node[field] = _(node[field])
-
-    for collection in translatable_collections:
-        if collection in data:
-            data[collection] = [_(s) for s in data[collection]]
 
     seen = seen or []
     node['id'] = slugify(node.get('title', 'foo'), seen)
@@ -145,7 +137,11 @@ def produce_graph(tree, dot=None):
 
 
 def load_template(filename):
-    return mako.template.Template(filename=filename, strict_undefined=True)
+    return mako.template.Template(
+        filename=filename,
+        strict_undefined=True,
+        output_encoding='utf-8',
+    )
 
 
 def translatable_strings(data):
