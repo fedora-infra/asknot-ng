@@ -1,6 +1,9 @@
 from setuptools import setup
+import os
 
-with open('requirements.txt', 'r') as f:
+filename = os.path.join(
+    os.path.dirname(os.path.abspath(__file__)), 'requirements.txt')
+with open(filename, 'r') as f:
     requirements = f.readlines()
 
 description = 'Ask not what $ORG can do for you, but what you can do for $ORG'
