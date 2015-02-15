@@ -1,3 +1,6 @@
 /*.html
 *.svg
 *.pyc
+*.egg-info
+build
+*.mo

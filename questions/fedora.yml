@@ -41,7 +41,7 @@ tree:
     subtitle: hacking the gibson
     image: https://badges.fedoraproject.org/pngs/fas-trust-me-i-know-what-i-am-doing.png
     segue1: "Zeroes and ones #allday?  Me too."
-    segue2: What's your favorite language?"
+    segue2: What's your favorite language?
     children: includes/fedora/coding.yml
 
   - title: Writing
