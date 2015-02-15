@@ -16,10 +16,15 @@ setup(
     install_requires=requirements,
     packages=[],
     py_modules=['asknot_lib'],
+
+    # This declares our special-case extractor to 'babel', a python l18n tool.
     entry_points="""
     [babel.extractors]
     asknot = asknot_lib:extract
     """,
+
+    # This further declares that babel should use our extractor on yaml files
+    # in the questions/ directory.
     message_extractors = {
         "questions": [
             ('**.yml', 'asknot', None),

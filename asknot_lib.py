@@ -1,22 +1,22 @@
 #!/usr/bin/env python
-""" Utilities module used by asknot scripts. """
+""" Utilities module used by the asknot-ng.py script. """
 
 import hashlib
 import os
 import random
 
 import mako.template
+import pkg_resources
 import yaml
 
+# Lists of translatable strings so we know what to extract at extraction time
+# and so we know what to translate at render time.
 translatable_collections = ['negatives', 'affirmatives', 'backlinks']
 translatable_fields = ['title', 'description', 'segue1', 'segue2', 'subtitle']
 
 
-VERSION = "0.0"
-
-
 def asknot_version():
-    return VERSION
+    return pkg_resources.get_distribution('asknot-ng').version
 
 
 defaults = {
@@ -37,6 +37,7 @@ defaults = {
 
 
 def load_yaml(filename):
+    """ Simply load our yaml file from disk. """
     with open(filename, 'r') as f:
         data = yaml.load(f.read())
 
@@ -52,12 +53,14 @@ def load_yaml(filename):
 
 
 def validate_yaml(data, basedir):
+    """ Sanity check used to make sure the root question file is valid. """
     assert 'tree' in data
     assert 'children' in data['tree']
     validate_tree(data['tree'], basedir)
 
 
 def validate_tree(node, basedir):
+    """ Sanity check used to make sure the question tree is valid. """
     if not 'children' in node:
         if not 'href' in node:
             raise ValueError('%r must have either a "href" value or '
@@ -79,6 +82,7 @@ def validate_tree(node, basedir):
 
 
 def slugify(title, seen):
+    """ Return a unique id for a node given its title. """
     idx = title.replace(' ', '-').lower()
     while idx in seen:
         idx = idx + hashlib.md5(idx).hexdigest()[0]
@@ -86,6 +90,19 @@ def slugify(title, seen):
 
 
 def prepare_tree(data, node, parent=None, seen=None, _=lambda x: x):
+    """ Utility method for "enhancing" the data in the question tree.
+
+    This is called typically before rendering the mako template with data.
+
+    A few things happen here:
+        - Translatable strings are marked up so they can be translated.
+        - Unique ids are assigned to each node in the tree for use by JS.
+        - Texts for 'yes', 'no', and 'go back' are assigned at random per node.
+        - For each node that doesn't have an image defined, propagate the image
+          defined by its parent node.
+
+    """
+
     # Markup strings for translation
     if node is data.get('tree'):
         for collection in translatable_collections:
@@ -96,19 +113,21 @@ def prepare_tree(data, node, parent=None, seen=None, _=lambda x: x):
         if field in node:
             node[field] = _(node[field])
 
+    # Assign a unique id to this node.
     seen = seen or []
     node['id'] = slugify(node.get('title', 'foo'), seen)
     seen.append(node['id'])
 
+    # Choose random text for our navigation buttons for this node.
     node['affirmative'] = random.choice(data['affirmatives'])
     node['negative'] = random.choice(data['negatives'])
     node['backlink'] = random.choice(data['backlinks'])
-
 
     # Propagate parent images to children unless otherwise specified.
     if parent and not 'image' in node and 'image' in parent:
         node['image'] = parent['image']
 
+    # Recursively apply this logic to all children of this node.
     for i, child in enumerate(node.get('children', [])):
         node['children'][i] = prepare_tree(data, child, parent=node, seen=seen)
 
@@ -116,6 +135,7 @@ def prepare_tree(data, node, parent=None, seen=None, _=lambda x: x):
 
 
 def gather_ids(node):
+    """ Yields all the unique ids in the question tree recursively. """
     yield node['id']
     for child in node.get('children', []):
         for idx in gather_ids(child):
@@ -123,6 +143,9 @@ def gather_ids(node):
 
 
 def produce_graph(tree, dot=None):
+    """ Given a question tree, returns a pygraphviz object
+    for later rendering.
+    """
     import pygraphviz
     dot = dot or pygraphviz.AGraph(directed=True)
 
@@ -137,6 +160,7 @@ def produce_graph(tree, dot=None):
 
 
 def load_template(filename):
+    """ Load a mako template and return it for later rendering. """
     return mako.template.Template(
         filename=filename,
         strict_undefined=True,
@@ -145,7 +169,11 @@ def load_template(filename):
 
 
 def translatable_strings(data):
-    """ A generator that yields tuples containing translatable strings. """
+    """ A generator that yields tuples containing translatable strings from a
+    question tree.
+
+    The yielded tuples are of the form (linenumber, string, comment).
+    """
     for key in translatable_fields:
         if key in data:
             yield data['__line__'], data[key], key
@@ -172,7 +200,13 @@ def translatable_strings(data):
 
 
 def load_yaml_with_linenumbers(fileobj):
-    """ Return yaml with line numbers included in the dict. """
+    """ Return yaml with line numbers included in the dict.
+
+    This is similar to our mundane ``load_yaml`` function, except that it
+    modifies the yaml loader to include line numbers in the data.  Our babel
+    extension which is used to extract translatable strings from our yaml files
+    uses those line numbers to make things easier on translators.
+    """
     loader = yaml.Loader(fileobj.read())
 
     def compose_node(parent, index):
@@ -194,7 +228,12 @@ def load_yaml_with_linenumbers(fileobj):
 
 
 def extract(fileobj, keywords, comment_tags, options):
-    """ Babel entry-point for extracting translatable strings from our yaml """
+    """ Babel entry-point for extracting translatable strings from our yaml.
+
+    This gets called by 'python setup.py extract_messages' when it encounters a
+    yaml file.  (See setup.py for where we declare the existence of this
+    function for bable using setuptools 'entry-points').
+    """
     data = load_yaml_with_linenumbers(fileobj)
 
     for lineno, string, comment in translatable_strings(data):

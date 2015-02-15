@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-""" asknot-ng.py [OPTIONS] template.html config.yml
+""" asknot-ng.py [OPTIONS] template.html questions.yml
 
 Ask not what $ORG can do for you... but what can you do for $ORG.
 """
@@ -25,12 +25,23 @@ from asknot_lib import (
 )
 
 
+def work(question_filename, template, lang, languages,
+         graph, build, static, _, **kw):
+    """ Main work function.  Called once per 'lang' from ``main``.
 
-def work(config, template, lang, languages, graph, build, static, _, **kw):
+    The function does all the things needed to build a copy of the site.
+    Shortly, it:
+        - loads the template used to render the html
+        - loads the tree of questions from a questions file
+        - recursively pulls in any other included questions files
+        - prepares the tree by adding unique ids to each node
+        - renders the template using the in-memory copy of the questions
+        - writes out a copy of the rendered html to disk
+    """
 
     template = load_template(template)
 
-    data = load_yaml(config)
+    data = load_yaml(question_filename)
 
     data['tree'] = prepare_tree(data, data['tree'], _=_)
     data['all_ids'] = list(gather_ids(data['tree']))
@@ -69,6 +80,11 @@ def work(config, template, lang, languages, graph, build, static, _, **kw):
 
 
 def main(localedir, languages, strict, **kw):
+    """ Main entry point for for the command line tool.
+
+    This function loops over all translated copies of the site that it can find
+    and renders a copy of the site for each language by calling ``work``.
+    """
     if languages is None:
         languages = [
             d for d in os.listdir(localedir)
@@ -106,7 +122,7 @@ def process_args():
     parser = argparse.ArgumentParser(__doc__)
     parser.add_argument("template", help="Path to a mako template "
                         "for the site.")
-    parser.add_argument("config", help="Path to a .yaml file "
+    parser.add_argument("question_filename", help="Path to a .yaml file "
                         "containing the config and question tree.")
     parser.add_argument("-t", "--theme", default="default",
                         help="Theme name to use.")
@@ -129,4 +145,3 @@ if __name__ == '__main__':
     args = process_args()
     args = vars(args)
     main(**args)
-
