@@ -4,6 +4,10 @@ tree:
       subtitle: Work with the community on Java packaging and development
       href: https://fedoraproject.org/wiki/SIGs/Java
 
+    - title: JBOSS
+      subtitle: A suite of enterprise middleware
+      href: http://www.jboss.org/get-involved/
+
     - title: fedmsg-java
       subtitle: Interact with fedmsg from the JVM
       href: https://github.com/fedora-infra/fedmsg-java
