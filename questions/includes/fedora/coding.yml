@@ -14,7 +14,7 @@ tree:
 
     - title: Haskell
       subtitle: a nondynamic language for rapid development
-      segue1: So, programming without side-effects is your aim?  Sounds useful!
+      segue1: So, programming without side-effects is what you're all about?  Sounds useful!
       segue2: How about...
       children: coding/haskell.yml
 
@@ -26,7 +26,7 @@ tree:
 
     - title: Scala
       subtitle: a nondynamic language for semirapid development
-      segue1: So, just OOP or functional languages don't do it?  You had to have both, huh?
+      segue1: So, just OOP or functional languages wouldn't do it?  You had to have both, huh?
       segue2: How about working on...
       children: coding/scala.yml
 
