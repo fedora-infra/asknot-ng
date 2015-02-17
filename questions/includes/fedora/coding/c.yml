@@ -16,14 +16,6 @@ tree:
       subtitle: an easy and elegant way to use your computer
       href: http://www.gnome.org/gnome-3/source/
 
-    - title: KDE
-      subtitle: an integrated set of cross-platform applications
-      href: https://techbase.kde.org/Getting_Started/Sources
-
-    - title: LibreOffice
-      subtitle: a free and open source office suite
-      href: http://www.libreoffice.org/about-us/source-code/
-
     - title: The Linux Kernel
       subtitle: that thing that connects application software to the hardware of a computer
       href: http://kernelnewbies.org/FirstKernelPatch

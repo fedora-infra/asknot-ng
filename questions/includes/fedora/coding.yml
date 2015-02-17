@@ -44,3 +44,9 @@ tree:
     - title: Ruby
       subtitle: hashrockets and bare words
       href: https://fedoraproject.org/wiki/Ruby_SIG
+
+    - title: C++
+      subtitle: imperative and object-oriented with the power of low-level memory manipulation
+      segue1: So, you're not happy if your error messages are comprehensible?  We have a place for you.
+      segue2: Try digging into...
+      children: coding/c++.yml
