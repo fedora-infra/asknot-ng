@@ -19,3 +19,7 @@ tree:
     - title: Rolekit
       subtitle: a daemon for managing the deployment of <a href="https://fedoraproject.org/wiki/Server/Product_Requirements_Document#Featured_Server_Roles">Server Roles</a>
       href: http://fedorahosted.org/rolekit/
+
+    - title: DNF
+      subtitle: Dandified Yum (DNF) is a major rewrite of yum
+      href: https://github.com/rpm-software-management/dnf
