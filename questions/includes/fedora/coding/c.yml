@@ -1,0 +1,21 @@
+tree:
+  children:
+    - title: OSTree
+      subtitle: git for operating system binaries
+      href: https://wiki.gnome.org/action/show/Projects/OSTree
+
+    - title: systemd
+      subtitle: widely renowned init system and suite of building blocks
+      href: http://www.freedesktop.org/wiki/Software/systemd/
+
+    - title: Cockpit
+      subtitle: a server manager that makes it easy to administer via a web browser
+      href: http://cockpit-project.org/
+
+    - title: GNOME
+      subtitle: an easy and elegant way to use your computer
+      href: http://www.gnome.org/gnome-3/source/
+
+    - title: The Linux Kernel
+      subtitle: that thing that connects application software to the hardware of a computer
+      href: http://kernelnewbies.org/FirstKernelPatch

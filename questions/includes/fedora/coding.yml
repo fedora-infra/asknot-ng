@@ -2,30 +2,38 @@ tree:
   children:
     - title: Python
       subtitle: a dynamic language for rapid development
-      segue1: So, you enjoy traceback-driven development?
+      segue1: So, you enjoy traceback-driven development?  What could go wrong?
       segue2: Are you interested in hacking on...
       children: coding/python.yml
 
     - title: C
       subtitle: close to the metal
-      href: https://lkml.org
+      segue1: So, you think OOP is for hipsters?  Let me tell you, back in my day...
+      segue2: How about working on...
+      children: coding/c.yml
 
     - title: Haskell
       subtitle: a nondynamic language for rapid development
-      segue1: Yay, types!
+      segue1: So, programming without side-effects is what you're all about?  Sounds useful!
       segue2: How about...
       children: coding/haskell.yml
 
     - title: Java
       subtitle: a nondynamic language for nonrapid development
+      segue1: So you're a believer in <code>AbstractMethodFactoryBean</code>s?  Straightforward enough...
+      segue2: How about...
       children: coding/java.yml
 
     - title: Scala
       subtitle: a nondynamic language for semirapid development
+      segue1: So, just OOP or functional languages wouldn't do it?  You had to have both, huh?
+      segue2: How about working on...
       children: coding/scala.yml
 
     - title: JavaScript
       subtitle: a dynamic web-oriented language for backend and frontend
+      segue1: So, you think having native integers is over-rated?  What could go wrong?
+      segue2: There's plenty to do.  How about joining the..
       children:
         - title: Websites Team
           subtitle: web developers that build <a href="https://getfedora.org">getfedora.org</a> and other awesome sites
@@ -36,3 +44,9 @@ tree:
     - title: Ruby
       subtitle: hashrockets and bare words
       href: https://fedoraproject.org/wiki/Ruby_SIG
+
+    - title: C++
+      subtitle: imperative and object-oriented with the power of low-level memory manipulation
+      segue1: So, you're not happy if your error messages are comprehensible?  We have a place for you.
+      segue2: Try digging into...
+      children: coding/c++.yml

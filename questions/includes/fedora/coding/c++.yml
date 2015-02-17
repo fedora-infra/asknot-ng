@@ -1,0 +1,10 @@
+tree:
+  children:
+    - title: LibreOffice
+      subtitle: a free and open source office suite
+      href: http://www.libreoffice.org/about-us/source-code/
+
+    - title: KDE
+      subtitle: an integrated set of cross-platform applications
+      href: https://techbase.kde.org/Getting_Started/Sources
+
