@@ -15,3 +15,7 @@ tree:
     - title: Web Services
       subtitle: Fedora Infrastructure team for the win
       href: https://fedoraproject.org/wiki/Infrastructure/GettingStarted
+
+    - title: Rolekit
+      subtitle: a daemon for managing the deployment of <a href="https://fedoraproject.org/wiki/Server/Product_Requirements_Document#Featured_Server_Roles">Server Roles</a>
+      href: http://fedorahosted.org/rolekit/
