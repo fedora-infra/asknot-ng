@@ -1,0 +1,5 @@
+tree:
+  children:
+  - title: i18n
+    subtitle: the Fedora Internationalization subproject
+    href: https://fedoraproject.org/wiki/I18N
