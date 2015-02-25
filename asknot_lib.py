@@ -27,7 +27,7 @@ defaults = {
         'but what you can do for $ORG'
     ),
     'asknot_version': asknot_version(),
-    'icon': 'whatever',
+    'favicon': 'whatever',
     'navlinks': [],
     'negatives': ['No, thanks'],
     'affirmatives': ['Yes, please'],

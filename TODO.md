@@ -21,7 +21,7 @@
 - [X] add more stuff to the coding subtree
 - [X] tell the mozilla devs
 - [X] tell the fedora list
-- [ ] tell the osas list
+- [X] tell the osas list
 - [X] Make this whole thing translatable.
 - [X] Submit to zanata
-- [ ] favicon.ico
+- [X] favicon.ico
