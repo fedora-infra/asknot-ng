@@ -12,6 +12,9 @@
 
     <link href="static/bootstrap/css/bootstrap.css" rel="stylesheet">
     <link href="static/themes/${theme}/css/site.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../static/css/jquery.uls.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/jquery.uls.grid.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/jquery.uls.lcd.css">
     <script>
         var SEP = '${SEP}';
         var all_ids = ${all_ids_as_json};
@@ -45,16 +48,7 @@
                 % endfor
 
                 <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Languages<span class="caret"></span></a>
-                  <ul class="dropdown-menu" role="menu">
-                    % for l in languages:
-                    <li><a href="../${l}"
-                      % if l == lang:
-                      class="active"
-                      % endif
-                      >${l}</a></li>
-                    % endfor
-                  </ul>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Languages<span class="caret"></span></a>
                 </li>
 
               </ul>
@@ -146,7 +140,10 @@
         written by <a href="http://threebean.org">Ralph Bean</a> and <a
           href="https://github.com/fedora-infra/asknot-ng/graphs/contributors">others</a>.
         Inspired by <a href="http://whatcanidoformozilla.org">the
-        original</a>.</p>
+        original</a>.
+        <span class="active uls-trigger lang-dropdown">Change Language</span>
+        </p>
+
       </div>
 
     </div>
@@ -157,5 +154,36 @@
     <!-- <script src="static/bootstrap/js/ie10-viewport-bug-workaround.js"></script> -->
     <!-- This is where the magic happens -->
     <script src="static/js/site.js"></script>
+    <!-- language selector -->
+
+    <script type="text/javascript" src="../static/js/jquery.uls.data.js"></script>
+    <script type="text/javascript" src="../static/js/jquery.uls.data.utils.js"></script>
+    <script type="text/javascript" src="../static/js/jquery.uls.lcd.js"></script>
+    <script type="text/javascript" src="../static/js/jquery.uls.languagefilter.js"></script>
+    <script type="text/javascript" src="../static/js/jquery.uls.regionfilter.js"></script>
+    <script type="text/javascript" src="../static/js/jquery.uls.core.js"></script>
+    <script type="text/javascript">
+		/* This list is generated, don't edit here */
+		$(function() {
+            $('#selectedLang').val('${lang}')
+			$( '.uls-trigger' ).uls( {
+				onSelect : function( language ) {
+					var languageName = $.uls.data.getAutonym( language );
+					$( '.uls-trigger' ).text( languageName );
+                    $('#selectedLang').val(language);
+                    window.location = "/"+language;
+				},
+				languages: { 'en' : 'English'
+                % for l in languages:
+                    % if l != "en":
+                        , '${l}': 'Language'
+                    % endif
+                % endfor
+                }
+			} );
+            // Language list is a placeholder
+		} );
+	</script>
+
   </body>
 </html>
