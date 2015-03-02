@@ -35,7 +35,10 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #3c6eb4;
+  background-image:
+      linear-gradient(
+        #3c6eb4, #294172
+      );  
 }
 body {
   color: #fff;
