@@ -80,9 +80,9 @@ def work(question_filename, template, lang, languages,
 
     staticdir = os.path.abspath(static)
     statictarget = os.path.join(outdir, 'static')
-    if os.path.exists(statictarget):
-        shutil.rmtree(statictarget)
-        shutil.rmtree(global_staticdir)
+    for tree in [statictarget, global_staticdir]:
+        if os.path.exists(tree):
+            shutil.rmtree(tree)
     shutil.copytree(staticdir, statictarget)
 
     shutil.copytree(global_staticdir_nb, global_staticdir)
