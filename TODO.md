@@ -12,15 +12,16 @@
 - [X] add a graphviz option so we can see where the tree is left wanting
 - [X] add fedora-tagger in there
 - [X] solicit design stuff from FAD attendees
-- [ ] troll through the join-fedora docs for starter material
+- [X] troll through the join-fedora docs for starter material
 - [X] solicit docs stuff from #fedora-docs
 - [X] solicit qa stuff from adamw
 - [X] solicit translation stuff from ??
 - [X] Add a desktop/spins subtree
-- [ ] solicit input from GNOME, KDE, Cockpit, ostree about where they want to fit into the tree
-- [ ] add more stuff to the coding subtree
-- [ ] tell the mozilla devs
-- [ ] tell the fedora list
-- [ ] tell the osas list
+- [X] solicit input from GNOME, KDE, Cockpit, ostree about where they want to fit into the tree
+- [X] add more stuff to the coding subtree
+- [X] tell the mozilla devs
+- [X] tell the fedora list
+- [X] tell the osas list
 - [X] Make this whole thing translatable.
-- [ ] favicon.ico
+- [X] Submit to zanata
+- [X] favicon.ico

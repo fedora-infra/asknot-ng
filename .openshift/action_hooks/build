@@ -6,6 +6,15 @@
 
 cd ${OPENSHIFT_DATA_DIR}
 
+# Set some defaults for variable that people can override.
+# https://help.openshift.com/hc/en-us/articles/202399310
+#   $ rhc set-env ASKNOT_THEME=default -a myapp
+ASKNOT_TEMPLATE=${ASKNOT_TEMPLATE:-templates/index.html}
+ASKNOT_QUESTION_FILE=${ASKNOT_QUESTION_FILE:-questions/fedora.yml}
+ASKNOT_STATIC_DIR=${ASKNOT_STATIC_DIR:-static}
+ASKNOT_LOCALE_DIR=${ASKNOT_LOCALE_DIR:-locale}
+ASKNOT_THEME=${ASKNOT_THEME:-fedora}
+
 rm -rf build/
 find ${OPENSHIFT_REPO_DIR}/.openshift/diy/. ! -name 'pythonserver.py' -exec rm -rf {} \;
 rm -rf ${OPENSHIFT_DATA_DIR}/pip
@@ -26,11 +35,11 @@ echo "* Generating site"
 # This would be cool.. but we need the server to ignore lots of stuff..
 #echo "SEP: /" >> questions/fedora.yml
 ${OPENSHIFT_REPO_DIR}/asknot-ng.py \
-    ${OPENSHIFT_REPO_DIR}/templates/index.html \
-    ${OPENSHIFT_REPO_DIR}/questions/fedora.yml \
-    -s ${OPENSHIFT_REPO_DIR}/static/ \
-    -L ${OPENSHIFT_REPO_DIR}/locale/ \
-    -t fedora
+    ${OPENSHIFT_REPO_DIR}/${ASKNOT_TEMPLATE} \
+    ${OPENSHIFT_REPO_DIR}/${ASKNOT_QUESTION_FILE} \
+    -s ${OPENSHIFT_REPO_DIR}/${ASKNOT_STATIC_DIR}/ \
+    -L ${OPENSHIFT_REPO_DIR}/${ASKNOT_LOCALE_DIR}/ \
+    -t ${ASKNOT_THEME}
 
 mv build/*                          ${OPENSHIFT_REPO_DIR}/.openshift/diy/.
 

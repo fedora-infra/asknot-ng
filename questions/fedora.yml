@@ -1,4 +1,6 @@
 title: What can I do for Fedora?
+description: What can I do for Fedora?
+favicon: https://getfedora.org/static/images/favicon.ico
 negatives:
     - "No"
     - Nope, nope, nope
@@ -106,3 +108,11 @@ tree:
     segue1: High-minded?
     segue2: You probably want to join the Fedora...
     children: includes/fedora/cloud.yml
+
+  - title: Internationalization
+    subtitle: making Fedora work better for all languages
+    image: https://badges.fedoraproject.org/pngs/irc-support-sig_member.png
+    segue1: Have a regional or world perspective?
+    segue2: You probably want to join the Fedora...
+    children: includes/fedora/i18n.yml
+    
