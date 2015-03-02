@@ -64,8 +64,15 @@ def work(question_filename, template, lang, languages,
     html = template.render(**kwargs)
 
     outdir = os.path.join(build, lang)
+    global_staticdir = os.path.join(build, "static")
+    global_staticdir_nb = os.path.abspath(static+"/global")
+
     if not os.path.exists(outdir):
         os.makedirs(outdir)
+
+    if not os.path.exists(global_staticdir):
+        os.makedirs(global_staticdir)
+
     outfile = os.path.join(outdir, 'index.html')
     with open(outfile, 'w') as f:
         f.write(html)
@@ -73,9 +80,12 @@ def work(question_filename, template, lang, languages,
 
     staticdir = os.path.abspath(static)
     statictarget = os.path.join(outdir, 'static')
-    if os.path.exists(statictarget):
-        shutil.rmtree(statictarget)
+    for tree in [statictarget, global_staticdir]:
+        if os.path.exists(tree):
+            shutil.rmtree(tree)
     shutil.copytree(staticdir, statictarget)
+
+    shutil.copytree(global_staticdir_nb, global_staticdir)
     print("Copied %s to %s" % (staticdir, statictarget))
 
 
