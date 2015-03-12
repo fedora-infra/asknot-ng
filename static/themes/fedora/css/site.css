@@ -51,8 +51,8 @@ body {
   width: 100%;
   height: 100%; /* For at least Firefox */
   min-height: 100%;
-  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
-          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+  -webkit-box-shadow: inset 0 0 75px rgba(0,0,0,.5);
+          box-shadow: inset 0 0 75px rgba(0,0,0,.5);
 }
 
 .site-wrapper-inner {
