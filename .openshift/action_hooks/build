@@ -11,8 +11,8 @@ cd ${OPENSHIFT_DATA_DIR}
 #   $ rhc set-env ASKNOT_THEME=default -a myapp
 ASKNOT_TEMPLATE=${ASKNOT_TEMPLATE:-templates/index.html}
 ASKNOT_QUESTION_FILE=${ASKNOT_QUESTION_FILE:-questions/fedora.yml}
-ASKNOT_STATIC_DIR=${ASKNOT_STATIC_DIR:-static}
-ASKNOT_LOCALE_DIR=${ASKNOT_LOCALE_DIR:-locale}
+ASKNOT_STATIC_DIR=${ASKNOT_STATIC_DIR:-${OPENSHIFT_REPO_DIR}/static}
+ASKNOT_LOCALE_DIR=${ASKNOT_LOCALE_DIR:-${OPENSHIFT_REPO_DIR}/locale}
 ASKNOT_THEME=${ASKNOT_THEME:-fedora}
 
 rm -rf build/
@@ -40,8 +40,8 @@ echo "* Generating site"
 ${OPENSHIFT_REPO_DIR}/asknot-ng.py \
     ${OPENSHIFT_REPO_DIR}/${ASKNOT_TEMPLATE} \
     ${OPENSHIFT_REPO_DIR}/${ASKNOT_QUESTION_FILE} \
-    -s ${OPENSHIFT_REPO_DIR}/${ASKNOT_STATIC_DIR}/ \
-    -L ${OPENSHIFT_REPO_DIR}/${ASKNOT_LOCALE_DIR}/ \
+    -s ${ASKNOT_STATIC_DIR}/ \
+    -L ${ASKNOT_LOCALE_DIR}/ \
     -t ${ASKNOT_THEME} \
     --fedmenu-url="https://apps.fedoraproject.org/fedmenu" \
     --fedmenu-data-url="https://apps.fedoraproject.org/js/data.js"
