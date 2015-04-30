@@ -39,7 +39,10 @@ ${OPENSHIFT_REPO_DIR}/asknot-ng.py \
     ${OPENSHIFT_REPO_DIR}/${ASKNOT_QUESTION_FILE} \
     -s ${OPENSHIFT_REPO_DIR}/${ASKNOT_STATIC_DIR}/ \
     -L ${OPENSHIFT_REPO_DIR}/${ASKNOT_LOCALE_DIR}/ \
-    -t ${ASKNOT_THEME}
+    -t ${ASKNOT_THEME} \
+    --fedmenu-url="https://apps.fedoraproject.org/fedmenu" \
+    --fedmenu-data-url="https://apps.fedoraproject.org/js/data.js"
+
 
 mv build/*                          ${OPENSHIFT_REPO_DIR}/.openshift/diy/.
 
