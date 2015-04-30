@@ -148,6 +148,10 @@ def process_args():
                         help="Fail if no translation is found.")
     parser.add_argument("-g", "--graph", default=False, action="store_true",
                         help="Also generate a graph of the question tree.")
+    parser.add_argument('--fedmenu-url',
+                        help="URL of the fedmenu resources (optional)")
+    parser.add_argument('--fedmenu-data-url',
+                        help="URL of the fedmenu data source (optional)")
     return parser.parse_args()
 
 
