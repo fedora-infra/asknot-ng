@@ -9,11 +9,11 @@ cd ${OPENSHIFT_DATA_DIR}
 # Set some defaults for variable that people can override.
 # https://help.openshift.com/hc/en-us/articles/202399310
 #   $ rhc set-env ASKNOT_THEME=default -a myapp
-ASKNOT_TEMPLATE=${ASKNOT_TEMPLATE:-templates/index.html}
-ASKNOT_QUESTION_FILE=${ASKNOT_QUESTION_FILE:-questions/fedora.yml}
-ASKNOT_STATIC_DIR=${ASKNOT_STATIC_DIR:-${OPENSHIFT_REPO_DIR}/static}
-ASKNOT_LOCALE_DIR=${ASKNOT_LOCALE_DIR:-${OPENSHIFT_REPO_DIR}/locale}
-ASKNOT_THEME=${ASKNOT_THEME:-fedora}
+export ASKNOT_TEMPLATE=${ASKNOT_TEMPLATE:-templates/index.html}
+export ASKNOT_QUESTION_FILE=${ASKNOT_QUESTION_FILE:-questions/fedora.yml}
+export ASKNOT_STATIC_DIR=${ASKNOT_STATIC_DIR:-${OPENSHIFT_REPO_DIR}/static}
+export ASKNOT_LOCALE_DIR=${ASKNOT_LOCALE_DIR:-${OPENSHIFT_REPO_DIR}/locale}
+export ASKNOT_THEME=${ASKNOT_THEME:-fedora}
 
 rm -rf build/
 find ${OPENSHIFT_REPO_DIR}/.openshift/diy/. ! -name 'pythonserver.py' -exec rm -rf {} \;
