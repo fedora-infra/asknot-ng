@@ -32,7 +32,7 @@ pip install \
 python ${OPENSHIFT_REPO_DIR}/setup.py develop
 
 echo "* Compiling translations"
-./compile-translations.sh
+${OPENSHIFT_REPO_DIR}/compile-translations.sh
 
 echo "* Generating site"
 # This would be cool.. but we need the server to ignore lots of stuff..
