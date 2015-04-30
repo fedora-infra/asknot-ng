@@ -31,6 +31,9 @@ pip install \
 # Install the thing to get the version number in place
 python ${OPENSHIFT_REPO_DIR}/setup.py develop
 
+echo "* Compiling translations"
+./compile-translations.sh
+
 echo "* Generating site"
 # This would be cool.. but we need the server to ignore lots of stuff..
 #echo "SEP: /" >> questions/fedora.yml
