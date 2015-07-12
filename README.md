@@ -56,7 +56,7 @@ Run the script with the Fedora configuration::
     $ ./asknot-ng.py templates/index.html questions/fedora.yml --theme fedora
     Wrote build/en/index.html
 
-.. and open up `build/en/index.html` in your favorite browser.
+and open up `build/en/index.html` in your favorite browser.
 
 ## Preparing Translations
 
@@ -75,7 +75,7 @@ Then, extract the translatable strings:
 
 ``asknot-ng`` is licensed GPLv3+ and we’d love to get patches back containing
 even the things you might not think we want.  If you have a questions file for
-your repo, a modified template, or a CSS theme for your use case... please
+your repo, a modified template, or a CSS theme for your use case, please
 [send them to us][patches].  It would be nice to build a library of deployments
 so we can all learn.
 
