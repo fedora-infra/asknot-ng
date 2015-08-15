@@ -32,10 +32,10 @@ tree:
   segue1: Want to help coala?
   segue2: What do you care about?
   children:
-  - title: Visuals
+  - title: Visuals!
     subtitle: The coala artwork team is just for you!
     href: https://github.com/coala-analyzer/coala-artwork
-  - title: Good Generic Code
+  - title: Good, Generic Code
     subtitle: Help us improving code quality in the world! Join the core developers.
     href: https://github.com/coala-analyzer/coala
   - title: Reaching Users
