@@ -117,6 +117,10 @@ def main(localedir, languages, strict, **kw):
         except IOError:
             traceback.print_exc()
             raise IOError("No translation found for %r" % lang)
+        except ValueError:
+            print("Got the following error for language %r" % lang)
+            traceback.print_exc()
+            continue
         translation.install()
 
 
