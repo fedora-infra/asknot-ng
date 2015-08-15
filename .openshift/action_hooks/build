@@ -40,7 +40,7 @@ echo "* Generating site"
 ${OPENSHIFT_REPO_DIR}/asknot-ng.py \
     ${OPENSHIFT_REPO_DIR}/${ASKNOT_TEMPLATE} \
     ${OPENSHIFT_REPO_DIR}/${ASKNOT_QUESTION_FILE} \
-    ${OPENSHIFT_REPO_DIR}/${ASKNOT_LOCALE_DIR} \
+    ${ASKNOT_LOCALE_DIR} \
     -s ${ASKNOT_STATIC_DIR}/ \
     -t ${ASKNOT_THEME} \
     --fedmenu-url="https://apps.fedoraproject.org/fedmenu" \
