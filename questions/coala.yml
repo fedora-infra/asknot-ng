@@ -27,6 +27,8 @@ navlinks:
       link: "javascript:reloadHome();"
     - name: coala documentation
       link: http://coala.rtfd.org/
+    - name: Get Live Help!
+      link: https://gitter.im/coala-analyzer/coala
 
 tree:
   segue1: Want to help coala?
