@@ -15,7 +15,7 @@ import yaml
 translatable_collections = ['negatives', 'affirmatives', 'backlinks']
 translatable_fields = ['title', 'description', 'segue1', 'segue2', 'subtitle']
 
-if sys.version_info.major == 2:
+if sys.version_info[0] == 2:
     string_types = (basestring,)
 else:
     string_types = (str, bytes,)
