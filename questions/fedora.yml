@@ -32,7 +32,7 @@ tree:
   segue1: Want to help Fedora?  Tell me...
   segue2: what's your area of interest?
   children:
-  - title: Design
+  - title: Design!
     subtitle: pixel ninjas
     image: https://badges.fedoraproject.org/pngs/design-team.png
     segue1: So you enjoy working on the way users interact with websites and programs?
