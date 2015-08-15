@@ -89,7 +89,14 @@ def validate_tree(node, basedir):
 
 def slugify(title, seen):
     """ Return a unique id for a node given its title. """
-    idx = title.replace(' ', '-').replace('+', 'plus').lower()
+    idx = title.lower()
+    replacements = {
+        ' ': '-',
+        '+': 'plus',
+        '!': 'exclamation',
+    }
+    for left, right in replacements.items():
+        idx = idx.replace(left, right)
     while idx in seen:
         idx = idx + hashlib.md5(idx.encode('utf-8')).hexdigest()[0]
     return idx
