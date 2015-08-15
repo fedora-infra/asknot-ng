@@ -83,9 +83,9 @@ def work(question_filename, template, lang, languages,
     for tree in [statictarget, global_staticdir]:
         if os.path.exists(tree):
             shutil.rmtree(tree)
-    shutil.copytree(staticdir, statictarget)
+    shutil.copytree(staticdir, statictarget, symlinks=True)
 
-    shutil.copytree(global_staticdir_nb, global_staticdir)
+    shutil.copytree(global_staticdir_nb, global_staticdir, symlinks=True)
     print("Copied %s to %s" % (staticdir, statictarget))
 
 
