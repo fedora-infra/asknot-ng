@@ -74,7 +74,7 @@ def work(question_filename, template, lang, languages,
         os.makedirs(global_staticdir)
 
     outfile = os.path.join(outdir, 'index.html')
-    with open(outfile, 'w') as f:
+    with open(outfile, 'wb') as f:
         f.write(html)
     print("Wrote", outfile)
 

@@ -4,6 +4,7 @@
 import hashlib
 import os
 import random
+import sys
 
 import mako.template
 import pkg_resources
@@ -13,6 +14,11 @@ import yaml
 # and so we know what to translate at render time.
 translatable_collections = ['negatives', 'affirmatives', 'backlinks']
 translatable_fields = ['title', 'description', 'segue1', 'segue2', 'subtitle']
+
+if sys.version_info.major == 2:
+    string_types = (basestring,)
+else:
+    string_types = (str, bytes,)
 
 
 def asknot_version():
@@ -68,7 +74,7 @@ def validate_tree(node, basedir):
     else:
         # Handle recursive includes in yaml files. The children of a node
         # may be defined in a separate file
-        if isinstance(node['children'], basestring):
+        if isinstance(node['children'], string_types):
             include_file = node['children']
             if not os.path.isabs(include_file):
                 include_file = os.path.join(basedir, include_file)
@@ -85,7 +91,7 @@ def slugify(title, seen):
     """ Return a unique id for a node given its title. """
     idx = title.replace(' ', '-').replace('+', 'plus').lower()
     while idx in seen:
-        idx = idx + hashlib.md5(idx).hexdigest()[0]
+        idx = idx + hashlib.md5(idx.encode('utf-8')).hexdigest()[0]
     return idx
 
 
