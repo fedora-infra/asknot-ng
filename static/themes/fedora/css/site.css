@@ -38,7 +38,7 @@ body {
   background-image: -webkit-radial-gradient(top, circle cover, #3c6eb4 , #294172 95%);
   background-image: -moz-radial-gradient(top, circle cover, #3c6eb4 , #294172 95%);
   background-image: -o-radial-gradient(top, circle cover, #3c6eb4 , #294172 95%);
-  background-image: radial-gradient(top, circle cover, #3c6eb4 , #294172 95%);  
+  background-image: radial-gradient(top, circle cover, #3c6eb4 , #294172 95%);
 }
 body {
   color: #fff;
