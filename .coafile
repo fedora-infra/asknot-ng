@@ -1,0 +1,4 @@
+[Default]
+bears = SpaceConsistencyBear
+use_spaces = true
+files = **/*.(html|css)
