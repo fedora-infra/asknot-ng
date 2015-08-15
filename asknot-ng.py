@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-""" asknot-ng.py [OPTIONS] template.html questions.yml
+""" asknot-ng.py [OPTIONS] template.html questions.yml path/to/locale
 
 Ask not what $ORG can do for you... but what can you do for $ORG.
 """
@@ -134,14 +134,13 @@ def process_args():
                         "for the site.")
     parser.add_argument("question_filename", help="Path to a .yaml file "
                         "containing the config and question tree.")
+    parser.add_argument("localedir", help="Location of the locale directory.")
     parser.add_argument("-t", "--theme", default="default",
                         help="Theme name to use.")
     parser.add_argument("-s", "--static", default="static",
                         help="Directory of static files (js, css..).")
     parser.add_argument("-b", "--build", default="build",
                         help="Directory to write output.")
-    parser.add_argument("-L", "--localedir", default="locale",
-                        help="Location of the locale/ directory")
     parser.add_argument("-l", "--languages", default=None,
                         help="List of languages to use.  Defaults to all.")
     parser.add_argument("-S", "--strict", default=False, action="store_true",
