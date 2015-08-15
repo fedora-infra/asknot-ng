@@ -1,6 +1,6 @@
 #!/bin/bash -x
 
-ASKNOT_LOCALE_DIR=${ASKNOT_LOCALE_DIR:-locale}
+ASKNOT_LOCALE_DIR=${ASKNOT_LOCALE_DIR:-l10n/fedora/locale}
 
 for locale in $(ls $ASKNOT_LOCALE_DIR/*.po); do
     echo $locale;

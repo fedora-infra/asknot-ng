@@ -54,7 +54,7 @@ Create a virtualenv into which you can install the module.
 
 Run the script with the Fedora configuration::
 
-    $ ./asknot-ng.py templates/index.html questions/fedora.yml --theme fedora
+    $ ./asknot-ng.py templates/index.html questions/fedora.yml l10n/fedora/locale --theme fedora
     Wrote build/en/index.html
 
 and open up `build/en/index.html` in your favorite browser.
@@ -70,7 +70,7 @@ First, setup a virtualenv, install Babel, and build the egg info.
 
 Then, extract the translatable strings:
 
-    $ python setup.py extract_messages --output-file locale/asknot-ng.pot
+    $ python setup.py extract_messages --output-file l10n/fedora/locale/asknot-ng.pot
 
 ## Contributing back
 
