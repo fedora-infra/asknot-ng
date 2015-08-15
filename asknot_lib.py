@@ -94,6 +94,7 @@ def slugify(title, seen):
         ' ': '-',
         '+': 'plus',
         '!': 'exclamation',
+        ',': 'comma',
     }
     for left, right in replacements.items():
         idx = idx.replace(left, right)
