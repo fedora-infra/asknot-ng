@@ -41,7 +41,7 @@ tree:
         children:
         - title: Fedora Magazine
           subtitle: all Fedora news, all the Fedora time
-          href: http://fedoraproject.org/wiki/FWN/Join
+          href: http://fedoramagazine.org/writing-an-article-for-the-fedora-magazine/
       - title: Less Formal
         subtitle: something more personal
         segue1: We have just the thing for you.
