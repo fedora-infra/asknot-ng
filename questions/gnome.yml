@@ -27,8 +27,8 @@ navlinks:
       link: "javascript:reloadHome();"
     - name: Get GNOME
       link: https://www.gnome.org/getting-gnome/
-    - name: GNOME Wiki
-      link: https://wiki.gnome.org/
+    - name: GNOME.org
+      link: https://www.gnome.org/
 
 tree:
   segue1: Want to help GNOME?
