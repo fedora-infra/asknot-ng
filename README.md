@@ -72,6 +72,21 @@ Then, extract the translatable strings:
 
     $ python setup.py extract_messages --output-file l10n/fedora/locale/asknot-ng.pot
 
+## Deploying to OpenShift
+
+This is a very easy way to bring ``asknot-ng`` to a production server using
+OpenShift.
+
+Just create a new application using RHC and set the environment variables to
+your demands:
+
+```
+rhc app create askorg diy --from-code https://github.com/fedora-infra/asknot-ng#develop
+rhc set-env ASKNOT_THEME=org -a askorg
+rhc set-env ASKNOT_QUESTION_FILE=questions/org.yml -a askorg
+rhc app restart askorg
+```
+
 ## Contributing back
 
 ``asknot-ng`` is licensed GPLv3+ and we’d love to get patches back containing
