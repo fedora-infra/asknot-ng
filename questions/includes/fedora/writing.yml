@@ -47,6 +47,9 @@ tree:
         segue1: We have just the thing for you.
         segue2: Get your own blog added to the...
         children:
+        - title: Community Blog
+          subtitle: the central hub of all Fedora news, across the subprojects
+          href: https://communityblog.fedoraproject.org/writing-community-blog-article/
         - title: Fedora Planet
           subtitle: an aggregator of Fedora bloggers
           href: https://fedoraproject.org/wiki/Planet
