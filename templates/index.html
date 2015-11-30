@@ -96,26 +96,25 @@
                 <div class="img"><img src="${node['image']}"/></div>
                 % endif
               </div>
-
-
-                % if 'children' in node:
-                  <p class="lead">
+              % if 'children' in node:
+                <p class="lead">
                   <a data-next="${node['children'][0]['id']}" class="yes btn btn-lg btn-success"><span class="glyphicon glyphicon-ok-sign"></span> ${node['affirmative']}</a>
 
-                % else:
+              % else:
                   <a href="${node['href']}" target="_blank" class="btn btn-lg btn-success"><span class="glyphicon glyphicon-ok-sign"></span> ${node['affirmative']}</a>
-                  </p>
-                % endif:
-                % if next != node['id']:
-                  <p class="lead">
+                </p>
+              % endif:
+
+              % if next != node['id']:
+                <p class="lead">
                   <a data-next="${next}" class="nope btn btn-lg btn-danger"><span class="glyphicon glyphicon-remove-sign"></span> ${node['negative']}</a>
-                  </p>
-                % endif
-              % if not toplevel:
+                </p>
+              % endif
+            % if not toplevel:
               <p class="lead">
                 <a class="back btn btn-lg btn-warning"><span class="glyphicon glyphicon-circle-arrow-left"></span> ${node['backlink']}</a>
               </p>
-              % endif
+            % endif
             </div>
 
             % if 'children' in node:
