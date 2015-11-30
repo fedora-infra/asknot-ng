@@ -46,7 +46,7 @@ tree:
     segue2: What's your favorite language?
     children: includes/fedora/coding.yml
     
-  - title: Community
+  - title: Community Operations
     subtitle: connecting the dots of Fedora
     image: https://badges.fedoraproject.org/pngs/the-write-stuff.png
     segue1: Have a knack for community-building?
