@@ -3,17 +3,20 @@ String.prototype.endsWith = function(suffix) {
     return this.indexOf(suffix, this.length - suffix.length) !== -1;
 };
 
-$(document).ready(function() {
-    // First thing.. hide the warning about javascript being required.
-    $("#js-warning").addClass('hidden');
-
-    var first = question_tree.children[0].id;
-
+function hashSelect(first) {
+    console.log("Changing to new hash...");
     var found = false;
     $.each(all_ids, function(i, idx) {
+        var curr = $('#' + idx);
         if (location.href.endsWith(SEP + idx)) {
-            $("#" + idx).removeClass('hidden');
+            curr.removeClass('hidden');
             found = true;
+        }
+        else {
+            var isHidden = curr.hasClass('hidden');
+            if (! isHidden) {
+                curr.addClass('hidden');
+            }
         }
     });
     if (! found) {
@@ -21,6 +24,14 @@ $(document).ready(function() {
         var original = location.href.replace(/\/$/, "");
         history.pushState({}, '', original + SEP + first);
     }
+}
+
+$(document).ready(function() {
+    // First thing.. hide the warning about javascript being required.
+    $("#js-warning").addClass('hidden');
+
+    var first = question_tree.children[0].id;
+    hashSelect(first);
 
     // Wire up the "yes" links
     $("a.yes").click(function(event) {
@@ -48,6 +59,10 @@ $(document).ready(function() {
         var next = tokens.slice(-1).pop();
         history.go(-1);
         $('#' + next).removeClass('hidden');
+    });
+    $(window).on('hashchange', function() {
+        // Detect hash changes for "back" functions
+        hashSelect(first);
     });
 
 });
