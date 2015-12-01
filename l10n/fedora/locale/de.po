@@ -4,15 +4,15 @@ msgstr ""
 "Project-Id-Version: asknot-ng 0.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2015-02-15 13:45-0500\n"
-"PO-Revision-Date: 2015-07-17 11:38-0400\n"
-"Last-Translator: Enrico Wildgrube <kontakt@enrico-wildgrube.de>\n"
-"Language-Team: German\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-07-17 11:38-0400\n"
+"Last-Translator: Enrico Wildgrube <kontakt@enrico-wildgrube.de>\n"
+"Language-Team: German\n"
 "Language: de\n"
+"X-Generator: Zanata 3.7.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Generator: Zanata 3.7.1\n"
 
 #. title
 #: questions/fedora.yml:1
@@ -251,8 +251,8 @@ msgstr "Paketierung"
 #: questions/fedora.yml:75
 msgid "So you want to help build the OS?  Excellent."
 msgstr ""
-"Du möchtest bei der Weiterentwicklung des Betriebssystems helfen ? "
-"Exzellent."
+"Du möchtest bei der Weiterentwicklung des Betriebssystems helfen ? Exzellent."
+""
 
 #. segue2
 #: questions/fedora.yml:75
@@ -479,8 +479,8 @@ msgstr "Möchtest du etwas mehr ?"
 #: questions/includes/fedora/design.yml:35
 #, fuzzy
 msgid ""
-"web developers that build <a "
-"href=\"https://getfedora.org\">getfedora.org</a> and other awesome sites"
+"web developers that build <a href=\"https://getfedora.org\">getfedora.org</"
+"a> and other awesome sites"
 msgstr ""
 "Webentwickler, die <a href=\"https://getfedora.org\">getfedora.org</a> und "
 "andere tolle Websites gebaut haben."
@@ -582,11 +582,11 @@ msgstr "Fedora Badges"
 #: questions/includes/fedora/design.yml:30
 #, fuzzy
 msgid ""
-"make awesome badge art that fuels <a "
-"href=\"https://badges.fedoraproject.org\">badges.fp.o</a>"
+"make awesome badge art that fuels <a href=\"https://badges.fedoraproject."
+"org\">badges.fp.o</a>"
 msgstr ""
-"Designe wundervolle Badges, das bringt einen <a "
-"href=\"https://badges.fedoraproject.org\">badges.fp.o</a>"
+"Designe wundervolle Badges, das bringt einen <a href=\"https://badges."
+"fedoraproject.org\">badges.fp.o</a>"
 
 #. title
 #: questions/includes/fedora/desktop.yml:3
