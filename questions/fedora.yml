@@ -45,12 +45,12 @@ tree:
     segue1: "Zeroes and ones #allday?  Me too."
     segue2: What's your favorite language?
     children: includes/fedora/coding.yml
-    
-  - title: Community Operations
-    subtitle: connecting the dots of Fedora
+
+  - title: Community Ops
+    subtitle: connecting the dots
     image: https://badges.fedoraproject.org/pngs/the-write-stuff.png
     segue1: Have a knack for community-building?
-    segue2: Perhaps you can lend a hand to...
+    segue2: Would you like something more
     children: includes/fedora/community.yml
 
   - title: Writing
@@ -122,4 +122,3 @@ tree:
     segue1: Have a regional or world perspective?
     segue2: You probably want to join the Fedora...
     children: includes/fedora/i18n.yml
-    
