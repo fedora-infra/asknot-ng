@@ -10,7 +10,7 @@ description = 'Ask not what $ORG can do for you, but what you can do for $ORG'
 
 setup(
     name='asknot-ng',
-    version='0.0',
+    version='1.0',
     description=description,
     license='GPLv3+',
     author='Ralph Bean',
