@@ -45,7 +45,7 @@ tree:
     href: http://coala.readthedocs.org/en/latest/Getting_Involved/Writing_Documentation/
   - title: Crazy Algorithms
     subtitle: Let's write code analytics. We write the framework, there's bare logic left for you.
-    href: http://coala.readthedocs.org/en/latest/Users/Writing_Bears/
+    href: http://coala.readthedocs.org/en/latest/Users/Tutorials/Writing_Bears.html
   - title: Scientific Progress
     subtitle: Join our coAST team and create language independent program analysis.
     href: https://github.com/coala-analyzer/CoAST
