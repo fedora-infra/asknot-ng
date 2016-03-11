@@ -20,8 +20,8 @@ tree:
       subtitle: all the guides and release notes
       href: https://fedoraproject.org/wiki/Docs_Project_guides_table
     - title: GNOME
-      subtitle: which has it's own translation resources
+      subtitle: which has its own translation resources
       href: https://wiki.gnome.org/TranslationProject
     - title: KDE
-      subtitle: also with it's own translation process
+      subtitle: also with its own translation process
       href: http://l10n.kde.org/docs/translation-howto/
