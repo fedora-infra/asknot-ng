@@ -42,7 +42,7 @@ tree:
     href: https://github.com/coala-analyzer/coala
   - title: Reaching Users
     subtitle: Write documentation that is understandable by everyone.
-    href: http://coala.readthedocs.org/en/latest/Getting_Involved/Writing_Documentation/
+    href: http://coala.readthedocs.org/en/latest/Getting_Involved/Writing_Documentation.html
   - title: Crazy Algorithms
     subtitle: Let's write code analytics. We write the framework, there's bare logic left for you.
     href: http://coala.readthedocs.org/en/latest/Users/Tutorials/Writing_Bears.html
