@@ -95,6 +95,11 @@ tree:
     segue2: Are you more interested in something...
     children: includes/fedora/qa.yml
 
+  - title: Modularization
+    subtitle: rethinking how we compose the distro
+    #image: https://....modularization-logo.png
+    href: https://fedoraproject.org/wiki/Modularization/Getting_involved
+
   - title: The Desktop
     subtitle: we all have our favorite
     image: https://getfedora.org/static/images/logo-color-workstation.png
