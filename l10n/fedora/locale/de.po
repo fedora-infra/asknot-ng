@@ -1,18 +1,19 @@
 # Enrico Wildgrube <kontakt@enrico-wildgrube.de>, 2015. #zanata
+# FloH. <postfuerflo@gmail.com>, 2016. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2015-12-01 10:00-0500\n"
-"PO-Revision-Date: 2015-07-17 11:38-0400\n"
-"Last-Translator: Enrico Wildgrube <kontakt@enrico-wildgrube.de>\n"
+"PO-Revision-Date: 2016-04-27 04:53-0400\n"
+"Last-Translator: FloH. <postfuerflo@gmail.com>\n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Generator: Zanata 3.8.2\n"
+"X-Generator: Zanata 3.8.3\n"
 
 #. title
 #. description
@@ -118,7 +119,7 @@ msgstr ""
 #. navlink
 #: questions/coala.yml:1
 msgid "Get Live Help!"
-msgstr ""
+msgstr "Erhalte Live-Hilfe!"
 
 #. segue1
 #: questions/coala.yml:33
@@ -128,7 +129,7 @@ msgstr ""
 #. segue2
 #: questions/coala.yml:33
 msgid "What do you care about?"
-msgstr ""
+msgstr "Wofür interessierst Du dich?"
 
 #. title
 #: questions/coala.yml:37
@@ -143,12 +144,14 @@ msgstr ""
 #. title
 #: questions/coala.yml:40
 msgid "Good, Generic Code"
-msgstr ""
+msgstr "Gut, Code im allgemeinen"
 
 #. subtitle
 #: questions/coala.yml:40
 msgid "Help us improving code quality in the world! Join the core developers."
 msgstr ""
+"Hilf uns die Qualität des Codes in dieser Welt zu verbessern! Tritt den "
+"Entwicklerteam bei."
 
 #. title
 #: questions/coala.yml:43
@@ -168,12 +171,12 @@ msgstr ""
 #. subtitle
 #: questions/coala.yml:46
 msgid "Join our translation team!"
-msgstr ""
+msgstr "Tritt den Übersetzungsteam bei!"
 
 #. title
 #: questions/coala.yml:49
 msgid "Crazy Algorithms"
-msgstr ""
+msgstr "Abgefahrene Algorithmen"
 
 #. subtitle
 #: questions/coala.yml:49
@@ -185,7 +188,7 @@ msgstr ""
 #. title
 #: questions/coala.yml:52
 msgid "Scientific Progress"
-msgstr ""
+msgstr "Wissenschaftlicher Fortschritt"
 
 #. subtitle
 #: questions/coala.yml:52
@@ -195,7 +198,7 @@ msgstr ""
 #. title
 #: questions/coala.yml:55
 msgid "Money"
-msgstr ""
+msgstr "Geld"
 
 #. subtitle
 #: questions/coala.yml:55
@@ -226,7 +229,7 @@ msgstr "Was ist dein Interessensgebiet ?"
 #. title
 #: questions/fedora.yml:35
 msgid "Design!"
-msgstr ""
+msgstr "Design!"
 
 #. segue1
 #: questions/fedora.yml:35
@@ -461,7 +464,7 @@ msgstr "Es ist dort, wo die Zukunft Realität wird"
 #. title
 #: questions/fedora.yml:119
 msgid "Internationalization"
-msgstr ""
+msgstr "Internationalisierung"
 
 #. segue1
 #: questions/fedora.yml:119
@@ -471,38 +474,38 @@ msgstr ""
 #. subtitle
 #: questions/fedora.yml:119
 msgid "making Fedora work better for all languages"
-msgstr ""
+msgstr "Ein besseres Fedora für alle Sprachen"
 
 #. title
 #. description
 #: questions/gnome.yml:1
 msgid "What can I do for GNOME?"
-msgstr ""
+msgstr "Was kann für GNOME tun?"
 
 #. navlink
 #: questions/gnome.yml:1
 msgid "Get GNOME"
-msgstr ""
+msgstr "Erhalte GNOME"
 
 #. navlink
 #: questions/gnome.yml:1
 msgid "GNOME.org"
-msgstr ""
+msgstr "GNOME.org"
 
 #. segue1
 #: questions/gnome.yml:33
 msgid "Want to help GNOME?"
-msgstr ""
+msgstr "Willst Du GNOME behilflich sein?"
 
 #. segue2
 #: questions/gnome.yml:33
 msgid "First tell us what you like!"
-msgstr ""
+msgstr "Erzähle uns erst woran Du Spaß hast!"
 
 #. title
 #: questions/gnome.yml:37
 msgid "Design and Usability"
-msgstr ""
+msgstr "Design und Benutzerfreundlichkeit"
 
 #. subtitle
 #: questions/gnome.yml:37
@@ -512,12 +515,12 @@ msgstr ""
 #. subtitle
 #: questions/gnome.yml:40
 msgid "Want to help with your english skills?"
-msgstr ""
+msgstr "Willst Du deine Englischkenntnisse einsetzen?"
 
 #. title
 #: questions/gnome.yml:43
 msgid "Articles"
-msgstr ""
+msgstr "Artikel"
 
 #. subtitle
 #: questions/gnome.yml:43
@@ -538,22 +541,22 @@ msgstr ""
 #. title
 #: questions/gnome.yml:49
 msgid "Languages"
-msgstr ""
+msgstr "Sprachen"
 
 #. subtitle
 #: questions/gnome.yml:49
 msgid "You could help translating!"
-msgstr ""
+msgstr "Du könntest helfen zu übersetzen!"
 
 #. title
 #: questions/gnome.yml:52
 msgid "Code"
-msgstr ""
+msgstr "Code"
 
 #. subtitle
 #: questions/gnome.yml:52
 msgid "Get your hands dirty!"
-msgstr ""
+msgstr "Mach die Finger schmutzig!"
 
 #. title
 #: questions/gnome.yml:55
@@ -563,12 +566,12 @@ msgstr ""
 #. subtitle
 #: questions/gnome.yml:55
 msgid "May GNOME never crash again"
-msgstr ""
+msgstr "Auf das GNOME nie wieder abstürzt"
 
 #. title
 #: questions/gnome.yml:58
 msgid "Fixing Bugs"
-msgstr ""
+msgstr "Fehler beheben"
 
 #. subtitle
 #: questions/gnome.yml:58
@@ -588,12 +591,12 @@ msgstr ""
 #. title
 #: questions/gnome.yml:64
 msgid "System Administration"
-msgstr ""
+msgstr "Systemadministration"
 
 #. subtitle
 #: questions/gnome.yml:64
 msgid "Help us managing our infrastructure!"
-msgstr ""
+msgstr "Hilf uns die Infrastruktur zu pflegen!"
 
 #. title
 #: questions/includes/fedora/advocacy.yml:3
@@ -605,7 +608,7 @@ msgstr "Botschafter"
 #: questions/includes/fedora/advocacy.yml:3
 #: questions/includes/fedora/community.yml:15
 msgid "the representatives of Fedora"
-msgstr ""
+msgstr "Der Vertreter des Fedora-Projekts"
 
 #. title
 #: questions/includes/fedora/categorization.yml:3

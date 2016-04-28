@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2015-12-01 10:00-0500\n"
-"PO-Revision-Date: 2016-02-14 09:47-0500\n"
+"PO-Revision-Date: 2016-03-03 04:26-0500\n"
 "Last-Translator: Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>\n"
 "Language-Team: Catalan\n"
 "MIME-Version: 1.0\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ca\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Generator: Zanata 3.8.2\n"
+"X-Generator: Zanata 3.8.3\n"
 
 #. title
 #. description
@@ -672,8 +672,8 @@ msgstr "C"
 #: questions/includes/fedora/coding.yml:9
 msgid "So, you think OOP is for hipsters?  Let me tell you, back in my day..."
 msgstr ""
-"Per tant, penseu que els OOP és per als moderns? Deixeu-me que us diga, en "
-"el meus temps..."
+"Per tant, penseu que els OOP és per als moderns? Deixeu-me que us digui, en "
+"el meu temps..."
 
 #. segue2
 #: questions/includes/fedora/coding.yml:9
@@ -697,8 +697,8 @@ msgid ""
 "So, programming without side-effects is what you're all about?  Sounds "
 "useful!"
 msgstr ""
-"Per tant, la programació sense efectes col·laterals té que veure amb el que "
-"us agrada? Sona útil!"
+"Per tant, la programació sense efectes col·laterals té a veure amb el que us"
+" agrada? Sona útil!"
 
 #. subtitle
 #: questions/includes/fedora/coding.yml:15
@@ -741,7 +741,7 @@ msgstr ""
 #. subtitle
 #: questions/includes/fedora/coding.yml:27
 msgid "a nondynamic language for semirapid development"
-msgstr "un llenguatge no dinàmic per al desenvolupament semi-ràpid"
+msgstr "un llenguatge no dinàmic per al desenvolupament semiràpid"
 
 #. title
 #: questions/includes/fedora/coding.yml:33
@@ -907,7 +907,7 @@ msgstr "D'acord."
 #: questions/includes/fedora/design.yml:3
 msgid "creatives serving as a design firm for the Fedora community"
 msgstr ""
-"els creatius que actuen com una firma de disseny per a la comunitat Fedora"
+"els creatius que actuen com a un estudi de disseny per a la comunitat Fedora"
 
 #. subtitle
 #: questions/includes/fedora/design.yml:10
@@ -927,7 +927,7 @@ msgstr "Sol·licitud de treballs artístics"
 #. subtitle
 #: questions/includes/fedora/design.yml:22
 msgid "there are people in need of good taste -- you can help"
-msgstr "hi ha persones que necessiten del bon gust -- podeu ajudar"
+msgstr "hi ha la necessitat de persones amb bon gust -- podeu ajudar"
 
 #. title
 #: questions/includes/fedora/design.yml:26
@@ -1350,7 +1350,7 @@ msgstr "Més formal"
 #. segue1
 #: questions/includes/fedora/writing.yml:37
 msgid "Yes!  The spotlight!"
-msgstr "Si! El centre d'atenció!"
+msgstr "Sí! El centre d'atenció!"
 
 #. segue2
 #: questions/includes/fedora/writing.yml:37
@@ -1415,7 +1415,7 @@ msgstr "un conjunt de programes d'ofimàtica lliures i de codi obert"
 #. subtitle
 #: questions/includes/fedora/coding/c++.yml:7
 msgid "an integrated set of cross-platform applications"
-msgstr "un conjunt integrat d'aplicacions de plataformes amb creuament"
+msgstr "un conjunt integrat d'aplicacions de plataformes creuades"
 
 #. title
 #: questions/includes/fedora/coding/c.yml:3
@@ -1448,7 +1448,7 @@ msgstr "Cockpit"
 #: questions/includes/fedora/coding/c.yml:11
 msgid "a server manager that makes it easy to administer via a web browser"
 msgstr ""
-"un gestor servidors que fa que sigui fàcil l'administració a través d'un "
+"un gestor de servidors que fa que sigui fàcil l'administració a través d'un "
 "navegador web"
 
 #. subtitle
@@ -1705,7 +1705,7 @@ msgstr "Galeria d'usuaris"
 #. subtitle
 #: questions/includes/fedora/coding/web.yml:36
 msgid "gallery for mini-interview-style user profiles and stories"
-msgstr "galeria dels perfils d'usuari amb estil mini-entrevista i d'històries"
+msgstr "galeria dels perfils d'usuari amb estil minientrevista i d'històries"
 
 #. title
 #: questions/includes/fedora/coding/web.yml:40
