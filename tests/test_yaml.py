@@ -2,11 +2,11 @@ import os, fnmatch
 import yaml
 
 def validate_yaml_file(filename):
-    print "Validating {}".format(filename)
+    print "Validating {0}".format(filename)
     try:
         load_yaml = yaml.load(file(filename, 'r'))
     except yaml.YAMLError, err:
-        raise ValueError("Invalid YAML file: {}".format(filename))
+        raise ValueError("Invalid YAML file: {0}".format(filename))
 
 
 def test_yaml():
