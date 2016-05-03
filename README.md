@@ -1,5 +1,6 @@
 # asknot-ng
 
+[![Build Status](https://travis-ci.org/fedora-infra/asknot-ng.svg)](https://travis-ci.org/fedora-infra/asknot-ng)
 
 Ask not what `$ORG` can do for you, but what you can do for `$ORG`.
 
