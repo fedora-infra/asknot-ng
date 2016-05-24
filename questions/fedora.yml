@@ -23,7 +23,7 @@ backlinks:
     - Get me outta here!
 
 navlinks:
-    - name: Join
+    - name: Home
       link: "javascript:reloadHome();"
     - name: Get Fedora
       link: https://getfedora.org
