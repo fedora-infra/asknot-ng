@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2015-12-01 10:00-0500\n"
-"PO-Revision-Date: 2016-04-24 04:21-0400\n"
+"PO-Revision-Date: 2016-05-20 10:23-0400\n"
 "Last-Translator: Ooyama Yosiyuki <qqke6wd9k@apricot.ocn.ne.jp>\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0\n"
-"X-Generator: Zanata 3.8.3\n"
+"X-Generator: Zanata 3.8.4\n"
 
 #. title
 #. description
@@ -43,12 +43,12 @@ msgstr "いいえ、結構です"
 #. negative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Not on your life"
-msgstr ""
+msgstr "まっぴらだ"
 
 #. negative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Doesn't sound like me"
-msgstr ""
+msgstr "私ではないように聞こえる"
 
 #. negative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
@@ -78,12 +78,12 @@ msgstr "もっと詳しく聞かせて"
 #. affirmative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "That's me!"
-msgstr ""
+msgstr "そのための私です！"
 
 #. affirmative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Totally"
-msgstr ""
+msgstr "もちろん"
 
 #. affirmative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
@@ -103,7 +103,7 @@ msgstr "操作ミスのようです"
 #. backlink
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Get me outta here!"
-msgstr "ここから逃げ出したい!"
+msgstr "ここから逃げ出したい!!"
 
 #. navlink
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
@@ -216,7 +216,7 @@ msgstr "Fedoraを入手する"
 #. segue1
 #: questions/fedora.yml:31
 msgid "Want to help Fedora?  Tell me..."
-msgstr ""
+msgstr "Fedoraを手伝いたいですか？ 聞かせて..."
 
 #. segue2
 #: questions/fedora.yml:31
@@ -329,7 +329,7 @@ msgstr ""
 #. title
 #: questions/fedora.yml:70
 msgid "Translation"
-msgstr ""
+msgstr "Translation"
 
 #. segue1
 #: questions/fedora.yml:70
@@ -404,7 +404,7 @@ msgstr ""
 #. title
 #: questions/fedora.yml:98
 msgid "The Desktop"
-msgstr ""
+msgstr "The Desktop"
 
 #. segue1
 #: questions/fedora.yml:98
@@ -425,7 +425,7 @@ msgstr ""
 #. title
 #: questions/fedora.yml:105
 msgid "The Server"
-msgstr ""
+msgstr "The Server"
 
 #. segue1
 #: questions/fedora.yml:105
@@ -455,7 +455,7 @@ msgstr ""
 #. title
 #: questions/fedora.yml:119
 msgid "Internationalization"
-msgstr ""
+msgstr "Internationalization"
 
 #. segue1
 #: questions/fedora.yml:119

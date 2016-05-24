@@ -1,25 +1,26 @@
 # Jonatas Z. de Vasconcellos <jonataszv@fedoraproject.org>, 2015. #zanata
 # Roní Gonçalves <ronignc@gmail.com>, 2015. #zanata
+# Ana Mativi <mativi@fedoraproject.org>, 2016. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2015-12-01 10:00-0500\n"
-"PO-Revision-Date: 2015-05-06 02:31-0400\n"
-"Last-Translator: Roní Gonçalves <ronignc@gmail.com>\n"
+"PO-Revision-Date: 2016-05-24 10:32-0400\n"
+"Last-Translator: Ana Mativi <mativi@fedoraproject.org>\n"
 "Language-Team: Portuguese (Brazil)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pt-BR\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Generator: Zanata 3.8.3\n"
+"X-Generator: Zanata 3.8.4\n"
 
 #. title
 #. description
 #: questions/coala.yml:1
 msgid "What can I do for coala?"
-msgstr ""
+msgstr "O que eu posso fazer pelo coala?"
 
 #. negative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
@@ -46,7 +47,7 @@ msgstr "Não, obrigado"
 #. negative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Not on your life"
-msgstr ""
+msgstr "Não na sua vida"
 
 #. negative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
@@ -70,9 +71,8 @@ msgstr "Sim"
 
 #. affirmative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
-#, fuzzy
 msgid "Sounds awesome"
-msgstr "Parece impressionante"
+msgstr "Parece incrível"
 
 #. affirmative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
@@ -83,7 +83,7 @@ msgstr "Conte-me mais"
 #. affirmative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "That's me!"
-msgstr ""
+msgstr "Sou eu!"
 
 #. affirmative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
@@ -113,42 +113,42 @@ msgstr "Tire me daqui!"
 #. navlink
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Join"
-msgstr ""
+msgstr "Junte-se"
 
 #. navlink
 #: questions/coala.yml:1
 msgid "coala documentation"
-msgstr ""
+msgstr "documentação do coala"
 
 #. navlink
 #: questions/coala.yml:1
 msgid "Get Live Help!"
-msgstr ""
+msgstr "Consiga ajuda em tempo real!"
 
 #. segue1
 #: questions/coala.yml:33
 msgid "Want to help coala?"
-msgstr ""
+msgstr "Quer ajudar o coala?"
 
 #. segue2
 #: questions/coala.yml:33
 msgid "What do you care about?"
-msgstr ""
+msgstr "Com o que você se importa?"
 
 #. title
 #: questions/coala.yml:37
 msgid "Visuals!"
-msgstr ""
+msgstr "Visuais!"
 
 #. subtitle
 #: questions/coala.yml:37
 msgid "The coala artwork team is just for you!"
-msgstr ""
+msgstr "A equipe artística do coala é pra você!"
 
 #. title
 #: questions/coala.yml:40
 msgid "Good, Generic Code"
-msgstr ""
+msgstr "Código bom e genérico"
 
 #. subtitle
 #: questions/coala.yml:40
@@ -158,27 +158,27 @@ msgstr ""
 #. title
 #: questions/coala.yml:43
 msgid "Reaching Users"
-msgstr ""
+msgstr "Atingindo Usuários"
 
 #. subtitle
 #: questions/coala.yml:43
 msgid "Write documentation that is understandable by everyone."
-msgstr ""
+msgstr "Escreva documentação que é compreendida por todos."
 
 #. title
 #: questions/coala.yml:46
 msgid "Make coala Accessible"
-msgstr ""
+msgstr "Faça o coala Acessível"
 
 #. subtitle
 #: questions/coala.yml:46
 msgid "Join our translation team!"
-msgstr ""
+msgstr "Junte-se ao nosso time de tradução!"
 
 #. title
 #: questions/coala.yml:49
 msgid "Crazy Algorithms"
-msgstr ""
+msgstr "Algoritmos Malucos"
 
 #. subtitle
 #: questions/coala.yml:49
@@ -190,7 +190,7 @@ msgstr ""
 #. title
 #: questions/coala.yml:52
 msgid "Scientific Progress"
-msgstr ""
+msgstr "Progresso Científico"
 
 #. subtitle
 #: questions/coala.yml:52
@@ -200,7 +200,7 @@ msgstr ""
 #. title
 #: questions/coala.yml:55
 msgid "Money"
-msgstr ""
+msgstr "Dinheiro"
 
 #. subtitle
 #: questions/coala.yml:55
@@ -231,13 +231,15 @@ msgstr "qual sua área de interesse?"
 #. title
 #: questions/fedora.yml:35
 msgid "Design!"
-msgstr ""
+msgstr "Design!"
 
 #. segue1
 #: questions/fedora.yml:35
 msgid ""
 "So you enjoy working on the way users interact with websites and programs?"
 msgstr ""
+"Então você gosta de trabalhar na maneira que usuários interagem com usuários"
+" e programas?"
 
 #. segue2
 #: questions/fedora.yml:35
@@ -247,17 +249,17 @@ msgstr "Que tal..."
 #. subtitle
 #: questions/fedora.yml:35
 msgid "pixel ninjas"
-msgstr ""
+msgstr "ninjas do pixel"
 
 #. title
 #: questions/fedora.yml:42
 msgid "Coding"
-msgstr ""
+msgstr "Codificando"
 
 #. segue1
 #: questions/fedora.yml:42
 msgid "Zeroes and ones #allday?  Me too."
-msgstr ""
+msgstr "Zeros e uns #odiatodo? Eu também."
 
 #. segue2
 #: questions/fedora.yml:42
@@ -284,28 +286,27 @@ msgstr ""
 #: questions/fedora.yml:49 questions/includes/fedora/coding.yml:38
 #: questions/includes/fedora/design.yml:3
 msgid "Would you like something more"
-msgstr ""
+msgstr "Gostaria de algo mais"
 
 #. subtitle
 #: questions/fedora.yml:49
 msgid "connecting the dots"
-msgstr ""
+msgstr "ligando os pontos"
 
 #. title
 #: questions/fedora.yml:56 questions/gnome.yml:40
 msgid "Writing"
-msgstr ""
+msgstr "Escrevendo"
 
 #. segue1
 #: questions/fedora.yml:56
-#, fuzzy
 msgid "So, you have a way with words?"
 msgstr "Então você leva jeito com as palavras?"
 
 #. segue2
 #: questions/fedora.yml:56 questions/fedora.yml:70
 msgid "Would you be more interested in..."
-msgstr ""
+msgstr "Você estaria mais interessado em..."
 
 #. subtitle
 #: questions/fedora.yml:56
@@ -315,12 +316,12 @@ msgstr ""
 #. title
 #: questions/fedora.yml:63
 msgid "Categorization"
-msgstr ""
+msgstr "Categorização"
 
 #. segue1
 #: questions/fedora.yml:63
 msgid "So you like putting things in their place?"
-msgstr ""
+msgstr "Então você gosta de colocar cada coisa no seu lugar?"
 
 #. segue2
 #: questions/fedora.yml:63 questions/includes/fedora/coding.yml:15
@@ -331,7 +332,7 @@ msgstr "Que tal..."
 #. subtitle
 #: questions/fedora.yml:63
 msgid "labelling things, perhaps obsessively"
-msgstr ""
+msgstr "etiquetando coisas, talvez obsessivamente"
 
 #. title
 #: questions/fedora.yml:70
@@ -340,9 +341,8 @@ msgstr "Tradução"
 
 #. segue1
 #: questions/fedora.yml:70
-#, fuzzy
 msgid "So you know more than one language?  We need you!"
-msgstr "Então você sabe mais que um idioma? Nós precisamos de você!"
+msgstr "Então você sabe mais de um idioma? Nós precisamos de você!"
 
 #. subtitle
 #: questions/fedora.yml:70
@@ -363,8 +363,9 @@ msgstr "Então você é uma pessoa do povo?"
 
 #. segue2
 #: questions/fedora.yml:77
+#, fuzzy
 msgid "How about becoming a Fedora..."
-msgstr ""
+msgstr "Que tal se tornar um..."
 
 #. subtitle
 #: questions/fedora.yml:77
@@ -1509,7 +1510,7 @@ msgstr ""
 #. title
 #: questions/includes/fedora/coding/python.yml:3
 msgid "Anaconda"
-msgstr ""
+msgstr "Anaconda"
 
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:3
@@ -1529,7 +1530,7 @@ msgstr ""
 #. title
 #: questions/includes/fedora/coding/python.yml:11
 msgid "DNF"
-msgstr ""
+msgstr "DNF"
 
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:11
@@ -1594,22 +1595,22 @@ msgstr ""
 #. subtitle
 #: questions/includes/fedora/coding/web.yml:4
 msgid "on how to join the websites team?"
-msgstr ""
+msgstr "em como se juntar ao time de websites?"
 
 #. segue1
 #: questions/includes/fedora/coding/web.yml:9
 msgid "That's my style too."
-msgstr ""
+msgstr "Este é meu estilo também."
 
 #. segue2
 #: questions/includes/fedora/coding/web.yml:9
 msgid "How about working on the..."
-msgstr ""
+msgstr "Que tal trabalhar no..."
 
 #. subtitle
 #: questions/includes/fedora/coding/web.yml:9
 msgid "on different kinds of website tasks"
-msgstr ""
+msgstr "em diferentes tipos de tarefas de website"
 
 #. title
 #: questions/includes/fedora/coding/web.yml:16
@@ -1618,13 +1619,11 @@ msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/coding/web.yml:16
-#, fuzzy
 msgid "<a href='http://getfedora.org'>getfedora.org</a> is awesome"
-msgstr " href='http://getfedora.org'>getfedora.org é incrível"
+msgstr "<a href='http://getfedora.org'>getfedora.org</a> é incrível"
 
 #. title
 #: questions/includes/fedora/coding/web.yml:20
-#, fuzzy
 msgid "Magazine"
 msgstr "Revista"
 
@@ -1633,11 +1632,12 @@ msgstr "Revista"
 msgid ""
 "did you even know we had a <a href='http://fedoramagazine.org'>magazine</a>?"
 msgstr ""
+"você sabia que nós temos uma<a href='http://fedoramagazine.org'>revista</a>?"
 
 #. title
 #: questions/includes/fedora/coding/web.yml:24
 msgid "Wiki Theme"
-msgstr ""
+msgstr "Tema da Wiki"
 
 #. subtitle
 #: questions/includes/fedora/coding/web.yml:24
@@ -1647,12 +1647,12 @@ msgstr ""
 #. title
 #: questions/includes/fedora/coding/web.yml:28
 msgid "General Theme"
-msgstr ""
+msgstr "Tema Geral"
 
 #. subtitle
 #: questions/includes/fedora/coding/web.yml:28
 msgid "there's a list of sites that need standardizing"
-msgstr ""
+msgstr "há uma lista de sites que precisam de padronização"
 
 #. title
 #: questions/includes/fedora/coding/web.yml:32
@@ -1667,7 +1667,7 @@ msgstr "afinal de contas, somos uma comunidade internacional"
 #. title
 #: questions/includes/fedora/coding/web.yml:36
 msgid "User Gallery"
-msgstr ""
+msgstr "Galeria de Usuário"
 
 #. subtitle
 #: questions/includes/fedora/coding/web.yml:36

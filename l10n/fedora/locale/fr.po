@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2015-12-01 10:00-0500\n"
-"PO-Revision-Date: 2016-04-28 12:15-0400\n"
+"PO-Revision-Date: 2016-05-16 02:09-0400\n"
 "Last-Translator: José Fournier <jaaf64@zoraldia.com>\n"
 "Language-Team: French\n"
 "MIME-Version: 1.0\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1)\n"
-"X-Generator: Zanata 3.8.3\n"
+"X-Generator: Zanata 3.8.4\n"
 
 #. title
 #. description
@@ -197,8 +197,8 @@ msgstr "Progrès scientifiques"
 #: questions/coala.yml:52
 msgid "Join our coAST team and create language independent program analysis."
 msgstr ""
-"Rejoignez notre équipe coAST et créer des analyses de programme indépendante"
-" du langage."
+"Rejoignez notre équipe coAST et créez des analyses de programme "
+"indépendantes du langage."
 
 #. title
 #: questions/coala.yml:55
