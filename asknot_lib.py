@@ -95,6 +95,7 @@ def slugify(title, seen):
         '+': 'plus',
         '!': 'exclamation',
         ',': 'comma',
+        '\'': 'apostrophe',
     }
     for left, right in replacements.items():
         idx = idx.replace(left, right)
