@@ -143,7 +143,7 @@ def prepare_tree(data, node, parent=None, seen=None, _=lambda x: x):
 
     # Recursively apply this logic to all children of this node.
     for i, child in enumerate(node.get('children', [])):
-        node['children'][i] = prepare_tree(data, child, parent=node, seen=seen)
+        node['children'][i] = prepare_tree(data, child, parent=node, seen=seen, _=_)
 
     return node
 
