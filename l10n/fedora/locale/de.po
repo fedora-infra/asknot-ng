@@ -1,5 +1,5 @@
 # Enrico Wildgrube <kontakt@enrico-wildgrube.de>, 2015. #zanata
-# FloH. <postfuerflo@gmail.com>, 2016. #zanata
+# Florian H. <postfuerflo@gmail.com>, 2016. #zanata
 # Roman Spirgi <rspirgi@gmail.com>, 2016. #zanata
 msgid ""
 msgstr ""
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Generator: Zanata 3.8.4\n"
+"X-Generator: Zanata 3.9.6\n"
 
 #. title
 #. description

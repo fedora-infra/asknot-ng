@@ -5,20 +5,21 @@
 # Adolfo Jayme <fitoschido@gmail.com>, 2016. #zanata
 # Máximo Castañeda Riloba <mcrcctm@gmail.com>, 2016. #zanata
 # Omar Berroterán S. <omarberroteranlkf@gmail.com>, 2016. #zanata
+# William  Moreno Reyes <williamjmorenor@gmail.com>, 2016. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2015-12-01 10:00-0500\n"
-"PO-Revision-Date: 2016-06-18 06:29-0400\n"
-"Last-Translator: Máximo Castañeda Riloba <mcrcctm@gmail.com>\n"
+"PO-Revision-Date: 2016-09-07 07:34-0400\n"
+"Last-Translator: William  Moreno Reyes <williamjmorenor@gmail.com>\n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Generator: Zanata 3.8.4\n"
+"X-Generator: Zanata 3.9.6\n"
 
 #. title
 #. description
@@ -34,12 +35,12 @@ msgstr "No"
 #. negative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Nope, nope, nope"
-msgstr "Nou, nou, nou"
+msgstr "No, no, no"
 
 #. negative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Nope"
-msgstr "No."
+msgstr "No"
 
 #. negative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
@@ -74,7 +75,7 @@ msgstr "Sí"
 #. affirmative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Sounds awesome"
-msgstr "Suena grandioso"
+msgstr "Suena genial"
 
 #. affirmative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
@@ -99,7 +100,7 @@ msgstr "Por supuesto"
 #. backlink
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "I was wrong, take me back"
-msgstr "Me equivoqué, regresa atrás"
+msgstr "Me equivoqué, regresar atrás"
 
 #. backlink
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
@@ -124,7 +125,7 @@ msgstr "documentación de coala "
 #. navlink
 #: questions/coala.yml:1
 msgid "Get Live Help!"
-msgstr "Obtener ayuda en vivo"
+msgstr "Obtener ayuda en vivo!"
 
 #. segue1
 #: questions/coala.yml:33
