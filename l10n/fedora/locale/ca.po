@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2015-12-01 10:00-0500\n"
-"PO-Revision-Date: 2016-03-03 04:26-0500\n"
+"PO-Revision-Date: 2016-10-22 07:18-0400\n"
 "Last-Translator: Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>\n"
 "Language-Team: Catalan\n"
 "MIME-Version: 1.0\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ca\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Generator: Zanata 3.8.4\n"
+"X-Generator: Zanata 3.9.6\n"
 
 #. title
 #. description
@@ -64,7 +64,7 @@ msgstr "Següent, si us plau"
 #. affirmative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Yes"
-msgstr "Si"
+msgstr "Sí"
 
 #. affirmative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
@@ -292,7 +292,7 @@ msgstr "Us agradaria una cosa més"
 #. subtitle
 #: questions/fedora.yml:49
 msgid "connecting the dots"
-msgstr "Connexió dels punts"
+msgstr "connectar els punts"
 
 #. title
 #: questions/fedora.yml:56 questions/gnome.yml:40
@@ -368,7 +368,7 @@ msgstr "Sobre la forma d'esdevenir Fedora..."
 #. subtitle
 #: questions/fedora.yml:77
 msgid "spreading the good word"
-msgstr "Difondre de la bona paraula"
+msgstr "difondre la bona paraula"
 
 #. title
 #: questions/fedora.yml:84
@@ -393,7 +393,7 @@ msgstr "obtenir nou programari dins de Fedora"
 #. title
 #: questions/fedora.yml:91
 msgid "QA and Testing"
-msgstr "PR i proves"
+msgstr "AQ i proves"
 
 #. segue1
 #: questions/fedora.yml:91
@@ -445,7 +445,7 @@ msgstr "Així doncs us va la construcció del SO potent i flexible?"
 #. subtitle
 #: questions/fedora.yml:105
 msgid "the best and latest for the datacenter"
-msgstr "el millor i darrer per al centre de dades"
+msgstr "el millor i últim per al centre de dades"
 
 #. title
 #: questions/fedora.yml:112
@@ -475,7 +475,7 @@ msgstr "Teniu una perspectiva regional o mundial?"
 #. subtitle
 #: questions/fedora.yml:119
 msgid "making Fedora work better for all languages"
-msgstr "fer que Fedora funcioni millor per a tots els idiomes"
+msgstr "aconseguir que Fedora funcioni millor en tots els idiomes"
 
 #. title
 #. description

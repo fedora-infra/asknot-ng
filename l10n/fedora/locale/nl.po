@@ -1,148 +1,144 @@
-# Translations template for asknot-ng.
-# Copyright (C) 2015 ORGANIZATION
-# This file is distributed under the same license as the asknot-ng project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
-#
+# Patrick Uiterwijk <puiterwijk@redhat.com>, 2016. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2015-12-01 10:00-0500\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2016-10-07 02:47-0400\n"
+"Last-Translator: Patrick Uiterwijk <puiterwijk@redhat.com>\n"
 "Language-Team: Dutch\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: nl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Generator: Zanata 3.8.4\n"
+"X-Generator: Zanata 3.9.6\n"
 
 #. title
 #. description
 #: questions/coala.yml:1
 msgid "What can I do for coala?"
-msgstr ""
+msgstr "Wat kan ik doen foor coala?"
 
 #. negative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "No"
-msgstr ""
+msgstr "Nee"
 
 #. negative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Nope, nope, nope"
-msgstr ""
+msgstr "Nee, nee, nee"
 
 #. negative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Nope"
-msgstr ""
+msgstr "Nee"
 
 #. negative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "No, thanks"
-msgstr ""
+msgstr "Nee, bedankt"
 
 #. negative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Not on your life"
-msgstr ""
+msgstr "Niet van mijn leven"
 
 #. negative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Doesn't sound like me"
-msgstr ""
+msgstr "Klinkt niet als mij"
 
 #. negative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Absolutely not"
-msgstr ""
+msgstr "Absoluut niet"
 
 #. negative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Next, please"
-msgstr ""
+msgstr "Volgende, graag"
 
 #. affirmative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Yes"
-msgstr ""
+msgstr "Ja"
 
 #. affirmative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Sounds awesome"
-msgstr ""
+msgstr "Klinkt geweldig"
 
 #. affirmative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Tell me more"
-msgstr ""
+msgstr "Vertel me meer"
 
 #. affirmative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "That's me!"
-msgstr ""
+msgstr "Dat ben ik!"
 
 #. affirmative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Totally"
-msgstr ""
+msgstr "Absoluut"
 
 #. affirmative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Sure"
-msgstr ""
+msgstr "Ja"
 
 #. backlink
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "I was wrong, take me back"
-msgstr ""
+msgstr "Ik was verkeerd, neem me terug"
 
 #. backlink
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "I think I made a mistake"
-msgstr ""
+msgstr "Ik denk dat ik een fout gemaakt heb"
 
 #. backlink
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Get me outta here!"
-msgstr ""
+msgstr "Haal me hier uit!"
 
 #. navlink
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Join"
-msgstr ""
+msgstr "Word lid"
 
 #. navlink
 #: questions/coala.yml:1
 msgid "coala documentation"
-msgstr ""
+msgstr "Coala documentatie"
 
 #. navlink
 #: questions/coala.yml:1
 msgid "Get Live Help!"
-msgstr ""
+msgstr "Krijg live help"
 
 #. segue1
 #: questions/coala.yml:33
 msgid "Want to help coala?"
-msgstr ""
+msgstr "Wil je coala helpen?"
 
 #. segue2
 #: questions/coala.yml:33
 msgid "What do you care about?"
-msgstr ""
+msgstr "Wat geef je om?"
 
 #. title
 #: questions/coala.yml:37
 msgid "Visuals!"
-msgstr ""
+msgstr "Visuele dingen!"
 
 #. subtitle
 #: questions/coala.yml:37
 msgid "The coala artwork team is just for you!"
-msgstr ""
+msgstr "Het coala grafische team is voor jou!"
 
 #. title
 #: questions/coala.yml:40

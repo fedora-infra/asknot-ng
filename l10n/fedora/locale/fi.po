@@ -1,123 +1,119 @@
-# Translations template for asknot-ng.
-# Copyright (C) 2015 ORGANIZATION
-# This file is distributed under the same license as the asknot-ng project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
-#
+# Toni Rantala <trantalafilo@gmail.com>, 2017. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2015-12-01 10:00-0500\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2017-04-03 03:26-0400\n"
+"Last-Translator: Toni Rantala <trantalafilo@gmail.com>\n"
 "Language-Team: Finnish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fi\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Generator: Zanata 3.8.4\n"
+"X-Generator: Zanata 3.9.6\n"
 
 #. title
 #. description
 #: questions/coala.yml:1
 msgid "What can I do for coala?"
-msgstr ""
+msgstr "Mitä minä voin tehdä koalalle?"
 
 #. negative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "No"
-msgstr ""
+msgstr "Ei"
 
 #. negative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Nope, nope, nope"
-msgstr ""
+msgstr "Ei, ei, ei"
 
 #. negative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Nope"
-msgstr ""
+msgstr "Ei"
 
 #. negative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "No, thanks"
-msgstr ""
+msgstr "Ei kiitos"
 
 #. negative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Not on your life"
-msgstr ""
+msgstr "Ei ikinä"
 
 #. negative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Doesn't sound like me"
-msgstr ""
+msgstr "Ei kuulosta minulta"
 
 #. negative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Absolutely not"
-msgstr ""
+msgstr "Ehdottomasti ei"
 
 #. negative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Next, please"
-msgstr ""
+msgstr "Seuraava, kiitos"
 
 #. affirmative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Yes"
-msgstr ""
+msgstr "Kyllä"
 
 #. affirmative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Sounds awesome"
-msgstr ""
+msgstr "Kuulostaa mahtavalta"
 
 #. affirmative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Tell me more"
-msgstr ""
+msgstr "Kerro lisää"
 
 #. affirmative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "That's me!"
-msgstr ""
+msgstr "Tuo on minä!"
 
 #. affirmative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Totally"
-msgstr ""
+msgstr "Ehdottomasti"
 
 #. affirmative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Sure"
-msgstr ""
+msgstr "Toki"
 
 #. backlink
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "I was wrong, take me back"
-msgstr ""
+msgstr "Olin väärässä, vie minut takaisin"
 
 #. backlink
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "I think I made a mistake"
-msgstr ""
+msgstr "Luulen että tein virheen"
 
 #. backlink
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Get me outta here!"
-msgstr ""
+msgstr "Päästä minut pois täältä!"
 
 #. navlink
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Join"
-msgstr ""
+msgstr "Liity"
 
 #. navlink
 #: questions/coala.yml:1
 msgid "coala documentation"
-msgstr ""
+msgstr "koala dokumentaatio"
 
 #. navlink
 #: questions/coala.yml:1
@@ -127,12 +123,12 @@ msgstr ""
 #. segue1
 #: questions/coala.yml:33
 msgid "Want to help coala?"
-msgstr ""
+msgstr "Haluatko auttaa koalaa?"
 
 #. segue2
 #: questions/coala.yml:33
 msgid "What do you care about?"
-msgstr ""
+msgstr "Mistä sinä välität?"
 
 #. title
 #: questions/coala.yml:37
@@ -147,7 +143,7 @@ msgstr ""
 #. title
 #: questions/coala.yml:40
 msgid "Good, Generic Code"
-msgstr ""
+msgstr "Hyvää, geneeristä koodia"
 
 #. subtitle
 #: questions/coala.yml:40
@@ -157,12 +153,12 @@ msgstr ""
 #. title
 #: questions/coala.yml:43
 msgid "Reaching Users"
-msgstr ""
+msgstr "Käyttäjien tavoittaminen"
 
 #. subtitle
 #: questions/coala.yml:43
 msgid "Write documentation that is understandable by everyone."
-msgstr ""
+msgstr "Kirjoita dokumentaatiota jota jokainen ymmärtää."
 
 #. title
 #: questions/coala.yml:46
@@ -172,12 +168,12 @@ msgstr ""
 #. subtitle
 #: questions/coala.yml:46
 msgid "Join our translation team!"
-msgstr ""
+msgstr "Liity käännös-tiimiin!"
 
 #. title
 #: questions/coala.yml:49
 msgid "Crazy Algorithms"
-msgstr ""
+msgstr "Hullut algoritmit"
 
 #. subtitle
 #: questions/coala.yml:49
@@ -199,7 +195,7 @@ msgstr ""
 #. title
 #: questions/coala.yml:55
 msgid "Money"
-msgstr ""
+msgstr "Raha"
 
 #. subtitle
 #: questions/coala.yml:55
@@ -210,27 +206,27 @@ msgstr ""
 #. description
 #: questions/fedora.yml:1
 msgid "What can I do for Fedora?"
-msgstr ""
+msgstr "Mitä minä voin tehdä Fedoralle?"
 
 #. navlink
 #: questions/fedora.yml:1
 msgid "Get Fedora"
-msgstr ""
+msgstr "Hanki Fedora"
 
 #. segue1
 #: questions/fedora.yml:31
 msgid "Want to help Fedora?  Tell me..."
-msgstr ""
+msgstr "Haluat auttaa Fedoraa? Kerro..."
 
 #. segue2
 #: questions/fedora.yml:31
 msgid "what's your area of interest?"
-msgstr ""
+msgstr "mitkä aiheet sinua kiinnostavat?"
 
 #. title
 #: questions/fedora.yml:35
 msgid "Design!"
-msgstr ""
+msgstr "Suunnittelu!"
 
 #. segue1
 #: questions/fedora.yml:35
@@ -241,27 +237,27 @@ msgstr ""
 #. segue2
 #: questions/fedora.yml:35
 msgid "How about the..."
-msgstr ""
+msgstr "Miten olisi..."
 
 #. subtitle
 #: questions/fedora.yml:35
 msgid "pixel ninjas"
-msgstr ""
+msgstr "pikseli ninjat"
 
 #. title
 #: questions/fedora.yml:42
 msgid "Coding"
-msgstr ""
+msgstr "Ohjelmointi"
 
 #. segue1
 #: questions/fedora.yml:42
 msgid "Zeroes and ones #allday?  Me too."
-msgstr ""
+msgstr "Ykkösiä ja nollia #kokopäivä? "
 
 #. segue2
 #: questions/fedora.yml:42
 msgid "What's your favorite language?"
-msgstr ""
+msgstr "Mikä on suosikki kielesi?"
 
 #. subtitle
 #: questions/fedora.yml:42
@@ -276,7 +272,7 @@ msgstr ""
 #. segue1
 #: questions/fedora.yml:49
 msgid "Have a knack for community-building?"
-msgstr ""
+msgstr "Onko sinulla taipumusta yhteisön rakentamiseen?"
 
 #. segue2
 #: questions/fedora.yml:49 questions/includes/fedora/coding.yml:38
@@ -292,38 +288,38 @@ msgstr ""
 #. title
 #: questions/fedora.yml:56 questions/gnome.yml:40
 msgid "Writing"
-msgstr ""
+msgstr "Kirjoittaminen"
 
 #. segue1
 #: questions/fedora.yml:56
 msgid "So, you have a way with words?"
-msgstr ""
+msgstr "Sinulla on siis sana hallussa?"
 
 #. segue2
 #: questions/fedora.yml:56 questions/fedora.yml:70
 msgid "Would you be more interested in..."
-msgstr ""
+msgstr "Olisitko enemmän kiinnostunut..."
 
 #. subtitle
 #: questions/fedora.yml:56
 msgid "wordsmithery"
-msgstr ""
+msgstr "sanaseppoilu"
 
 #. title
 #: questions/fedora.yml:63
 msgid "Categorization"
-msgstr ""
+msgstr "luokittlelusta"
 
 #. segue1
 #: questions/fedora.yml:63
 msgid "So you like putting things in their place?"
-msgstr ""
+msgstr "Tykkäät siis laittaa asiat paikoilleen?"
 
 #. segue2
 #: questions/fedora.yml:63 questions/includes/fedora/coding.yml:15
 #: questions/includes/fedora/coding.yml:21
 msgid "How about..."
-msgstr ""
+msgstr "Miten olisi..."
 
 #. subtitle
 #: questions/fedora.yml:63
@@ -333,12 +329,12 @@ msgstr ""
 #. title
 #: questions/fedora.yml:70
 msgid "Translation"
-msgstr ""
+msgstr "Kääntäminen"
 
 #. segue1
 #: questions/fedora.yml:70
 msgid "So you know more than one language?  We need you!"
-msgstr ""
+msgstr "Osaat siis useampaa kuin yhtä kieltä? Me tarvitsemme sinua!"
 
 #. subtitle
 #: questions/fedora.yml:70
@@ -363,52 +359,52 @@ msgstr ""
 #. subtitle
 #: questions/fedora.yml:77
 msgid "spreading the good word"
-msgstr ""
+msgstr "sanan levittäminen"
 
 #. title
 #: questions/fedora.yml:84
 msgid "Packaging"
-msgstr ""
+msgstr "Paketointi"
 
 #. segue1
 #: questions/fedora.yml:84
 msgid "So you want to help build the OS?  Excellent."
-msgstr ""
+msgstr "Haluat siis auttaa käyttöjärjestelmän kehittämisessä? Loistavaa."
 
 #. segue2
 #: questions/fedora.yml:84
 msgid "Then you'll need to become a Fedora..."
-msgstr ""
+msgstr "Silloin sinusta pitää tulla Fedora..."
 
 #. subtitle
 #: questions/fedora.yml:84
 msgid "getting new software into Fedora"
-msgstr ""
+msgstr "uusien ohjelmien lisääminen Fedoraan"
 
 #. title
 #: questions/fedora.yml:91
 msgid "QA and Testing"
-msgstr ""
+msgstr "Laadunvalvonta ja testaus"
 
 #. segue1
 #: questions/fedora.yml:91
 msgid "So you like to push all the buttons and break all the things?"
-msgstr ""
+msgstr "Haluat siis painaa kaikkia nappeja ja rikkoa kaiken?"
 
 #. segue2
 #: questions/fedora.yml:91
 msgid "Are you more interested in something..."
-msgstr ""
+msgstr "Olisitko enemmän kiinnostunut jostakin..."
 
 #. subtitle
 #: questions/fedora.yml:91
 msgid "as they say, \"if it's not tested, it's broken\""
-msgstr ""
+msgstr "kuten sanotaan, \"jos sitä ei ole testattu, se on rikki\""
 
 #. title
 #: questions/fedora.yml:98
 msgid "The Desktop"
-msgstr ""
+msgstr "Työpöytä"
 
 #. segue1
 #: questions/fedora.yml:98
@@ -424,12 +420,12 @@ msgstr ""
 #. subtitle
 #: questions/fedora.yml:98
 msgid "we all have our favorite"
-msgstr ""
+msgstr "meillä kaikilla on suosikkimme"
 
 #. title
 #: questions/fedora.yml:105
 msgid "The Server"
-msgstr ""
+msgstr "Palvelin"
 
 #. segue1
 #: questions/fedora.yml:105
@@ -439,12 +435,12 @@ msgstr ""
 #. subtitle
 #: questions/fedora.yml:105
 msgid "the best and latest for the datacenter"
-msgstr ""
+msgstr "parasta ja viimeisintä konesaleille"
 
 #. title
 #: questions/fedora.yml:112
 msgid "The Cloud"
-msgstr ""
+msgstr "Pilvi"
 
 #. segue1
 #: questions/fedora.yml:112
@@ -454,68 +450,68 @@ msgstr ""
 #. subtitle
 #: questions/fedora.yml:112
 msgid "it's where the future lives"
-msgstr ""
+msgstr "se on tulevaisuus"
 
 #. title
 #: questions/fedora.yml:119
 msgid "Internationalization"
-msgstr ""
+msgstr "Kansainvälistäminen"
 
 #. segue1
 #: questions/fedora.yml:119
 msgid "Have a regional or world perspective?"
-msgstr ""
+msgstr "Onko sinulla alueellista tai maailmanlaajuista näkökulmaa?"
 
 #. subtitle
 #: questions/fedora.yml:119
 msgid "making Fedora work better for all languages"
-msgstr ""
+msgstr "Fedoran parantaminen kaikille kielille"
 
 #. title
 #. description
 #: questions/gnome.yml:1
 msgid "What can I do for GNOME?"
-msgstr ""
+msgstr "Mitä minä voin tehdä GNOME:lle?"
 
 #. navlink
 #: questions/gnome.yml:1
 msgid "Get GNOME"
-msgstr ""
+msgstr "Hanki GNOME"
 
 #. navlink
 #: questions/gnome.yml:1
 msgid "GNOME.org"
-msgstr ""
+msgstr "GNOME.org"
 
 #. segue1
 #: questions/gnome.yml:33
 msgid "Want to help GNOME?"
-msgstr ""
+msgstr "Haluatko autaa GNOME:a?"
 
 #. segue2
 #: questions/gnome.yml:33
 msgid "First tell us what you like!"
-msgstr ""
+msgstr "Kerro meille ensin mistä pidät!"
 
 #. title
 #: questions/gnome.yml:37
 msgid "Design and Usability"
-msgstr ""
+msgstr "Suunnittelu ja käytettävyys"
 
 #. subtitle
 #: questions/gnome.yml:37
 msgid "Making sure we focus on users."
-msgstr ""
+msgstr "Varmistat että keskitymme käyttäjiin."
 
 #. subtitle
 #: questions/gnome.yml:40
 msgid "Want to help with your english skills?"
-msgstr ""
+msgstr "Haluatko auttaa englanninkielen taidoillasi?"
 
 #. title
 #: questions/gnome.yml:43
 msgid "Articles"
-msgstr ""
+msgstr "Artikkelit"
 
 #. subtitle
 #: questions/gnome.yml:43
@@ -526,7 +522,7 @@ msgstr ""
 #: questions/gnome.yml:46 questions/includes/fedora/translation.yml:19
 #: questions/includes/fedora/writing.yml:3
 msgid "Documentation"
-msgstr ""
+msgstr "Dokumentaatio"
 
 #. subtitle
 #: questions/gnome.yml:46
@@ -536,22 +532,22 @@ msgstr ""
 #. title
 #: questions/gnome.yml:49
 msgid "Languages"
-msgstr ""
+msgstr "Kielet"
 
 #. subtitle
 #: questions/gnome.yml:49
 msgid "You could help translating!"
-msgstr ""
+msgstr "Voisit auttaa kääntämisessä!"
 
 #. title
 #: questions/gnome.yml:52
 msgid "Code"
-msgstr ""
+msgstr "Koodi"
 
 #. subtitle
 #: questions/gnome.yml:52
 msgid "Get your hands dirty!"
-msgstr ""
+msgstr "Likaa kätesi!"
 
 #. title
 #: questions/gnome.yml:55
@@ -566,7 +562,7 @@ msgstr ""
 #. title
 #: questions/gnome.yml:58
 msgid "Fixing Bugs"
-msgstr ""
+msgstr "Ohjelmavirheiden korjaaminen"
 
 #. subtitle
 #: questions/gnome.yml:58
@@ -581,29 +577,29 @@ msgstr ""
 #. subtitle
 #: questions/gnome.yml:61
 msgid "The QA team might be right for you."
-msgstr ""
+msgstr "Laadunvalvonta tiimi voisi olla sinua varten."
 
 #. title
 #: questions/gnome.yml:64
 msgid "System Administration"
-msgstr ""
+msgstr "Järjestelmänvalvonta"
 
 #. subtitle
 #: questions/gnome.yml:64
 msgid "Help us managing our infrastructure!"
-msgstr ""
+msgstr "Auta meitä infrastruktuurimme hallinnassa!"
 
 #. title
 #: questions/includes/fedora/advocacy.yml:3
 #: questions/includes/fedora/community.yml:15
 msgid "Ambassador"
-msgstr ""
+msgstr "Lähettiläs"
 
 #. subtitle
 #: questions/includes/fedora/advocacy.yml:3
 #: questions/includes/fedora/community.yml:15
 msgid "the representatives of Fedora"
-msgstr ""
+msgstr "Fedoran edustaja"
 
 #. title
 #: questions/includes/fedora/categorization.yml:3
@@ -618,27 +614,27 @@ msgstr ""
 #. title
 #: questions/includes/fedora/cloud.yml:3
 msgid "Cloud SIG"
-msgstr ""
+msgstr "Pilvi SIG"
 
 #. subtitle
 #: questions/includes/fedora/cloud.yml:3
 msgid "the special-interest-group for Fedora Cloud"
-msgstr ""
+msgstr "Fedora Pilven special-interest-group"
 
 #. title
 #: questions/includes/fedora/cloud.yml:6
 msgid "RDO"
-msgstr ""
+msgstr "RDO"
 
 #. subtitle
 #: questions/includes/fedora/cloud.yml:6
 msgid "the OpenStack distro for Fedora"
-msgstr ""
+msgstr "OpenStack-distribuution Fedoralle"
 
 #. title
 #: questions/includes/fedora/coding.yml:3
 msgid "Python"
-msgstr ""
+msgstr "Python"
 
 #. segue1
 #: questions/includes/fedora/coding.yml:3
@@ -653,33 +649,35 @@ msgstr ""
 #. subtitle
 #: questions/includes/fedora/coding.yml:3
 msgid "a dynamic language for rapid development"
-msgstr ""
+msgstr "dynaaminen kieli nopeaan kehittämiseen"
 
 #. title
 #: questions/includes/fedora/coding.yml:9
 msgid "C"
-msgstr ""
+msgstr "C"
 
 #. segue1
 #: questions/includes/fedora/coding.yml:9
 msgid "So, you think OOP is for hipsters?  Let me tell you, back in my day..."
 msgstr ""
+"Uskot siis että olio-ohjelmointi on hipstereille? Kuuleppas, silloin kun "
+"minä olin nuori..."
 
 #. segue2
 #: questions/includes/fedora/coding.yml:9
 #: questions/includes/fedora/coding.yml:27
 msgid "How about working on..."
-msgstr ""
+msgstr "Miten olisi jos työskentelisit..."
 
 #. subtitle
 #: questions/includes/fedora/coding.yml:9
 msgid "close to the metal"
-msgstr ""
+msgstr "lähellä rautaa"
 
 #. title
 #: questions/includes/fedora/coding.yml:15
 msgid "Haskell"
-msgstr ""
+msgstr "Haskell"
 
 #. segue1
 #: questions/includes/fedora/coding.yml:15
@@ -687,6 +685,8 @@ msgid ""
 "So, programming without side-effects is what you're all about?  Sounds "
 "useful!"
 msgstr ""
+"Eli ohjelmointi ilman sivuvaikutuksia on sinun juttusi? Kuulostaa "
+"hyödylliseltä!"
 
 #. subtitle
 #: questions/includes/fedora/coding.yml:15
@@ -696,7 +696,7 @@ msgstr ""
 #. title
 #: questions/includes/fedora/coding.yml:21
 msgid "Java"
-msgstr ""
+msgstr "Java"
 
 #. segue1
 #: questions/includes/fedora/coding.yml:21
@@ -713,7 +713,7 @@ msgstr ""
 #. title
 #: questions/includes/fedora/coding.yml:27
 msgid "Scala"
-msgstr ""
+msgstr "Scala"
 
 #. segue1
 #: questions/includes/fedora/coding.yml:27
@@ -721,6 +721,8 @@ msgid ""
 "So, just OOP or functional languages wouldn't do it?  You had to have both, "
 "huh?"
 msgstr ""
+"Pelkkä olio-ohjelmointi tai funktionaaliset kielet eivät riitä? Sinun piti "
+"saada siis molemmat vai?"
 
 #. subtitle
 #: questions/includes/fedora/coding.yml:27
@@ -730,18 +732,20 @@ msgstr ""
 #. title
 #: questions/includes/fedora/coding.yml:33
 msgid "JavaScript"
-msgstr ""
+msgstr "JavaScript"
 
 #. segue1
 #: questions/includes/fedora/coding.yml:33
 msgid ""
 "So, you think having native integers is over-rated?  What could go wrong?"
 msgstr ""
+"Luulet siis että natiivit kokonaisluvut ovat yliarvostettua? Mikä voisi "
+"mennä vikaan?"
 
 #. segue2
 #: questions/includes/fedora/coding.yml:33
 msgid "There's plenty to do.  How about joining the.."
-msgstr ""
+msgstr "Täällä on paljon tehtävää. Mitä jos liittyisit..."
 
 #. subtitle
 #: questions/includes/fedora/coding.yml:33
@@ -752,12 +756,12 @@ msgstr ""
 #: questions/includes/fedora/coding.yml:38
 #: questions/includes/fedora/design.yml:35
 msgid "Websites Team"
-msgstr ""
+msgstr "Verkkosivu-tiimi"
 
 #. segue1
 #: questions/includes/fedora/coding.yml:38
 msgid "Great!"
-msgstr ""
+msgstr "Mahtavaa!"
 
 #. subtitle
 #: questions/includes/fedora/coding.yml:38
@@ -766,11 +770,13 @@ msgid ""
 "web developers that build <a "
 "href=\"https://getfedora.org\">getfedora.org</a> and other awesome sites"
 msgstr ""
+"verkkokehittäjät jotka kehittävä <a "
+"href=\"https://getfedora.org\">getfedora.org</a> ja muita upeita sivuja"
 
 #. title
 #: questions/includes/fedora/coding.yml:44
 msgid "Ruby"
-msgstr ""
+msgstr "Ruby"
 
 #. subtitle
 #: questions/includes/fedora/coding.yml:44
@@ -780,7 +786,7 @@ msgstr ""
 #. title
 #: questions/includes/fedora/coding.yml:48
 msgid "C++"
-msgstr ""
+msgstr "C++"
 
 #. segue1
 #: questions/includes/fedora/coding.yml:48
@@ -788,6 +794,8 @@ msgid ""
 "So, you're not happy if your error messages are comprehensible?  We have a "
 "place for you."
 msgstr ""
+"Et siis ole tyytyväinen jos virheilmoitukset käyvät järkeen? Meillä paikka "
+"sinulle."
 
 #. segue2
 #: questions/includes/fedora/coding.yml:48
@@ -808,7 +816,7 @@ msgstr ""
 #: questions/includes/fedora/writing.yml:9
 #: questions/includes/fedora/coding/web.yml:4
 msgid "General"
-msgstr ""
+msgstr "Yleisesti"
 
 #. subtitle
 #: questions/includes/fedora/community.yml:3
@@ -822,19 +830,19 @@ msgstr ""
 #: questions/includes/fedora/writing.yml:13
 #: questions/includes/fedora/coding/web.yml:9
 msgid "Specific"
-msgstr ""
+msgstr "Tietty"
 
 #. segue1
 #: questions/includes/fedora/community.yml:8
 #: questions/includes/fedora/design.yml:15
 msgid "Excellent!"
-msgstr ""
+msgstr "Loistavaa!"
 
 #. segue2
 #: questions/includes/fedora/community.yml:8
 #: questions/includes/fedora/design.yml:15
 msgid "How does this sound?"
-msgstr ""
+msgstr "Miltä kuulostaa?"
 
 #. subtitle
 #: questions/includes/fedora/community.yml:8
@@ -845,7 +853,7 @@ msgstr ""
 #: questions/includes/fedora/community.yml:19
 #: questions/includes/fedora/writing.yml:50
 msgid "Community Blog"
-msgstr ""
+msgstr "Yhteisön blogi"
 
 #. subtitle
 #: questions/includes/fedora/community.yml:19
@@ -856,13 +864,14 @@ msgstr ""
 #. title
 #: questions/includes/fedora/community.yml:22
 msgid "5 Things in Fedora This Week"
-msgstr ""
+msgstr "5 asiaa Fedorassa tällä viikolla"
 
 #. subtitle
 #: questions/includes/fedora/community.yml:22
 msgid ""
 "finding information for a weekly article about the happenings in Fedora"
 msgstr ""
+"tiedon etsiminen viikoittaiseen artikkeliin siitä mitä Fedorassa tapahtuu"
 
 #. title
 #: questions/includes/fedora/design.yml:3
@@ -872,7 +881,7 @@ msgstr ""
 #. segue1
 #: questions/includes/fedora/design.yml:3
 msgid "Ok."
-msgstr ""
+msgstr "Ok."
 
 #. subtitle
 #: questions/includes/fedora/design.yml:3
@@ -897,7 +906,7 @@ msgstr ""
 #. subtitle
 #: questions/includes/fedora/design.yml:22
 msgid "there are people in need of good taste -- you can help"
-msgstr ""
+msgstr "toiset ihmiset kaipaavat hyvää makua -- sinä voit auttaa"
 
 #. title
 #: questions/includes/fedora/design.yml:26
@@ -912,7 +921,7 @@ msgstr ""
 #. title
 #: questions/includes/fedora/design.yml:30
 msgid "Fedora Badges"
-msgstr ""
+msgstr "Fedora-merkit"
 
 #. subtitle
 #: questions/includes/fedora/design.yml:30
@@ -920,6 +929,8 @@ msgid ""
 "make awesome badge art that fuels <a "
 "href=\"https://badges.fedoraproject.org\">badges.fp.o</a>"
 msgstr ""
+"luo upeaa merkki-taidetta <a "
+"href=\"https://badges.fedoraproject.org\">badges.fp.o</a>"
 
 #. title
 #: questions/includes/fedora/desktop.yml:3
@@ -934,7 +945,7 @@ msgstr ""
 #. title
 #: questions/includes/fedora/desktop.yml:7
 msgid "Cinnamon SIG"
-msgstr ""
+msgstr "Cinnamon SIG"
 
 #. subtitle
 #: questions/includes/fedora/desktop.yml:7
@@ -945,17 +956,17 @@ msgstr ""
 #. title
 #: questions/includes/fedora/desktop.yml:11
 msgid "KDE SIG"
-msgstr ""
+msgstr "KDE SIG"
 
 #. subtitle
 #: questions/includes/fedora/desktop.yml:11
 msgid "to provide high-quality, usable KDE software packages"
-msgstr ""
+msgstr "tarjotaksesi korkealaatuisia, käytettäviä KDE ohjelmapaketteja"
 
 #. title
 #: questions/includes/fedora/desktop.yml:15
 msgid "LXDE SIG"
-msgstr ""
+msgstr "LXDE SIG"
 
 #. subtitle
 #: questions/includes/fedora/desktop.yml:15
@@ -965,27 +976,28 @@ msgstr ""
 #. title
 #: questions/includes/fedora/desktop.yml:19
 msgid "XFCE SIG"
-msgstr ""
+msgstr "XFCE SIG"
 
 #. subtitle
 #: questions/includes/fedora/desktop.yml:19
 msgid "for those excited about integration of the Xfce desktop environment"
 msgstr ""
+"niille jotka ovat kiinnostuneet Xfce-työpöytäympäristön integroinnista"
 
 #. title
 #: questions/includes/fedora/i18n.yml:3
 msgid "i18n"
-msgstr ""
+msgstr "i18n"
 
 #. subtitle
 #: questions/includes/fedora/i18n.yml:3
 msgid "the Fedora Internationalization subproject"
-msgstr ""
+msgstr "Fedoran kansainvälistämisen alaprojekti"
 
 #. title
 #: questions/includes/fedora/packaging.yml:3
 msgid "Package Maintainer"
-msgstr ""
+msgstr "Paketin ylläpitäjä"
 
 #. subtitle
 #: questions/includes/fedora/packaging.yml:3
@@ -995,17 +1007,17 @@ msgstr ""
 #. subtitle
 #: questions/includes/fedora/qa.yml:4
 msgid "about how to join the QA team?"
-msgstr ""
+msgstr "kuinka liittyä laadunvalvonta tiimiin?"
 
 #. segue1
 #: questions/includes/fedora/qa.yml:8
 msgid "Certainly."
-msgstr ""
+msgstr "Totta kai."
 
 #. segue2
 #: questions/includes/fedora/qa.yml:8
 msgid "We need people to..."
-msgstr ""
+msgstr "Tarvitsemme ihmisiä..."
 
 #. subtitle
 #: questions/includes/fedora/qa.yml:8
@@ -1025,7 +1037,7 @@ msgstr ""
 #. title
 #: questions/includes/fedora/qa.yml:17
 msgid "Test Updates"
-msgstr ""
+msgstr "Testaa päivityksiä"
 
 #. subtitle
 #: questions/includes/fedora/qa.yml:17
@@ -1040,17 +1052,17 @@ msgstr ""
 #. subtitle
 #: questions/includes/fedora/qa.yml:20
 msgid "otherwise we won't know what to test"
-msgstr ""
+msgstr "muutem emme tiedä mitä testata"
 
 #. title
 #: questions/includes/fedora/qa.yml:24
 msgid "Develop Tools"
-msgstr ""
+msgstr "Kehitä työkaluja"
 
 #. segue1
 #: questions/includes/fedora/qa.yml:24
 msgid "I'm of the same mind."
-msgstr ""
+msgstr "Olen samaa mieltä."
 
 #. segue2
 #: questions/includes/fedora/qa.yml:24
@@ -1085,12 +1097,12 @@ msgstr ""
 #. title
 #: questions/includes/fedora/qa.yml:36
 msgid "Bodhi"
-msgstr ""
+msgstr "Bodhi"
 
 #. subtitle
 #: questions/includes/fedora/qa.yml:36
 msgid "the Fedora Updates System"
-msgstr ""
+msgstr "Fedora päivitysjärjestelmä"
 
 #. title
 #: questions/includes/fedora/qa.yml:39
@@ -1100,7 +1112,7 @@ msgstr ""
 #. subtitle
 #: questions/includes/fedora/qa.yml:39
 msgid "a handsome tool to ease testing updates"
-msgstr ""
+msgstr "upea työkalu päivitysten testaukse helpottamiseksi"
 
 #. title
 #: questions/includes/fedora/qa.yml:43
@@ -1120,7 +1132,7 @@ msgstr ""
 #. subtitle
 #: questions/includes/fedora/qa.yml:43
 msgid "some basically abandoned tasks"
-msgstr ""
+msgstr "joitain käytännössä hylättyjä tehtäviä"
 
 #. title
 #: questions/includes/fedora/qa.yml:49
@@ -1130,7 +1142,7 @@ msgstr ""
 #. subtitle
 #: questions/includes/fedora/qa.yml:49
 msgid "you'll need a heart of gold"
-msgstr ""
+msgstr "sinulla pitää olla kultainen sydän"
 
 #. title
 #: questions/includes/fedora/server.yml:3
@@ -1150,12 +1162,12 @@ msgstr ""
 #. segue1
 #: questions/includes/fedora/translation.yml:7
 msgid "Let's get down to business."
-msgstr ""
+msgstr "Suoraan asiaan."
 
 #. segue2
 #: questions/includes/fedora/translation.yml:7
 msgid "Perhaps you'd be interested in translating..."
-msgstr ""
+msgstr "Ehkä sinua kiinnostaisi kääntäminen..."
 
 #. subtitle
 #: questions/includes/fedora/translation.yml:7
@@ -1165,33 +1177,33 @@ msgstr ""
 #. title
 #: questions/includes/fedora/translation.yml:13
 msgid "User Interfaces"
-msgstr ""
+msgstr "Käyttöliittymät"
 
 #. subtitle
 #: questions/includes/fedora/translation.yml:13
 msgid "there are some essential projects that need translating"
-msgstr ""
+msgstr "on joitakin oleellisia projekteja jotka kaipaavat kääntämistä"
 
 #. title
 #: questions/includes/fedora/translation.yml:16
 msgid "Wiki Pages"
-msgstr ""
+msgstr "Wiki-sivut"
 
 #. subtitle
 #: questions/includes/fedora/translation.yml:16
 msgid "usually from English to another language"
-msgstr ""
+msgstr "yleensä englannista toiselle kielelle"
 
 #. subtitle
 #: questions/includes/fedora/translation.yml:19
 msgid "all the guides and release notes"
-msgstr ""
+msgstr "kaikki oppaat ja julkaisumuistiot"
 
 #. title
 #: questions/includes/fedora/translation.yml:22
 #: questions/includes/fedora/coding/c.yml:15
 msgid "GNOME"
-msgstr ""
+msgstr "GNOME"
 
 #. subtitle
 #: questions/includes/fedora/translation.yml:22
@@ -1202,7 +1214,7 @@ msgstr ""
 #: questions/includes/fedora/translation.yml:25
 #: questions/includes/fedora/coding/c++.yml:7
 msgid "KDE"
-msgstr ""
+msgstr "KDE"
 
 #. subtitle
 #: questions/includes/fedora/translation.yml:25
@@ -1212,7 +1224,7 @@ msgstr ""
 #. segue1
 #: questions/includes/fedora/writing.yml:3
 msgid "Without you no-one would be able to \"RTFM\", as they say."
-msgstr ""
+msgstr "Ilman sinua kukaan ei voisi sanoa \"RTFM\", kuten sanotaan."
 
 #. segue2
 #: questions/includes/fedora/writing.yml:3
@@ -1232,12 +1244,12 @@ msgstr ""
 #. segue1
 #: questions/includes/fedora/writing.yml:13
 msgid "Now we're talking!"
-msgstr ""
+msgstr "Nyt päästiin asiaan!"
 
 #. segue2
 #: questions/includes/fedora/writing.yml:13
 msgid "Let's see.  How about working on..."
-msgstr ""
+msgstr "Katsotaanpa. Miten olisi..."
 
 #. subtitle
 #: questions/includes/fedora/writing.yml:13
@@ -1267,27 +1279,27 @@ msgstr ""
 #. title
 #: questions/includes/fedora/writing.yml:25
 msgid "A Guide"
-msgstr ""
+msgstr "Opas"
 
 #. subtitle
 #: questions/includes/fedora/writing.yml:25
 msgid "a more technical type of documentation"
-msgstr ""
+msgstr "teknisempi dokumentaatio"
 
 #. title
 #: questions/includes/fedora/writing.yml:28
 msgid "Real Issues"
-msgstr ""
+msgstr "Oikeaet ongelmat"
 
 #. subtitle
 #: questions/includes/fedora/writing.yml:28
 msgid "that people have reported"
-msgstr ""
+msgstr "joista käyttäjät ovat kertoneet"
 
 #. title
 #: questions/includes/fedora/writing.yml:32
 msgid "Blogging"
-msgstr ""
+msgstr "Bloggaaminen"
 
 #. segue1
 #: questions/includes/fedora/writing.yml:32
@@ -1302,32 +1314,32 @@ msgstr ""
 #. subtitle
 #: questions/includes/fedora/writing.yml:32
 msgid "21st century journalism, my friend"
-msgstr ""
+msgstr "Nykyaikaista journalismia, ystäväni"
 
 #. title
 #: questions/includes/fedora/writing.yml:37
 msgid "More Formal"
-msgstr ""
+msgstr "Muodollisempi"
 
 #. segue1
 #: questions/includes/fedora/writing.yml:37
 msgid "Yes!  The spotlight!"
-msgstr ""
+msgstr "Kyllä! Parrasvalot!"
 
 #. segue2
 #: questions/includes/fedora/writing.yml:37
 msgid "You should get involved in writing for..."
-msgstr ""
+msgstr "Sinun pitäisi lähteä mukaan kirjoittamaan..."
 
 #. subtitle
 #: questions/includes/fedora/writing.yml:37
 msgid "something \"official\""
-msgstr ""
+msgstr "jotakin \"virallista\""
 
 #. title
 #: questions/includes/fedora/writing.yml:42
 msgid "Fedora Magazine"
-msgstr ""
+msgstr "Fedora Magazine"
 
 #. subtitle
 #: questions/includes/fedora/writing.yml:42
@@ -1337,27 +1349,27 @@ msgstr ""
 #. title
 #: questions/includes/fedora/writing.yml:45
 msgid "Less Formal"
-msgstr ""
+msgstr "Vähemmän muodollinen"
 
 #. segue1
 #: questions/includes/fedora/writing.yml:45
 msgid "We have just the thing for you."
-msgstr ""
+msgstr "Meillä on juuri sinulle sopiva homma."
 
 #. segue2
 #: questions/includes/fedora/writing.yml:45
 msgid "Get your own blog added to the..."
-msgstr ""
+msgstr "Sinun blogisi voidaan lisätä..."
 
 #. subtitle
 #: questions/includes/fedora/writing.yml:45
 msgid "something more personal"
-msgstr ""
+msgstr "vähän persoonallisempi"
 
 #. title
 #: questions/includes/fedora/writing.yml:53
 msgid "Fedora Planet"
-msgstr ""
+msgstr "Fedora Planet"
 
 #. subtitle
 #: questions/includes/fedora/writing.yml:53
@@ -1367,12 +1379,12 @@ msgstr ""
 #. title
 #: questions/includes/fedora/coding/c++.yml:3
 msgid "LibreOffice"
-msgstr ""
+msgstr "LibreOffice"
 
 #. subtitle
 #: questions/includes/fedora/coding/c++.yml:3
 msgid "a free and open source office suite"
-msgstr ""
+msgstr "vapaa ja avoimen lähdekoodin toimisto-ohjelmisto"
 
 #. subtitle
 #: questions/includes/fedora/coding/c++.yml:7
@@ -1382,7 +1394,7 @@ msgstr ""
 #. title
 #: questions/includes/fedora/coding/c.yml:3
 msgid "OSTree"
-msgstr ""
+msgstr "OSTree"
 
 #. subtitle
 #: questions/includes/fedora/coding/c.yml:3
@@ -1392,7 +1404,7 @@ msgstr ""
 #. title
 #: questions/includes/fedora/coding/c.yml:7
 msgid "systemd"
-msgstr ""
+msgstr "systemd"
 
 #. subtitle
 #: questions/includes/fedora/coding/c.yml:7
@@ -1402,7 +1414,7 @@ msgstr ""
 #. title
 #: questions/includes/fedora/coding/c.yml:11
 msgid "Cockpit"
-msgstr ""
+msgstr "Cockpit"
 
 #. subtitle
 #: questions/includes/fedora/coding/c.yml:11
@@ -1412,18 +1424,18 @@ msgstr ""
 #. subtitle
 #: questions/includes/fedora/coding/c.yml:15
 msgid "an easy and elegant way to use your computer"
-msgstr ""
+msgstr "helppo ja elegantti tapa käyttää tietokonettasi"
 
 #. title
 #: questions/includes/fedora/coding/c.yml:19
 msgid "The Linux Kernel"
-msgstr ""
+msgstr "Linux-ydin"
 
 #. subtitle
 #: questions/includes/fedora/coding/c.yml:19
 msgid ""
 "that thing that connects application software to the hardware of a computer"
-msgstr ""
+msgstr "se juttu joka yhdistää ohjelmat tietokoneesi rautaan."
 
 #. title
 #: questions/includes/fedora/coding/haskell.yml:3
@@ -1449,17 +1461,17 @@ msgstr ""
 #. title
 #: questions/includes/fedora/coding/java.yml:3
 msgid "Java Special Interest Group"
-msgstr ""
+msgstr "Java Special Interest Group"
 
 #. subtitle
 #: questions/includes/fedora/coding/java.yml:3
 msgid "Work with the community on Java packaging and development"
-msgstr ""
+msgstr "Työskentele yhteisön kanssa Javan paketoinnin ja kehityksen parissa."
 
 #. title
 #: questions/includes/fedora/coding/java.yml:7
 msgid "JBoss"
-msgstr ""
+msgstr "JBoss"
 
 #. subtitle
 #: questions/includes/fedora/coding/java.yml:7
@@ -1469,7 +1481,7 @@ msgstr ""
 #. title
 #: questions/includes/fedora/coding/java.yml:11
 msgid "fedmsg-java"
-msgstr ""
+msgstr "fedmsg-java"
 
 #. subtitle
 #: questions/includes/fedora/coding/java.yml:11
@@ -1479,7 +1491,7 @@ msgstr ""
 #. title
 #: questions/includes/fedora/coding/java.yml:15
 msgid "jenkins-fedmsg-emit"
-msgstr ""
+msgstr "jenkins-fedmsg-emit"
 
 #. subtitle
 #: questions/includes/fedora/coding/java.yml:15
@@ -1489,17 +1501,17 @@ msgstr ""
 #. title
 #: questions/includes/fedora/coding/python.yml:3
 msgid "Anaconda"
-msgstr ""
+msgstr "Anaconda"
 
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:3
 msgid "the OS installer and all its related projects"
-msgstr ""
+msgstr "Käyttöjärjestlemän asentaja ja kaikki siihen liittyvä"
 
 #. title
 #: questions/includes/fedora/coding/python.yml:7
 msgid "ABRT"
-msgstr ""
+msgstr "ABRT"
 
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:7
@@ -1509,7 +1521,7 @@ msgstr ""
 #. title
 #: questions/includes/fedora/coding/python.yml:11
 msgid "DNF"
-msgstr ""
+msgstr "DNF"
 
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:11
@@ -1519,7 +1531,7 @@ msgstr ""
 #. title
 #: questions/includes/fedora/coding/python.yml:15
 msgid "Firewalld"
-msgstr ""
+msgstr "Firewalld"
 
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:15
@@ -1564,12 +1576,12 @@ msgstr ""
 #. title
 #: questions/includes/fedora/coding/scala.yml:3
 msgid "Fedora Mobile"
-msgstr ""
+msgstr "Fedora-mobiili"
 
 #. subtitle
 #: questions/includes/fedora/coding/scala.yml:3
 msgid "Interact with Fedora's community on the go!"
-msgstr ""
+msgstr "Ole yhteydessä Fedora-yhteisöön tien päällä!"
 
 #. subtitle
 #: questions/includes/fedora/coding/web.yml:4
@@ -1579,7 +1591,7 @@ msgstr ""
 #. segue1
 #: questions/includes/fedora/coding/web.yml:9
 msgid "That's my style too."
-msgstr ""
+msgstr "Tuo sopii minunkin tyyliini."
 
 #. segue2
 #: questions/includes/fedora/coding/web.yml:9
@@ -1599,18 +1611,19 @@ msgstr ""
 #. subtitle
 #: questions/includes/fedora/coding/web.yml:16
 msgid "<a href='http://getfedora.org'>getfedora.org</a> is awesome"
-msgstr ""
+msgstr "<a href='http://getfedora.org'>getfedora.org</a> on mahtava"
 
 #. title
 #: questions/includes/fedora/coding/web.yml:20
 msgid "Magazine"
-msgstr ""
+msgstr "Lehti"
 
 #. subtitle
 #: questions/includes/fedora/coding/web.yml:20
 msgid ""
 "did you even know we had a <a href='http://fedoramagazine.org'>magazine</a>?"
 msgstr ""
+"Tiesitkö edes että meillä on <a href='http://fedoramagazine.org'>lehti</a>?"
 
 #. title
 #: questions/includes/fedora/coding/web.yml:24
@@ -1635,12 +1648,12 @@ msgstr ""
 #. title
 #: questions/includes/fedora/coding/web.yml:32
 msgid "Translations"
-msgstr ""
+msgstr "Käännökset"
 
 #. subtitle
 #: questions/includes/fedora/coding/web.yml:32
 msgid "we're an international community after all"
-msgstr ""
+msgstr "olemme kuitenkin kansainvälinen yhteisö"
 
 #. title
 #: questions/includes/fedora/coding/web.yml:36
@@ -1655,9 +1668,9 @@ msgstr ""
 #. title
 #: questions/includes/fedora/coding/web.yml:40
 msgid "AskNot Site"
-msgstr ""
+msgstr "AskNot-sivu"
 
 #. subtitle
 #: questions/includes/fedora/coding/web.yml:40
 msgid "this thing -- the page you're looking at right now!"
-msgstr ""
+msgstr "tämä juttu -- sivu jota katso parhaillaan!"
