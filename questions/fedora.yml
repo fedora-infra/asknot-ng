@@ -127,3 +127,8 @@ tree:
     segue1: Have a regional or world perspective?
     segue2: You probably want to join the Fedora...
     children: includes/fedora/i18n.yml
+
+  - title: Instruction
+    image: https://badges.fedoraproject.org/pngs/sensei.png 
+    subtitle: spread your knowledge to others in the community
+    href: https://fedoraproject.org/wiki/Classroom
