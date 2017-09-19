@@ -1,26 +1,24 @@
-# Kardos László <kardiweb@protonmail.ch>, 2015. #zanata
-# Peter Borsa <peter.borsa@gmail.com>, 2015. #zanata
-# Zoltan Hoppar <zoltanh721@fedoraproject.org>, 2015. #zanata
+# Meskó Balázs <meskobalazs@gmail.com>, 2017. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2015-12-01 10:00-0500\n"
-"PO-Revision-Date: 2015-07-19 04:01-0400\n"
-"Last-Translator: Kardos László <kardiweb@protonmail.ch>\n"
+"PO-Revision-Date: 2017-07-30 05:09-0400\n"
+"Last-Translator: Meskó Balázs <meskobalazs@gmail.com>\n"
 "Language-Team: Hungarian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: hu\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Zanata 3.9.6\n"
 
 #. title
 #. description
 #: questions/coala.yml:1
 msgid "What can I do for coala?"
-msgstr ""
+msgstr "Mit tehetek a coaláért?"
 
 #. negative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
@@ -55,7 +53,7 @@ msgstr "Nem hangzik jól"
 #. negative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Absolutely not"
-msgstr "Abszolút nem"
+msgstr "Egyáltalán nem"
 
 #. negative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
@@ -75,7 +73,7 @@ msgstr "Jól hangzik"
 #. affirmative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Tell me more"
-msgstr "Mondj többet"
+msgstr "Mesélj még"
 
 #. affirmative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
@@ -105,77 +103,78 @@ msgstr "Azt hiszem hibáztam"
 #. backlink
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Get me outta here!"
-msgstr "Ments ki innen!"
+msgstr "Juttass ki innen!"
 
 #. navlink
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Join"
-msgstr "Csatlakozz"
+msgstr "Csatlakozás"
 
 #. navlink
 #: questions/coala.yml:1
 msgid "coala documentation"
-msgstr ""
+msgstr "coala dokumentáció"
 
 #. navlink
 #: questions/coala.yml:1
 msgid "Get Live Help!"
-msgstr ""
+msgstr "Kapj segítséget élőben!"
 
 #. segue1
 #: questions/coala.yml:33
 msgid "Want to help coala?"
-msgstr ""
+msgstr "Szeretnéd segíteni a coalát?"
 
 #. segue2
 #: questions/coala.yml:33
 msgid "What do you care about?"
-msgstr ""
+msgstr "Mi az ami neked fontos?"
 
 #. title
 #: questions/coala.yml:37
 msgid "Visuals!"
-msgstr ""
+msgstr "A kinézet!"
 
 #. subtitle
 #: questions/coala.yml:37
 msgid "The coala artwork team is just for you!"
-msgstr ""
+msgstr "A coala illusztrációs csapat pont neked való!"
 
 #. title
 #: questions/coala.yml:40
 msgid "Good, Generic Code"
-msgstr ""
+msgstr "Jó, általános kód"
 
 #. subtitle
 #: questions/coala.yml:40
 msgid "Help us improving code quality in the world! Join the core developers."
 msgstr ""
+"Segítsd javítani a kódminőséget a világon! Csatlakozz a törzsfejlesztőkhöz."
 
 #. title
 #: questions/coala.yml:43
 msgid "Reaching Users"
-msgstr ""
+msgstr "Felhasználók elérése"
 
 #. subtitle
 #: questions/coala.yml:43
 msgid "Write documentation that is understandable by everyone."
-msgstr ""
+msgstr "Írj dokumentációt, amit mindenki megért."
 
 #. title
 #: questions/coala.yml:46
 msgid "Make coala Accessible"
-msgstr ""
+msgstr "Tedd a coalát hozzáférhetővé"
 
 #. subtitle
 #: questions/coala.yml:46
 msgid "Join our translation team!"
-msgstr ""
+msgstr "Csatlakozz a fordítócsapathoz!"
 
 #. title
 #: questions/coala.yml:49
 msgid "Crazy Algorithms"
-msgstr ""
+msgstr "Őrült algoritmusok"
 
 #. subtitle
 #: questions/coala.yml:49
@@ -183,32 +182,35 @@ msgid ""
 "Let's write code analytics. We write the framework, there's bare logic left "
 "for you."
 msgstr ""
+"Írjunk kódelemzést. Mi írjuk a keretrendszert, csak a puszta logika marad "
+"rád."
 
 #. title
 #: questions/coala.yml:52
 msgid "Scientific Progress"
-msgstr ""
+msgstr "Tudományos haladás"
 
 #. subtitle
 #: questions/coala.yml:52
 msgid "Join our coAST team and create language independent program analysis."
 msgstr ""
+"Csatlakozz a coAST csapathoz, és készíts nyelvfüggetlen programelemzést."
 
 #. title
 #: questions/coala.yml:55
 msgid "Money"
-msgstr ""
+msgstr "Pénz"
 
 #. subtitle
 #: questions/coala.yml:55
 msgid "Help us through donations at gratipay."
-msgstr ""
+msgstr "Segíts nekünk gratipayen keresztüli adományokkal."
 
 #. title
 #. description
 #: questions/fedora.yml:1
 msgid "What can I do for Fedora?"
-msgstr "Mit tehetek a Fedoraért?"
+msgstr "Mit tehetek a Fedoráért?"
 
 #. navlink
 #: questions/fedora.yml:1
@@ -218,7 +220,7 @@ msgstr "Fedora beszerzése"
 #. segue1
 #: questions/fedora.yml:31
 msgid "Want to help Fedora?  Tell me..."
-msgstr "Segítenél a Fedora közösségnek? Mondd el "
+msgstr "Segítenél a Fedora közösségnek? Mondd…"
 
 #. segue2
 #: questions/fedora.yml:31
@@ -228,20 +230,20 @@ msgstr "mi az érdeklődési köröd?"
 #. title
 #: questions/fedora.yml:35
 msgid "Design!"
-msgstr ""
+msgstr "Dizájn!"
 
 #. segue1
 #: questions/fedora.yml:35
 msgid ""
 "So you enjoy working on the way users interact with websites and programs?"
 msgstr ""
-"Szóval élvezed azt, ahogy a felhasználók közreműködnek weboldalakkal és "
-"programokkal?"
+"Szóval élvezel azon dolgozni, hogy a felhasználók hogyan lépnek kapcsolatba "
+"weboldalakkal és programokkal?"
 
 #. segue2
 #: questions/fedora.yml:35
 msgid "How about the..."
-msgstr "Mi lenne ha"
+msgstr "Mi szólnál ehhez…"
 
 #. subtitle
 #: questions/fedora.yml:35
@@ -256,12 +258,12 @@ msgstr "Kódolás"
 #. segue1
 #: questions/fedora.yml:42
 msgid "Zeroes and ones #allday?  Me too."
-msgstr "Egyesek és nullák #egésznap? Nekem is."
+msgstr "Nullák és egyesek #egésznap? Nekem is."
 
 #. segue2
 #: questions/fedora.yml:42
 msgid "What's your favorite language?"
-msgstr "Mi a favorit nyelved?"
+msgstr "Mi a kedvenc nyelved?"
 
 #. subtitle
 #: questions/fedora.yml:42
@@ -271,23 +273,23 @@ msgstr "a gibson hekkelése"
 #. title
 #: questions/fedora.yml:49
 msgid "Community Ops"
-msgstr ""
+msgstr "Közösségi tevékenység"
 
 #. segue1
 #: questions/fedora.yml:49
 msgid "Have a knack for community-building?"
-msgstr ""
+msgstr "Értesz a közösségépítéshez?"
 
 #. segue2
 #: questions/fedora.yml:49 questions/includes/fedora/coding.yml:38
 #: questions/includes/fedora/design.yml:3
 msgid "Would you like something more"
-msgstr ""
+msgstr "Többre vágysz"
 
 #. subtitle
 #: questions/fedora.yml:49
 msgid "connecting the dots"
-msgstr ""
+msgstr "a pontok összekötése"
 
 #. title
 #: questions/fedora.yml:56 questions/gnome.yml:40
@@ -297,17 +299,17 @@ msgstr "Írás"
 #. segue1
 #: questions/fedora.yml:56
 msgid "So, you have a way with words?"
-msgstr "Szóval tudod használni a szavakat?"
+msgstr "Szóval tudsz bánni a szavakkal?"
 
 #. segue2
 #: questions/fedora.yml:56 questions/fedora.yml:70
 msgid "Would you be more interested in..."
-msgstr "Érdekelne jobban..."
+msgstr "Jobban érdekelne-e a…"
 
 #. subtitle
 #: questions/fedora.yml:56
 msgid "wordsmithery"
-msgstr "a betűkirakó?"
+msgstr "szócsiszolás"
 
 #. title
 #: questions/fedora.yml:63
@@ -317,18 +319,18 @@ msgstr "Kategorizálás"
 #. segue1
 #: questions/fedora.yml:63
 msgid "So you like putting things in their place?"
-msgstr "Szóval kedveled a dolgokat a helyére rakni?"
+msgstr "Szóval, szereted a dolgokat a helyükre tenni?"
 
 #. segue2
 #: questions/fedora.yml:63 questions/includes/fedora/coding.yml:15
 #: questions/includes/fedora/coding.yml:21
 msgid "How about..."
-msgstr "Mi lenne ha..."
+msgstr "Mi lenne ha…"
 
 #. subtitle
 #: questions/fedora.yml:63
 msgid "labelling things, perhaps obsessively"
-msgstr "felcímkézni dolgokat, lehet megszállottan"
+msgstr "felcímkéznél dolgokat, akár megszállottan is"
 
 #. title
 #: questions/fedora.yml:70
@@ -338,32 +340,32 @@ msgstr "Fordítás"
 #. segue1
 #: questions/fedora.yml:70
 msgid "So you know more than one language?  We need you!"
-msgstr "Vagyis akkor egynél több nyelvet ismersz? Szükségünk van rád!"
+msgstr "Tehát több mint egy nyelvet ismersz? Szükségünk van rád!"
 
 #. subtitle
 #: questions/fedora.yml:70
 msgid "we're an international effort, after all"
-msgstr "mi egy nemzetközi erőfeszítés vagyunk, összességében"
+msgstr "elvégre is, egy nemzetközi projekt vagyunk"
 
 #. title
 #: questions/fedora.yml:77
 msgid "Advocacy"
-msgstr "Pártfogó"
+msgstr "Pártfogás"
 
 #. segue1
 #: questions/fedora.yml:77
 msgid "So you're a people person?"
-msgstr "Akkor te emberekkel szeretsz együtt dolgozni?"
+msgstr "Szeretsz emberekkel dolgozni?"
 
 #. segue2
 #: questions/fedora.yml:77
 msgid "How about becoming a Fedora..."
-msgstr "Mi lenne ha Fedora..."
+msgstr "Mi lenne ha Fedora…"
 
 #. subtitle
 #: questions/fedora.yml:77
 msgid "spreading the good word"
-msgstr "mondanál mindenkinek pár jó szót"
+msgstr "a jó hírek terjesztése"
 
 #. title
 #: questions/fedora.yml:84
@@ -373,39 +375,37 @@ msgstr "Csomagolás"
 #. segue1
 #: questions/fedora.yml:84
 msgid "So you want to help build the OS?  Excellent."
-msgstr "Szóval segítenél az OS-t megépíteni? Remek."
+msgstr "Szóval segítenél az OS-t összeállítani? Remek."
 
 #. segue2
 #: questions/fedora.yml:84
 msgid "Then you'll need to become a Fedora..."
-msgstr "Akkor neked muszáj lesz Fedora..."
+msgstr "Akkor válj Fedora…"
 
 #. subtitle
 #: questions/fedora.yml:84
 msgid "getting new software into Fedora"
-msgstr "új alkalmazásokat szereznél Fedora rendszerébe"
+msgstr "új szoftverek bejuttatása a Fedorába"
 
 #. title
 #: questions/fedora.yml:91
 msgid "QA and Testing"
-msgstr "QA és Tesztelés"
+msgstr "QA és tesztelés"
 
 #. segue1
 #: questions/fedora.yml:91
 msgid "So you like to push all the buttons and break all the things?"
-msgstr ""
-"Szóval kedveled hogy megnyomhatsz minden gombot, és kipróbálhatod hogy "
-"tönkremegy-e?"
+msgstr "Szóval, szeretsz megnyomni minden gombot, és tönkretenni dolgokat?"
 
 #. segue2
 #: questions/fedora.yml:91
 msgid "Are you more interested in something..."
-msgstr "Vagy valami más érdekelne jobban..."
+msgstr "Vagy valami más érdekelne jobban…"
 
 #. subtitle
 #: questions/fedora.yml:91
 msgid "as they say, \"if it's not tested, it's broken\""
-msgstr "és ahogy ők mondják, \"ha nincs tesztelve, akkor rossz\""
+msgstr "ahogy ők mondják, „ha nincs tesztelve, akkor hibás”"
 
 #. title
 #: questions/fedora.yml:98
@@ -415,28 +415,28 @@ msgstr "A kezelőfelület"
 #. segue1
 #: questions/fedora.yml:98
 msgid "So you're into making the OS polished and easy to use?"
-msgstr "Szóval szeretnéd ha az OS tiszta és könnyen használható lenne?"
+msgstr "Szóval szeretnéd, ha az OS tiszta és könnyen használható lenne?"
 
 #. segue2
 #: questions/fedora.yml:98 questions/fedora.yml:105 questions/fedora.yml:112
 #: questions/fedora.yml:119
 msgid "You probably want to join the Fedora..."
-msgstr "Valószínűleg akkor csatlakoznál a Fedora..."
+msgstr "Valószínűleg akkor csatlakoznál a Fedora…"
 
 #. subtitle
 #: questions/fedora.yml:98
 msgid "we all have our favorite"
-msgstr "mindenki számára megvan a kedvence"
+msgstr "mindenkinek megvan a maga kedvence"
 
 #. title
 #: questions/fedora.yml:105
 msgid "The Server"
-msgstr "A kiszolgáló"
+msgstr "A Server"
 
 #. segue1
 #: questions/fedora.yml:105
 msgid "So you're into making the OS powerful and flexible?"
-msgstr "Szeretnéd ha az OS robosztus és flexibilis lenne?"
+msgstr "Szeretnéd, ha az OS hatékony és rugalmas lenne?"
 
 #. subtitle
 #: questions/fedora.yml:105
@@ -456,73 +456,73 @@ msgstr "Álmodozó?"
 #. subtitle
 #: questions/fedora.yml:112
 msgid "it's where the future lives"
-msgstr "ez az ahol a jövő él"
+msgstr "ez az, ahol a jövő él"
 
 #. title
 #: questions/fedora.yml:119
 msgid "Internationalization"
-msgstr ""
+msgstr "Nemzetköziesítés"
 
 #. segue1
 #: questions/fedora.yml:119
 msgid "Have a regional or world perspective?"
-msgstr ""
+msgstr "Regionális vagy világszintű szemlélete van?"
 
 #. subtitle
 #: questions/fedora.yml:119
 msgid "making Fedora work better for all languages"
-msgstr ""
+msgstr "a Fedora jobbá tétele minden nyelven"
 
 #. title
 #. description
 #: questions/gnome.yml:1
 msgid "What can I do for GNOME?"
-msgstr ""
+msgstr "Mit tehetek a GNOME-ért?"
 
 #. navlink
 #: questions/gnome.yml:1
 msgid "Get GNOME"
-msgstr ""
+msgstr "A GNOME beszerzése"
 
 #. navlink
 #: questions/gnome.yml:1
 msgid "GNOME.org"
-msgstr ""
+msgstr "GNOME.org"
 
 #. segue1
 #: questions/gnome.yml:33
 msgid "Want to help GNOME?"
-msgstr ""
+msgstr "Segítenél a GNOME-nak?"
 
 #. segue2
 #: questions/gnome.yml:33
 msgid "First tell us what you like!"
-msgstr ""
+msgstr "Először is, mondd el mit szeretsz!"
 
 #. title
 #: questions/gnome.yml:37
 msgid "Design and Usability"
-msgstr ""
+msgstr "Dizájn és használhatóság"
 
 #. subtitle
 #: questions/gnome.yml:37
 msgid "Making sure we focus on users."
-msgstr ""
+msgstr "Annak a biztosítása, hogy a felhasználókra fókuszálunk."
 
 #. subtitle
 #: questions/gnome.yml:40
 msgid "Want to help with your english skills?"
-msgstr ""
+msgstr "Szeretnél segíteni az angol nyelvtudásoddal?"
 
 #. title
 #: questions/gnome.yml:43
 msgid "Articles"
-msgstr ""
+msgstr "Cikkek"
 
 #. subtitle
 #: questions/gnome.yml:43
 msgid "Want to help with the engagement team?"
-msgstr ""
+msgstr "Szeretnél segíteni a bevonási csapatnak?"
 
 #. title
 #: questions/gnome.yml:46 questions/includes/fedora/translation.yml:19
@@ -533,91 +533,89 @@ msgstr "Dokumentáció"
 #. subtitle
 #: questions/gnome.yml:46
 msgid "Get all the hidden features to the users!"
-msgstr ""
+msgstr "Juttassa el az összes rejtett funkciót a felhasználókhoz!"
 
 #. title
 #: questions/gnome.yml:49
 msgid "Languages"
-msgstr ""
+msgstr "Nyelvek"
 
 #. subtitle
 #: questions/gnome.yml:49
 msgid "You could help translating!"
-msgstr ""
+msgstr "Segíthetnél a fordításban!"
 
 #. title
 #: questions/gnome.yml:52
 msgid "Code"
-msgstr ""
+msgstr "Kód"
 
 #. subtitle
 #: questions/gnome.yml:52
 msgid "Get your hands dirty!"
-msgstr ""
+msgstr "Piszkold be a kezed!"
 
 #. title
 #: questions/gnome.yml:55
 msgid "Making Things Stable"
-msgstr ""
+msgstr "A dolgok stabillá tétele"
 
 #. subtitle
 #: questions/gnome.yml:55
 msgid "May GNOME never crash again"
-msgstr ""
+msgstr "A GNOME sose omoljon újra össze"
 
 #. title
 #: questions/gnome.yml:58
 msgid "Fixing Bugs"
-msgstr ""
+msgstr "Hibák javítása"
 
 #. subtitle
 #: questions/gnome.yml:58
 msgid "Join our Bugsquad!"
-msgstr ""
+msgstr "Csatlakozzon a rovarirtókhoz!"
 
 #. title
 #: questions/gnome.yml:61
 msgid "Good Tests"
-msgstr ""
+msgstr "Jó tesztek"
 
 #. subtitle
 #: questions/gnome.yml:61
 msgid "The QA team might be right for you."
-msgstr ""
+msgstr "A QA csapat jó választás lehet számodra."
 
 #. title
 #: questions/gnome.yml:64
 msgid "System Administration"
-msgstr ""
+msgstr "Rendszer adminisztráció"
 
 #. subtitle
 #: questions/gnome.yml:64
 msgid "Help us managing our infrastructure!"
-msgstr ""
+msgstr "Segítsen az infrastruktúra kezelésében!"
 
 #. title
 #: questions/includes/fedora/advocacy.yml:3
 #: questions/includes/fedora/community.yml:15
 msgid "Ambassador"
-msgstr "Nagykövet"
+msgstr "Nagykövet lennél"
 
 #. subtitle
 #: questions/includes/fedora/advocacy.yml:3
 #: questions/includes/fedora/community.yml:15
 msgid "the representatives of Fedora"
-msgstr ""
+msgstr "a Fedora képviselői"
 
 #. title
 #: questions/includes/fedora/categorization.yml:3
 msgid "Fedora Tagger"
-msgstr "Fedora Tagger"
+msgstr "Fedora címkéző"
 
 #. subtitle
 #: questions/includes/fedora/categorization.yml:3
 msgid "assigning \"tags\" to packages to build better search"
-msgstr ""
-"hozzárendelni ún. \"cimkéket\" csomagokhoz hogy jobb keresési eredményeket "
-"kapjunk"
+msgstr "„címkék” hozzárendelése csomagokhoz, a jobb keresésért"
 
 #. title
 #: questions/includes/fedora/cloud.yml:3
@@ -627,7 +625,7 @@ msgstr "Cloud SIG"
 #. subtitle
 #: questions/includes/fedora/cloud.yml:3
 msgid "the special-interest-group for Fedora Cloud"
-msgstr "speciális érdekeltségű csoport a Fedora Cloud számára"
+msgstr "a Fedora Cloud különleges érdekeltségű csoportja"
 
 #. title
 #: questions/includes/fedora/cloud.yml:6
@@ -637,7 +635,7 @@ msgstr "RDO"
 #. subtitle
 #: questions/includes/fedora/cloud.yml:6
 msgid "the OpenStack distro for Fedora"
-msgstr "az OpenStack disztribúció Fedora számára"
+msgstr "az OpenStack disztribúció a Fedorához"
 
 #. title
 #: questions/includes/fedora/coding.yml:3
@@ -647,17 +645,17 @@ msgstr "Python"
 #. segue1
 #: questions/includes/fedora/coding.yml:3
 msgid "So, you enjoy traceback-driven development?  What could go wrong?"
-msgstr ""
+msgstr "Tehát élvezed a nyomkövetés-vezérelt fejlesztést? Mi baj történhet?"
 
 #. segue2
 #: questions/includes/fedora/coding.yml:3
 msgid "Are you interested in hacking on..."
-msgstr "Érdekelne a fejlesztés..."
+msgstr "Érdekelne-e a fejlesztés…"
 
 #. subtitle
 #: questions/includes/fedora/coding.yml:3
 msgid "a dynamic language for rapid development"
-msgstr "egy dinamikus nyelven a gyors fejlesztés"
+msgstr "egy dinamikus nyelven, a gyors fejlesztési sebességért"
 
 #. title
 #: questions/includes/fedora/coding.yml:9
@@ -668,17 +666,18 @@ msgstr "C"
 #: questions/includes/fedora/coding.yml:9
 msgid "So, you think OOP is for hipsters?  Let me tell you, back in my day..."
 msgstr ""
+"Tehát úgy gondolod, hogy az OOP az a hipstereknek való? Nos, az én időmben…"
 
 #. segue2
 #: questions/includes/fedora/coding.yml:9
 #: questions/includes/fedora/coding.yml:27
 msgid "How about working on..."
-msgstr ""
+msgstr "Mit szólnál, ha…"
 
 #. subtitle
 #: questions/includes/fedora/coding.yml:9
 msgid "close to the metal"
-msgstr ""
+msgstr "a vas közelében dolgoznál"
 
 #. title
 #: questions/includes/fedora/coding.yml:15
@@ -690,12 +689,12 @@ msgstr "Haskell"
 msgid ""
 "So, programming without side-effects is what you're all about?  Sounds "
 "useful!"
-msgstr ""
+msgstr "A mellékhatások nélkül programozás az, ami érdekel? Hasznosnak tűnik!"
 
 #. subtitle
 #: questions/includes/fedora/coding.yml:15
 msgid "a nondynamic language for rapid development"
-msgstr ""
+msgstr "egy nemdinamikus nyelv, gyors fejlesztéshez"
 
 #. title
 #: questions/includes/fedora/coding.yml:21
@@ -708,11 +707,13 @@ msgid ""
 "So you're a believer in <code>AbstractMethodFactoryBean</code>s?  "
 "Straightforward enough..."
 msgstr ""
+"Szóval az <code>AbstractMethodFactoryBean</code>-ben hiszel? Elég "
+"egyértelmű…"
 
 #. subtitle
 #: questions/includes/fedora/coding.yml:21
 msgid "a nondynamic language for nonrapid development"
-msgstr ""
+msgstr "egy nemdinamikus nyelv, nem túl gyors fejlesztéshez"
 
 #. title
 #: questions/includes/fedora/coding.yml:27
@@ -725,11 +726,13 @@ msgid ""
 "So, just OOP or functional languages wouldn't do it?  You had to have both, "
 "huh?"
 msgstr ""
+"A csak OOP, vagy csak funkcionális nyelvek nem elég jók? Mind a kettő kell "
+"egyszerre, ugye?"
 
 #. subtitle
 #: questions/includes/fedora/coding.yml:27
 msgid "a nondynamic language for semirapid development"
-msgstr ""
+msgstr "egy nemdinamikus nyelv, viszonylag gyors fejlesztéshez"
 
 #. title
 #: questions/includes/fedora/coding.yml:33
@@ -740,23 +743,23 @@ msgstr "JavaScript"
 #: questions/includes/fedora/coding.yml:33
 msgid ""
 "So, you think having native integers is over-rated?  What could go wrong?"
-msgstr ""
+msgstr "Azt gondolod, hogy a natív egészek túlértékeltek? Mi baj történhet?"
 
 #. segue2
 #: questions/includes/fedora/coding.yml:33
 msgid "There's plenty to do.  How about joining the.."
-msgstr ""
+msgstr "Sok mindent lehet csinálni. Mi lenne, ha csatlakoznál a…"
 
 #. subtitle
 #: questions/includes/fedora/coding.yml:33
 msgid "a dynamic web-oriented language for backend and frontend"
-msgstr ""
+msgstr "egy dinamikus, web-orientált nyelv a backendhez és a frontendhez is"
 
 #. title
 #: questions/includes/fedora/coding.yml:38
 #: questions/includes/fedora/design.yml:35
 msgid "Websites Team"
-msgstr "Honlap csapat"
+msgstr "Weboldalak csapathoz"
 
 #. segue1
 #: questions/includes/fedora/coding.yml:38
@@ -770,6 +773,9 @@ msgid ""
 "web developers that build <a "
 "href=\"https://getfedora.org\">getfedora.org</a> and other awesome sites"
 msgstr ""
+"webfejlesztők, akik a <a "
+"href=\"https://getfedora.org\">getfedora.org</a>-ot, és a többi nagyszerű "
+"oldalt készítik"
 
 #. title
 #: questions/includes/fedora/coding.yml:44
@@ -779,12 +785,12 @@ msgstr "Ruby"
 #. subtitle
 #: questions/includes/fedora/coding.yml:44
 msgid "hashrockets and bare words"
-msgstr ""
+msgstr "hashrakéták és csupasz szavak"
 
 #. title
 #: questions/includes/fedora/coding.yml:48
 msgid "C++"
-msgstr ""
+msgstr "C++"
 
 #. segue1
 #: questions/includes/fedora/coding.yml:48
@@ -792,11 +798,13 @@ msgid ""
 "So, you're not happy if your error messages are comprehensible?  We have a "
 "place for you."
 msgstr ""
+"Nem vagy boldog, ha a hibaüzenetek érthetetlenek? Van egy helyünk a "
+"számodra."
 
 #. segue2
 #: questions/includes/fedora/coding.yml:48
 msgid "Try digging into..."
-msgstr ""
+msgstr "Próbálj beleásni az…"
 
 #. subtitle
 #: questions/includes/fedora/coding.yml:48
@@ -804,6 +812,8 @@ msgid ""
 "imperative and object-oriented with the power of low-level memory "
 "manipulation"
 msgstr ""
+"imperatív és objektum-orientált programozásba, az alacsony szintű "
+"memóriakezelés erejével"
 
 #. title
 #: questions/includes/fedora/community.yml:3
@@ -817,7 +827,7 @@ msgstr "Általános"
 #. subtitle
 #: questions/includes/fedora/community.yml:3
 msgid "on how to join the Community Operations team?"
-msgstr ""
+msgstr "hogyan csatlakozz a Közösségi tevékenységek csapathoz?"
 
 #. title
 #: questions/includes/fedora/community.yml:8
@@ -826,7 +836,7 @@ msgstr ""
 #: questions/includes/fedora/writing.yml:13
 #: questions/includes/fedora/coding/web.yml:9
 msgid "Specific"
-msgstr ""
+msgstr "Konkrét"
 
 #. segue1
 #: questions/includes/fedora/community.yml:8
@@ -838,40 +848,40 @@ msgstr "Kiváló!"
 #: questions/includes/fedora/community.yml:8
 #: questions/includes/fedora/design.yml:15
 msgid "How does this sound?"
-msgstr "Hogyan működik ez a hang?"
+msgstr "Ez hogy hangzik?"
 
 #. subtitle
 #: questions/includes/fedora/community.yml:8
 msgid "on different kinds of community tasks"
-msgstr ""
+msgstr "különféle közösségi feladatokon"
 
 #. title
 #: questions/includes/fedora/community.yml:19
 #: questions/includes/fedora/writing.yml:50
 msgid "Community Blog"
-msgstr ""
+msgstr "Közösségi blog"
 
 #. subtitle
 #: questions/includes/fedora/community.yml:19
 #: questions/includes/fedora/writing.yml:50
 msgid "the central hub of all Fedora news, across the subprojects"
-msgstr ""
+msgstr "az összes Fedora hír központja, az összes alprojektről"
 
 #. title
 #: questions/includes/fedora/community.yml:22
 msgid "5 Things in Fedora This Week"
-msgstr ""
+msgstr "5 dolog a Fedoráról ezen a héten"
 
 #. subtitle
 #: questions/includes/fedora/community.yml:22
 msgid ""
 "finding information for a weekly article about the happenings in Fedora"
-msgstr ""
+msgstr "információk keresése egy heti cikkhez a Fedorában történtekről"
 
 #. title
 #: questions/includes/fedora/design.yml:3
 msgid "Design Team"
-msgstr "Design csapat"
+msgstr "Dizájn csapat"
 
 #. segue1
 #: questions/includes/fedora/design.yml:3
@@ -881,42 +891,42 @@ msgstr "Ok."
 #. subtitle
 #: questions/includes/fedora/design.yml:3
 msgid "creatives serving as a design firm for the Fedora community"
-msgstr ""
+msgstr "kreatív emberek, akik a Fedora közösség dizájncégeként működnek"
 
 #. subtitle
 #: questions/includes/fedora/design.yml:10
 msgid "on how to join the design team?"
-msgstr ""
+msgstr "hogyan csatlakozz a dizájn csapathoz?"
 
 #. subtitle
 #: questions/includes/fedora/design.yml:15
 msgid "on different kinds of design tasks"
-msgstr ""
+msgstr "különféle dizájneri feladatokon"
 
 #. title
 #: questions/includes/fedora/design.yml:22
 msgid "Artwork Requests"
-msgstr ""
+msgstr "Illusztráció kérések"
 
 #. subtitle
 #: questions/includes/fedora/design.yml:22
 msgid "there are people in need of good taste -- you can help"
-msgstr ""
+msgstr "vannak, akiknek szükségük van a jó ízlésre – te is segíthetsz"
 
 #. title
 #: questions/includes/fedora/design.yml:26
 msgid "Hackergotchis"
-msgstr "Hackergotchis"
+msgstr "Hackergotchi-k"
 
 #. subtitle
 #: questions/includes/fedora/design.yml:26
 msgid "making cute cut-outs of people's faces"
-msgstr ""
+msgstr "jópofa kivágások készítése az emberek arcáról"
 
 #. title
 #: questions/includes/fedora/design.yml:30
 msgid "Fedora Badges"
-msgstr "Fedora névjegyek"
+msgstr "Fedora kitűzők"
 
 #. subtitle
 #: questions/includes/fedora/design.yml:30
@@ -924,6 +934,8 @@ msgid ""
 "make awesome badge art that fuels <a "
 "href=\"https://badges.fedoraproject.org\">badges.fp.o</a>"
 msgstr ""
+"készíts király kitűzőket, amelyek a <a "
+"href=\"https://badges.fedoraproject.org\">badges.fp.o</a>- oldalt hajtják"
 
 #. title
 #: questions/includes/fedora/desktop.yml:3
@@ -933,18 +945,19 @@ msgstr "Asztal SIG"
 #. subtitle
 #: questions/includes/fedora/desktop.yml:3
 msgid "the special-interest-group for Fedora Workstation"
-msgstr ""
+msgstr "a Fedora Workstation különleges érdekeltségű csoportja"
 
 #. title
 #: questions/includes/fedora/desktop.yml:7
 msgid "Cinnamon SIG"
-msgstr ""
+msgstr "Cinnamon SIG"
 
 #. subtitle
 #: questions/includes/fedora/desktop.yml:7
 msgid ""
 "for those excited about Cinnamon desktop environment spiciness in Fedora"
 msgstr ""
+"azok, akiket érdekel a Cinnamon asztali környezet fűszeressége a Fedorában"
 
 #. title
 #: questions/includes/fedora/desktop.yml:11
@@ -954,7 +967,7 @@ msgstr "KDE SIG"
 #. subtitle
 #: questions/includes/fedora/desktop.yml:11
 msgid "to provide high-quality, usable KDE software packages"
-msgstr ""
+msgstr "magas minőségű, használható KDE szoftvercsomagok biztosítása"
 
 #. title
 #: questions/includes/fedora/desktop.yml:15
@@ -964,7 +977,7 @@ msgstr "LXDE SIG"
 #. subtitle
 #: questions/includes/fedora/desktop.yml:15
 msgid "to define a high-quality LXDE experience for Fedora users"
-msgstr ""
+msgstr "magas minőségű LXDE élmény meghatározása a Fedora felhasználóknak"
 
 #. title
 #: questions/includes/fedora/desktop.yml:19
@@ -974,97 +987,97 @@ msgstr "XFCE SIG"
 #. subtitle
 #: questions/includes/fedora/desktop.yml:19
 msgid "for those excited about integration of the Xfce desktop environment"
-msgstr ""
+msgstr "azoknak, akiket izgat az Xfce asztali környezet integrációja"
 
 #. title
 #: questions/includes/fedora/i18n.yml:3
 msgid "i18n"
-msgstr ""
+msgstr "i18n"
 
 #. subtitle
 #: questions/includes/fedora/i18n.yml:3
 msgid "the Fedora Internationalization subproject"
-msgstr ""
+msgstr "a Fedora nemzetköziesítési alprojekt"
 
 #. title
 #: questions/includes/fedora/packaging.yml:3
 msgid "Package Maintainer"
-msgstr ""
+msgstr "Csomag karbantartó"
 
 #. subtitle
 #: questions/includes/fedora/packaging.yml:3
 msgid "steward of the packages in Fedora"
-msgstr ""
+msgstr "a Fedora csomagok gondozói"
 
 #. subtitle
 #: questions/includes/fedora/qa.yml:4
 msgid "about how to join the QA team?"
-msgstr ""
+msgstr "hogyan csatlakozz a QA csapathoz?"
 
 #. segue1
 #: questions/includes/fedora/qa.yml:8
 msgid "Certainly."
-msgstr ""
+msgstr "Persze."
 
 #. segue2
 #: questions/includes/fedora/qa.yml:8
 msgid "We need people to..."
-msgstr ""
+msgstr "A következő feladatokra keresünk embereket…"
 
 #. subtitle
 #: questions/includes/fedora/qa.yml:8
 msgid "about different QA and testing tasks"
-msgstr ""
+msgstr "a különböző QA és tesztelési feladatokról"
 
 #. title
 #: questions/includes/fedora/qa.yml:14
 msgid "Validate Releases"
-msgstr ""
+msgstr "Kiadások ellenőrzése"
 
 #. subtitle
 #: questions/includes/fedora/qa.yml:14
 msgid "when there's an upcoming release, that is"
-msgstr ""
+msgstr "ha épp van egy következő kiadás"
 
 #. title
 #: questions/includes/fedora/qa.yml:17
 msgid "Test Updates"
-msgstr ""
+msgstr "Frissítések tesztelése"
 
 #. subtitle
 #: questions/includes/fedora/qa.yml:17
 msgid "before they hit the stable repo"
-msgstr ""
+msgstr "mielőtt eljutnak a stabil tárolóba"
 
 #. title
 #: questions/includes/fedora/qa.yml:20
 msgid "Create Test Cases"
-msgstr ""
+msgstr "Tesztesetek készítése"
 
 #. subtitle
 #: questions/includes/fedora/qa.yml:20
 msgid "otherwise we won't know what to test"
-msgstr ""
+msgstr "különben nem tudjuk, hogy mit kell tesztelnünk"
 
 #. title
 #: questions/includes/fedora/qa.yml:24
 msgid "Develop Tools"
-msgstr ""
+msgstr "Eszközök fejlesztése"
 
 #. segue1
 #: questions/includes/fedora/qa.yml:24
 msgid "I'm of the same mind."
-msgstr ""
+msgstr "Én is így gondolkozom."
 
 #. segue2
 #: questions/includes/fedora/qa.yml:24
 msgid "We need people to hack on"
-msgstr ""
+msgstr "Olyan emberekre van szükségünk, akik hekkelik a következőt:"
 
 #. subtitle
 #: questions/includes/fedora/qa.yml:24
 msgid "for continuous awesomeness"
-msgstr ""
+msgstr "a folyamatos nagyszerűségért"
 
 #. title
 #: questions/includes/fedora/qa.yml:30
@@ -1074,17 +1087,17 @@ msgstr "Taskotron"
 #. subtitle
 #: questions/includes/fedora/qa.yml:30
 msgid "a framework for automated task execution"
-msgstr ""
+msgstr "egy keretrendszer automatizált feladat végrehajtáshoz"
 
 #. title
 #: questions/includes/fedora/qa.yml:33
 msgid "BlockerBugs"
-msgstr ""
+msgstr "BlockerBugs"
 
 #. subtitle
 #: questions/includes/fedora/qa.yml:33
 msgid "used to propose and track release blocking bugs"
-msgstr ""
+msgstr "a kiadást blokkoló hibák javaslatára és követésére"
 
 #. title
 #: questions/includes/fedora/qa.yml:36
@@ -1094,7 +1107,7 @@ msgstr "Bodhi"
 #. subtitle
 #: questions/includes/fedora/qa.yml:36
 msgid "the Fedora Updates System"
-msgstr ""
+msgstr "A Fedora frissítési rendszer"
 
 #. title
 #: questions/includes/fedora/qa.yml:39
@@ -1104,37 +1117,37 @@ msgstr "fedora-easy-karma"
 #. subtitle
 #: questions/includes/fedora/qa.yml:39
 msgid "a handsome tool to ease testing updates"
-msgstr ""
+msgstr "egy jól kinéző eszköz a frissítések tesztelésének megkönnyítésére"
 
 #. title
 #: questions/includes/fedora/qa.yml:43
 msgid "Take Over"
-msgstr ""
+msgstr "Vedd át"
 
 #. segue1
 #: questions/includes/fedora/qa.yml:43
 msgid "That's huge of you."
-msgstr ""
+msgstr "Ez nagyszerű tőled."
 
 #. segue2
 #: questions/includes/fedora/qa.yml:43
 msgid "we need someone to head up..."
-msgstr ""
+msgstr "olyan emberre van szükségünk, aki segít a…"
 
 #. subtitle
 #: questions/includes/fedora/qa.yml:43
 msgid "some basically abandoned tasks"
-msgstr ""
+msgstr "néhány félbehagyott feladatot"
 
 #. title
 #: questions/includes/fedora/qa.yml:49
 msgid "Bug Triage"
-msgstr ""
+msgstr "Hibák osztályozásában"
 
 #. subtitle
 #: questions/includes/fedora/qa.yml:49
 msgid "you'll need a heart of gold"
-msgstr ""
+msgstr "aranyszívre lesz szükséged"
 
 #. title
 #: questions/includes/fedora/server.yml:3
@@ -1144,52 +1157,52 @@ msgstr "Server SIG"
 #. subtitle
 #: questions/includes/fedora/server.yml:3
 msgid "the special-interest-group for Fedora Server"
-msgstr ""
+msgstr "a Fedora Server különleges érdekeltségű csoportja"
 
 #. subtitle
 #: questions/includes/fedora/translation.yml:3
 msgid "about how to join the L10N team?"
-msgstr ""
+msgstr "hogyan csatlakozz a honosító csapathoz?"
 
 #. segue1
 #: questions/includes/fedora/translation.yml:7
 msgid "Let's get down to business."
-msgstr ""
+msgstr "Vágjunk bele az üzletbe."
 
 #. segue2
 #: questions/includes/fedora/translation.yml:7
 msgid "Perhaps you'd be interested in translating..."
-msgstr ""
+msgstr "Lehet, hogy érdekelne a fordítás…"
 
 #. subtitle
 #: questions/includes/fedora/translation.yml:7
 msgid "about L10N tasks"
-msgstr ""
+msgstr "a honosítási feladatokról"
 
 #. title
 #: questions/includes/fedora/translation.yml:13
 msgid "User Interfaces"
-msgstr ""
+msgstr "Felhasználói felületek"
 
 #. subtitle
 #: questions/includes/fedora/translation.yml:13
 msgid "there are some essential projects that need translating"
-msgstr ""
+msgstr "van néhány létfontosságú projekt, amely fordításra szorul"
 
 #. title
 #: questions/includes/fedora/translation.yml:16
 msgid "Wiki Pages"
-msgstr ""
+msgstr "Wiki oldalak"
 
 #. subtitle
 #: questions/includes/fedora/translation.yml:16
 msgid "usually from English to another language"
-msgstr ""
+msgstr "általában angolról egy másik nyelvre"
 
 #. subtitle
 #: questions/includes/fedora/translation.yml:19
 msgid "all the guides and release notes"
-msgstr ""
+msgstr "az összes leírás és kiadási megjegyzés"
 
 #. title
 #: questions/includes/fedora/translation.yml:22
@@ -1200,7 +1213,7 @@ msgstr "GNOME"
 #. subtitle
 #: questions/includes/fedora/translation.yml:22
 msgid "which has it's own translation resources"
-msgstr ""
+msgstr "amelynek saját fordítási erőforrásai vannak"
 
 #. title
 #: questions/includes/fedora/translation.yml:25
@@ -1211,264 +1224,268 @@ msgstr "KDE"
 #. subtitle
 #: questions/includes/fedora/translation.yml:25
 msgid "also with it's own translation process"
-msgstr ""
+msgstr "szintén saját fordítási folyamattal"
 
 #. segue1
 #: questions/includes/fedora/writing.yml:3
 msgid "Without you no-one would be able to \"RTFM\", as they say."
-msgstr ""
+msgstr "Nélküled senki sem mondhatná azt, hogy „RTFM”."
 
 #. segue2
 #: questions/includes/fedora/writing.yml:3
 msgid "Would you be interested in something..."
-msgstr ""
+msgstr "Jobban érdekelne valami…"
 
 #. subtitle
 #: questions/includes/fedora/writing.yml:3
 msgid "so people know how to use this crazy stuff"
-msgstr ""
+msgstr "hogy tudják, hogy kell ezeket az őrült dolgokat használni"
 
 #. subtitle
 #: questions/includes/fedora/writing.yml:9
 msgid "about how to join the docs team?"
-msgstr ""
+msgstr "hogyan csatlakozz a dokumentációs csapathoz?"
 
 #. segue1
 #: questions/includes/fedora/writing.yml:13
 msgid "Now we're talking!"
-msgstr ""
+msgstr "Ez a beszéd!"
 
 #. segue2
 #: questions/includes/fedora/writing.yml:13
 msgid "Let's see.  How about working on..."
-msgstr ""
+msgstr "Lássuk. Mi lenne, ha ezen dolgoznál…"
 
 #. subtitle
 #: questions/includes/fedora/writing.yml:13
 msgid "about documentation related tasks"
-msgstr ""
+msgstr "a dokumentációval kapcsolatos feladatokból"
 
 #. title
 #: questions/includes/fedora/writing.yml:19
 msgid "Wiki Gardening"
-msgstr ""
+msgstr "Wiki kertészkedés"
 
 #. subtitle
 #: questions/includes/fedora/writing.yml:19
 msgid "it tends to get a little overgrown"
-msgstr ""
+msgstr "néha kicsit túlnőnek a dolgokat"
 
 #. title
 #: questions/includes/fedora/writing.yml:22
 msgid "A Beat"
-msgstr ""
+msgstr "Egy beat"
 
 #. subtitle
 #: questions/includes/fedora/writing.yml:22
 msgid "a section of the release notes and a good place for new contributors"
 msgstr ""
+"a kiadási megjegyzések egy szakasza, jó kezdőpont az új közreműködők számára"
 
 #. title
 #: questions/includes/fedora/writing.yml:25
 msgid "A Guide"
-msgstr ""
+msgstr "Egy leírás"
 
 #. subtitle
 #: questions/includes/fedora/writing.yml:25
 msgid "a more technical type of documentation"
-msgstr ""
+msgstr "egy műszakibb jellegű leírás"
 
 #. title
 #: questions/includes/fedora/writing.yml:28
 msgid "Real Issues"
-msgstr ""
+msgstr "Valódi problémák"
 
 #. subtitle
 #: questions/includes/fedora/writing.yml:28
 msgid "that people have reported"
-msgstr ""
+msgstr "melyeket bejelentettek"
 
 #. title
 #: questions/includes/fedora/writing.yml:32
 msgid "Blogging"
-msgstr ""
+msgstr "Blogolás"
 
 #. segue1
 #: questions/includes/fedora/writing.yml:32
 msgid "Only the news that's fit to print."
-msgstr ""
+msgstr "Csak a sajtóképes hírek."
 
 #. segue2
 #: questions/includes/fedora/writing.yml:32
 msgid "How about something..."
-msgstr ""
+msgstr "Legyen inkább…"
 
 #. subtitle
 #: questions/includes/fedora/writing.yml:32
 msgid "21st century journalism, my friend"
-msgstr ""
+msgstr "21. századi újságírás, barátom"
 
 #. title
 #: questions/includes/fedora/writing.yml:37
 msgid "More Formal"
-msgstr ""
+msgstr "Formálisabb"
 
 #. segue1
 #: questions/includes/fedora/writing.yml:37
 msgid "Yes!  The spotlight!"
-msgstr ""
+msgstr "Igen! A rivaldafény!"
 
 #. segue2
 #: questions/includes/fedora/writing.yml:37
 msgid "You should get involved in writing for..."
-msgstr ""
+msgstr "Ennek az írásába kapcsolódjon be…"
 
 #. subtitle
 #: questions/includes/fedora/writing.yml:37
 msgid "something \"official\""
-msgstr ""
+msgstr "valami „hivatalos”"
 
 #. title
 #: questions/includes/fedora/writing.yml:42
 msgid "Fedora Magazine"
-msgstr "Fedora Magazin"
+msgstr "Fedora Magazine"
 
 #. subtitle
 #: questions/includes/fedora/writing.yml:42
 msgid "all Fedora news, all the Fedora time"
-msgstr ""
+msgstr "minden Fedora hír, mindig"
 
 #. title
 #: questions/includes/fedora/writing.yml:45
 msgid "Less Formal"
-msgstr ""
+msgstr "Kevésbé formális"
 
 #. segue1
 #: questions/includes/fedora/writing.yml:45
 msgid "We have just the thing for you."
-msgstr ""
+msgstr "Van valamink a számodra."
 
 #. segue2
 #: questions/includes/fedora/writing.yml:45
 msgid "Get your own blog added to the..."
-msgstr ""
+msgstr "Add a blogod a…"
 
 #. subtitle
 #: questions/includes/fedora/writing.yml:45
 msgid "something more personal"
-msgstr ""
+msgstr "valami személyesebb"
 
 #. title
 #: questions/includes/fedora/writing.yml:53
 msgid "Fedora Planet"
-msgstr "Fedora Planet"
+msgstr "Fedora Planethez"
 
 #. subtitle
 #: questions/includes/fedora/writing.yml:53
 msgid "an aggregator of Fedora bloggers"
-msgstr ""
+msgstr "a Fedora bloggerek aggregátora"
 
 #. title
 #: questions/includes/fedora/coding/c++.yml:3
 msgid "LibreOffice"
-msgstr ""
+msgstr "LibreOffice"
 
 #. subtitle
 #: questions/includes/fedora/coding/c++.yml:3
 msgid "a free and open source office suite"
-msgstr ""
+msgstr "egy szabad és nyílt forráskódú irodai csomag"
 
 #. subtitle
 #: questions/includes/fedora/coding/c++.yml:7
 msgid "an integrated set of cross-platform applications"
-msgstr ""
+msgstr "egy integrált, keresztplatformos alkalmazáscsomag"
 
 #. title
 #: questions/includes/fedora/coding/c.yml:3
 msgid "OSTree"
-msgstr ""
+msgstr "OSTree"
 
 #. subtitle
 #: questions/includes/fedora/coding/c.yml:3
 msgid "git for operating system binaries"
-msgstr ""
+msgstr "git az operációs rendszer binárisokhoz"
 
 #. title
 #: questions/includes/fedora/coding/c.yml:7
 msgid "systemd"
-msgstr ""
+msgstr "systemd"
 
 #. subtitle
 #: questions/includes/fedora/coding/c.yml:7
 msgid "widely renowned init system and suite of building blocks"
-msgstr ""
+msgstr "széles körben ismert indítórendszer, és építőkocka csomag"
 
 #. title
 #: questions/includes/fedora/coding/c.yml:11
 msgid "Cockpit"
-msgstr ""
+msgstr "Cockpit"
 
 #. subtitle
 #: questions/includes/fedora/coding/c.yml:11
 msgid "a server manager that makes it easy to administer via a web browser"
 msgstr ""
+"egy kiszolgálókezelő, amely könnyedén kezelhető, webböngészőn keresztül"
 
 #. subtitle
 #: questions/includes/fedora/coding/c.yml:15
 msgid "an easy and elegant way to use your computer"
-msgstr ""
+msgstr "egy könnyű és elegáns módja a számítógép használatának"
 
 #. title
 #: questions/includes/fedora/coding/c.yml:19
 msgid "The Linux Kernel"
-msgstr ""
+msgstr "A Linux kernel"
 
 #. subtitle
 #: questions/includes/fedora/coding/c.yml:19
 msgid ""
 "that thing that connects application software to the hardware of a computer"
-msgstr ""
+msgstr "az a dolog, ami összeköti az alkalmazásokat a számítógép hardverével"
 
 #. title
 #: questions/includes/fedora/coding/haskell.yml:3
 msgid "Haskell Special Interest Group"
-msgstr ""
+msgstr "Haskell különleges érdekeltségű csoport"
 
 #. subtitle
 #: questions/includes/fedora/coding/haskell.yml:3
 msgid ""
 "Work with the community to make Haskell development in Fedora be awesome!"
 msgstr ""
+"Dolgozz együtt a közösséggel, hogy királlyá tedd a Haskell fejlesztést a "
+"Fedorában!"
 
 #. title
 #: questions/includes/fedora/coding/haskell.yml:7
 msgid "FAS 3 API Client"
-msgstr ""
+msgstr "FAS 3 API kliens"
 
 #. subtitle
 #: questions/includes/fedora/coding/haskell.yml:7
 msgid "Play with FAS without playing with Python! ;)"
-msgstr ""
+msgstr "Játssz a FAS-sal anélkül, hogy a Pythonnal is kelljen! :)"
 
 #. title
 #: questions/includes/fedora/coding/java.yml:3
 msgid "Java Special Interest Group"
-msgstr ""
+msgstr "Java különleges érdekeltségű csoport"
 
 #. subtitle
 #: questions/includes/fedora/coding/java.yml:3
 msgid "Work with the community on Java packaging and development"
-msgstr ""
+msgstr "Dolgozz együtt a közösséggel a Java csomagoláson és a fejlesztésen"
 
 #. title
 #: questions/includes/fedora/coding/java.yml:7
 msgid "JBoss"
-msgstr ""
+msgstr "JBoss"
 
 #. subtitle
 #: questions/includes/fedora/coding/java.yml:7
 msgid "A suite of enterprise middleware"
-msgstr ""
+msgstr "Egy vállalati köztes szoftvercsomag"
 
 #. title
 #: questions/includes/fedora/coding/java.yml:11
@@ -1478,62 +1495,62 @@ msgstr "fedmsg-java"
 #. subtitle
 #: questions/includes/fedora/coding/java.yml:11
 msgid "Interact with fedmsg from the JVM"
-msgstr ""
+msgstr "Lépj kapcsolatba a fedmsg-vel a JVM-ből"
 
 #. title
 #: questions/includes/fedora/coding/java.yml:15
 msgid "jenkins-fedmsg-emit"
-msgstr ""
+msgstr "jenkins-fedmsg-emit"
 
 #. subtitle
 #: questions/includes/fedora/coding/java.yml:15
 msgid "Send fedmsg messages related to Jenkins builds"
-msgstr ""
+msgstr "Küldj fedmsg üzeneteket a Jenkins építésekkel kapcsolatban"
 
 #. title
 #: questions/includes/fedora/coding/python.yml:3
 msgid "Anaconda"
-msgstr ""
+msgstr "Anaconda"
 
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:3
 msgid "the OS installer and all its related projects"
-msgstr ""
+msgstr "az OS telepítő, és az összes kapcsolódó projekt"
 
 #. title
 #: questions/includes/fedora/coding/python.yml:7
 msgid "ABRT"
-msgstr ""
+msgstr "ABRT"
 
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:7
 msgid "the Automatic Bug Reporting Tool"
-msgstr ""
+msgstr "az automatikus hibabejelentő eszköz"
 
 #. title
 #: questions/includes/fedora/coding/python.yml:11
 msgid "DNF"
-msgstr ""
+msgstr "DNF"
 
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:11
 msgid "Dandified Yum (DNF) is a major rewrite of yum"
-msgstr ""
+msgstr "a DNF (Dandified Yum – „kicicomázott yum”) a yum újraírása"
 
 #. title
 #: questions/includes/fedora/coding/python.yml:15
 msgid "Firewalld"
-msgstr ""
+msgstr "Firewalld"
 
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:15
 msgid "a dynamically managed firewall with support for network zones"
-msgstr ""
+msgstr "egy dinamikusan kezelt tűzfal, amely támogatja a hálózati zónákat"
 
 #. title
 #: questions/includes/fedora/coding/python.yml:19
 msgid "PortingDB"
-msgstr ""
+msgstr "PortingDB"
 
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:19
@@ -1541,11 +1558,14 @@ msgid ""
 "a <a href\"http://portingdb-encukou.rhcloud.com/\">dynamic database</a> of "
 "Python 2 packages needing to be updated to Python 3"
 msgstr ""
+"olyan Python 2 csomagok <a href\"http://portingdb-"
+"encukou.rhcloud.com/\">dinamikus adatbázisa</a>, amelyeket frissíteni kell "
+"Python 3-ra"
 
 #. title
 #: questions/includes/fedora/coding/python.yml:23
 msgid "Rolekit"
-msgstr ""
+msgstr "Rolekit"
 
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:23
@@ -1554,16 +1574,19 @@ msgid ""
 "href=\"https://fedoraproject.org/wiki/Server/Product_Requirements_Document#Featured_Server_Roles\">Server"
 " Roles</a>"
 msgstr ""
+"egy démon a <a "
+"href=\"https://fedoraproject.org/wiki/Server/Product_Requirements_Document#Featured_Server_Roles\">Server"
+" szerepkörök</a> kiosztásának kezelésére"
 
 #. title
 #: questions/includes/fedora/coding/python.yml:27
 msgid "Web Services"
-msgstr ""
+msgstr "Webszolgáltatások"
 
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:27
 msgid "Fedora Infrastructure team for the win"
-msgstr ""
+msgstr "Fedora infrastruktúra csapat, a győzelemért!"
 
 #. title
 #: questions/includes/fedora/coding/scala.yml:3
@@ -1573,68 +1596,70 @@ msgstr "Fedora Mobile"
 #. subtitle
 #: questions/includes/fedora/coding/scala.yml:3
 msgid "Interact with Fedora's community on the go!"
-msgstr ""
+msgstr "Lépj kapcsolatba a Fedora közösséggel menet közben is!"
 
 #. subtitle
 #: questions/includes/fedora/coding/web.yml:4
 msgid "on how to join the websites team?"
-msgstr ""
+msgstr "hogyan csatlakozz a weboldalak csapathoz?"
 
 #. segue1
 #: questions/includes/fedora/coding/web.yml:9
 msgid "That's my style too."
-msgstr ""
+msgstr "Ez az én stílusom."
 
 #. segue2
 #: questions/includes/fedora/coding/web.yml:9
 msgid "How about working on the..."
-msgstr ""
+msgstr "Mit szolnál, ha te dolgoznál a…"
 
 #. subtitle
 #: questions/includes/fedora/coding/web.yml:9
 msgid "on different kinds of website tasks"
-msgstr ""
+msgstr "különféle weboldalas feladatokon"
 
 #. title
 #: questions/includes/fedora/coding/web.yml:16
 msgid "Release Site"
-msgstr ""
+msgstr "Kiadási oldalon"
 
 #. subtitle
 #: questions/includes/fedora/coding/web.yml:16
 msgid "<a href='http://getfedora.org'>getfedora.org</a> is awesome"
-msgstr ""
+msgstr "a <a href='http://getfedora.org'>getfedora.org</a> nagyszerű"
 
 #. title
 #: questions/includes/fedora/coding/web.yml:20
 msgid "Magazine"
-msgstr "Magazin"
+msgstr "Magazine"
 
 #. subtitle
 #: questions/includes/fedora/coding/web.yml:20
 msgid ""
 "did you even know we had a <a href='http://fedoramagazine.org'>magazine</a>?"
 msgstr ""
+"tudtad egyáltalán, hogy van egy <a "
+"href='http://fedoramagazine.org'>magazinunk</a>?"
 
 #. title
 #: questions/includes/fedora/coding/web.yml:24
 msgid "Wiki Theme"
-msgstr ""
+msgstr "Wiki téma"
 
 #. subtitle
 #: questions/includes/fedora/coding/web.yml:24
 msgid "it's a little crusty"
-msgstr ""
+msgstr "egy kicsit kérges"
 
 #. title
 #: questions/includes/fedora/coding/web.yml:28
 msgid "General Theme"
-msgstr ""
+msgstr "Általános téma"
 
 #. subtitle
 #: questions/includes/fedora/coding/web.yml:28
 msgid "there's a list of sites that need standardizing"
-msgstr ""
+msgstr "van egy oldallistánk, amelyet szabványosítani kellene"
 
 #. title
 #: questions/includes/fedora/coding/web.yml:32
@@ -1644,17 +1669,18 @@ msgstr "Fordítások"
 #. subtitle
 #: questions/includes/fedora/coding/web.yml:32
 msgid "we're an international community after all"
-msgstr ""
+msgstr "elvégre is, egy nemzetközi közösség vagyunk"
 
 #. title
 #: questions/includes/fedora/coding/web.yml:36
 msgid "User Gallery"
-msgstr ""
+msgstr "Felhasználói galéria"
 
 #. subtitle
 #: questions/includes/fedora/coding/web.yml:36
 msgid "gallery for mini-interview-style user profiles and stories"
 msgstr ""
+"egy galéria, mini interjú stílusú felhasználói profilokkal és sztorikkal"
 
 #. title
 #: questions/includes/fedora/coding/web.yml:40
@@ -1664,4 +1690,4 @@ msgstr "AskNot weboldal"
 #. subtitle
 #: questions/includes/fedora/coding/web.yml:40
 msgid "this thing -- the page you're looking at right now!"
-msgstr ""
+msgstr "ez a dolog – a lap, amit épp nézel!"
