@@ -4,6 +4,7 @@
 import hashlib
 import os
 import random
+import subprocess as sp
 import sys
 
 import mako.template
@@ -22,7 +23,14 @@ else:
 
 
 def asknot_version():
-    return pkg_resources.get_distribution('asknot-ng').version
+    try:
+        return pkg_resources.get_distribution('asknot-ng').version
+    except pkg_resources.DistributionNotFound:
+        try:
+            stdout = sp.check_output(['git', 'rev-parse', 'HEAD'])
+            return stdout[:8]  # Short hash
+        except:
+            return 'unknown'
 
 
 defaults = {
