@@ -2,7 +2,7 @@ tree:
   children:
     - title: OSTree
       subtitle: git for operating system binaries
-      href: https://wiki.gnome.org/action/show/Projects/OSTree
+      href: https://ostree.readthedocs.io/en/latest/
 
     - title: systemd
       subtitle: widely renowned init system and suite of building blocks
