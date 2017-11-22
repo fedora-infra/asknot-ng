@@ -42,6 +42,7 @@ defaults = {
     ),
     'asknot_version': asknot_version(),
     'favicon': 'whatever',
+    'googlesiteverification': 'n/a',
     'navlinks': [],
     'negatives': ['No, thanks'],
     'affirmatives': ['Yes, please'],
