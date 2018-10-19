@@ -97,7 +97,7 @@ tree:
 
   - title: Modularity
     subtitle: rethinking how we compose the distro
-    image: https://docs.pagure.org/modularity/_static/logo.png
+    #image: https://docs.pagure.org/modularity/_static/logo.png
     href: https://docs.fedoraproject.org/en-US/modularity/community/
 
   - title: The Desktop
