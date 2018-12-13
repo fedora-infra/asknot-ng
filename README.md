@@ -73,6 +73,16 @@ Then, extract the translatable strings:
 
     $ python setup.py extract_messages --output-file l10n/fedora/locale/asknot-ng.pot
 
+## Releasing a container
+
+Asknot can be build and released as a container, to do so you can use the provided Dockerfile.
+
+    $ podman build -t asknot .
+
+The Dockerfile makes use of multistage container build, meaning that in a first stage a container is used
+to prepare the translations and build the static pages then the static content is copied to a second container
+which is used to serve this content.
+
 ## Deploying to OpenShift
 
 This is a very easy way to bring ``asknot-ng`` to a production server using
