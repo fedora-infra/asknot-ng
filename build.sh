@@ -2,7 +2,7 @@
 
 ./compile-translations.sh
 
-python asknot-ng.py \
+./asknot-ng.py \
 	./templates/index.html \
 	./questions/fedora.yml \
 	./l10n/fedora/locale \
