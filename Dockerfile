@@ -21,5 +21,5 @@ RUN dnf -y install httpd && dnf clean all\
     && chmod -R g+rwX /var/www/html
 EXPOSE 8080
 USER apache
-ADD /container/container-entrypoint.sh /srv
+ADD container/container-entrypoint.sh /srv
 ENTRYPOINT ["bash", "/srv/container-entrypoint.sh"]
