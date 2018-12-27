@@ -1,8 +1,0 @@
-#!/bin/bash
-# The logic to start up your application should be put in this
-# script. The application will work only if it binds to
-# $OPENSHIFT_DIY_IP:8080
-
-${OPENSHIFT_REPO_DIR}/.openshift/action_hooks/build
-cd ${OPENSHIFT_REPO_DIR}/.openshift/diy/
-nohup $OPENSHIFT_REPO_DIR/.openshift/diy/pythonserver.py $OPENSHIFT_DIY_IP |& /usr/bin/logshifter -tag diy &
