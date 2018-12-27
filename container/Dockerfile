@@ -7,9 +7,10 @@ RUN dnf -y install gettext && dnf clean all && python3 setup.py install && ./bui
 
 FROM fedora:latest
 
-COPY --from=builder /code/build /var/www/html
+COPY --from=builder /code/build /var/www/html/
+COPY container/favicon.ico /var/www/html/static/image/favicon.ico
+COPY container/whatcanidoforfedora-web.conf /etc/httpd/conf/httpd.conf
 RUN dnf -y install httpd && dnf clean all\
-    && sed -i 's/Listen 80/Listen 8080/' /etc/httpd/conf/httpd.conf\
     && chown apache:0 /etc/httpd/conf/httpd.conf \
     && chmod g+r /etc/httpd/conf/httpd.conf \
     && chown apache:0 /var/log/httpd  \
@@ -20,5 +21,5 @@ RUN dnf -y install httpd && dnf clean all\
     && chmod -R g+rwX /var/www/html
 EXPOSE 8080
 USER apache
-ADD container-entrypoint.sh /srv
+ADD /container/container-entrypoint.sh /srv
 ENTRYPOINT ["bash", "/srv/container-entrypoint.sh"]
