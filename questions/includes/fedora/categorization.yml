@@ -1,5 +1,0 @@
-tree:
-  children:
-    - title: Fedora Tagger
-      subtitle: assigning "tags" to packages to build better search
-      href: https://apps.fedoraproject.org/tagger/login/

@@ -61,13 +61,6 @@ tree:
     segue2: Would you be more interested in...
     children: includes/fedora/writing.yml
 
-  - title: Categorization
-    subtitle: labelling things, perhaps obsessively
-    image: https://badges.fedoraproject.org/pngs/tagger-01.png
-    segue1: So you like putting things in their place?
-    segue2: How about...
-    children: includes/fedora/categorization.yml
-
   - title: Translation
     subtitle: we're an international effort, after all
     image: https://badges.fedoraproject.org/pngs/irc-support-sig_member.png
