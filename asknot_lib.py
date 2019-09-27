@@ -54,7 +54,7 @@ defaults = {
 def load_yaml(filename):
     """ Simply load our yaml file from disk. """
     with open(filename, 'r') as f:
-        data = yaml.load(f.read())
+        data = yaml.safe_load(f.read())
 
     basedir = os.path.dirname(filename)
 
