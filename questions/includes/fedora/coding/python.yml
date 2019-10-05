@@ -20,6 +20,10 @@ tree:
       subtitle: a <a href="http://fedora.portingdb.xyz/">dynamic database</a> of Python 2 packages needing to be updated to Python 3
       href: http://fedora.portingdb.xyz/
 
+    - title: Cockpit
+      subtitle: a web interface for managing and administrating Linux web servers
+      href: https://cockpit-project.org/
+
     - title: Web Services
       subtitle: Fedora Infrastructure team for the win
       href: https://fedoraproject.org/wiki/Infrastructure/GettingStarted
