@@ -77,7 +77,7 @@ def validate_yaml(data, basedir):
 def validate_tree(node, basedir):
     """ Sanity check used to make sure the question tree is valid. """
     if not 'children' in node:
-        if not 'href' in node:
+        if not 'link' in node:
             raise ValueError('%r must have either a "href" value or '
                              'a "children" list' % node)
     else:

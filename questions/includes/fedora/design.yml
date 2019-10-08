@@ -10,7 +10,7 @@ tree:
         - title: General
           subtitle: on how to join the design team?
           image: https://badges.fedoraproject.org/pngs/artist-02-badger-of-urbino.png
-          href: https://fedoraproject.org/wiki/Join_the_Design_Team
+          link: https://fedoraproject.org/wiki/Join_the_Design_Team
 
         - title: Specific
           subtitle: on different kinds of design tasks
@@ -21,16 +21,16 @@ tree:
           children:
           - title: Artwork Requests
             subtitle: there are people in need of good taste -- you can help
-            href: https://pagure.io/design/issues
+            link: https://pagure.io/design/issues
             image: https://badges.fedoraproject.org/pngs/artist-04-putti.png
           - title: Hackergotchis
             subtitle: making cute cut-outs of people's faces
             image: https://badges.fedoraproject.org/pngs/artist-05-vitruvian-badger.png
-            href: https://fedoraproject.org/wiki/Artwork/HackergotchiService
+            link: https://fedoraproject.org/wiki/Artwork/HackergotchiService
           - title: Fedora Badges
             subtitle: make awesome badge art that fuels <a href="https://badges.fedoraproject.org">badges.fp.o</a>
             image: https://badges.fedoraproject.org/pngs/artist-06-creation-of-badger.png
-            href: https://pagure.io/fedora-badges
+            link: https://pagure.io/fedora-badges
 
       - title: Websites Team
         subtitle: web developers that build <a href="https://getfedora.org">getfedora.org</a> and other awesome sites

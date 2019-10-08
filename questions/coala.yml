@@ -36,19 +36,19 @@ tree:
   children:
   - title: Visuals!
     subtitle: The coala artwork team is just for you!
-    href: https://github.com/coala-analyzer/coala-artwork
+    link: https://github.com/coala-analyzer/coala-artwork
   - title: Good, Generic Code
     subtitle: Help us improving code quality in the world! Join the core developers.
-    href: https://github.com/coala-analyzer/coala
+    link: https://github.com/coala-analyzer/coala
   - title: Reaching Users
     subtitle: Write documentation that is understandable by everyone.
-    href: http://coala.readthedocs.org/en/latest/Getting_Involved/Writing_Documentation.html
+    link: http://coala.readthedocs.org/en/latest/Getting_Involved/Writing_Documentation.html
   - title: Crazy Algorithms
     subtitle: Let's write code analytics. We write the framework, there's bare logic left for you.
-    href: http://coala.readthedocs.org/en/latest/Users/Tutorials/Writing_Bears.html
+    link: http://coala.readthedocs.org/en/latest/Users/Tutorials/Writing_Bears.html
   - title: Scientific Progress
     subtitle: Join our coAST team and create language independent program analysis.
-    href: https://github.com/coala-analyzer/CoAST
+    link: https://github.com/coala-analyzer/CoAST
   - title: Money
     subtitle: Help us through donations at gratipay.
-    href: https://gratipay.com/coala/
+    link: https://gratipay.com/coala/

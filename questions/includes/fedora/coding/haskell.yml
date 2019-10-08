@@ -2,4 +2,4 @@ tree:
   children:
     - title: Haskell Special Interest Group
       subtitle: Work with the community to make Haskell development in Fedora be awesome!
-      href: https://fedoraproject.org/wiki/Haskell_SIG
+      link: https://fedoraproject.org/wiki/Haskell_SIG

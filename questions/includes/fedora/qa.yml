@@ -3,7 +3,7 @@ tree:
   children:
   - title: General
     subtitle: about how to join the QA team?
-    href: https://fedoraproject.org/wiki/QA/Join
+    link: https://fedoraproject.org/wiki/QA/Join
 
   - title: Specific
     subtitle: about different QA and testing tasks
@@ -13,13 +13,13 @@ tree:
     children:
     - title: Validate Releases
       subtitle: when there's an upcoming release, that is
-      href: https://fedoraproject.org/wiki/QA/Join#release-validation
+      link: https://fedoraproject.org/wiki/QA/Join#release-validation
     - title: Test Updates
       subtitle: before they hit the stable repo
-      href: https://fedoraproject.org/wiki/QA:Updates_Testing#What_to_test.2C_testing.2C_and_reporting_results
+      link: https://fedoraproject.org/wiki/QA:Updates_Testing#What_to_test.2C_testing.2C_and_reporting_results
     - title: Create Test Cases
       subtitle: otherwise we won't know what to test
-      href: https://fedoraproject.org/wiki/QA:SOP_test_case_creation
+      link: https://fedoraproject.org/wiki/QA:SOP_test_case_creation
 
     - title: Develop Tools
       subtitle: for continuous awesomeness
@@ -29,16 +29,16 @@ tree:
       children:
       - title: Taskotron
         subtitle: a framework for automated task execution
-        href: https://fedoraproject.org/wiki/Taskotron
+        link: https://fedoraproject.org/wiki/Taskotron
       - title: BlockerBugs
         subtitle: used to propose and track release blocking bugs
-        href: https://qa.fedoraproject.org/blockerbugs/
+        link: https://qa.fedoraproject.org/blockerbugs/
       - title: Bodhi
         subtitle: the Fedora Updates System
-        href: https://github.com/fedora-infra/bodhi
+        link: https://github.com/fedora-infra/bodhi
       - title: fedora-easy-karma
         subtitle: a handsome tool to ease testing updates
-        href: https://fedoraproject.org/wiki/Fedora_Easy_Karma
+        link: https://fedoraproject.org/wiki/Fedora_Easy_Karma
 
     - title: Take Over
       subtitle: some basically abandoned tasks
@@ -48,4 +48,4 @@ tree:
       children:
       - title: Bug Triage
         subtitle: you'll need a heart of gold
-        href: https://fedoraproject.org/wiki/QA/Join#triage
+        link: https://fedoraproject.org/wiki/QA/Join#triage

@@ -2,7 +2,7 @@ tree:
   children:
     - title: Cloud SIG
       subtitle: the special-interest-group for Fedora Cloud
-      href: https://fedoraproject.org/wiki/Cloud_SIG
+      link: https://fedoraproject.org/wiki/Cloud_SIG
     - title: RDO
       subtitle: the OpenStack distro for Fedora
-      href: https://www.rdoproject.org/documentation/onboarding/
+      link: https://www.rdoproject.org/documentation/onboarding/
