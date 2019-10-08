@@ -43,7 +43,7 @@ tree:
 
     - title: Ruby
       subtitle: hashrockets and bare words
-      href: https://fedoraproject.org/wiki/Ruby_SIG
+      link: https://fedoraproject.org/wiki/Ruby_SIG
 
     - title: C++
       subtitle: imperative and object-oriented with the power of low-level memory manipulation

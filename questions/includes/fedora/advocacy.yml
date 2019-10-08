@@ -3,4 +3,4 @@ tree:
     - title: Ambassador
       subtitle: the representatives of Fedora
       image: https://badges.fedoraproject.org/pngs/fas-ambassador.png
-      href: https://fedoraproject.org/wiki/Ambassadors#Who_are_we.3F
+      link: https://fedoraproject.org/wiki/Ambassadors#Who_are_we.3F

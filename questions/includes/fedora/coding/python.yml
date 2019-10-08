@@ -2,24 +2,24 @@ tree:
   children:
     - title: Anaconda
       subtitle: the OS installer and all its related projects
-      href: https://fedoraproject.org/wiki/Anaconda/Contribute
+      link: https://fedoraproject.org/wiki/Anaconda/Contribute
 
     - title: ABRT
       subtitle: the Automatic Bug Reporting Tool
-      href: https://github.com/abrt/abrt/wiki/overview
+      link: https://github.com/abrt/abrt/wiki/overview
       
     - title: DNF
       subtitle: Dandified Yum (DNF) is a major rewrite of yum
-      href: https://github.com/rpm-software-management/dnf
+      link: https://github.com/rpm-software-management/dnf
 
     - title: Firewalld
       subtitle: a dynamically managed firewall with support for network zones
-      href: http://www.firewalld.org/contribute/
+      link: http://www.firewalld.org/contribute/
       
     - title: PortingDB
       subtitle: a <a href="http://fedora.portingdb.xyz/">dynamic database</a> of Python 2 packages needing to be updated to Python 3
-      href: http://fedora.portingdb.xyz/
+      link: http://fedora.portingdb.xyz/
 
     - title: Web Services
       subtitle: Fedora Infrastructure team for the win
-      href: https://fedoraproject.org/wiki/Infrastructure/GettingStarted
+      link: https://fedoraproject.org/wiki/Infrastructure/GettingStarted

@@ -2,16 +2,16 @@ tree:
   children:
     - title: Java Special Interest Group
       subtitle: Work with the community on Java packaging and development
-      href: https://fedoraproject.org/wiki/SIGs/Java
+      link: https://fedoraproject.org/wiki/SIGs/Java
 
     - title: JBoss
       subtitle: A suite of enterprise middleware
-      href: http://www.jboss.org/get-involved/
+      link: http://www.jboss.org/get-involved/
 
     - title: fedmsg-java
       subtitle: Interact with fedmsg from the JVM
-      href: https://github.com/fedora-infra/fedmsg-java
+      link: https://github.com/fedora-infra/fedmsg-java
 
     - title: jenkins-fedmsg-emit
       subtitle: Send fedmsg messages related to Jenkins builds
-      href: https://github.com/fedora-infra/jenkins-fedmsg-emit
+      link: https://github.com/fedora-infra/jenkins-fedmsg-emit

@@ -92,7 +92,7 @@ tree:
   - title: Modularity
     subtitle: rethinking how we compose the distro
     #image: https://docs.pagure.org/modularity/_static/logo.png
-    href: https://docs.fedoraproject.org/en-US/modularity/community/
+    link: https://docs.fedoraproject.org/en-US/modularity/community/
 
   - title: The Desktop
     subtitle: we all have our favorite
@@ -125,4 +125,4 @@ tree:
   - title: Instruction
     image: https://badges.fedoraproject.org/pngs/sensei.png 
     subtitle: spread your knowledge to others in the community
-    href: https://fedoraproject.org/wiki/Classroom
+    link: https://fedoraproject.org/wiki/Classroom
