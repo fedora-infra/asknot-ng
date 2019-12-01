@@ -3,7 +3,7 @@ FROM fedora:latest as builder
 COPY . /code
 WORKDIR /code
 
-RUN dnf -y install gettext && dnf clean all && python3 setup.py install && ./build.sh
+RUN dnf -y install gettext python3-setuptools python3-pyyaml python3-mako python3-babel python3-pygraphviz && dnf clean all && python3 setup.py install && ./build.sh
 
 FROM fedora:latest
 

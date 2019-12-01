@@ -22,7 +22,7 @@ tree:
 
     - title: Cockpit
       subtitle: a web interface for managing and administrating Linux web servers
-      href: https://cockpit-project.org/
+      link: https://cockpit-project.org/
 
     - title: Web Services
       subtitle: Fedora Infrastructure team for the win
