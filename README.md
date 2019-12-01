@@ -31,12 +31,12 @@ We have a [Fedora instance up and running][wcidff] if you’d like to poke it.
 The site-generator script is written in Python, so you’ll need that.
 Furthermore, see [requirements.txt][requirements] or just run::
 
-    $ sudo yum install python-mako PyYAML python-virtualenv
+    $ sudo dnf install python-mako PyYAML python-virtualenv
 
 The script can optionally generate an svg visualizing your question tree.  This
 requires pygraphviz which you could install like so:
 
-    $ sudo yum install python-pygraphviz
+    $ sudo dnf install python-pygraphviz
 
 ## Giving it a run
 
@@ -73,17 +73,41 @@ Then, extract the translatable strings:
 
     $ python setup.py extract_messages --output-file l10n/fedora/locale/asknot-ng.pot
 
-## Releasing a container
+## Container
 
 Asknot can be build and released as a container, to do so you can use the provided Dockerfile.
 
-    $ podman build -t asknot .
+###### Releasing a container
 
-The Dockerfile makes use of multistage container build, meaning that in a first stage a container is used
-to prepare the translations and build the static pages then the static content is copied to a second container
-which is used to serve this content.
+```
+podman build -t asknot .
+```
 
-## Application Deployment
+The Dockerfile makes use of multistage container build, meaning that in a first stage a container is used to prepare the translations and build the static pages then the static content is copied to a second container which is used to serve this content.
+
+###### Running Container
+
+```
+podman run --name=asknot -d -p 8080:80 --net=host localhost/asknot
+```
+
+###### Composing Container
+
+Asknot can be build and released as a container, in other similar way to do so you can use the provided Dockerfile-compose file.
+
+```
+podman-compose up -d
+```
+
+###### Verifiying
+
+In your Favorite Browser Just type:
+
+```
+ localhost:8080
+```
+
+## ## Application Deployment
 
 ``asknot-ng`` currently runs on Fedora infrastructure Openshift instance. There are 2 deployments one in [staging] and one in [production].
 
@@ -95,9 +119,9 @@ To deploy a change to the staging environment you need to push the commits to th
 in this repository and deploy the new application.
 
 ### Production
+
 To deploy a change in the production environment you need to push the commits to the ``production`` branch, then Openshift will trigger a build using the Dockerfile located
 in this repository and deploy the new application.
-
 
 ## Contributing back
 
