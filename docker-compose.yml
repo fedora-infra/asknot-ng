@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: asknot-ng
+    ports:
+      - "8080:80"
+    network_mode: "host"

@@ -73,15 +73,61 @@ Then, extract the translatable strings:
 
     $ python setup.py extract_messages --output-file l10n/fedora/locale/asknot-ng.pot
 
-## Releasing a container
+## Container
 
 Asknot can be build and released as a container, to do so you can use the provided Dockerfile.
 
-    $ podman build -t asknot .
 
-The Dockerfile makes use of multistage container build, meaning that in a first stage a container is used
-to prepare the translations and build the static pages then the static content is copied to a second container
-which is used to serve this content.
+```
+podman build -t asknot .
+```
+
+The Dockerfile makes use of multistage container build, meaning that in a first stage a container is used to prepare the translations and build the static pages then the static content is copied to a second container which is used to serve this content.
+
+
+#### Running Container
+
+```
+podman run --name=asknot -d -p 8080:80 --net=host localhost/asknot
+```
+
+#### Composing Container
+
+Asknot can be build and released as a container, in other similar way to do so you can use the provided Dockerfile-compose file.
+
+```
+podman-compose up -d
+```
+
+#### Verifiying
+
+In your Favorite Browser Just type:
+
+```
+localhost:8080
+```
+
+#### Down Container
+
+Asknot can be stop it and released the container when  finish it.
+
+```
+podman-compose down
+```
+
+#### Make Changes
+
+build stack images again
+
+```
+podman-compose build
+```
+
+and then:
+
+```
+podman-compose up -d
+```
 
 ## Application Deployment
 
@@ -95,9 +141,9 @@ To deploy a change to the staging environment you need to push the commits to th
 in this repository and deploy the new application.
 
 ### Production
+
 To deploy a change in the production environment you need to push the commits to the ``production`` branch, then Openshift will trigger a build using the Dockerfile located
 in this repository and deploy the new application.
-
 
 ## Contributing back
 
