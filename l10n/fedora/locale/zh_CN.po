@@ -1,20 +1,20 @@
 # Alick Zhao <alick9188@gmail.com>, 2016. #zanata
-# Jerry Lee <lchopn@gmail.com>, 2017. #zanata
+# Charles Lee <lchopn@gmail.com>, 2017. #zanata
 # lexuge <LEXUGEyky@outlook.com>, 2017. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2015-12-01 10:00-0500\n"
-"PO-Revision-Date: 2017-07-17 01:43-0400\n"
-"Last-Translator: Jerry Lee <lchopn@gmail.com>\n"
+"PO-Revision-Date: 2017-07-17 01:43+0000\n"
+"Last-Translator: Charles Lee <lchopn@gmail.com>\n"
 "Language-Team: Chinese (China)\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: zh-CN\n"
 "Plural-Forms: nplurals=1; plural=0\n"
-"X-Generator: Zanata 3.9.6\n"
+"X-Generator: Zanata 4.6.2\n"
 
 #. title
 #. description

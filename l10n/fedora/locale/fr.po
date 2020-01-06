@@ -7,15 +7,15 @@ msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2015-12-01 10:00-0500\n"
-"PO-Revision-Date: 2017-04-09 05:28-0400\n"
+"PO-Revision-Date: 2017-04-09 05:28+0000\n"
 "Last-Translator: Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>\n"
 "Language-Team: French\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1)\n"
-"X-Generator: Zanata 3.9.6\n"
+"X-Generator: Zanata 4.6.2\n"
 
 #. title
 #. description
@@ -702,8 +702,8 @@ msgid ""
 "So, programming without side-effects is what you're all about?  Sounds "
 "useful!"
 msgstr ""
-"Donc la programmation sans effet de bords, c’est tout ce qui vous intéresse "
-"? Ça a l’air utile !"
+"Donc la programmation sans effet de bords, c’est tout ce qui vous "
+"intéresse ? Ça a l’air utile !"
 
 #. subtitle
 #: questions/includes/fedora/coding.yml:15
@@ -814,8 +814,8 @@ msgid ""
 "So, you're not happy if your error messages are comprehensible?  We have a "
 "place for you."
 msgstr ""
-"Ainsi, vous n’êtes pas satisfait si vos messages d’erreur sont intelligibles"
-" ? Nous avons une place pour vous."
+"Ainsi, vous n’êtes pas satisfait si vos messages d’erreur sont "
+"intelligibles ? Nous avons une place pour vous."
 
 #. segue2
 #: questions/includes/fedora/coding.yml:48

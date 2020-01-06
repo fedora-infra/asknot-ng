@@ -1,183 +1,182 @@
-# Translations template for asknot-ng.
-# Copyright (C) 2015 ORGANIZATION
-# This file is distributed under the same license as the asknot-ng project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
-#
+# Bora Can Aslı <boracasli14@aol.com>, 2018. #zanata
+# Serdar Sağlam <teknomobil@msn.com>, 2019. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2015-12-01 10:00-0500\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2019-05-10 11:01+0000\n"
+"Last-Translator: Serdar Sağlam <teknomobil@msn.com>\n"
 "Language-Team: Turkish\n"
+"Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: tr\n"
 "Plural-Forms: nplurals=2; plural=(n>1)\n"
-"X-Generator: Zanata 3.8.4\n"
+"X-Generator: Zanata 4.6.2\n"
 
 #. title
 #. description
 #: questions/coala.yml:1
 msgid "What can I do for coala?"
-msgstr ""
+msgstr "Coala için ne yapabilirim?"
 
 #. negative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "No"
-msgstr ""
+msgstr "Hayır"
 
 #. negative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Nope, nope, nope"
-msgstr ""
+msgstr "Yok, yok, yok"
 
 #. negative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Nope"
-msgstr ""
+msgstr "Hayır"
 
 #. negative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "No, thanks"
-msgstr ""
+msgstr "Hayır, teşekkürler"
 
 #. negative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Not on your life"
-msgstr ""
+msgstr "Hayatında değil"
 
 #. negative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Doesn't sound like me"
-msgstr ""
+msgstr "Kulağa ben gibi gelmiyor"
 
 #. negative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Absolutely not"
-msgstr ""
+msgstr "Kesinlikle hayır"
 
 #. negative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Next, please"
-msgstr ""
+msgstr "Sonraki, lütfen"
 
 #. affirmative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Yes"
-msgstr ""
+msgstr "Evet"
 
 #. affirmative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Sounds awesome"
-msgstr ""
+msgstr "Mükemmel görünüyor"
 
 #. affirmative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Tell me more"
-msgstr ""
+msgstr "Bana daha fazla anlat"
 
 #. affirmative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "That's me!"
-msgstr ""
+msgstr "Benim bu!"
 
 #. affirmative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Totally"
-msgstr ""
+msgstr "Tamamen"
 
 #. affirmative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Sure"
-msgstr ""
+msgstr "Aynen"
 
 #. backlink
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "I was wrong, take me back"
-msgstr ""
+msgstr "Haksızdım, beni geri götür"
 
 #. backlink
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "I think I made a mistake"
-msgstr ""
+msgstr "Bir hata yaptığımı düşünüyorum"
 
 #. backlink
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Get me outta here!"
-msgstr ""
+msgstr "Beni buradan götür!"
 
 #. navlink
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Join"
-msgstr ""
+msgstr "Katıl"
 
 #. navlink
 #: questions/coala.yml:1
 msgid "coala documentation"
-msgstr ""
+msgstr "coala belgesi"
 
 #. navlink
 #: questions/coala.yml:1
 msgid "Get Live Help!"
-msgstr ""
+msgstr "Canlı Yardım Al!"
 
 #. segue1
 #: questions/coala.yml:33
 msgid "Want to help coala?"
-msgstr ""
+msgstr "coala'ya yardım etmek ister misiniz?"
 
 #. segue2
 #: questions/coala.yml:33
 msgid "What do you care about?"
-msgstr ""
+msgstr "Neyi umursuyorsunuz?"
 
 #. title
 #: questions/coala.yml:37
 msgid "Visuals!"
-msgstr ""
+msgstr "Taslaklar!"
 
 #. subtitle
 #: questions/coala.yml:37
 msgid "The coala artwork team is just for you!"
-msgstr ""
+msgstr "coala sanat takımı sadece sizin için!"
 
 #. title
 #: questions/coala.yml:40
 msgid "Good, Generic Code"
-msgstr ""
+msgstr "İyi, Kapsamlı Kod"
 
 #. subtitle
 #: questions/coala.yml:40
 msgid "Help us improving code quality in the world! Join the core developers."
 msgstr ""
+"Dünyadaki kod kalitesini artırmamıza yardımcı olun! Çekirdek geliştiricileri"
+" arasına katılın."
 
 #. title
 #: questions/coala.yml:43
 msgid "Reaching Users"
-msgstr ""
+msgstr "Kullanıcılara Ulaşmak"
 
 #. subtitle
 #: questions/coala.yml:43
 msgid "Write documentation that is understandable by everyone."
-msgstr ""
+msgstr "Herkes tarafından anlaşılabilecek bir dokümantasyon yazın."
 
 #. title
 #: questions/coala.yml:46
 msgid "Make coala Accessible"
-msgstr ""
+msgstr "coala'yı Erişilebilir Hâle Getirin"
 
 #. subtitle
 #: questions/coala.yml:46
 msgid "Join our translation team!"
-msgstr ""
+msgstr "Çeviri takımımıza katılın!"
 
 #. title
 #: questions/coala.yml:49
 msgid "Crazy Algorithms"
-msgstr ""
+msgstr "Çılgın Algoritmalar"
 
 #. subtitle
 #: questions/coala.yml:49
@@ -185,501 +184,514 @@ msgid ""
 "Let's write code analytics. We write the framework, there's bare logic left "
 "for you."
 msgstr ""
+"Haydi kod analizleri yazalım. Biz çerçeveyi yazıyoruz, size çok az bir "
+"mantık kaldı."
 
 #. title
 #: questions/coala.yml:52
 msgid "Scientific Progress"
-msgstr ""
+msgstr "Bilimsel İlerleyiş"
 
 #. subtitle
 #: questions/coala.yml:52
 msgid "Join our coAST team and create language independent program analysis."
 msgstr ""
+"coAST takımımıza katılın ve dilden bağımsız program analizi oluşturun."
 
 #. title
 #: questions/coala.yml:55
 msgid "Money"
-msgstr ""
+msgstr "Para"
 
 #. subtitle
 #: questions/coala.yml:55
 msgid "Help us through donations at gratipay."
-msgstr ""
+msgstr "gratipay'de bağış yaparak bize yardımcı olun."
 
 #. title
 #. description
 #: questions/fedora.yml:1
 msgid "What can I do for Fedora?"
-msgstr ""
+msgstr "Fedora için ne yapabilirim?"
 
 #. navlink
 #: questions/fedora.yml:1
 msgid "Get Fedora"
-msgstr ""
+msgstr "Fedora'yı Al"
 
 #. segue1
 #: questions/fedora.yml:31
 msgid "Want to help Fedora?  Tell me..."
-msgstr ""
+msgstr "Fedora'ya yardım mı etmek istiyorsunuz? Söyleyin bana..."
 
 #. segue2
 #: questions/fedora.yml:31
 msgid "what's your area of interest?"
-msgstr ""
+msgstr "İlgi alanınız nedir?"
 
 #. title
 #: questions/fedora.yml:35
 msgid "Design!"
-msgstr ""
+msgstr "Tasarım!"
 
 #. segue1
 #: questions/fedora.yml:35
 msgid ""
 "So you enjoy working on the way users interact with websites and programs?"
 msgstr ""
+"Öyleyse kullanıcıların web siteleriyle ve programlarla etkileşme yolunda mı "
+"çalışmaktan hoşlanıyorsunuz?"
 
 #. segue2
 #: questions/fedora.yml:35
 msgid "How about the..."
-msgstr ""
+msgstr "Peki ya..."
 
 #. subtitle
 #: questions/fedora.yml:35
 msgid "pixel ninjas"
-msgstr ""
+msgstr "piksel ninjaları"
 
 #. title
 #: questions/fedora.yml:42
 msgid "Coding"
-msgstr ""
+msgstr "Kodlama"
 
 #. segue1
 #: questions/fedora.yml:42
 msgid "Zeroes and ones #allday?  Me too."
-msgstr ""
+msgstr "#bütüngün sıfırlar ve birler mi? Ben de."
 
 #. segue2
 #: questions/fedora.yml:42
 msgid "What's your favorite language?"
-msgstr ""
+msgstr "En sevdiğiniz dil hangisi?"
 
 #. subtitle
 #: questions/fedora.yml:42
 msgid "hacking the gibson"
-msgstr ""
+msgstr "gibson'ı hacklemek"
 
 #. title
 #: questions/fedora.yml:49
 msgid "Community Ops"
-msgstr ""
+msgstr "Komünite Operasyonları"
 
 #. segue1
 #: questions/fedora.yml:49
 msgid "Have a knack for community-building?"
-msgstr ""
+msgstr "Komünite oluşturma beceriniz var mı?"
 
 #. segue2
 #: questions/fedora.yml:49 questions/includes/fedora/coding.yml:38
 #: questions/includes/fedora/design.yml:3
 msgid "Would you like something more"
-msgstr ""
+msgstr "Daha fazla bir şey istiyor musunuz?"
 
 #. subtitle
 #: questions/fedora.yml:49
 msgid "connecting the dots"
-msgstr ""
+msgstr "noktaları birleştirmek"
 
 #. title
 #: questions/fedora.yml:56 questions/gnome.yml:40
 msgid "Writing"
-msgstr ""
+msgstr "Yazma"
 
 #. segue1
 #: questions/fedora.yml:56
 msgid "So, you have a way with words?"
-msgstr ""
+msgstr "Yani, kelimelerle yolunuz var?"
 
 #. segue2
 #: questions/fedora.yml:56 questions/fedora.yml:70
 msgid "Would you be more interested in..."
-msgstr ""
+msgstr "Bu sizin daha çok ilginizi çekebilir mi?"
 
 #. subtitle
 #: questions/fedora.yml:56
 msgid "wordsmithery"
-msgstr ""
+msgstr "kelime kullanma ustalığı"
 
 #. title
 #: questions/fedora.yml:63
 msgid "Categorization"
-msgstr ""
+msgstr "Kategorizasyon"
 
 #. segue1
 #: questions/fedora.yml:63
 msgid "So you like putting things in their place?"
-msgstr ""
+msgstr "Yani siz şeyleri yerine koymayı mı seviyorsunuz?"
 
 #. segue2
 #: questions/fedora.yml:63 questions/includes/fedora/coding.yml:15
 #: questions/includes/fedora/coding.yml:21
 msgid "How about..."
-msgstr ""
+msgstr "Peki ya..."
 
 #. subtitle
 #: questions/fedora.yml:63
 msgid "labelling things, perhaps obsessively"
-msgstr ""
+msgstr "şeyleri etiketlemek, belki bağımlılık hâlinde"
 
 #. title
 #: questions/fedora.yml:70
 msgid "Translation"
-msgstr ""
+msgstr "Çeviri"
 
 #. segue1
 #: questions/fedora.yml:70
 msgid "So you know more than one language?  We need you!"
-msgstr ""
+msgstr "Yani birden fazla dil mi biliyorsunuz? Size ihtiyacımız var!"
 
 #. subtitle
 #: questions/fedora.yml:70
 msgid "we're an international effort, after all"
-msgstr ""
+msgstr "en sonunda biz uluslararası bir uğraşız"
 
 #. title
 #: questions/fedora.yml:77
 msgid "Advocacy"
-msgstr ""
+msgstr "Savunuculuk"
 
 #. segue1
 #: questions/fedora.yml:77
 msgid "So you're a people person?"
-msgstr ""
+msgstr "Yani siz insan insanı mısınız?"
 
 #. segue2
 #: questions/fedora.yml:77
 msgid "How about becoming a Fedora..."
-msgstr ""
+msgstr "Peki ya Fedora olmaya ne dersin..."
 
 #. subtitle
 #: questions/fedora.yml:77
 msgid "spreading the good word"
-msgstr ""
+msgstr "iyi bir şekilde bizi tanıtarak"
 
 #. title
 #: questions/fedora.yml:84
 msgid "Packaging"
-msgstr ""
+msgstr "Paketleme"
 
 #. segue1
 #: questions/fedora.yml:84
 msgid "So you want to help build the OS?  Excellent."
 msgstr ""
+"Yani işletim sistemini inşa etmeye yardımcı mı olmak istiyorsunuz? Mükemmel."
 
 #. segue2
 #: questions/fedora.yml:84
 msgid "Then you'll need to become a Fedora..."
-msgstr ""
+msgstr "Öyleyse Fedora olmanız gerekecek..."
 
 #. subtitle
 #: questions/fedora.yml:84
 msgid "getting new software into Fedora"
-msgstr ""
+msgstr "Fedora'ya yeni yazılımlar ekleyerek"
 
 #. title
 #: questions/fedora.yml:91
 msgid "QA and Testing"
-msgstr ""
+msgstr "SC ve Deneme"
 
 #. segue1
 #: questions/fedora.yml:91
 msgid "So you like to push all the buttons and break all the things?"
-msgstr ""
+msgstr "Yani bütün düğmelere basmayı ve her şeyi kırmayı mı seviyorsunuz?"
 
 #. segue2
 #: questions/fedora.yml:91
 msgid "Are you more interested in something..."
-msgstr ""
+msgstr "Bir şeye daha fazla mı ilginiz var..."
 
 #. subtitle
 #: questions/fedora.yml:91
 msgid "as they say, \"if it's not tested, it's broken\""
-msgstr ""
+msgstr "dedikleri gibi, \"test edilmediyse, bozuktur\""
 
 #. title
 #: questions/fedora.yml:98
 msgid "The Desktop"
-msgstr ""
+msgstr "Masaüstü"
 
 #. segue1
 #: questions/fedora.yml:98
 msgid "So you're into making the OS polished and easy to use?"
 msgstr ""
+"Yani işletim sistemini cilalanmış ve kullanması kolay hâle getirmek mi "
+"istiyorsunuz?"
 
 #. segue2
 #: questions/fedora.yml:98 questions/fedora.yml:105 questions/fedora.yml:112
 #: questions/fedora.yml:119
 msgid "You probably want to join the Fedora..."
-msgstr ""
+msgstr "Muhtemelen Fedora'ya katılmak istiyorsunuz..."
 
 #. subtitle
 #: questions/fedora.yml:98
 msgid "we all have our favorite"
-msgstr ""
+msgstr "hepimizin favorileri var"
 
 #. title
 #: questions/fedora.yml:105
 msgid "The Server"
-msgstr ""
+msgstr "Sunucu"
 
 #. segue1
 #: questions/fedora.yml:105
 msgid "So you're into making the OS powerful and flexible?"
 msgstr ""
+"Yani işletim sistemini güçlü ve esnek bir hâle mi getirmek istiyorsunuz?"
 
 #. subtitle
 #: questions/fedora.yml:105
 msgid "the best and latest for the datacenter"
-msgstr ""
+msgstr "veri merkezi için en iyisi ve en günceli"
 
 #. title
 #: questions/fedora.yml:112
 msgid "The Cloud"
-msgstr ""
+msgstr "Bulut"
 
 #. segue1
 #: questions/fedora.yml:112
 msgid "High-minded?"
-msgstr ""
+msgstr "Asil ruhlu mu?"
 
 #. subtitle
 #: questions/fedora.yml:112
 msgid "it's where the future lives"
-msgstr ""
+msgstr "geleceğin yaşadığı yer orası"
 
 #. title
 #: questions/fedora.yml:119
 msgid "Internationalization"
-msgstr ""
+msgstr "Uluslararasılaştırma"
 
 #. segue1
 #: questions/fedora.yml:119
 msgid "Have a regional or world perspective?"
-msgstr ""
+msgstr "Bölgesel veya dünyevî bir bakış açınız mı var?"
 
 #. subtitle
 #: questions/fedora.yml:119
 msgid "making Fedora work better for all languages"
-msgstr ""
+msgstr "Fedora'yı tüm diller için daha iyi çalışır hâle getirmek"
 
 #. title
 #. description
 #: questions/gnome.yml:1
 msgid "What can I do for GNOME?"
-msgstr ""
+msgstr "GNOME için ne yapabilirim?"
 
 #. navlink
 #: questions/gnome.yml:1
 msgid "Get GNOME"
-msgstr ""
+msgstr "GNOME'yi Al"
 
 #. navlink
 #: questions/gnome.yml:1
 msgid "GNOME.org"
-msgstr ""
+msgstr "GNOME.org"
 
 #. segue1
 #: questions/gnome.yml:33
 msgid "Want to help GNOME?"
-msgstr ""
+msgstr "GNOME'ye yardım mı etmek istiyorsunuz?"
 
 #. segue2
 #: questions/gnome.yml:33
 msgid "First tell us what you like!"
-msgstr ""
+msgstr "Önce ne sevdiğinizi bize söyleyin!"
 
 #. title
 #: questions/gnome.yml:37
 msgid "Design and Usability"
-msgstr ""
+msgstr "Tasarım ve Kullanılabilirlik"
 
 #. subtitle
 #: questions/gnome.yml:37
 msgid "Making sure we focus on users."
-msgstr ""
+msgstr "Kullanıcıların odağımız olduğu konusunda emin olmak"
 
 #. subtitle
 #: questions/gnome.yml:40
 msgid "Want to help with your english skills?"
-msgstr ""
+msgstr "İngilizce becerilerinizi geliştirmek mi istiyorsunuz?"
 
 #. title
 #: questions/gnome.yml:43
 msgid "Articles"
-msgstr ""
+msgstr "Makaleler"
 
 #. subtitle
 #: questions/gnome.yml:43
 msgid "Want to help with the engagement team?"
-msgstr ""
+msgstr "Görev takımına yardımcı mı olmak istiyorsunuz?"
 
 #. title
 #: questions/gnome.yml:46 questions/includes/fedora/translation.yml:19
 #: questions/includes/fedora/writing.yml:3
 msgid "Documentation"
-msgstr ""
+msgstr "Belgelendirme"
 
 #. subtitle
 #: questions/gnome.yml:46
 msgid "Get all the hidden features to the users!"
-msgstr ""
+msgstr "Tüm gizli özellikleri kullanıcılara getirin!"
 
 #. title
 #: questions/gnome.yml:49
 msgid "Languages"
-msgstr ""
+msgstr "Diller"
 
 #. subtitle
 #: questions/gnome.yml:49
 msgid "You could help translating!"
-msgstr ""
+msgstr "Çeviride yardımcı olabilirsiniz!"
 
 #. title
 #: questions/gnome.yml:52
 msgid "Code"
-msgstr ""
+msgstr "Kod"
 
 #. subtitle
 #: questions/gnome.yml:52
 msgid "Get your hands dirty!"
-msgstr ""
+msgstr "Kötü işlere girin!"
 
 #. title
 #: questions/gnome.yml:55
 msgid "Making Things Stable"
-msgstr ""
+msgstr "Şeyleri Stabil Hâle Getirmek"
 
 #. subtitle
 #: questions/gnome.yml:55
 msgid "May GNOME never crash again"
-msgstr ""
+msgstr "GNOME bir kez daha çökmesin"
 
 #. title
 #: questions/gnome.yml:58
 msgid "Fixing Bugs"
-msgstr ""
+msgstr "Arızaları Düzeltmek"
 
 #. subtitle
 #: questions/gnome.yml:58
 msgid "Join our Bugsquad!"
-msgstr ""
+msgstr "Bugsquad'ımıza katılın!"
 
 #. title
 #: questions/gnome.yml:61
 msgid "Good Tests"
-msgstr ""
+msgstr "İyi Testler"
 
 #. subtitle
 #: questions/gnome.yml:61
 msgid "The QA team might be right for you."
-msgstr ""
+msgstr "SC takımı sizin için uygun olabilir."
 
 #. title
 #: questions/gnome.yml:64
 msgid "System Administration"
-msgstr ""
+msgstr "Sistem Yönetimi"
 
 #. subtitle
 #: questions/gnome.yml:64
 msgid "Help us managing our infrastructure!"
-msgstr ""
+msgstr "Altyapımızı yönetmemize yardımcı olun!"
 
 #. title
 #: questions/includes/fedora/advocacy.yml:3
 #: questions/includes/fedora/community.yml:15
 msgid "Ambassador"
-msgstr ""
+msgstr "Elçi"
 
 #. subtitle
 #: questions/includes/fedora/advocacy.yml:3
 #: questions/includes/fedora/community.yml:15
 msgid "the representatives of Fedora"
-msgstr ""
+msgstr "Fedora'nın temsilcileri"
 
 #. title
 #: questions/includes/fedora/categorization.yml:3
 msgid "Fedora Tagger"
-msgstr ""
+msgstr "Fedora Etiketleyicisi"
 
 #. subtitle
 #: questions/includes/fedora/categorization.yml:3
 msgid "assigning \"tags\" to packages to build better search"
-msgstr ""
+msgstr "daha iyi aramalar oluşturmak için paketlere \"etiket\" atamak"
 
 #. title
 #: questions/includes/fedora/cloud.yml:3
 msgid "Cloud SIG"
-msgstr ""
+msgstr "Bulut ÖİG'si"
 
 #. subtitle
 #: questions/includes/fedora/cloud.yml:3
 msgid "the special-interest-group for Fedora Cloud"
-msgstr ""
+msgstr "Fedora Bulut için özel ilgi grubu"
 
 #. title
 #: questions/includes/fedora/cloud.yml:6
 msgid "RDO"
-msgstr ""
+msgstr "RDO"
 
 #. subtitle
 #: questions/includes/fedora/cloud.yml:6
 msgid "the OpenStack distro for Fedora"
-msgstr ""
+msgstr "Fedora için OpenStack dağıtımı"
 
 #. title
 #: questions/includes/fedora/coding.yml:3
 msgid "Python"
-msgstr ""
+msgstr "Python"
 
 #. segue1
 #: questions/includes/fedora/coding.yml:3
 msgid "So, you enjoy traceback-driven development?  What could go wrong?"
 msgstr ""
+"Yani kaynak bulma odaklı geliştirmeyi mi seviyorsunuz? Ne yolunda "
+"gitmeyebilir ki?"
 
 #. segue2
 #: questions/includes/fedora/coding.yml:3
 msgid "Are you interested in hacking on..."
-msgstr ""
+msgstr "Bir şeyleri heklemeye ilginiz var mı..."
 
 #. subtitle
 #: questions/includes/fedora/coding.yml:3
 msgid "a dynamic language for rapid development"
-msgstr ""
+msgstr "hızlı geliştirme için dinamik bir dil"
 
 #. title
 #: questions/includes/fedora/coding.yml:9
 msgid "C"
-msgstr ""
+msgstr "C"
 
 #. segue1
 #: questions/includes/fedora/coding.yml:9
 msgid "So, you think OOP is for hipsters?  Let me tell you, back in my day..."
 msgstr ""
+"Yani OOP'nin hipstırlar için mi olduğunu düşünüyorsunuz? Anlatayım size, "
+"benim zamanımda..."
 
 #. segue2
 #: questions/includes/fedora/coding.yml:9
 #: questions/includes/fedora/coding.yml:27
 msgid "How about working on..."
-msgstr ""
+msgstr "Peki ya bir şeyler üstünde çalışmaya..."
 
 #. subtitle
 #: questions/includes/fedora/coding.yml:9
 msgid "close to the metal"
-msgstr ""
+msgstr "metale yakın"
 
 #. title
 #: questions/includes/fedora/coding.yml:15
 msgid "Haskell"
-msgstr ""
+msgstr "Haskell"
 
 #. segue1
 #: questions/includes/fedora/coding.yml:15
@@ -687,16 +699,18 @@ msgid ""
 "So, programming without side-effects is what you're all about?  Sounds "
 "useful!"
 msgstr ""
+"Yani yan etkiler olmadan programlamak sizin hakkınızdaki her şey mi? "
+"Kullanışlı gözüküyor!"
 
 #. subtitle
 #: questions/includes/fedora/coding.yml:15
 msgid "a nondynamic language for rapid development"
-msgstr ""
+msgstr "hızlı geliştirme için dinamik olmayan bir dil"
 
 #. title
 #: questions/includes/fedora/coding.yml:21
 msgid "Java"
-msgstr ""
+msgstr "Java"
 
 #. segue1
 #: questions/includes/fedora/coding.yml:21
@@ -704,16 +718,18 @@ msgid ""
 "So you're a believer in <code>AbstractMethodFactoryBean</code>s?  "
 "Straightforward enough..."
 msgstr ""
+"<code>AbstractMethodFactoryBean</code>'lerin bir inanıcısı mısınız? Oldukça "
+"basit..."
 
 #. subtitle
 #: questions/includes/fedora/coding.yml:21
 msgid "a nondynamic language for nonrapid development"
-msgstr ""
+msgstr "hızlı olmayan geliştirme için dinamik olmayan bir dil"
 
 #. title
 #: questions/includes/fedora/coding.yml:27
 msgid "Scala"
-msgstr ""
+msgstr "Scala"
 
 #. segue1
 #: questions/includes/fedora/coding.yml:27
@@ -721,43 +737,47 @@ msgid ""
 "So, just OOP or functional languages wouldn't do it?  You had to have both, "
 "huh?"
 msgstr ""
+"Yani sadece OOP ve fonksiyonel diller yetmiyor mu? İkisini de istiyorsunuz, "
+"ha?"
 
 #. subtitle
 #: questions/includes/fedora/coding.yml:27
 msgid "a nondynamic language for semirapid development"
-msgstr ""
+msgstr "yarı hızlı geliştirme için dinamik olmayan bir dil"
 
 #. title
 #: questions/includes/fedora/coding.yml:33
 msgid "JavaScript"
-msgstr ""
+msgstr "JavaScript"
 
 #. segue1
 #: questions/includes/fedora/coding.yml:33
 msgid ""
 "So, you think having native integers is over-rated?  What could go wrong?"
 msgstr ""
+"Yani yerel tamsayıların abartılı olduğunu mu düşünüyorsunuz? Ne yolunda "
+"gitmeyebilir ki?"
 
 #. segue2
 #: questions/includes/fedora/coding.yml:33
 msgid "There's plenty to do.  How about joining the.."
-msgstr ""
+msgstr "Yapılacak çok şey var. Ya katılmak..."
 
 #. subtitle
 #: questions/includes/fedora/coding.yml:33
 msgid "a dynamic web-oriented language for backend and frontend"
-msgstr ""
+msgstr "arka ve ön uç için web'e yönelik dinamik bir dil"
 
 #. title
 #: questions/includes/fedora/coding.yml:38
 #: questions/includes/fedora/design.yml:35
 msgid "Websites Team"
-msgstr ""
+msgstr "Web Siteleri Takımı"
 
 #. segue1
 #: questions/includes/fedora/coding.yml:38
 msgid "Great!"
-msgstr ""
+msgstr "Mükemmel!"
 
 #. subtitle
 #: questions/includes/fedora/coding.yml:38
@@ -766,21 +786,23 @@ msgid ""
 "web developers that build <a "
 "href=\"https://getfedora.org\">getfedora.org</a> and other awesome sites"
 msgstr ""
+"<a href=\"https://getfedora.org\">getfedora.org</a>'u ve diğer mükemmel "
+"siteleri oluşturan web geliştiricileri"
 
 #. title
 #: questions/includes/fedora/coding.yml:44
 msgid "Ruby"
-msgstr ""
+msgstr "Ruby"
 
 #. subtitle
 #: questions/includes/fedora/coding.yml:44
 msgid "hashrockets and bare words"
-msgstr ""
+msgstr "heşroketler ve az kelime"
 
 #. title
 #: questions/includes/fedora/coding.yml:48
 msgid "C++"
-msgstr ""
+msgstr "C++"
 
 #. segue1
 #: questions/includes/fedora/coding.yml:48
@@ -788,11 +810,13 @@ msgid ""
 "So, you're not happy if your error messages are comprehensible?  We have a "
 "place for you."
 msgstr ""
+"Yani hata mesajlarınızın anlaşılır olmadığından mutlu değil misiniz? Sizin "
+"için bir yerimiz var."
 
 #. segue2
 #: questions/includes/fedora/coding.yml:48
 msgid "Try digging into..."
-msgstr ""
+msgstr "Buna el atmayı deneyin..."
 
 #. subtitle
 #: questions/includes/fedora/coding.yml:48
@@ -800,6 +824,7 @@ msgid ""
 "imperative and object-oriented with the power of low-level memory "
 "manipulation"
 msgstr ""
+"düşük seviyede hafıza manipülasyonunun gücüyle mecburî ve nesneye dayalı"
 
 #. title
 #: questions/includes/fedora/community.yml:3
@@ -808,12 +833,12 @@ msgstr ""
 #: questions/includes/fedora/writing.yml:9
 #: questions/includes/fedora/coding/web.yml:4
 msgid "General"
-msgstr ""
+msgstr "Genel"
 
 #. subtitle
 #: questions/includes/fedora/community.yml:3
 msgid "on how to join the Community Operations team?"
-msgstr ""
+msgstr "Komünite Faaliyetleri takımına katılmak konusunda?"
 
 #. title
 #: questions/includes/fedora/community.yml:8
@@ -822,30 +847,30 @@ msgstr ""
 #: questions/includes/fedora/writing.yml:13
 #: questions/includes/fedora/coding/web.yml:9
 msgid "Specific"
-msgstr ""
+msgstr "Belirli"
 
 #. segue1
 #: questions/includes/fedora/community.yml:8
 #: questions/includes/fedora/design.yml:15
 msgid "Excellent!"
-msgstr ""
+msgstr "Muhteşem!"
 
 #. segue2
 #: questions/includes/fedora/community.yml:8
 #: questions/includes/fedora/design.yml:15
 msgid "How does this sound?"
-msgstr ""
+msgstr "Bu nasıl geliyor?"
 
 #. subtitle
 #: questions/includes/fedora/community.yml:8
 msgid "on different kinds of community tasks"
-msgstr ""
+msgstr "farklı tip topluluk görevlerinde"
 
 #. title
 #: questions/includes/fedora/community.yml:19
 #: questions/includes/fedora/writing.yml:50
 msgid "Community Blog"
-msgstr ""
+msgstr "Topluluk Bloğu"
 
 #. subtitle
 #: questions/includes/fedora/community.yml:19
@@ -856,7 +881,7 @@ msgstr ""
 #. title
 #: questions/includes/fedora/community.yml:22
 msgid "5 Things in Fedora This Week"
-msgstr ""
+msgstr "Bu Hafta Fedora'da 5 Şey"
 
 #. subtitle
 #: questions/includes/fedora/community.yml:22
@@ -867,12 +892,12 @@ msgstr ""
 #. title
 #: questions/includes/fedora/design.yml:3
 msgid "Design Team"
-msgstr ""
+msgstr "Tasarım Takımı"
 
 #. segue1
 #: questions/includes/fedora/design.yml:3
 msgid "Ok."
-msgstr ""
+msgstr "Tamam."
 
 #. subtitle
 #: questions/includes/fedora/design.yml:3
@@ -882,12 +907,12 @@ msgstr ""
 #. subtitle
 #: questions/includes/fedora/design.yml:10
 msgid "on how to join the design team?"
-msgstr ""
+msgstr "tasarım ekibine nasıl katılmalı?"
 
 #. subtitle
 #: questions/includes/fedora/design.yml:15
 msgid "on different kinds of design tasks"
-msgstr ""
+msgstr "farklı tasarım görevlerinde"
 
 #. title
 #: questions/includes/fedora/design.yml:22
@@ -912,7 +937,7 @@ msgstr ""
 #. title
 #: questions/includes/fedora/design.yml:30
 msgid "Fedora Badges"
-msgstr ""
+msgstr "Fedora Rozetleri"
 
 #. subtitle
 #: questions/includes/fedora/design.yml:30
@@ -924,7 +949,7 @@ msgstr ""
 #. title
 #: questions/includes/fedora/desktop.yml:3
 msgid "Desktop SIG"
-msgstr ""
+msgstr "Masaüstü ÖİG'si"
 
 #. subtitle
 #: questions/includes/fedora/desktop.yml:3
@@ -934,7 +959,7 @@ msgstr ""
 #. title
 #: questions/includes/fedora/desktop.yml:7
 msgid "Cinnamon SIG"
-msgstr ""
+msgstr "Cinnamon ÖİG'si"
 
 #. subtitle
 #: questions/includes/fedora/desktop.yml:7
@@ -945,7 +970,7 @@ msgstr ""
 #. title
 #: questions/includes/fedora/desktop.yml:11
 msgid "KDE SIG"
-msgstr ""
+msgstr "KDE ÖİG'si"
 
 #. subtitle
 #: questions/includes/fedora/desktop.yml:11
@@ -955,7 +980,7 @@ msgstr ""
 #. title
 #: questions/includes/fedora/desktop.yml:15
 msgid "LXDE SIG"
-msgstr ""
+msgstr "LXDE ÖİG'si"
 
 #. subtitle
 #: questions/includes/fedora/desktop.yml:15
@@ -965,7 +990,7 @@ msgstr ""
 #. title
 #: questions/includes/fedora/desktop.yml:19
 msgid "XFCE SIG"
-msgstr ""
+msgstr "XFCE ÖİG'si"
 
 #. subtitle
 #: questions/includes/fedora/desktop.yml:19
@@ -1000,17 +1025,17 @@ msgstr ""
 #. segue1
 #: questions/includes/fedora/qa.yml:8
 msgid "Certainly."
-msgstr ""
+msgstr "Elbette."
 
 #. segue2
 #: questions/includes/fedora/qa.yml:8
 msgid "We need people to..."
-msgstr ""
+msgstr "Bizim insanlara ihtiyacımız var..."
 
 #. subtitle
 #: questions/includes/fedora/qa.yml:8
 msgid "about different QA and testing tasks"
-msgstr ""
+msgstr "farklı SC ve deneme görevleri hakkında"
 
 #. title
 #: questions/includes/fedora/qa.yml:14
@@ -1025,7 +1050,7 @@ msgstr ""
 #. title
 #: questions/includes/fedora/qa.yml:17
 msgid "Test Updates"
-msgstr ""
+msgstr "Deneme Güncelleştirmeleri"
 
 #. subtitle
 #: questions/includes/fedora/qa.yml:17
@@ -1035,7 +1060,7 @@ msgstr ""
 #. title
 #: questions/includes/fedora/qa.yml:20
 msgid "Create Test Cases"
-msgstr ""
+msgstr "Test Durumları Oluşturun"
 
 #. subtitle
 #: questions/includes/fedora/qa.yml:20
@@ -1045,7 +1070,7 @@ msgstr ""
 #. title
 #: questions/includes/fedora/qa.yml:24
 msgid "Develop Tools"
-msgstr ""
+msgstr "Araçlar Geliştirin"
 
 #. segue1
 #: questions/includes/fedora/qa.yml:24

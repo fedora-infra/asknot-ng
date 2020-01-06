@@ -1,20 +1,22 @@
-# Enrico Wildgrube <kontakt@enrico-wildgrube.de>, 2015. #zanata
+# Enrico Wildgrube <kontakt@enriwi.de>, 2015. #zanata
 # Florian H. <postfuerflo@gmail.com>, 2016. #zanata
-# Roman Spirgi <rspirgi@gmail.com>, 2016. #zanata
+# Roman Spirgi <bigant@fedoraproject.org>, 2016. #zanata
+# Fabian Affolter <fab@fedoraproject.org>, 2018. #zanata
+# Tobias Weise <tobias.weise@web.de>, 2019. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2015-12-01 10:00-0500\n"
-"PO-Revision-Date: 2016-06-04 04:14-0400\n"
-"Last-Translator: Roman Spirgi <rspirgi@gmail.com>\n"
+"PO-Revision-Date: 2019-05-10 01:27+0000\n"
+"Last-Translator: Enrico Wildgrube <kontakt@enriwi.de>\n"
 "Language-Team: German\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Generator: Zanata 3.9.6\n"
+"X-Generator: Zanata 4.6.2\n"
 
 #. title
 #. description
@@ -686,7 +688,6 @@ msgstr "Wie wär's mit..."
 
 #. subtitle
 #: questions/includes/fedora/coding.yml:9
-#, fuzzy
 msgid "close to the metal"
 msgstr "Nah am Metall"
 
@@ -723,15 +724,13 @@ msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/coding.yml:21
-#, fuzzy
 msgid "a nondynamic language for nonrapid development"
 msgstr "Eine nicht-dynamische Sprache für nicht-rapide Entwicklung"
 
 #. title
 #: questions/includes/fedora/coding.yml:27
-#, fuzzy
 msgid "Scala"
-msgstr "Scala"
+msgstr "Skala"
 
 #. segue1
 #: questions/includes/fedora/coding.yml:27
@@ -784,7 +783,6 @@ msgstr "Großartig!"
 #. subtitle
 #: questions/includes/fedora/coding.yml:38
 #: questions/includes/fedora/design.yml:35
-#, fuzzy
 msgid ""
 "web developers that build <a "
 "href=\"https://getfedora.org\">getfedora.org</a> and other awesome sites"
@@ -805,7 +803,7 @@ msgstr "Hashrockets und nackte Wörter."
 #. title
 #: questions/includes/fedora/coding.yml:48
 msgid "C++"
-msgstr ""
+msgstr "C++"
 
 #. segue1
 #: questions/includes/fedora/coding.yml:48
@@ -827,6 +825,8 @@ msgid ""
 "imperative and object-oriented with the power of low-level memory "
 "manipulation"
 msgstr ""
+"Imperativ und objektorientiert mit der Kraft der Low-Level-"
+"Speichermanipulation"
 
 #. title
 #: questions/includes/fedora/community.yml:3
@@ -840,7 +840,7 @@ msgstr "Im Allgemeinen"
 #. subtitle
 #: questions/includes/fedora/community.yml:3
 msgid "on how to join the Community Operations team?"
-msgstr ""
+msgstr "Wie tritt man dem Community Operations Team bei?"
 
 #. title
 #: questions/includes/fedora/community.yml:8
@@ -866,30 +866,34 @@ msgstr "Wie klingt das ?"
 #. subtitle
 #: questions/includes/fedora/community.yml:8
 msgid "on different kinds of community tasks"
-msgstr ""
+msgstr "auf verschiedene Arten von Community-Aufgaben"
 
 #. title
 #: questions/includes/fedora/community.yml:19
 #: questions/includes/fedora/writing.yml:50
 msgid "Community Blog"
-msgstr ""
+msgstr "Community Blog"
 
 #. subtitle
 #: questions/includes/fedora/community.yml:19
 #: questions/includes/fedora/writing.yml:50
 msgid "the central hub of all Fedora news, across the subprojects"
 msgstr ""
+"das zentrale Drehkreuz aller Fedora-Nachrichten, über die Teilprojekte "
+"hinweg"
 
 #. title
 #: questions/includes/fedora/community.yml:22
 msgid "5 Things in Fedora This Week"
-msgstr ""
+msgstr "5 Dinge in Fedora in dieser Woche"
 
 #. subtitle
 #: questions/includes/fedora/community.yml:22
 msgid ""
 "finding information for a weekly article about the happenings in Fedora"
 msgstr ""
+"Informationen für einen wöchentlichen Artikel über die Geschehnisse in "
+"Fedora finden"
 
 #. title
 #: questions/includes/fedora/design.yml:3
@@ -903,14 +907,12 @@ msgstr "Ok."
 
 #. subtitle
 #: questions/includes/fedora/design.yml:3
-#, fuzzy
 msgid "creatives serving as a design firm for the Fedora community"
 msgstr ""
-"Kreative die sich als Designunternehmen der Fedora Community anbieten."
+"Kreative, die sich als Design-Unternehmen der Fedora Community anbieten."
 
 #. subtitle
 #: questions/includes/fedora/design.yml:10
-#, fuzzy
 msgid "on how to join the design team?"
 msgstr "Wie kann ich dem Designteam beitreten ?"
 
@@ -921,7 +923,6 @@ msgstr "an verschiedene Arten von Gestaltungsaufgaben"
 
 #. title
 #: questions/includes/fedora/design.yml:22
-#, fuzzy
 msgid "Artwork Requests"
 msgstr "Illustrationsanfragen"
 
@@ -1059,7 +1060,6 @@ msgstr "Das geschieht vor einer bevorstehenden Veröffentlichung"
 
 #. title
 #: questions/includes/fedora/qa.yml:17
-#, fuzzy
 msgid "Test Updates"
 msgstr "Aktualisierungen testen"
 
@@ -1126,9 +1126,8 @@ msgstr "Bodhi"
 
 #. subtitle
 #: questions/includes/fedora/qa.yml:36
-#, fuzzy
 msgid "the Fedora Updates System"
-msgstr "das Fedora Aktualisierungssystem"
+msgstr "das Fedora-Aktualisierungssystem"
 
 #. title
 #: questions/includes/fedora/qa.yml:39
@@ -1423,7 +1422,7 @@ msgstr ""
 #. title
 #: questions/includes/fedora/coding/c.yml:3
 msgid "OSTree"
-msgstr ""
+msgstr "OSTree"
 
 #. subtitle
 #: questions/includes/fedora/coding/c.yml:3
@@ -1443,7 +1442,7 @@ msgstr "Weithin bekanntes Init-System und Suite an Bausteinen"
 #. title
 #: questions/includes/fedora/coding/c.yml:11
 msgid "Cockpit"
-msgstr ""
+msgstr "Cockpit"
 
 #. subtitle
 #: questions/includes/fedora/coding/c.yml:11
@@ -1504,7 +1503,7 @@ msgstr "Mit der Gemeinschaft an Java-Paketierung und -Entwicklung arbeiten"
 #. title
 #: questions/includes/fedora/coding/java.yml:7
 msgid "JBoss"
-msgstr ""
+msgstr "JBoss"
 
 #. subtitle
 #: questions/includes/fedora/coding/java.yml:7
@@ -1514,7 +1513,7 @@ msgstr "Eine Middleware-Suite für Unternehmen"
 #. title
 #: questions/includes/fedora/coding/java.yml:11
 msgid "fedmsg-java"
-msgstr ""
+msgstr "fedmsg-java"
 
 #. subtitle
 #: questions/includes/fedora/coding/java.yml:11
@@ -1524,7 +1523,7 @@ msgstr "Mit Fedmsg der JVM interagieren"
 #. title
 #: questions/includes/fedora/coding/java.yml:15
 msgid "jenkins-fedmsg-emit"
-msgstr ""
+msgstr "jenkins-fedmsg-emit"
 
 #. subtitle
 #: questions/includes/fedora/coding/java.yml:15
@@ -1534,7 +1533,7 @@ msgstr "Fedmsg-Nachrichten zu Jenkins-Builds senden"
 #. title
 #: questions/includes/fedora/coding/python.yml:3
 msgid "Anaconda"
-msgstr ""
+msgstr "Anaconda"
 
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:3
@@ -1545,7 +1544,7 @@ msgstr ""
 #. title
 #: questions/includes/fedora/coding/python.yml:7
 msgid "ABRT"
-msgstr ""
+msgstr "ABRT"
 
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:7
@@ -1555,7 +1554,7 @@ msgstr "Die automatisierte Fehlerberichterstattung"
 #. title
 #: questions/includes/fedora/coding/python.yml:11
 msgid "DNF"
-msgstr ""
+msgstr "DNF"
 
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:11
@@ -1565,7 +1564,7 @@ msgstr "Dandified Yum (DNF) ist eine komplette Neufassung von Yum"
 #. title
 #: questions/includes/fedora/coding/python.yml:15
 msgid "Firewalld"
-msgstr ""
+msgstr "Firewalld"
 
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:15
@@ -1576,7 +1575,7 @@ msgstr ""
 #. title
 #: questions/includes/fedora/coding/python.yml:19
 msgid "PortingDB"
-msgstr ""
+msgstr "PortingDB"
 
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:19
@@ -1591,7 +1590,7 @@ msgstr ""
 #. title
 #: questions/includes/fedora/coding/python.yml:23
 msgid "Rolekit"
-msgstr ""
+msgstr "Rolekit"
 
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:23
@@ -1601,8 +1600,8 @@ msgid ""
 " Roles</a>"
 msgstr ""
 "Ein Dienst für die Verwaltung von Bereitstellungen von <a "
-"href=\"https://fedoraproject.org/wiki/Server/Product_Requirements_Document#Featured_Server_Roles"
-"\">Server-Rollen</a>"
+"href=\"https://fedoraproject.org/wiki/Server/Product_Requirements_Document#Featured_Server_Roles\">Server-"
+"Rollen</a>"
 
 #. title
 #: questions/includes/fedora/coding/python.yml:27
@@ -1617,7 +1616,7 @@ msgstr "Das Fedora-Infrastruktur-Team für den Erfolg"
 #. title
 #: questions/includes/fedora/coding/scala.yml:3
 msgid "Fedora Mobile"
-msgstr ""
+msgstr "Fedora Mobile"
 
 #. subtitle
 #: questions/includes/fedora/coding/scala.yml:3
