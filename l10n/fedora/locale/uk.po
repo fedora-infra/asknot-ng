@@ -1,18 +1,19 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2016. #zanata
+# Yuri Chornoivan <yurchor@ukr.net>, 2019. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2015-12-01 10:00-0500\n"
-"PO-Revision-Date: 2016-04-27 01:20-0400\n"
-"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
+"PO-Revision-Date: 2019-06-03 02:48+0000\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: uk\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
-"X-Generator: Zanata 3.9.6\n"
+"X-Generator: Zanata 4.6.2\n"
 
 #. title
 #. description
@@ -871,7 +872,7 @@ msgstr "Блог спільноти"
 #: questions/includes/fedora/community.yml:19
 #: questions/includes/fedora/writing.yml:50
 msgid "the central hub of all Fedora news, across the subprojects"
-msgstr "центральне місце для усіх новин Fedora та підпроектів"
+msgstr "центральне місце для усіх новин Fedora та підпроєктів"
 
 #. title
 #: questions/includes/fedora/community.yml:22
@@ -1005,7 +1006,7 @@ msgstr "i18n"
 #. subtitle
 #: questions/includes/fedora/i18n.yml:3
 msgid "the Fedora Internationalization subproject"
-msgstr "підпроект інтернаціоналізації Fedora"
+msgstr "підпроєкт інтернаціоналізації Fedora"
 
 #. title
 #: questions/includes/fedora/packaging.yml:3
@@ -1197,7 +1198,7 @@ msgstr "Інтерфейси користувача"
 #. subtitle
 #: questions/includes/fedora/translation.yml:13
 msgid "there are some essential projects that need translating"
-msgstr "існує декілька основних проектів, які потребують перекладу"
+msgstr "існує декілька основних проєктів, які потребують перекладу"
 
 #. title
 #: questions/includes/fedora/translation.yml:16
@@ -1527,7 +1528,7 @@ msgstr "Anaconda"
 #: questions/includes/fedora/coding/python.yml:3
 msgid "the OS installer and all its related projects"
 msgstr ""
-"засіб для встановлення операційної системи та усі пов’язані із ним проекти"
+"засіб для встановлення операційної системи та усі пов’язані із ним проєкти"
 
 #. title
 #: questions/includes/fedora/coding/python.yml:7

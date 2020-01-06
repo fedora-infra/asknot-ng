@@ -2,20 +2,21 @@
 # Daniel Maixner <xskipy@gmail.com>, 2016. #zanata
 # Josef Hruška <hrusjos@gmail.com>, 2016. #zanata
 # Marek Suchánek <m.suchanek.2@gmail.com>, 2016. #zanata
+# Zdenek <chmelarz@gmail.com>, 2018. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2015-12-01 10:00-0500\n"
-"PO-Revision-Date: 2016-10-21 03:03-0400\n"
-"Last-Translator: Josef Hruška <hrusjos@gmail.com>\n"
+"PO-Revision-Date: 2018-03-15 05:47+0000\n"
+"Last-Translator: \n"
 "Language-Team: Czech\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: cs\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2\n"
-"X-Generator: Zanata 3.9.6\n"
+"X-Generator: Zanata 4.6.2\n"
 
 #. title
 #. description
@@ -921,7 +922,7 @@ msgstr "existují lidé, kteří potřebují dobrý vkus -- vy jim můžete pomo
 #. title
 #: questions/includes/fedora/design.yml:26
 msgid "Hackergotchis"
-msgstr "Avatarové obrázky (hackergotchi)"
+msgstr "Avatarové obrázky"
 
 #. subtitle
 #: questions/includes/fedora/design.yml:26
@@ -939,7 +940,7 @@ msgid ""
 "make awesome badge art that fuels <a "
 "href=\"https://badges.fedoraproject.org\">badges.fp.o</a>"
 msgstr ""
-"tvorba úžasného známkového umění, které zásobí <a "
+"vytvářejte úžasné odznáčky, které zásobí <a "
 "href=\"https://badges.fedoraproject.org\">badges.fp.o</a>"
 
 #. title

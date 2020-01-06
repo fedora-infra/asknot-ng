@@ -1,25 +1,23 @@
 # Dennis Tobar <dennis.tobar@gmail.com>, 2015. #zanata
-# Kenneth Guerra <kg2795@gmail.com>, 2015. #zanata
 # magjogui <magjogui@fedoraproject.org>, 2015. #zanata
 # tatica leandro <tatica@fedoraproject.org>, 2015. #zanata
-# Adolfo Jayme <fitoschido@gmail.com>, 2016. #zanata
 # Máximo Castañeda Riloba <mcrcctm@gmail.com>, 2016. #zanata
-# Omar Berroterán S. <omarberroteranlkf@gmail.com>, 2016. #zanata
-# William  Moreno Reyes <williamjmorenor@gmail.com>, 2016. #zanata
+# Emilio Herrera <ehespinosa57@gmail.com>, 2018. #zanata
+# Emilio Herrera <ehespinosa57@gmail.com>, 2019. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2015-12-01 10:00-0500\n"
-"PO-Revision-Date: 2016-09-07 07:34-0400\n"
-"Last-Translator: William  Moreno Reyes <williamjmorenor@gmail.com>\n"
+"PO-Revision-Date: 2019-01-10 03:55+0000\n"
+"Last-Translator: Máximo Castañeda Riloba <mcrcctm@gmail.com>\n"
 "Language-Team: Spanish\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Generator: Zanata 3.9.6\n"
+"X-Generator: Zanata 4.6.2\n"
 
 #. title
 #. description
@@ -115,7 +113,7 @@ msgstr "¡Sácame de aquí!"
 #. navlink
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Join"
-msgstr "Ingresar"
+msgstr "Unirse"
 
 #. navlink
 #: questions/coala.yml:1
@@ -150,7 +148,7 @@ msgstr "¡El equipo de arte de coala es perfecto para ti!"
 #. title
 #: questions/coala.yml:40
 msgid "Good, Generic Code"
-msgstr "El buen código genérico"
+msgstr "Buen Código Genérico"
 
 #. subtitle
 #: questions/coala.yml:40
@@ -262,7 +260,7 @@ msgstr "ninjas del píxel"
 #. title
 #: questions/fedora.yml:42
 msgid "Coding"
-msgstr "Programación"
+msgstr "Codificación"
 
 #. segue1
 #: questions/fedora.yml:42
@@ -359,7 +357,7 @@ msgstr "somos parte de un esfuerzo internacional, después de todo"
 #. title
 #: questions/fedora.yml:77
 msgid "Advocacy"
-msgstr "Promoción"
+msgstr "Apoyo"
 
 #. segue1
 #: questions/fedora.yml:77
@@ -1032,7 +1030,7 @@ msgstr "administrador de los paquetes en Fedora"
 #. subtitle
 #: questions/includes/fedora/qa.yml:4
 msgid "about how to join the QA team?"
-msgstr "acerca de cómo unirse al equipo de control de calidad?"
+msgstr "¿acerca de cómo unirse al equipo de control de calidad?"
 
 #. segue1
 #: questions/includes/fedora/qa.yml:8
@@ -1047,12 +1045,12 @@ msgstr "Necesitamos gente para..."
 #. subtitle
 #: questions/includes/fedora/qa.yml:8
 msgid "about different QA and testing tasks"
-msgstr "acerca de las diferentes tareas de control de calidad y pruebas?"
+msgstr "acerca de las diferentes tareas de control de calidad y pruebas"
 
 #. title
 #: questions/includes/fedora/qa.yml:14
 msgid "Validate Releases"
-msgstr "Validar lanzamientos"
+msgstr "Validar Lanzamientos"
 
 #. subtitle
 #: questions/includes/fedora/qa.yml:14
@@ -1062,7 +1060,7 @@ msgstr "cuando estamos cerca de un lanzamiento, claro"
 #. title
 #: questions/includes/fedora/qa.yml:17
 msgid "Test Updates"
-msgstr "Comprobar actualizaciones"
+msgstr "Comprobar Actualizaciones"
 
 #. subtitle
 #: questions/includes/fedora/qa.yml:17
@@ -1072,7 +1070,7 @@ msgstr "antes de mandarlas al repositorio estable"
 #. title
 #: questions/includes/fedora/qa.yml:20
 msgid "Create Test Cases"
-msgstr "Crear casos de pruebas"
+msgstr "Crear Casos de Prueba"
 
 #. subtitle
 #: questions/includes/fedora/qa.yml:20
@@ -1082,7 +1080,7 @@ msgstr "de otra forma no sabríamos que probar"
 #. title
 #: questions/includes/fedora/qa.yml:24
 msgid "Develop Tools"
-msgstr "Desarrollar herramientas"
+msgstr "Desarrollar Herramientas"
 
 #. segue1
 #: questions/includes/fedora/qa.yml:24
@@ -1127,7 +1125,7 @@ msgstr "Bodhi"
 #. subtitle
 #: questions/includes/fedora/qa.yml:36
 msgid "the Fedora Updates System"
-msgstr "el sistema de actualizaciones de Fedora"
+msgstr "el Sistema de Actualizaciones de Fedora"
 
 #. title
 #: questions/includes/fedora/qa.yml:39
@@ -1182,7 +1180,7 @@ msgstr "el grupo de interés especial de Fedora Server"
 #. subtitle
 #: questions/includes/fedora/translation.yml:3
 msgid "about how to join the L10N team?"
-msgstr "acerca de cómo unirse al equipo de L10N?"
+msgstr "¿sobre cómo unirse al equipo de L10N?"
 
 #. segue1
 #: questions/includes/fedora/translation.yml:7
@@ -1197,7 +1195,7 @@ msgstr "Quizás estés interesado en traducir..."
 #. subtitle
 #: questions/includes/fedora/translation.yml:7
 msgid "about L10N tasks"
-msgstr "sobre las tareas de L10N?"
+msgstr "sobre las tareas de L10N"
 
 #. title
 #: questions/includes/fedora/translation.yml:13
@@ -1233,7 +1231,7 @@ msgstr "GNOME"
 #. subtitle
 #: questions/includes/fedora/translation.yml:22
 msgid "which has it's own translation resources"
-msgstr "que tienen sus propios recursos de traducción"
+msgstr "que tiene su propio recurso de traducción"
 
 #. title
 #: questions/includes/fedora/translation.yml:25
