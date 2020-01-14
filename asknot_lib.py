@@ -215,7 +215,7 @@ def translatable_strings(data):
             yield items
 
     children = data.get('children', [])
-    if isinstance(children, basestring):
+    if isinstance(children, str):
         pass
     else:
         for child in children:
