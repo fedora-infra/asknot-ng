@@ -71,7 +71,7 @@ First, setup a virtualenv, install Babel, and build the egg info.
 
 Then, extract the translatable strings:
 
-    $ python setup.py extract_messages --output-file l10n/fedora/locale/asknot-ng.pot
+    $ python setup.py extract_messages --output-file l10n/fedora/locale/asknot-ng.pot --input-dir=.
 
 ## Container
 
