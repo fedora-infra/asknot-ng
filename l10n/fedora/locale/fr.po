@@ -2,13 +2,14 @@
 # José Fournier <jaaf64@zoraldia.com>, 2016. #zanata
 # Jérôme Bivia <jerome.bivia@gmail.com>, 2016. #zanata
 # Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>, 2017. #zanata, 2020.
+# Julien Humbert <julroy67@gmail.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-01-14 13:19+0100\n"
-"PO-Revision-Date: 2020-01-16 12:45+0000\n"
-"Last-Translator: Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>\n"
+"PO-Revision-Date: 2020-01-22 19:15+0000\n"
+"Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
 "Language-Team: French <https://translate.stg.fedoraproject.org/projects/"
 "fedora-infra/asknot-ng/fr/>\n"
 "Language: fr\n"
@@ -16,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.10.1\n"
+"X-Generator: Weblate 3.10.3\n"
 
 #. title
 #. description
@@ -122,7 +123,7 @@ msgstr "documentation coala"
 #. navlink
 #: questions/coala.yml:1
 msgid "Get Live Help!"
-msgstr "Obtenez de l'aide en direct !"
+msgstr "Obtenez de l’aide en direct !"
 
 #. segue1
 #: questions/coala.yml:33
@@ -509,7 +510,7 @@ msgstr "Conception graphique et convivialité"
 #. subtitle
 #: questions/gnome.yml:37
 msgid "Making sure we focus on users."
-msgstr "S'assurer que nous sommes focalisés sur l’utilisateur."
+msgstr "S’assurer que nous sommes focalisés sur l’utilisateur."
 
 #. subtitle
 #: questions/gnome.yml:40
