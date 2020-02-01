@@ -4,20 +4,22 @@
 # Rafael Rodrigues Nakano <lazpeng@gmail.com>, 2017. #zanata
 # Rodrigo de Araujo Sousa Fonseca <rodrigodearaujo@fedoraproject.org>, 2017. #zanata
 # Wolnei Cândido Tomazelli Junior <wolnei@fedoraproject.org>, 2017. #zanata
+# Rafael Fontenelle <rafaelff@gnome.org>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-01-14 13:19+0100\n"
-"PO-Revision-Date: 2017-12-26 05:15+0000\n"
-"Last-Translator: Antonio Lisbôa  <antonion.2048@gmail.com>\n"
-"Language-Team: Portuguese (Brazil)\n"
+"PO-Revision-Date: 2020-01-29 21:16+0000\n"
+"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
+"Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
+"projects/fedora-infra/asknot-ng/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Weblate 3.10.3\n"
 
 #. title
 #. description
@@ -280,7 +282,7 @@ msgstr "Ops comunitários"
 #. segue1
 #: questions/fedora.yml:50
 msgid "Have a knack for community-building?"
-msgstr "Tem  talento especial para a construção de uma comunidade?"
+msgstr "Tem talento especial para a construção de uma comunidade?"
 
 #. segue2
 #: questions/fedora.yml:50 questions/includes/fedora/coding.yml:38
@@ -311,7 +313,7 @@ msgstr "Você estaria mais interessado em..."
 #. subtitle
 #: questions/fedora.yml:57
 msgid "wordsmithery"
-msgstr "wordsmithery"
+msgstr "o domínio da palavra"
 
 #. title
 #: questions/fedora.yml:64
@@ -442,7 +444,7 @@ msgstr "A nuvem"
 #. segue1
 #: questions/fedora.yml:111
 msgid "High-minded?"
-msgstr "entusiasmado? "
+msgstr "Entusiasmado?"
 
 #. subtitle
 #: questions/fedora.yml:111
@@ -493,7 +495,7 @@ msgstr "GNOME.org"
 #. segue1
 #: questions/gnome.yml:33
 msgid "Want to help GNOME?"
-msgstr "Como posso ajudar o Gnome"
+msgstr "Como posso ajudar o GNOME?"
 
 #. segue2
 #: questions/gnome.yml:33
@@ -508,7 +510,7 @@ msgstr "Design e usabilidade"
 #. subtitle
 #: questions/gnome.yml:37
 msgid "Making sure we focus on users."
-msgstr "Certificando de que nós mantemos o foco nos usuários. "
+msgstr "Certificando de que nós mantemos o foco nos usuários."
 
 #. subtitle
 #: questions/gnome.yml:40
@@ -579,7 +581,7 @@ msgstr "Participe do nosso BugSquad!"
 #. title
 #: questions/gnome.yml:61
 msgid "Good Tests"
-msgstr "Bons Testes "
+msgstr "Bons Testes"
 
 #. subtitle
 #: questions/gnome.yml:61
@@ -648,7 +650,7 @@ msgstr "Você está interessado em hackear ..."
 #. subtitle
 #: questions/includes/fedora/coding.yml:3
 msgid "a dynamic language for rapid development"
-msgstr "uma linguagem dinâmica pra desenvolvimento ágil "
+msgstr "uma linguagem dinâmica pra desenvolvimento ágil"
 
 #. title
 #: questions/includes/fedora/coding.yml:9
@@ -914,7 +916,7 @@ msgstr "Solicitações de arte"
 #. subtitle
 #: questions/includes/fedora/design.yml:22
 msgid "there are people in need of good taste -- you can help"
-msgstr "há pessoas precisando de bom gosto -- você pode ajudá-las "
+msgstr "há pessoas precisando de bom gosto -- você pode ajudá-las"
 
 #. title
 #: questions/includes/fedora/design.yml:26
@@ -1018,7 +1020,7 @@ msgstr "administrador dos pacotes no Fedora"
 #. subtitle
 #: questions/includes/fedora/qa.yml:4
 msgid "about how to join the QA team?"
-msgstr "que tal se juntar à equipe de Garantia de Qualidade? "
+msgstr "que tal se juntar à equipe de Garantia de Qualidade?"
 
 #. segue1
 #: questions/includes/fedora/qa.yml:8
@@ -1113,7 +1115,7 @@ msgstr "Bodhi"
 #. subtitle
 #: questions/includes/fedora/qa.yml:36
 msgid "the Fedora Updates System"
-msgstr "o Sistema de Atualizações do Fedora "
+msgstr "o Sistema de Atualizações do Fedora"
 
 #. title
 #: questions/includes/fedora/qa.yml:39
@@ -1123,7 +1125,7 @@ msgstr "fedora-easy-karma"
 #. subtitle
 #: questions/includes/fedora/qa.yml:39
 msgid "a handsome tool to ease testing updates"
-msgstr "uma bela ferramenta para facilitar os testes de atualizações "
+msgstr "uma bela ferramenta para facilitar os testes de atualizações"
 
 #. title
 #: questions/includes/fedora/qa.yml:43
@@ -1173,12 +1175,12 @@ msgstr "que tal se juntar à equipe L10N?"
 #. segue1
 #: questions/includes/fedora/translation.yml:7
 msgid "Let's get down to business."
-msgstr "Vamos ao que interessa"
+msgstr "Vamos ao que interessa."
 
 #. segue2
 #: questions/includes/fedora/translation.yml:7
 msgid "Perhaps you'd be interested in translating..."
-msgstr "Talvez você se interesse em traduzir... "
+msgstr "Talvez você se interesse em traduzir..."
 
 #. subtitle
 #: questions/includes/fedora/translation.yml:7
@@ -1274,7 +1276,7 @@ msgstr "sobre tarefas relacionadas a documentação"
 #. title
 #: questions/includes/fedora/writing.yml:19
 msgid "Wiki Gardening"
-msgstr "Wiki Gardening"
+msgstr "Retoques do wiki"
 
 #. subtitle
 #: questions/includes/fedora/writing.yml:19
@@ -1315,7 +1317,7 @@ msgstr "Que as pessoas relataram"
 #. title
 #: questions/includes/fedora/writing.yml:32
 msgid "Blogging"
-msgstr "Blogar "
+msgstr "Blogar"
 
 #. segue1
 #: questions/includes/fedora/writing.yml:32
@@ -1380,7 +1382,7 @@ msgstr "Obtenha seu próprio blog adicionado ao ..."
 #. subtitle
 #: questions/includes/fedora/writing.yml:45
 msgid "something more personal"
-msgstr "algo mais autoral "
+msgstr "algo mais autoral"
 
 #. title
 #: questions/includes/fedora/writing.yml:53
@@ -1679,12 +1681,12 @@ msgstr "Galeria para perfis e histórias de usuários com mini-entrevista"
 #. title
 #: questions/includes/fedora/coding/web.yml:40
 msgid "AskNot Site"
-msgstr "Site AskNot  "
+msgstr "Site AskNot"
 
 #. subtitle
 #: questions/includes/fedora/coding/web.yml:40
 msgid "this thing -- the page you're looking at right now!"
-msgstr "isso daqui -- a página que você está olhando nesse momento! "
+msgstr "isso aqui -- a página que você está olhando nesse momento!"
 
 #~ msgid "Make coala Accessible"
 #~ msgstr "Faça o coala Acessível"
