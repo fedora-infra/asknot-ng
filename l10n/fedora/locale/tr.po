@@ -6,9 +6,9 @@ msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-01-14 13:19+0100\n"
-"PO-Revision-Date: 2020-01-22 19:16+0000\n"
+"PO-Revision-Date: 2020-01-26 13:16+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
-"Language-Team: Turkish <https://translate.stg.fedoraproject.org/projects/"
+"Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
 "fedora-infra/asknot-ng/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
@@ -443,7 +443,7 @@ msgstr "Bulut"
 #. segue1
 #: questions/fedora.yml:111
 msgid "High-minded?"
-msgstr "Yüksek fikirli?"
+msgstr "Asil ruhlu musunuz?"
 
 #. subtitle
 #: questions/fedora.yml:111
@@ -1277,7 +1277,7 @@ msgstr "biraz fazla büyüme eğilimine sahiptir"
 #. title
 #: questions/includes/fedora/writing.yml:22
 msgid "A Beat"
-msgstr "Bir Atım"
+msgstr "Bir Kısım"
 
 #. subtitle
 #: questions/includes/fedora/writing.yml:22
@@ -1528,7 +1528,7 @@ msgstr "DNF"
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:11
 msgid "Dandified Yum (DNF) is a major rewrite of yum"
-msgstr "Dandified Yum (DNF), yum'un büyük ölçüde yeniden yazılmış halidir"
+msgstr "Dandified Yum (DNF), yum'un büyük ölçüde yeniden yazılmış hali"
 
 #. title
 #: questions/includes/fedora/coding/python.yml:15
