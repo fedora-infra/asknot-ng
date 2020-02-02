@@ -26,6 +26,8 @@ that works like a static-site generator.  It takes as input three things:
 
 We have a [Fedora instance up and running][wcidff] if you’d like to poke it.
 
+[![Translation status](https://translate.fedoraproject.org/widgets/fedora-infra/-/asknot-ng/287x66-grey.png)](https://translate.fedoraproject.org/engage/fedora-infra/?utm_source=widget)
+
 ## Requirements
 
 The site-generator script is written in Python, so you’ll need that.
