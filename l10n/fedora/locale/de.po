@@ -3,20 +3,22 @@
 # Roman Spirgi <bigant@fedoraproject.org>, 2016. #zanata
 # Fabian Affolter <fab@fedoraproject.org>, 2018. #zanata
 # Tobias Weise <tobias.weise@web.de>, 2019. #zanata
+# Brendan Early <mymindstorm@evermiss.net>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-01-14 13:19+0100\n"
-"PO-Revision-Date: 2019-05-10 01:27+0000\n"
-"Last-Translator: Enrico Wildgrube <kontakt@enriwi.de>\n"
-"Language-Team: German\n"
+"PO-Revision-Date: 2020-02-24 20:11+0000\n"
+"Last-Translator: Brendan Early <mymindstorm@evermiss.net>\n"
+"Language-Team: German <https://translate.fedoraproject.org/projects/"
+"fedora-infra/asknot-ng/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.11.2\n"
 
 #. title
 #. description
@@ -763,7 +765,7 @@ msgstr "Eine dynamische web-orientierte Sprache für Backend und Frontend."
 #: questions/includes/fedora/coding.yml:38
 #: questions/includes/fedora/design.yml:35
 msgid "Websites Team"
-msgstr "Das Webseiten-Team."
+msgstr "Das Webseiten-Team"
 
 #. segue1
 #: questions/includes/fedora/coding.yml:38
