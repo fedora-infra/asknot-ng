@@ -1,20 +1,21 @@
-# Yuri Chornoivan <yurchor@ukr.net>, 2016. #zanata
-# Yuri Chornoivan <yurchor@ukr.net>, 2019. #zanata
+# Yuri Chornoivan <yurchor@ukr.net>, 2016. #zanata, 2020.
+# Yuri Chornoivan <yurchor@ukr.net>, 2019. #zanata, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-01-14 13:19+0100\n"
-"PO-Revision-Date: 2019-06-03 02:48+0000\n"
+"PO-Revision-Date: 2020-02-26 17:38+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
-"Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
+"Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
+"fedora-infra/asknot-ng/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 3.11.2\n"
 
 #. title
 #. description
@@ -209,7 +210,7 @@ msgstr "Як допомогти Fedora?"
 #. navlink
 #: questions/fedora.yml:1
 msgid "Home"
-msgstr ""
+msgstr "Початок"
 
 #. navlink
 #: questions/fedora.yml:1
@@ -388,12 +389,12 @@ msgstr "як кажуть, «якщо це не тестували, це не в
 #. title
 #: questions/fedora.yml:92
 msgid "Modularity"
-msgstr ""
+msgstr "Модульність"
 
 #. subtitle
 #: questions/fedora.yml:92
 msgid "rethinking how we compose the distro"
-msgstr ""
+msgstr "нові підходи до компонування дистрибутива"
 
 #. title
 #: questions/fedora.yml:97
@@ -465,12 +466,12 @@ msgstr "робимо так, щоб Fedora працювала краще усі�
 #. title
 #: questions/fedora.yml:125
 msgid "Instruction"
-msgstr ""
+msgstr "Настанови"
 
 #. subtitle
 #: questions/fedora.yml:125
 msgid "spread your knowledge to others in the community"
-msgstr ""
+msgstr "поділіться вашими знаннями зі спільнотою"
 
 #. title
 #. description
@@ -1213,8 +1214,6 @@ msgstr "GNOME"
 
 #. subtitle
 #: questions/includes/fedora/translation.yml:22
-#, fuzzy
-#| msgid "which has it's own translation resources"
 msgid "which has its own translation resources"
 msgstr "тут є власна процедура перекладу"
 
@@ -1226,8 +1225,6 @@ msgstr "KDE"
 
 #. subtitle
 #: questions/includes/fedora/translation.yml:25
-#, fuzzy
-#| msgid "also with it's own translation process"
 msgid "also with its own translation process"
 msgstr "тут також є власна процедура перекладу"
 
@@ -1552,21 +1549,18 @@ msgstr "PortingDB"
 
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:19
-#, fuzzy
-#| msgid ""
-#| "a <a href\"http://portingdb-encukou.rhcloud.com/\">dynamic database</a> "
-#| "of Python 2 packages needing to be updated to Python 3"
 msgid ""
 "a <a href=\"http://fedora.portingdb.xyz/\">dynamic database</a> of Python 2 "
 "packages needing to be updated to Python 3"
 msgstr ""
-"<a href\"http://portingdb-encukou.rhcloud.com/\">динамічна база даних</a> "
-"пакунків Python 2, які потребують оновлення до Python 3"
+"<a href=\"http://fedora.portingdb.xyz/\">динамічна база даних</a> пакунків "
+"Python 2, які потребують оновлення до Python 3"
 
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:23
 msgid "a web interface for managing and administrating Linux web servers"
 msgstr ""
+"вебінтерфейс для керування серверами Linux та адміністрування таких серверів"
 
 #. title
 #: questions/includes/fedora/coding/python.yml:27
