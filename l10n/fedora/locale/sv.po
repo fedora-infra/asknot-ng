@@ -1,18 +1,19 @@
-# Göran Uddeborg <goeran@uddeborg.se>, 2016. #zanata
+# Göran Uddeborg <goeran@uddeborg.se>, 2016. #zanata, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-01-14 13:19+0100\n"
-"PO-Revision-Date: 2016-10-22 10:10+0000\n"
+"PO-Revision-Date: 2020-02-26 17:38+0000\n"
 "Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
-"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
+"fedora-infra/asknot-ng/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.11.2\n"
 
 #. title
 #. description
@@ -206,7 +207,7 @@ msgstr "Hur kan jag hjälpa till med Fedora?"
 #. navlink
 #: questions/fedora.yml:1
 msgid "Home"
-msgstr ""
+msgstr "Hem"
 
 #. navlink
 #: questions/fedora.yml:1
@@ -385,12 +386,12 @@ msgstr "som de säger, ”om det inte är testat är det trasigt”"
 #. title
 #: questions/fedora.yml:92
 msgid "Modularity"
-msgstr ""
+msgstr "Modularitet"
 
 #. subtitle
 #: questions/fedora.yml:92
 msgid "rethinking how we compose the distro"
-msgstr ""
+msgstr "tänka om hur vi komponerar distributionen"
 
 #. title
 #: questions/fedora.yml:97
@@ -461,7 +462,7 @@ msgstr "gör så att Fedora fungerar bättre för alla språk"
 #. title
 #: questions/fedora.yml:125
 msgid "Instruction"
-msgstr ""
+msgstr "Instruktion"
 
 #. subtitle
 #: questions/fedora.yml:125
