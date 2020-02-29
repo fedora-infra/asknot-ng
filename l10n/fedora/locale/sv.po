@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-01-14 13:19+0100\n"
-"PO-Revision-Date: 2020-02-26 17:38+0000\n"
+"PO-Revision-Date: 2020-02-29 21:38+0000\n"
 "Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
 "fedora-infra/asknot-ng/sv/>\n"
@@ -467,7 +467,7 @@ msgstr "Instruktion"
 #. subtitle
 #: questions/fedora.yml:125
 msgid "spread your knowledge to others in the community"
-msgstr ""
+msgstr "sprid din kunskap till andra i gemenskapen"
 
 #. title
 #. description
@@ -1204,8 +1204,6 @@ msgstr "GNOME"
 
 #. subtitle
 #: questions/includes/fedora/translation.yml:22
-#, fuzzy
-#| msgid "which has it's own translation resources"
 msgid "which has its own translation resources"
 msgstr "som har sina egna översättningsresurser"
 
@@ -1217,8 +1215,6 @@ msgstr "KDE"
 
 #. subtitle
 #: questions/includes/fedora/translation.yml:25
-#, fuzzy
-#| msgid "also with it's own translation process"
 msgid "also with its own translation process"
 msgstr "också med sin egen översättningsprocess"
 
@@ -1539,21 +1535,17 @@ msgstr "PortingDB"
 
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:19
-#, fuzzy
-#| msgid ""
-#| "a <a href\"http://portingdb-encukou.rhcloud.com/\">dynamic database</a> "
-#| "of Python 2 packages needing to be updated to Python 3"
 msgid ""
 "a <a href=\"http://fedora.portingdb.xyz/\">dynamic database</a> of Python 2 "
 "packages needing to be updated to Python 3"
 msgstr ""
-"en <a href\"http://portingdb-encukou.rhcloud.com/\">dynamisk databas</a> av "
-"Python 2-paket som behöver uppdateras till Python 3"
+"en <a href=\"http://fedora.portingdb.xyz/\">dynamisk databas</a> av Python 2-"
+"paket som behöver uppdateras till Python 3"
 
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:23
 msgid "a web interface for managing and administrating Linux web servers"
-msgstr ""
+msgstr "ett webbgränssnitt för att hantera och administrera Linux-webbservrar"
 
 #. title
 #: questions/includes/fedora/coding/python.yml:27
