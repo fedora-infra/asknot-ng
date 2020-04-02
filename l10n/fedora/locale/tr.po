@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-01-14 13:19+0100\n"
-"PO-Revision-Date: 2020-01-26 13:16+0000\n"
+"PO-Revision-Date: 2020-04-02 18:38+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
 "fedora-infra/asknot-ng/tr/>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
-"X-Generator: Weblate 3.10.3\n"
+"X-Generator: Weblate 3.11.3\n"
 
 #. title
 #. description
@@ -1277,7 +1277,7 @@ msgstr "biraz fazla büyüme eğilimine sahiptir"
 #. title
 #: questions/includes/fedora/writing.yml:22
 msgid "A Beat"
-msgstr "Bir Kısım"
+msgstr "Bir Not"
 
 #. subtitle
 #: questions/includes/fedora/writing.yml:22
