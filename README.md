@@ -109,7 +109,7 @@ In your Favorite Browser Just type:
  localhost:8080
 ```
 
-## ## Application Deployment
+## Application Deployment
 
 ``asknot-ng`` currently runs on Fedora infrastructure Openshift instance. There are 2 deployments one in [staging] and one in [production].
 
