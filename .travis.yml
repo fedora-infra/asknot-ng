@@ -1,9 +1,10 @@
 language: python
 python:
   - "3.9"
+cache: pip
 
 # command to install dependencies
-install: "pip install -r requirements.txt"
+install: pip install nose PyYAML
 # command to run tests
 script: nosetests
 
