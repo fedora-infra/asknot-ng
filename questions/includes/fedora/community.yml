@@ -12,13 +12,13 @@ tree:
       segue2: How does this sound?
 
       children:
-      - title: Ambassador
-        subtitle: the representatives of Fedora
-        link: https://fedoraproject.org/wiki/Ambassadors#Who_are_we.3F
-        image: https://badges.fedoraproject.org/pngs/fas-ambassador.png
-      - title: Community Blog
-        subtitle: the central hub of all Fedora news, across the subprojects
-        link: https://communityblog.fedoraproject.org/writing-community-blog-article/
-      - title: 5 Things in Fedora This Week
-        subtitle: finding information for a weekly article about the happenings in Fedora
-        link: https://fedoraproject.org/wiki/CommOps#CommOps_Toolbox
+        - title: Ambassador
+          subtitle: the representatives of Fedora
+          link: https://fedoraproject.org/wiki/Ambassadors#Who_are_we.3F
+          image: https://badges.fedoraproject.org/pngs/fas-ambassador.png
+        - title: Community Blog
+          subtitle: the central hub of all Fedora news, across the subprojects
+          link: https://communityblog.fedoraproject.org/writing-community-blog-article/
+        - title: 5 Things in Fedora This Week
+          subtitle: finding information for a weekly article about the happenings in Fedora
+          link: https://fedoraproject.org/wiki/CommOps#CommOps_Toolbox

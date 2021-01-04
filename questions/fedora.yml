@@ -30,99 +30,99 @@ navlinks:
       link: https://getfedora.org
 
 tree:
-  segue1: Want to help Fedora?  Tell me...
-  segue2: what's your area of interest?
-  children:
-  - title: Design!
-    subtitle: pixel ninjas
-    image: https://badges.fedoraproject.org/pngs/design-team.png
-    segue1: So you enjoy working on the way users interact with websites and programs?
-    segue2: How about the...
-    children: includes/fedora/design.yml
+    segue1: Want to help Fedora?  Tell me...
+    segue2: what's your area of interest?
+    children:
+        - title: Design!
+          subtitle: pixel ninjas
+          image: https://badges.fedoraproject.org/pngs/design-team.png
+          segue1: So you enjoy working on the way users interact with websites and programs?
+          segue2: How about the...
+          children: includes/fedora/design.yml
 
-  - title: Coding
-    subtitle: hacking the gibson
-    image: https://badges.fedoraproject.org/pngs/fas-trust-me-i-know-what-i-am-doing.png
-    segue1: "Zeroes and ones #allday?  Me too."
-    segue2: What's your favorite language?
-    children: includes/fedora/coding.yml
+        - title: Coding
+          subtitle: hacking the gibson
+          image: https://badges.fedoraproject.org/pngs/fas-trust-me-i-know-what-i-am-doing.png
+          segue1: "Zeroes and ones #allday?  Me too."
+          segue2: What's your favorite language?
+          children: includes/fedora/coding.yml
 
-  - title: Community Ops
-    subtitle: connecting the dots
-    image: https://badges.fedoraproject.org/pngs/the-write-stuff.png
-    segue1: Have a knack for community-building?
-    segue2: Would you like something more
-    children: includes/fedora/community.yml
+        - title: Community Ops
+          subtitle: connecting the dots
+          image: https://badges.fedoraproject.org/pngs/the-write-stuff.png
+          segue1: Have a knack for community-building?
+          segue2: Would you like something more
+          children: includes/fedora/community.yml
 
-  - title: Writing
-    subtitle: wordsmithery
-    image: https://badges.fedoraproject.org/pngs/the-write-stuff.png
-    segue1: So, you have a way with words?
-    segue2: Would you be more interested in...
-    children: includes/fedora/writing.yml
+        - title: Writing
+          subtitle: wordsmithery
+          image: https://badges.fedoraproject.org/pngs/the-write-stuff.png
+          segue1: So, you have a way with words?
+          segue2: Would you be more interested in...
+          children: includes/fedora/writing.yml
 
-  - title: Translation
-    subtitle: we're an international effort, after all
-    image: https://badges.fedoraproject.org/pngs/irc-support-sig_member.png
-    segue1:  So you know more than one language?  We need you!
-    segue2: Would you be more interested in...
-    children: includes/fedora/translation.yml
+        - title: Translation
+          subtitle: we're an international effort, after all
+          image: https://badges.fedoraproject.org/pngs/irc-support-sig_member.png
+          segue1: So you know more than one language?  We need you!
+          segue2: Would you be more interested in...
+          children: includes/fedora/translation.yml
 
-  - title: Advocacy
-    subtitle: spreading the good word
-    image: https://badges.fedoraproject.org/pngs/fedora-ambassador-mentor.png
-    segue1: So you're a people person?
-    segue2: How about becoming a Fedora...
-    children: includes/fedora/advocacy.yml
+        - title: Advocacy
+          subtitle: spreading the good word
+          image: https://badges.fedoraproject.org/pngs/fedora-ambassador-mentor.png
+          segue1: So you're a people person?
+          segue2: How about becoming a Fedora...
+          children: includes/fedora/advocacy.yml
 
-  - title: Packaging
-    subtitle: getting new software into Fedora
-    image: https://badges.fedoraproject.org/pngs/copr-build.png
-    segue1: So you want to help build the OS?  Excellent.
-    segue2: Then you'll need to become a Fedora...
-    children: includes/fedora/packaging.yml
+        - title: Packaging
+          subtitle: getting new software into Fedora
+          image: https://badges.fedoraproject.org/pngs/copr-build.png
+          segue1: So you want to help build the OS?  Excellent.
+          segue2: Then you'll need to become a Fedora...
+          children: includes/fedora/packaging.yml
 
-  - title: QA and Testing
-    subtitle: as they say, "if it's not tested, it's broken"
-    image: https://badges.fedoraproject.org/pngs/kernel-tester.png
-    segue1: So you like to push all the buttons and break all the things?
-    segue2: Are you more interested in something...
-    children: includes/fedora/qa.yml
+        - title: QA and Testing
+          subtitle: as they say, "if it's not tested, it's broken"
+          image: https://badges.fedoraproject.org/pngs/kernel-tester.png
+          segue1: So you like to push all the buttons and break all the things?
+          segue2: Are you more interested in something...
+          children: includes/fedora/qa.yml
 
-  - title: Modularity
-    subtitle: rethinking how we compose the distro
-    #image: https://docs.pagure.org/modularity/_static/logo.png
-    link: https://docs.fedoraproject.org/en-US/modularity/community/
+        - title: Modularity
+          subtitle: rethinking how we compose the distro
+          # image: https://docs.pagure.org/modularity/_static/logo.png
+          link: https://docs.fedoraproject.org/en-US/modularity/community/
 
-  - title: The Desktop
-    subtitle: we all have our favorite
-    image: https://getfedora.org/static/images/logo-color-workstation.png
-    segue1: So you're into making the OS polished and easy to use?
-    segue2: You probably want to join the Fedora...
-    children: includes/fedora/desktop.yml
+        - title: The Desktop
+          subtitle: we all have our favorite
+          image: https://getfedora.org/static/images/logo-color-workstation.png
+          segue1: So you're into making the OS polished and easy to use?
+          segue2: You probably want to join the Fedora...
+          children: includes/fedora/desktop.yml
 
-  - title: The Server
-    subtitle: the best and latest for the datacenter
-    image: https://getfedora.org/static/images/logo-color-server.png
-    segue1: So you're into making the OS powerful and flexible?
-    segue2: You probably want to join the Fedora...
-    children: includes/fedora/server.yml
+        - title: The Server
+          subtitle: the best and latest for the datacenter
+          image: https://getfedora.org/static/images/logo-color-server.png
+          segue1: So you're into making the OS powerful and flexible?
+          segue2: You probably want to join the Fedora...
+          children: includes/fedora/server.yml
 
-  - title: The Cloud
-    subtitle: it's where the future lives
-    image: https://getfedora.org/static/images/logo-color-cloud.png
-    segue1: High-minded?
-    segue2: You probably want to join the Fedora...
-    children: includes/fedora/cloud.yml
+        - title: The Cloud
+          subtitle: it's where the future lives
+          image: https://getfedora.org/static/images/logo-color-cloud.png
+          segue1: High-minded?
+          segue2: You probably want to join the Fedora...
+          children: includes/fedora/cloud.yml
 
-  - title: Internationalization
-    subtitle: making Fedora work better for all languages
-    image: https://badges.fedoraproject.org/pngs/irc-support-sig_member.png
-    segue1: Have a regional or world perspective?
-    segue2: You probably want to join the Fedora...
-    children: includes/fedora/i18n.yml
+        - title: Internationalization
+          subtitle: making Fedora work better for all languages
+          image: https://badges.fedoraproject.org/pngs/irc-support-sig_member.png
+          segue1: Have a regional or world perspective?
+          segue2: You probably want to join the Fedora...
+          children: includes/fedora/i18n.yml
 
-  - title: Instruction
-    image: https://badges.fedoraproject.org/pngs/sensei.png 
-    subtitle: spread your knowledge to others in the community
-    link: https://fedoraproject.org/wiki/Classroom
+        - title: Instruction
+          image: https://badges.fedoraproject.org/pngs/sensei.png
+          subtitle: spread your knowledge to others in the community
+          link: https://fedoraproject.org/wiki/Classroom

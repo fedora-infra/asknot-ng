@@ -6,50 +6,50 @@ tree:
       segue2: Would you be interested in something...
 
       children:
-      - title: General
-        subtitle: about how to join the docs team?
-        link: https://fedoraproject.org/wiki/Join_the_Docs_Project
+        - title: General
+          subtitle: about how to join the docs team?
+          link: https://fedoraproject.org/wiki/Join_the_Docs_Project
 
-      - title: Specific
-        subtitle: about documentation related tasks
-        segue1: Now we're talking!
-        segue2: Let's see.  How about working on...
+        - title: Specific
+          subtitle: about documentation related tasks
+          segue1: Now we're talking!
+          segue2: Let's see.  How about working on...
 
-        children:
-        - title: Wiki Gardening
-          subtitle: it tends to get a little overgrown
-          link: https://fedoraproject.org/wiki/Wiki_gardening_tasks
-        - title: A Beat
-          subtitle: a section of the release notes and a good place for new contributors
-          link: https://fedoraproject.org/wiki/Category:Documentation_beats
-        - title: A Guide
-          subtitle: a more technical type of documentation
-          link: https://fedoraproject.org/wiki/Category:Docs_Project_tasks#Guides
-        - title: Real Issues
-          subtitle: that people have reported
-          link: https://bugzilla.redhat.com/buglist.cgi?bug_status=NEW&bug_status=ASSIGNED&classification=Fedora&list_id=3214328&product=Fedora%20Documentation&query_format=advanced
+          children:
+            - title: Wiki Gardening
+              subtitle: it tends to get a little overgrown
+              link: https://fedoraproject.org/wiki/Wiki_gardening_tasks
+            - title: A Beat
+              subtitle: a section of the release notes and a good place for new contributors
+              link: https://fedoraproject.org/wiki/Category:Documentation_beats
+            - title: A Guide
+              subtitle: a more technical type of documentation
+              link: https://fedoraproject.org/wiki/Category:Docs_Project_tasks#Guides
+            - title: Real Issues
+              subtitle: that people have reported
+              link: https://bugzilla.redhat.com/buglist.cgi?bug_status=NEW&bug_status=ASSIGNED&classification=Fedora&list_id=3214328&product=Fedora%20Documentation&query_format=advanced
 
     - title: Blogging
       subtitle: 21st century journalism, my friend
       segue1: Only the news that's fit to print.
       segue2: How about something...
       children:
-      - title: More Formal
-        subtitle: something "official"
-        segue1: Yes!  The spotlight!
-        segue2: You should get involved in writing for...
-        children:
-        - title: Fedora Magazine
-          subtitle: all Fedora news, all the Fedora time
-          link: http://fedoramagazine.org/writing-an-article-for-the-fedora-magazine/
-      - title: Less Formal
-        subtitle: something more personal
-        segue1: We have just the thing for you.
-        segue2: Get your own blog added to the...
-        children:
-        - title: Community Blog
-          subtitle: the central hub of all Fedora news, across the subprojects
-          link: https://communityblog.fedoraproject.org/writing-community-blog-article/
-        - title: Fedora Planet
-          subtitle: an aggregator of Fedora bloggers
-          link: https://fedoraproject.org/wiki/Planet
+        - title: More Formal
+          subtitle: something "official"
+          segue1: Yes!  The spotlight!
+          segue2: You should get involved in writing for...
+          children:
+            - title: Fedora Magazine
+              subtitle: all Fedora news, all the Fedora time
+              link: http://fedoramagazine.org/writing-an-article-for-the-fedora-magazine/
+        - title: Less Formal
+          subtitle: something more personal
+          segue1: We have just the thing for you.
+          segue2: Get your own blog added to the...
+          children:
+            - title: Community Blog
+              subtitle: the central hub of all Fedora news, across the subprojects
+              link: https://communityblog.fedoraproject.org/writing-community-blog-article/
+            - title: Fedora Planet
+              subtitle: an aggregator of Fedora bloggers
+              link: https://fedoraproject.org/wiki/Planet

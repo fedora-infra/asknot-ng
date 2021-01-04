@@ -1,51 +1,50 @@
 tree:
-
   children:
-  - title: General
-    subtitle: about how to join the QA team?
-    link: https://fedoraproject.org/wiki/QA/Join
+    - title: General
+      subtitle: about how to join the QA team?
+      link: https://fedoraproject.org/wiki/QA/Join
 
-  - title: Specific
-    subtitle: about different QA and testing tasks
-    segue1: Certainly.
-    segue2: We need people to...
-
-    children:
-    - title: Validate Releases
-      subtitle: when there's an upcoming release, that is
-      link: https://fedoraproject.org/wiki/QA/Join#release-validation
-    - title: Test Updates
-      subtitle: before they hit the stable repo
-      link: https://fedoraproject.org/wiki/QA:Updates_Testing#What_to_test.2C_testing.2C_and_reporting_results
-    - title: Create Test Cases
-      subtitle: otherwise we won't know what to test
-      link: https://fedoraproject.org/wiki/QA:SOP_test_case_creation
-
-    - title: Develop Tools
-      subtitle: for continuous awesomeness
-      segue1: I'm of the same mind.
-      segue2: We need people to hack on
+    - title: Specific
+      subtitle: about different QA and testing tasks
+      segue1: Certainly.
+      segue2: We need people to...
 
       children:
-      - title: Taskotron
-        subtitle: a framework for automated task execution
-        link: https://fedoraproject.org/wiki/Taskotron
-      - title: BlockerBugs
-        subtitle: used to propose and track release blocking bugs
-        link: https://qa.fedoraproject.org/blockerbugs/
-      - title: Bodhi
-        subtitle: the Fedora Updates System
-        link: https://github.com/fedora-infra/bodhi
-      - title: fedora-easy-karma
-        subtitle: a handsome tool to ease testing updates
-        link: https://fedoraproject.org/wiki/Fedora_Easy_Karma
+        - title: Validate Releases
+          subtitle: when there's an upcoming release, that is
+          link: https://fedoraproject.org/wiki/QA/Join#release-validation
+        - title: Test Updates
+          subtitle: before they hit the stable repo
+          link: https://fedoraproject.org/wiki/QA:Updates_Testing#What_to_test.2C_testing.2C_and_reporting_results
+        - title: Create Test Cases
+          subtitle: otherwise we won't know what to test
+          link: https://fedoraproject.org/wiki/QA:SOP_test_case_creation
 
-    - title: Take Over
-      subtitle: some basically abandoned tasks
-      segue1: That's huge of you.
-      segue2: we need someone to head up...
+        - title: Develop Tools
+          subtitle: for continuous awesomeness
+          segue1: I'm of the same mind.
+          segue2: We need people to hack on
 
-      children:
-      - title: Bug Triage
-        subtitle: you'll need a heart of gold
-        link: https://fedoraproject.org/wiki/QA/Join#triage
+          children:
+            - title: Taskotron
+              subtitle: a framework for automated task execution
+              link: https://fedoraproject.org/wiki/Taskotron
+            - title: BlockerBugs
+              subtitle: used to propose and track release blocking bugs
+              link: https://qa.fedoraproject.org/blockerbugs/
+            - title: Bodhi
+              subtitle: the Fedora Updates System
+              link: https://github.com/fedora-infra/bodhi
+            - title: fedora-easy-karma
+              subtitle: a handsome tool to ease testing updates
+              link: https://fedoraproject.org/wiki/Fedora_Easy_Karma
+
+        - title: Take Over
+          subtitle: some basically abandoned tasks
+          segue1: That's huge of you.
+          segue2: we need someone to head up...
+
+          children:
+            - title: Bug Triage
+              subtitle: you'll need a heart of gold
+              link: https://fedoraproject.org/wiki/QA/Join#triage
