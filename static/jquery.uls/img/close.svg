@@ -1,1 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" width="13.592" height="13.592"><g transform="translate(-578.659 -309.301)" fill="#555"><rect width="3.204" height="16.018" x="188.862" y="629.484" transform="rotate(-45)"/><rect width="3.204" height="16.018" x="-639.095" y="182.455" transform="matrix(-.707 -.707 .707 -.707 0 0)"/></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+	<title>
+		close
+	</title>
+	<path d="M4.34 2.93l12.73 12.73-1.41 1.41L2.93 4.35z"/>
+	<path d="M17.07 4.34L4.34 17.07l-1.41-1.41L15.66 2.93z"/>
+</svg>

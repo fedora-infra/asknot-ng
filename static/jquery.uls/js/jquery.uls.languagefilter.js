@@ -19,55 +19,72 @@
 
 /**
  * Usage: $( 'inputbox' ).languagefilter();
- * The values for autocompletion is from the options.languages.
- * The data is in the format of languagecode:languagename.
+ * The values for autocompletion is from the options.languages or options.searchAPI.
  */
-(function ( $ ) {
+( function ( $ ) {
 	'use strict';
 
-	var LanguageFilter, delay;
+	var LanguageFilter;
 
-	LanguageFilter = function( element, options ) {
+	/**
+	 * Check if a prefix is visually prefix of a string
+	 *
+	 * @param {string} prefix
+	 * @param {string} string
+	 * @return {boolean}
+	 */
+	function isVisualPrefix( prefix, string ) {
+		// Pre-base vowel signs of Indic languages. A vowel sign is called pre-base if
+		// consonant + vowel becomes [vowel][consonant] when rendered. Eg: ക + െ => കെ
+		var prebases = 'െേൈൊോൌெேைொோௌେୈୋୌિਿिিেৈোৌෙේෛොෝෞ';
+		return prebases.indexOf( string[ prefix.length ] ) <= 0;
+	}
+
+	LanguageFilter = function ( element, options ) {
 		this.$element = $( element );
-		this.options = $.extend( {}, $.fn.regionselector.defaults, options );
+		this.options = $.extend( {}, $.fn.languagefilter.defaults, options );
 		this.$element.addClass( 'languagefilter' );
 		this.resultCount = 0;
-		this.$suggestion = this.$element.parents().find( '#' + this.$element.data( 'suggestion' ) );
-		this.$clear = this.$element.parents().find( '#' + this.$element.data( 'clear' ) );
+		this.$suggestion = this.$element.siblings( '.' + this.$element.data( 'suggestion' ) );
+		this.$clear = this.$element.siblings( '.' + this.$element.data( 'clear' ) );
 		this.selectedLanguage = null;
-
+		this.init();
 		this.listen();
 	};
 
-	delay = ( function() {
-		var timer = 0;
-
-		return function( callback, milliseconds ) {
-			clearTimeout( timer );
-			timer = setTimeout( callback, milliseconds );
-		};
-	} () );
-
 	LanguageFilter.prototype = {
-		listen: function() {
-			this.$element.on( 'keypress', $.proxy( this.keyup, this ) )
-				.on( 'keyup', $.proxy( this.keyup, this ) );
+		init: function () {
+			this.search();
+		},
 
-			if ( this.eventSupported( 'keydown' ) ) {
-				this.$element.on( 'keydown', $.proxy( this.keyup, this ) );
-			}
+		listen: function () {
+			this.$element.on( 'keydown', this.keypress.bind( this ) );
+			this.$element.on( 'input', $.fn.uls.debounce( this.onInputChange.bind( this ), 300 ) );
 
 			if ( this.$clear.length ) {
-				this.$clear.on( 'click' , $.proxy( this.clear, this ) );
+				this.$clear.on( 'click', this.clear.bind( this ) );
 			}
 
 			this.toggleClear();
 		},
 
-		keyup: function( e ) {
-			var suggestion, query, languageFilter;
+		onInputChange: function () {
+			this.selectedLanguage = null;
 
-			switch( e.keyCode ) {
+			if ( !this.$element.val() ) {
+				this.clear();
+			} else {
+				this.options.lcd.empty();
+				this.search();
+			}
+
+			this.toggleClear();
+		},
+
+		keypress: function ( e ) {
+			var suggestion, query;
+
+			switch ( e.keyCode ) {
 				case 9: // Tab -> Autocomplete
 					suggestion = this.$suggestion.val();
 
@@ -86,40 +103,18 @@
 					e.preventDefault();
 					e.stopPropagation();
 
-					query = $.trim( this.$element.val() ).toLowerCase();
+					query = ( this.$element.val() || '' ).trim().toLowerCase();
 
 					if ( this.selectedLanguage ) {
 						// this.selectLanguage will be populated from a matching search
-						this.options.onSelect( this.selectedLanguage );
-					} else if ( this.options.languages[query] ) {
+						this.options.onSelect( this.selectedLanguage, e );
+					} else if ( this.options.languages[ query ] ) {
 						// Search is yet to happen (in timeout delay),
 						// but we have a matching language code.
-						this.options.onSelect( query );
+						this.options.onSelect( query, e );
 					}
 
 					break;
-				default:
-					languageFilter = this;
-
-					if ( e.which < 32 &&
-						e.which !== 8 // Backspace
-					) {
-						// ignore any ASCII control characters
-						break;
-					}
-
-					this.selectedLanguage = null;
-
-					delay( function() {
-						if ( !languageFilter.$element.val() ) {
-							languageFilter.clear();
-						} else {
-							languageFilter.options.$target.empty();
-							languageFilter.search();
-						}
-					}, 300 );
-
-					this.toggleClear();
 			}
 		},
 
@@ -127,11 +122,11 @@
 		 * Clears the current search removing
 		 * clear buttons and suggestions.
 		 */
-		deactivate: function() {
+		deactivate: function () {
 			this.$element.val( '' );
 
 			if ( !$.fn.uls.Constructor.prototype.isMobile() ) {
-				this.$element.focus();
+				this.$element.trigger( 'focus' );
 			}
 
 			this.toggleClear();
@@ -141,16 +136,16 @@
 		/**
 		 * Clears the search and shows all languages
 		 */
-		clear: function() {
+		clear: function () {
 			this.deactivate();
-			this.$element.trigger( 'searchclear.uls' );
+			this.search();
 		},
 
 		/**
 		 * Toggles the visibility of clear icon depending
 		 * on whether there is anything to clear.
 		 */
-		toggleClear: function() {
+		toggleClear: function () {
 			if ( !this.$clear.length ) {
 				return;
 			}
@@ -162,81 +157,102 @@
 			}
 		},
 
-		search: function() {
-			var languagesInScript,
-				query = $.trim( this.$element.val() ),
-				languages = $.uls.data.getLanguagesByScriptGroup( this.options.languages ),
-				scriptGroup, langNum, langCode;
+		search: function () {
+			var languages = Object.keys( this.options.languages ),
+				results = [],
+				query = ( this.$element.val() || '' ).trim().toLowerCase();
 
-			this.resultCount = 0;
-
-			for ( scriptGroup in languages ) {
-				languagesInScript = languages[scriptGroup];
-
-				languagesInScript.sort( $.uls.data.sortByAutonym );
-
-				for ( langNum = 0; langNum < languagesInScript.length; langNum++ ) {
-					langCode = languagesInScript[langNum];
-
-					if ( query === '' || this.filter( langCode, query ) ) {
-						if ( this.resultCount === 0 ) {
-							// Autofill the first result.
-							this.autofill( langCode );
-						}
-
-						if ( query.toLowerCase() === langCode ) {
-							this.selectedLanguage = langCode;
-						}
-
-						if ( this.render( langCode ) ) {
-							this.resultCount++;
-						}
-					}
-				}
+			if ( query === '' ) {
+				this.options.lcd.setGroupByRegionOverride( null );
+				this.resultHandler( query, languages );
+				return;
 			}
 
-			// Also do a search by search API
-			if( !this.resultCount && this.options.searchAPI && query ) {
-				this.searchAPI( query );
+			this.options.lcd.setGroupByRegionOverride( false );
+			// Local search results
+			results = languages.filter( function ( langCode ) {
+				return this.filter( langCode, query );
+			}.bind( this ) );
+
+			// Use the searchAPI if available, assuming that it has superior search results.
+			if ( this.options.searchAPI ) {
+				this.searchAPI( query )
+					.done( this.resultHandler.bind( this ) )
+					.fail( this.resultHandler.bind( this, query, results, undefined ) );
 			} else {
-				this.resultHandler( query );
+				this.resultHandler( query, results );
 			}
 		},
 
-		searchAPI: function( query ) {
-			var languageFilter = this;
+		searchAPI: function ( query ) {
+			return $.get( this.options.searchAPI, { search: query } ).then( function ( result ) {
+				var autofillLabel,
+					results = [];
 
-			$.get( languageFilter.options.searchAPI, { search: query }, function( result ) {
-				$.each( result.languagesearch, function( code, name ) {
-					if ( languageFilter.resultCount === 0 ) {
-						// Autofill the first result.
-						languageFilter.autofill( code, name );
+				// eslint-disable-next-line no-jquery/no-each-util
+				$.each( result.languagesearch, function ( apiCode, name ) {
+					var code, redirect;
+
+					if ( this.options.languages[ apiCode ] ) {
+						code = apiCode;
+					} else {
+						redirect = $.uls.data.isRedirect( apiCode );
+						if ( !redirect || !this.options.languages[ redirect ] ) {
+							return;
+						}
+						code = redirect;
 					}
 
-					if ( languageFilter.render( code ) ) {
-						languageFilter.resultCount++;
+					// Because of the redirect checking above, we might get duplicates.
+					// For example if API returns both `sr` and `sr-cyrl`, the former
+					// could get mapped to `sr-cyrl` and then we would have it twice.
+					// The exact cases when this happens of course depends on what is in
+					// options.languages, which might contain redirects such as `sr`. In
+					// this case we only show `sr` if no other variants are there.
+					// This also protects against broken search APIs returning duplicate
+					// results, although that is not happening in practice.
+					if ( results.indexOf( code ) === -1 ) {
+						autofillLabel = autofillLabel || name;
+						results.push( code );
 					}
-				} );
+				}.bind( this ) );
 
-				languageFilter.resultHandler( query );
-			} );
+				return $.Deferred().resolve( query, results, autofillLabel );
+			}.bind( this ) );
 		},
 
 		/**
 		 * Handler method to be called once search is over.
 		 * Based on search result triggers resultsfound or noresults events
-		 * @param query string
+		 * @param {string} query
+		 * @param {string[]} results
+		 * @param {string} [autofillLabel]
 		 */
-		resultHandler: function( query ) {
-			if ( this.resultCount === 0 ) {
+		resultHandler: function ( query, results, autofillLabel ) {
+			if ( results.length === 0 ) {
 				this.$suggestion.val( '' );
-				this.$element.trigger( 'noresults.uls', query );
-			} else {
-				this.$element.trigger( 'resultsfound.uls', [query, this.resultCount] );
+				this.$element.trigger(
+					'noresults.uls',
+					{
+						query: query,
+						ulsPurpose: this.options.ulsPurpose
+					}
+				);
+				return;
 			}
+
+			if ( query ) {
+				this.selectedLanguage = results[ 0 ];
+				this.autofill( results[ 0 ], autofillLabel );
+			}
+
+			results.map( this.render.bind( this ) );
+			this.$element.trigger( 'resultsfound.uls', [ query, results.length ] );
 		},
 
-		autofill: function( langCode, languageName ) {
+		autofill: function ( langCode, languageName ) {
+			var autonym, userInput, suggestion;
+
 			if ( !this.$suggestion.length ) {
 				return;
 			}
@@ -246,16 +262,15 @@
 				return;
 			}
 
-			this.selectedLanguage = langCode;
-			languageName = languageName || this.options.languages[langCode];
+			languageName = languageName || this.options.languages[ langCode ];
 
 			if ( !languageName ) {
 				return;
 			}
 
-			var autonym,
-				userInput = this.$element.val(),
-				suggestion = userInput + languageName.substring( userInput.length, languageName.length );
+			userInput = this.$element.val();
+			suggestion = userInput +
+				languageName.substring( userInput.length, languageName.length );
 
 			if ( suggestion.toLowerCase() !== languageName.toLowerCase() ) {
 				// see if it was autonym match
@@ -276,18 +291,12 @@
 			this.$suggestion.val( suggestion );
 		},
 
-		render: function( langCode ) {
-			var $target = this.options.$target;
-
-			if ( !$target ) {
-				return false;
-			}
-
-			return $target.append( langCode );
+		render: function ( langCode ) {
+			return this.options.lcd.append( langCode );
 		},
 
-		escapeRegex: function( value ) {
-			return value.replace( /[\-\[\]{}()*+?.,\\\^$\|#\s]/g, '\\$&' );
+		escapeRegex: function ( value ) {
+			return value.replace( /[-[\]{}()*+?.,\\^$|#\s]/g, '\\$&' );
 		},
 
 		/**
@@ -297,32 +306,24 @@
 		 * b) Language autonym 'starts with' search string.
 		 * c) ISO 639 code match with search string.
 		 * d) ISO 15924 code for the script match the search string.
+		 * @param {string} langCode
+		 * @param {string} searchTerm
+		 * @return {boolean}
 		 */
-		filter: function( langCode, searchTerm ) {
+		filter: function ( langCode, searchTerm ) {
 			// FIXME script is ISO 15924 code. We might need actual name of script.
 			var matcher = new RegExp( '^' + this.escapeRegex( searchTerm ), 'i' ),
-				languageName = this.options.languages[langCode];
+				languageName = this.options.languages[ langCode ];
 
 			return matcher.test( languageName ) ||
 				matcher.test( $.uls.data.getAutonym( langCode ) ) ||
 				matcher.test( langCode ) ||
 				matcher.test( $.uls.data.getScript( langCode ) );
-		},
-
-		eventSupported: function ( eventName ) {
-			var isSupported = eventName in this.$element;
-
-			if ( !isSupported ) {
-				this.$element.setAttribute( eventName, 'return;' );
-				isSupported = typeof this.$element[eventName] === 'function';
-			}
-
-			return isSupported;
 		}
 	};
 
-	$.fn.languagefilter = function( option ) {
-		return this.each( function() {
+	$.fn.languagefilter = function ( option ) {
+		return this.each( function () {
 			var $this = $( this ),
 				data = $this.data( 'languagefilter' ),
 				options = typeof option === 'object' && option;
@@ -332,29 +333,26 @@
 			}
 
 			if ( typeof option === 'string' ) {
-				data[option]();
+				data[ option ]();
 			}
 		} );
 	};
 
 	$.fn.languagefilter.defaults = {
-		$target: null, // Where to append the results
-		searchAPI: null,
-		languages: null, // Languages as code:name format.
-		onSelect: null // Language select handler - like enter in filter textbox.
+		// LanguageCategoryDisplay
+		lcd: undefined,
+		// URL to which we append query parameter with the query value
+		searchAPI: undefined,
+		// What is this ULS used for.
+		// Should be set for distinguishing between different instances of ULS
+		// in the same application.
+		ulsPurpose: '',
+		// Object of language tags to language names
+		languages: [],
+		// Callback function when language is selected
+		onSelect: undefined
 	};
 
 	$.fn.languagefilter.Constructor = LanguageFilter;
 
-	/**
-	 * Check if a prefix is visually prefix of a string
-	 * @param prefix string
-	 * @param string string
-	 */
-	function isVisualPrefix( prefix, string ) {
-		// Pre-base vowel signs of Indic languages. A vowel sign is called pre-base if
-		// consonant + vowel becomes [vowel][consonant] when rendered. Eg: ക + െ => കെ
-		var prebases = 'െേൈൊോൌெேைொோௌେୈୋୌિਿिিেৈোৌෙේෛොෝෞ';
-		return prebases.indexOf( string[prefix.length] ) <= 0;
-	}
-} ( jQuery ) );
+}( jQuery ) );

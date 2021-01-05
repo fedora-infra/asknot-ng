@@ -1,255 +1,247 @@
 /* Generated using Foundation http://foundation.zurb.com/docs/grid.php */
 /* Global Reset & Standards ---------------------- */
 .grid * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 /* Misc ---------------------- */
 .grid .left {
-    float: left;
+	float: left;
 }
 
 .grid .right {
-    float: right;
+	float: right;
 }
 
 .grid .text-left {
-    text-align: left;
+	text-align: left;
 }
 
 .grid .text-right {
-    text-align: right;
+	text-align: right;
 }
 
 .grid .text-center {
-    text-align: center;
+	text-align: center;
 }
 
 .grid .hide {
-    display: none;
+	display: none;
 }
 
 .grid .highlight {
-    background: #ffff99;
+	background: #ff9;
 }
 
 /* The Grid ---------------------- */
+
 .grid .row {
-    width: 100%;
-    max-width: none;
-    min-width: 600px;
-    margin: 0 auto;
+	width: 100%;
+	max-width: none;
+	min-width: 600px;
+	margin: 0 auto;
 }
 
 .grid .row .row {
-    width: auto;
-    max-width: none;
-    min-width: 0;
-    margin: 0 -5px;
+	width: auto;
+	max-width: none;
+	min-width: 0;
+	margin: 0 -5px;
+}
+
+.grid .column,
+.grid .columns {
+	float: left;
+	min-height: 1px;
+	padding: 0 5px;
+	position: relative;
 }
 
 .grid .row.collapse .column,
 .grid .row.collapse .columns {
-    padding: 0;
-}
-
-.grid .row .row {
-    width: auto;
-    max-width: none;
-    min-width: 0;
-    margin: 0 -5px;
+	padding: 0;
 }
 
 .grid .row .row.collapse {
-    margin: 0;
+	margin: 0;
 }
 
-.grid .column, .grid .columns {
-    float: left;
-    min-height: 1px;
-    padding: 0 5px;
-    position: relative;
-}
-
-.grid .column.centered, .grid .columns.centered {
-    float: none;
-    margin: 0 auto;
+.grid .column.centered,
+.grid .columns.centered {
+	float: none;
+	margin: 0 auto;
 }
 
 .grid .row .one {
-    width: 8.333%;
+	width: 8.333%;
 }
 
 .grid .row .two {
-    width: 16.667%;
+	width: 16.667%;
 }
 
 .grid .row .three {
-    width: 25%;
+	width: 25%;
 }
 
 .grid .row .four {
-    width: 33.333%;
+	width: 33.333%;
 }
 
 .grid .row .five {
-    width: 41.667%;
+	width: 41.667%;
 }
 
 .grid .row .six {
-    width: 50%;
+	width: 50%;
 }
 
 .grid .row .seven {
-    width: 58.333%;
+	width: 58.333%;
 }
 
 .grid .row .eight {
-    width: 66.667%;
+	width: 66.667%;
 }
 
 .grid .row .nine {
-    width: 75%;
+	width: 75%;
 }
 
 .grid .row .ten {
-    width: 83.333%;
+	width: 83.333%;
 }
 
 .grid .row .eleven {
-    width: 91.667%;
+	width: 91.667%;
 }
 
 .grid .row .twelve {
-    width: 100%;
+	width: 100%;
 }
 
 .grid .row .offset-by-one {
-    margin-left: 8.333%;
+	margin-left: 8.333%;
 }
 
 .grid .row .offset-by-two {
-    margin-left: 16.667%;
+	margin-left: 16.667%;
 }
 
 .grid .row .offset-by-three {
-    margin-left: 25%;
+	margin-left: 25%;
 }
 
 .grid .row .offset-by-four {
-    margin-left: 33.333%;
+	margin-left: 33.333%;
 }
 
 .grid .row .offset-by-five {
-    margin-left: 41.667%;
+	margin-left: 41.667%;
 }
 
 .grid .row .offset-by-six {
-    margin-left: 50%;
+	margin-left: 50%;
 }
 
 .grid .row .offset-by-seven {
-    margin-left: 58.333%;
+	margin-left: 58.333%;
 }
 
 .grid .row .offset-by-eight {
-    margin-left: 66.667%;
+	margin-left: 66.667%;
 }
 
 .grid .row .offset-by-nine {
-    margin-left: 75%;
+	margin-left: 75%;
 }
 
 .grid .row .offset-by-ten {
-    margin-left: 83.333%;
+	margin-left: 83.333%;
 }
 
 .grid .push-two {
-    left: 16.667%;
+	left: 16.667%;
 }
 
 .grid .pull-two {
-    right: 16.667%;
+	right: 16.667%;
 }
 
 .grid .push-three {
-    left: 25%;
+	left: 25%;
 }
 
 .grid .pull-three {
-    right: 25%;
+	right: 25%;
 }
 
 .grid .push-four {
-    left: 33.333%;
+	left: 33.333%;
 }
 
 .grid .pull-four {
-    right: 33.333%;
+	right: 33.333%;
 }
 
 .grid .push-five {
-    left: 41.667%;
+	left: 41.667%;
 }
 
 .grid .pull-five {
-    right: 41.667%;
+	right: 41.667%;
 }
 
 .grid .push-six {
-    left: 50%;
+	left: 50%;
 }
 
 .grid .pull-six {
-    right: 50%;
+	right: 50%;
 }
 
 .grid .push-seven {
-    left: 58.333%;
+	left: 58.333%;
 }
 
 .grid .pull-seven {
-    right: 58.333%;
+	right: 58.333%;
 }
 
 .grid .push-eight {
-    left: 66.667%;
+	left: 66.667%;
 }
 
 .grid .pull-eight {
-    right: 66.667%;
+	right: 66.667%;
 }
 
 .grid .push-nine {
-    left: 75%;
+	left: 75%;
 }
 
 .grid .pull-nine {
-    right: 75%;
+	right: 75%;
 }
 
 .grid .push-ten {
-    left: 83.333%;
+	left: 83.333%;
 }
 
 .grid .pull-ten {
-    right: 83.333%;
+	right: 83.333%;
 }
 
-/* Nicolas Gallagher's micro clearfix */
-.grid .row {
-    *zoom: 1;
-}
-
-.grid .row:before, .grid .row:after {
-    content: "";
-    display: table;
+.grid .row:before,
+.grid .row:after {
+	content: '';
+	display: table;
 }
 
 .grid .row:after {
-    clear: both;
+	clear: both;
 }
 
 /* Block Grids ---------------------- */
@@ -264,52 +256,52 @@
  that IE7/8 do not support :nth-child.
  -------------------------------------------------- */
 .grid .block-grid {
-    display: block;
-    overflow: hidden;
-    padding: 0;
+	display: block;
+	overflow: hidden;
+	padding: 0;
 }
 
 .grid .block-grid > li {
-    display: block;
-    height: auto;
-    float: left;
+	display: block;
+	height: auto;
+	float: left;
 }
 
 .grid .block-grid.two-up {
-    margin: 0 -15px;
+	margin: 0 -15px;
 }
 
 .grid .block-grid.two-up > li {
-    width: 50%;
-    padding: 0 15px 15px;
+	width: 50%;
+	padding: 0 15px 15px;
 }
 
 /* .block-grid.two-up>li:nth-child(2n+1) {clear: left;} */
 .grid .block-grid.three-up {
-    margin: 0 -12px;
+	margin: 0 -12px;
 }
 
 .grid .block-grid.three-up > li {
-    width: 33.33%;
-    padding: 0 12px 12px;
+	width: 33.33%;
+	padding: 0 12px 12px;
 }
 
 /* .block-grid.three-up>li:nth-child(3n+1) {clear: left;} */
 .grid .block-grid.four-up {
-    margin: 0 -10px;
+	margin: 0 -10px;
 }
 
 .grid .block-grid.four-up > li {
-    width: 25%;
-    padding: 0 10px 10px;
+	width: 25%;
+	padding: 0 10px 10px;
 }
 
 /* .block-grid.four-up>li:nth-child(4n+1) {clear: left;} */
 .grid .block-grid.five-up {
-    margin: 0 -8px;
+	margin: 0 -8px;
 }
 
 .grid .block-grid.five-up > li {
-    width: 20%;
-    padding: 0 8px 8px;
+	width: 20%;
+	padding: 0 8px 8px;
 }
