@@ -25,8 +25,7 @@ from asknot_lib import (
 )
 
 
-def work(question_filename, template, lang, languages,
-         graph, build, static, _, **kw):
+def work(question_filename, template, lang, languages, graph, build, _, **kw):
     """ Main work function.  Called once per 'lang' from ``main``.
 
     The function does all the things needed to build a copy of the site.
@@ -64,32 +63,17 @@ def work(question_filename, template, lang, languages,
     html = template.render(**kwargs)
 
     outdir = os.path.join(build, lang)
-    global_staticdir = os.path.join(build, "static")
-    global_staticdir_nb = os.path.abspath(static+"/global")
 
     if not os.path.exists(outdir):
         os.makedirs(outdir)
-
-    if not os.path.exists(global_staticdir):
-        os.makedirs(global_staticdir)
 
     outfile = os.path.join(outdir, 'index.html')
     with open(outfile, 'wb') as f:
         f.write(html)
     print("Wrote", outfile)
 
-    staticdir = os.path.abspath(static)
-    statictarget = os.path.join(outdir, 'static')
-    for tree in [statictarget, global_staticdir]:
-        if os.path.exists(tree):
-            shutil.rmtree(tree)
-    shutil.copytree(staticdir, statictarget, symlinks=True)
 
-    shutil.copytree(global_staticdir_nb, global_staticdir, symlinks=True)
-    print("Copied %s to %s" % (staticdir, statictarget))
-
-
-def main(localedir, languages, strict, **kw):
+def main(localedir, languages, strict, build, static, **kw):
     """ Main entry point for for the command line tool.
 
     This function loops over all translated copies of the site that it can find
@@ -129,7 +113,12 @@ def main(localedir, languages, strict, **kw):
         else:
             _ = translation.ugettext
 
-        work(_=_, lang=lang, languages=languages, **kw)
+        work(_=_, lang=lang, languages=languages, build=build, **kw)
+
+    staticdir = os.path.abspath(static)
+    global_staticdir = os.path.join(build, "static")
+    shutil.copytree(staticdir, global_staticdir, symlinks=True, dirs_exist_ok=True)
+    print("Copied %s to %s" % (staticdir, global_staticdir))
 
 
 def process_args():
