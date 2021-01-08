@@ -3,7 +3,7 @@ tree:
     - title: Desktop SIG
       subtitle: the special-interest-group for Fedora Workstation
       link: https://fedoraproject.org/wiki/SIGs/Desktop
-      
+
     - title: Cinnamon SIG
       subtitle: for those excited about Cinnamon desktop environment spiciness in Fedora
       link: https://fedoraproject.org/wiki/Cinnamon_Spin
@@ -11,7 +11,7 @@ tree:
     - title: KDE SIG
       subtitle: to provide high-quality, usable KDE software packages
       link: https://fedoraproject.org/wiki/SIGs/KDE
-      
+
     - title: LXDE SIG
       subtitle: to define a high-quality LXDE experience for Fedora users
       link: https://fedoraproject.org/wiki/LXDE_SIG

@@ -31,36 +31,36 @@ navlinks:
       link: https://www.gnome.org/
 
 tree:
-  segue1: Want to help GNOME?
-  segue2: First tell us what you like!
-  children:
-  - title: Design and Usability
-    subtitle: Making sure we focus on users.
-    link: https://wiki.gnome.org/Design/Contribute
-  - title: Writing
-    subtitle: Want to help with your english skills?
+    segue1: Want to help GNOME?
+    segue2: First tell us what you like!
     children:
-    - title: Articles
-      subtitle: Want to help with the engagement team?
-      link: https://wiki.gnome.org/Engagement#Contribute
-    - title: Documentation
-      subtitle: Get all the hidden features to the users!
-      link: https://wiki.gnome.org/DocumentationProject/Contributing
-  - title: Languages
-    subtitle: You could help translating!
-    link: https://wiki.gnome.org/TranslationProject/ContributeTranslations
-  - title: Code
-    subtitle: Get your hands dirty!
-    link: https://wiki.gnome.org/Newcomers/
-  - title: Making Things Stable
-    subtitle: May GNOME never crash again
-    children:
-    - title: Fixing Bugs
-      subtitle: Join our Bugsquad!
-      link: https://wiki.gnome.org/Bugsquad
-    - title: Good Tests
-      subtitle: The QA team might be right for you.
-      link: https://wiki.gnome.org/GnomeQA
-  - title: System Administration
-    subtitle: Help us managing our infrastructure!
-    link: https://wiki.gnome.org/Sysadmin/Apprentices
+        - title: Design and Usability
+          subtitle: Making sure we focus on users.
+          link: https://wiki.gnome.org/Design/Contribute
+        - title: Writing
+          subtitle: Want to help with your english skills?
+          children:
+              - title: Articles
+                subtitle: Want to help with the engagement team?
+                link: https://wiki.gnome.org/Engagement#Contribute
+              - title: Documentation
+                subtitle: Get all the hidden features to the users!
+                link: https://wiki.gnome.org/DocumentationProject/Contributing
+        - title: Languages
+          subtitle: You could help translating!
+          link: https://wiki.gnome.org/TranslationProject/ContributeTranslations
+        - title: Code
+          subtitle: Get your hands dirty!
+          link: https://wiki.gnome.org/Newcomers/
+        - title: Making Things Stable
+          subtitle: May GNOME never crash again
+          children:
+              - title: Fixing Bugs
+                subtitle: Join our Bugsquad!
+                link: https://wiki.gnome.org/Bugsquad
+              - title: Good Tests
+                subtitle: The QA team might be right for you.
+                link: https://wiki.gnome.org/GnomeQA
+        - title: System Administration
+          subtitle: Help us managing our infrastructure!
+          link: https://wiki.gnome.org/Sysadmin/Apprentices

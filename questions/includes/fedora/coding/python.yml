@@ -7,7 +7,7 @@ tree:
     - title: ABRT
       subtitle: the Automatic Bug Reporting Tool
       link: https://github.com/abrt/abrt/wiki/overview
-      
+
     - title: DNF
       subtitle: Dandified Yum (DNF) is a major rewrite of yum
       link: https://github.com/rpm-software-management/dnf
@@ -15,7 +15,7 @@ tree:
     - title: Firewalld
       subtitle: a dynamically managed firewall with support for network zones
       link: http://www.firewalld.org/contribute/
-      
+
     - title: PortingDB
       subtitle: a <a href="http://fedora.portingdb.xyz/">dynamic database</a> of Python 2 packages needing to be updated to Python 3
       link: http://fedora.portingdb.xyz/

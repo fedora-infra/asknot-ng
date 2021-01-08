@@ -1,18 +1,18 @@
 tree:
 
   children:
-      - title: General
-        subtitle: on how to join the websites team?
-        image: https://badges.fedoraproject.org/pngs/rock-the-web.png
-        link: https://fedoraproject.org/wiki/Websites/Join
+    - title: General
+      subtitle: on how to join the websites team?
+      image: https://badges.fedoraproject.org/pngs/rock-the-web.png
+      link: https://fedoraproject.org/wiki/Websites/Join
 
-      - title: Specific
-        subtitle: on different kinds of website tasks
-        image: https://badges.fedoraproject.org/pngs/rock-the-web.png
-        segue1: That's my style too.
-        segue2: How about working on the...
+    - title: Specific
+      subtitle: on different kinds of website tasks
+      image: https://badges.fedoraproject.org/pngs/rock-the-web.png
+      segue1: That's my style too.
+      segue2: How about working on the...
 
-        children:
+      children:
         - title: Release Site
           subtitle: "<a href='http://getfedora.org'>getfedora.org</a> is awesome"
           image: https://badges.fedoraproject.org/pngs/rock-the-web.png
@@ -34,7 +34,7 @@ tree:
           image: https://badges.fedoraproject.org/pngs/rock-the-web.png
           link: https://fedoraproject.org/wiki/Websites#Translations
         - title: User Gallery
-          subtitle:  gallery for mini-interview-style user profiles and stories
+          subtitle: gallery for mini-interview-style user profiles and stories
           image: https://badges.fedoraproject.org/pngs/wiki-let-me-introduce-myself.png
           link: https://fedoraproject.org/wiki/Websites#User_gallery
         - title: AskNot Site
