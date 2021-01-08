@@ -100,8 +100,9 @@
             % if 'children' in node:
             <p class="lead">
               <a data-next="${node['children'][0]['id']}" class="yes btn btn-lg btn-success"><span class="glyphicon glyphicon-ok-sign"></span> ${node['affirmative']}</a>
-
+            </p>
             % else:
+            <p class="lead">
               <a href="${node['link']}" target="_blank" class="btn btn-lg btn-success"><span class="glyphicon glyphicon-ok-sign"></span> ${node['affirmative']}</a>
             </p>
             % endif:
