@@ -1,5 +1,3 @@
-# MinWoo Joh <igtzhsou@naver.com>, 2015. #zanata
-# simmon <simmon@nplob.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
