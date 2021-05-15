@@ -1,10 +1,4 @@
 from setuptools import setup
-import os
-
-filename = os.path.join(
-    os.path.dirname(os.path.abspath(__file__)), 'requirements.txt')
-with open(filename, 'r') as f:
-    requirements = f.readlines()
 
 description = 'Ask not what $ORG can do for you, but what you can do for $ORG'
 
@@ -16,7 +10,13 @@ setup(
     author='Ralph Bean',
     author_email='rbean@redhat.com',
     url='https://github.com/fedora-infra/asknot-ng',
-    install_requires=requirements,
+    install_requires=[
+        'mako',
+        'PyYAML',
+        ],
+    extras_require={
+        'tests': ['nose'],
+        },
     packages=[],
     py_modules=['asknot_lib'],
 
@@ -28,7 +28,7 @@ setup(
 
     # This further declares that babel should use our extractor on yaml files
     # in the questions/ directory.
-    message_extractors = {
+    message_extractors={
         "questions": [
             ('**.yml', 'asknot', None),
         ]
