@@ -1,24 +1,26 @@
 # MinWoo Joh <igtzhsou@naver.com>, 2015. #zanata
+# simmon <simmon@nplob.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-01-14 13:19+0100\n"
-"PO-Revision-Date: 2015-10-29 10:59+0000\n"
-"Last-Translator: MinWoo Joh <igtzhsou@naver.com>\n"
-"Language-Team: Korean\n"
+"PO-Revision-Date: 2021-06-22 08:04+0000\n"
+"Last-Translator: simmon <simmon@nplob.com>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/"
+"fedora-infra/asknot-ng/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.7\n"
 
 #. title
 #. description
 #: questions/coala.yml:1
 msgid "What can I do for coala?"
-msgstr ""
+msgstr "코알라를 위해 무엇을 할 수 있나요?"
 
 #. negative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
@@ -28,7 +30,7 @@ msgstr "아니요"
 #. negative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Nope, nope, nope"
-msgstr "아뇨,아뇨,아뇨"
+msgstr "절대 아닙니다"
 
 #. negative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
@@ -43,7 +45,7 @@ msgstr "아뇨, 괜찮아요"
 #. negative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Not on your life"
-msgstr ""
+msgstr "절대 아닙니다"
 
 #. negative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
@@ -88,7 +90,7 @@ msgstr "딱 맞아요"
 #. affirmative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Sure"
-msgstr ""
+msgstr "그럼요"
 
 #. backlink
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
@@ -113,84 +115,84 @@ msgstr "참가"
 #. navlink
 #: questions/coala.yml:1
 msgid "coala documentation"
-msgstr ""
+msgstr "코알라 문서"
 
 #. navlink
 #: questions/coala.yml:1
 msgid "Get Live Help!"
-msgstr ""
+msgstr "실시간 도움 얻기!"
 
 #. segue1
 #: questions/coala.yml:33
 msgid "Want to help coala?"
-msgstr ""
+msgstr "코알라 돕기를 원하나요?"
 
 #. segue2
 #: questions/coala.yml:33
 msgid "What do you care about?"
-msgstr ""
+msgstr "무엇에 관심이 있나요?"
 
 #. title
 #: questions/coala.yml:37
 msgid "Visuals!"
-msgstr ""
+msgstr "미남!"
 
 #. subtitle
 #: questions/coala.yml:37
 msgid "The coala artwork team is just for you!"
-msgstr ""
+msgstr "코알라 작품 팀은 당신을 위해 있습니다!"
 
 #. title
 #: questions/coala.yml:40
 msgid "Good, Generic Code"
-msgstr ""
+msgstr "좋아요, 일반적인 코드"
 
 #. subtitle
 #: questions/coala.yml:40
 msgid "Help us improving code quality in the world! Join the core developers."
-msgstr ""
+msgstr "세상에 코드 품질 향상에 도움을 줍니다 핵심 개발자에 참가하세요."
 
 #. title
 #: questions/coala.yml:43
 msgid "Reaching Users"
-msgstr ""
+msgstr "사용자에게 도달"
 
 #. subtitle
 #: questions/coala.yml:43
 msgid "Write documentation that is understandable by everyone."
-msgstr ""
+msgstr "모든 사람에 의해 이해 할 수 있는 문서를 작성합니다."
 
 #. title
 #: questions/coala.yml:46
 msgid "Crazy Algorithms"
-msgstr ""
+msgstr "미친 알고리즘"
 
 #. subtitle
 #: questions/coala.yml:46
 msgid ""
 "Let's write code analytics. We write the framework, there's bare logic left "
 "for you."
-msgstr ""
+msgstr "코드 분석을 작성해 봅시다. 우리는 프레임워크를 작성하고, 당신을 위해 남은 논리가 있습니다."
 
 #. title
 #: questions/coala.yml:49
 msgid "Scientific Progress"
-msgstr ""
+msgstr "과학적인 진행"
 
 #. subtitle
 #: questions/coala.yml:49
 msgid "Join our coAST team and create language independent program analysis."
-msgstr ""
+msgstr "coAST 팀에 합류하세요. 그리고 언어 독립적인 프로그램 분석을 생성하세요."
 
 #. title
 #: questions/coala.yml:52
 msgid "Money"
-msgstr ""
+msgstr "돈"
 
 #. subtitle
 #: questions/coala.yml:52
 msgid "Help us through donations at gratipay."
-msgstr ""
+msgstr "gratipay 에서 기부를 통해 우리를 도울 수 있습니다."
 
 #. title
 #. description
@@ -201,27 +203,27 @@ msgstr "제가 페도라를 위해 무엇을 할 수 있나요?"
 #. navlink
 #: questions/fedora.yml:1
 msgid "Home"
-msgstr ""
+msgstr "홈"
 
 #. navlink
 #: questions/fedora.yml:1
 msgid "Get Fedora"
-msgstr "Fedora 받기"
+msgstr "페도라 받기"
 
 #. segue1
 #: questions/fedora.yml:32
 msgid "Want to help Fedora?  Tell me..."
-msgstr "Fedora를 돕고 싶나요? 말해주세요..."
+msgstr "페도라를 돕고 싶나요? 말해주세요..."
 
 #. segue2
 #: questions/fedora.yml:32
 msgid "what's your area of interest?"
-msgstr "관심있는 분야가 무엇인가요?"
+msgstr "관심 분야가 무엇인가요?"
 
 #. title
 #: questions/fedora.yml:36
 msgid "Design!"
-msgstr ""
+msgstr "디자인!"
 
 #. segue1
 #: questions/fedora.yml:36
@@ -237,7 +239,7 @@ msgstr "이건 어떤가요..."
 #. subtitle
 #: questions/fedora.yml:36
 msgid "pixel ninjas"
-msgstr "픽셀 닌자"
+msgstr "픽셀 무사"
 
 #. title
 #: questions/fedora.yml:43
@@ -247,7 +249,7 @@ msgstr "프로그래밍"
 #. segue1
 #: questions/fedora.yml:43
 msgid "Zeroes and ones #allday?  Me too."
-msgstr ""
+msgstr "O 과 1 #하루종일? 나두."
 
 #. segue2
 #: questions/fedora.yml:43
@@ -262,23 +264,23 @@ msgstr "깁슨을 해킹하기"
 #. title
 #: questions/fedora.yml:50
 msgid "Community Ops"
-msgstr ""
+msgstr "커뮤니티 운영"
 
 #. segue1
 #: questions/fedora.yml:50
 msgid "Have a knack for community-building?"
-msgstr ""
+msgstr "커뮤니티-구축을 위한 기교를 가지고 있습니까?"
 
 #. segue2
 #: questions/fedora.yml:50 questions/includes/fedora/coding.yml:38
 #: questions/includes/fedora/design.yml:3
 msgid "Would you like something more"
-msgstr "더 원하시는게 있나요?"
+msgstr "더 원하는게 있나요"
 
 #. subtitle
 #: questions/fedora.yml:50
 msgid "connecting the dots"
-msgstr ""
+msgstr "점들을 연결합니다"
 
 #. title
 #: questions/fedora.yml:57 questions/gnome.yml:40
@@ -318,7 +320,7 @@ msgstr "어차피 우리는 국제적인 활동이에요"
 #. title
 #: questions/fedora.yml:71
 msgid "Advocacy"
-msgstr "웅변"
+msgstr "지지"
 
 #. segue1
 #: questions/fedora.yml:71
@@ -328,7 +330,7 @@ msgstr "사람들 만나는 것을 좋아하세요?"
 #. segue2
 #: questions/fedora.yml:71
 msgid "How about becoming a Fedora..."
-msgstr ""
+msgstr "페도라를 생성은 어떤가요..."
 
 #. subtitle
 #: questions/fedora.yml:71
@@ -338,17 +340,17 @@ msgstr "좋은 말을 나누는 것"
 #. title
 #: questions/fedora.yml:78
 msgid "Packaging"
-msgstr "패키징"
+msgstr "꾸러미(packaging)"
 
 #. segue1
 #: questions/fedora.yml:78
 msgid "So you want to help build the OS?  Excellent."
-msgstr "운영체제 개발을 돕고 싶나요? 최고네요"
+msgstr "운영체제 개발을 돕고 싶나요? 멋져요."
 
 #. segue2
 #: questions/fedora.yml:78
 msgid "Then you'll need to become a Fedora..."
-msgstr ""
+msgstr "그러면 페도라 생성이 필요 할 수 있습니다..."
 
 #. subtitle
 #: questions/fedora.yml:78
@@ -373,17 +375,17 @@ msgstr "혹시 이것에 더 관심이 있나요..."
 #. subtitle
 #: questions/fedora.yml:85
 msgid "as they say, \"if it's not tested, it's broken\""
-msgstr "\"테스트가 안됬으면, 망가진거에요\"라고 흔히 말하듯이"
+msgstr "\"시험하지 않았으면 , 고장나요\"라고 말하듯이"
 
 #. title
 #: questions/fedora.yml:92
 msgid "Modularity"
-msgstr ""
+msgstr "모듈성"
 
 #. subtitle
 #: questions/fedora.yml:92
 msgid "rethinking how we compose the distro"
-msgstr ""
+msgstr "배포판 구성에 대한 방법을 다시 생각하기"
 
 #. title
 #: questions/fedora.yml:97
@@ -429,7 +431,7 @@ msgstr "클라우드"
 #. segue1
 #: questions/fedora.yml:111
 msgid "High-minded?"
-msgstr "고등한가요?"
+msgstr "마음이 좋은가요?"
 
 #. subtitle
 #: questions/fedora.yml:111
@@ -439,149 +441,149 @@ msgstr "미래의 삶이 있는 곳이죠"
 #. title
 #: questions/fedora.yml:118
 msgid "Internationalization"
-msgstr ""
+msgstr "세계화"
 
 #. segue1
 #: questions/fedora.yml:118
 msgid "Have a regional or world perspective?"
-msgstr ""
+msgstr "지역적 또는 세계적 관점을 갖고 있나요?"
 
 #. subtitle
 #: questions/fedora.yml:118
 msgid "making Fedora work better for all languages"
-msgstr ""
+msgstr "페도라가 모든 언어를 위해 더 잘 동작하도록 만들기"
 
 #. title
 #: questions/fedora.yml:125
 msgid "Instruction"
-msgstr ""
+msgstr "설명(지시)"
 
 #. subtitle
 #: questions/fedora.yml:125
 msgid "spread your knowledge to others in the community"
-msgstr ""
+msgstr "커뮤니티에서 다른 사람들에게 지식을 전파하세요"
 
 #. title
 #. description
 #: questions/gnome.yml:1
 msgid "What can I do for GNOME?"
-msgstr ""
+msgstr "그놈을 위해 내가 할 수 있는게 무엇인가요?"
 
 #. navlink
 #: questions/gnome.yml:1
 msgid "Get GNOME"
-msgstr ""
+msgstr "그놈 얻기"
 
 #. navlink
 #: questions/gnome.yml:1
 msgid "GNOME.org"
-msgstr ""
+msgstr "GNOME.org"
 
 #. segue1
 #: questions/gnome.yml:33
 msgid "Want to help GNOME?"
-msgstr ""
+msgstr "그놈을 돕고 싶은가요?"
 
 #. segue2
 #: questions/gnome.yml:33
 msgid "First tell us what you like!"
-msgstr ""
+msgstr "당신이 좋아하는 것을 우리에게 말해주세요!"
 
 #. title
 #: questions/gnome.yml:37
 msgid "Design and Usability"
-msgstr ""
+msgstr "디자인 및 사용성"
 
 #. subtitle
 #: questions/gnome.yml:37
 msgid "Making sure we focus on users."
-msgstr ""
+msgstr "사용자에게 집중하도록 만들기."
 
 #. subtitle
 #: questions/gnome.yml:40
 msgid "Want to help with your english skills?"
-msgstr ""
+msgstr "영어 실력으로 돕기를 원하나요?"
 
 #. title
 #: questions/gnome.yml:43
 msgid "Articles"
-msgstr ""
+msgstr "조항"
 
 #. subtitle
 #: questions/gnome.yml:43
 msgid "Want to help with the engagement team?"
-msgstr ""
+msgstr "참여 팀에 도움이 필요한가요?"
 
 #. title
 #: questions/gnome.yml:46 questions/includes/fedora/translation.yml:19
 #: questions/includes/fedora/writing.yml:3
 msgid "Documentation"
-msgstr ""
+msgstr "문서"
 
 #. subtitle
 #: questions/gnome.yml:46
 msgid "Get all the hidden features to the users!"
-msgstr ""
+msgstr "숨겨진 기능을 사용자에게 제공합니다!"
 
 #. title
 #: questions/gnome.yml:49
 msgid "Languages"
-msgstr ""
+msgstr "언어 지원"
 
 #. subtitle
 #: questions/gnome.yml:49
 msgid "You could help translating!"
-msgstr ""
+msgstr "번역을 도울 수 있습니다!"
 
 #. title
 #: questions/gnome.yml:52
 msgid "Code"
-msgstr ""
+msgstr "규약"
 
 #. subtitle
 #: questions/gnome.yml:52
 msgid "Get your hands dirty!"
-msgstr ""
+msgstr "손이 더러워집니다!"
 
 #. title
 #: questions/gnome.yml:55
 msgid "Making Things Stable"
-msgstr ""
+msgstr "안정적으로 만들기"
 
 #. subtitle
 #: questions/gnome.yml:55
 msgid "May GNOME never crash again"
-msgstr ""
+msgstr "그놈이 다시 충돌하지 않게 합니다"
 
 #. title
 #: questions/gnome.yml:58
 msgid "Fixing Bugs"
-msgstr ""
+msgstr "결점 수정하기"
 
 #. subtitle
 #: questions/gnome.yml:58
 msgid "Join our Bugsquad!"
-msgstr ""
+msgstr "Bugsquad에 가입하세요!"
 
 #. title
 #: questions/gnome.yml:61
 msgid "Good Tests"
-msgstr ""
+msgstr "좋은 시험"
 
 #. subtitle
 #: questions/gnome.yml:61
 msgid "The QA team might be right for you."
-msgstr ""
+msgstr "QA 팀이 당신을 위해 있습니다."
 
 #. title
 #: questions/gnome.yml:64
 msgid "System Administration"
-msgstr ""
+msgstr "시스템 관리"
 
 #. subtitle
 #: questions/gnome.yml:64
 msgid "Help us managing our infrastructure!"
-msgstr ""
+msgstr "우리의 인프라스트럭처 관리를 도와주세요!"
 
 #. title
 #: questions/includes/fedora/advocacy.yml:3
@@ -593,7 +595,7 @@ msgstr "대사"
 #: questions/includes/fedora/advocacy.yml:3
 #: questions/includes/fedora/community.yml:15
 msgid "the representatives of Fedora"
-msgstr ""
+msgstr "페도라 대표"
 
 #. title
 #: questions/includes/fedora/cloud.yml:3
@@ -623,12 +625,12 @@ msgstr "Python"
 #. segue1
 #: questions/includes/fedora/coding.yml:3
 msgid "So, you enjoy traceback-driven development?  What could go wrong?"
-msgstr ""
+msgstr "그래서, 당신은 역추적으로 제공된 개발을 좋아하나요? 무엇이 잘 못 될 수 있을까요?"
 
 #. segue2
 #: questions/includes/fedora/coding.yml:3
 msgid "Are you interested in hacking on..."
-msgstr "이것을 해킹하는 것을 좋아하나요?"
+msgstr "해킹에 관심 있나요?..."
 
 #. subtitle
 #: questions/includes/fedora/coding.yml:3
@@ -643,13 +645,13 @@ msgstr "C"
 #. segue1
 #: questions/includes/fedora/coding.yml:9
 msgid "So, you think OOP is for hipsters?  Let me tell you, back in my day..."
-msgstr ""
+msgstr "그래서, 당신은 OOP가 멋쟁이를 위한 것이라고 생각하나요? 당신에게 나의 일상으로 돌아 갈 수 있다고 말 할 수 있습니다..."
 
 #. segue2
 #: questions/includes/fedora/coding.yml:9
 #: questions/includes/fedora/coding.yml:27
 msgid "How about working on..."
-msgstr ""
+msgstr "동작은 어떻게..."
 
 #. subtitle
 #: questions/includes/fedora/coding.yml:9
@@ -659,14 +661,14 @@ msgstr "기계의 영혼에 가장 가까운 언어"
 #. title
 #: questions/includes/fedora/coding.yml:15
 msgid "Haskell"
-msgstr "Haskell"
+msgstr "하스켈"
 
 #. segue1
 #: questions/includes/fedora/coding.yml:15
 msgid ""
 "So, programming without side-effects is what you're all about?  Sounds "
 "useful!"
-msgstr ""
+msgstr "그래서, 부작용 없는 프로그래밍이 당신이 말하는 모든 것인가요? 유용하군요!"
 
 #. segue2
 #: questions/includes/fedora/coding.yml:15
@@ -689,7 +691,7 @@ msgstr "Java"
 msgid ""
 "So you're a believer in <code>AbstractMethodFactoryBean</code>s?  "
 "Straightforward enough..."
-msgstr ""
+msgstr "그래서 당신은 <code>AbstractMethodFactoryBean</code>를 믿나요? 충분히 간단하게..."
 
 #. subtitle
 #: questions/includes/fedora/coding.yml:21
@@ -699,14 +701,14 @@ msgstr "안정한 개발을 위한 비유동적 언어"
 #. title
 #: questions/includes/fedora/coding.yml:27
 msgid "Scala"
-msgstr "Scala"
+msgstr "스칼라"
 
 #. segue1
 #: questions/includes/fedora/coding.yml:27
 msgid ""
 "So, just OOP or functional languages wouldn't do it?  You had to have both, "
 "huh?"
-msgstr ""
+msgstr "그래서, 단지 OOP나 기능적 언어로만 하지 않겠죠? 둘 다 가졌을 거에요, 그렇죠?"
 
 #. subtitle
 #: questions/includes/fedora/coding.yml:27
@@ -716,29 +718,29 @@ msgstr "준 고속 개발을 위한 비유동적 언어"
 #. title
 #: questions/includes/fedora/coding.yml:33
 msgid "JavaScript"
-msgstr "JavaScript"
+msgstr "자바스크립트"
 
 #. segue1
 #: questions/includes/fedora/coding.yml:33
 msgid ""
 "So, you think having native integers is over-rated?  What could go wrong?"
-msgstr ""
+msgstr "그래서, 원래 정수가 과대평가 되어졌다고 생각하나요? 무엇이 잘못되었을까요?"
 
 #. segue2
 #: questions/includes/fedora/coding.yml:33
 msgid "There's plenty to do.  How about joining the.."
-msgstr ""
+msgstr "할게 많아요. 참여하는 게..."
 
 #. subtitle
 #: questions/includes/fedora/coding.yml:33
 msgid "a dynamic web-oriented language for backend and frontend"
-msgstr "웹에서 유래된 백엔드와 프론트엔드를 위한  유동적 언어"
+msgstr "웹에서 유래된 백엔드와 프론트엔드를 위한 유동적 언어"
 
 #. title
 #: questions/includes/fedora/coding.yml:38
 #: questions/includes/fedora/design.yml:35
 msgid "Websites Team"
-msgstr "웹사이트팀 "
+msgstr "웹사이트 팀"
 
 #. segue1
 #: questions/includes/fedora/coding.yml:38
@@ -763,31 +765,31 @@ msgstr "Ruby"
 #. subtitle
 #: questions/includes/fedora/coding.yml:44
 msgid "hashrockets and bare words"
-msgstr ""
+msgstr "해쉬로켓과 맨 말"
 
 #. title
 #: questions/includes/fedora/coding.yml:48
 msgid "C++"
-msgstr ""
+msgstr "C++"
 
 #. segue1
 #: questions/includes/fedora/coding.yml:48
 msgid ""
 "So, you're not happy if your error messages are comprehensible?  We have a "
 "place for you."
-msgstr ""
+msgstr "그래서, 당신의 오류 메시지를 이해 할 수 없어서 행복하지 않죠? 우리는 당신을 위한 장소가 있습니다."
 
 #. segue2
 #: questions/includes/fedora/coding.yml:48
 msgid "Try digging into..."
-msgstr ""
+msgstr "파헤쳐 보세요..."
 
 #. subtitle
 #: questions/includes/fedora/coding.yml:48
 msgid ""
 "imperative and object-oriented with the power of low-level memory "
 "manipulation"
-msgstr ""
+msgstr "저수준 메모리 조작의 힘을 갖는 명령형 및 객체 지향형"
 
 #. title
 #: questions/includes/fedora/coding/web.yml:4
@@ -796,12 +798,12 @@ msgstr ""
 #: questions/includes/fedora/translation.yml:3
 #: questions/includes/fedora/writing.yml:9
 msgid "General"
-msgstr "일반적"
+msgstr "일반적인"
 
 #. subtitle
 #: questions/includes/fedora/community.yml:3
 msgid "on how to join the Community Operations team?"
-msgstr ""
+msgstr "커뮤니티 운영 팀에 참가하는 방법에 대해서?"
 
 #. title
 #: questions/includes/fedora/coding/web.yml:9
@@ -810,7 +812,7 @@ msgstr ""
 #: questions/includes/fedora/translation.yml:7
 #: questions/includes/fedora/writing.yml:13
 msgid "Specific"
-msgstr "자세한"
+msgstr "자세히"
 
 #. segue1
 #: questions/includes/fedora/community.yml:8
@@ -827,29 +829,29 @@ msgstr "이건 어때요?"
 #. subtitle
 #: questions/includes/fedora/community.yml:8
 msgid "on different kinds of community tasks"
-msgstr ""
+msgstr "다양한 종류의 커뮤니티 작업에"
 
 #. title
 #: questions/includes/fedora/community.yml:19
 #: questions/includes/fedora/writing.yml:50
 msgid "Community Blog"
-msgstr ""
+msgstr "커뮤니티 블로그"
 
 #. subtitle
 #: questions/includes/fedora/community.yml:19
 #: questions/includes/fedora/writing.yml:50
 msgid "the central hub of all Fedora news, across the subprojects"
-msgstr ""
+msgstr "하위프로젝트에 걸쳐서, 모든 페도라 소식의 중심 허브"
 
 #. title
 #: questions/includes/fedora/community.yml:22
 msgid "5 Things in Fedora This Week"
-msgstr ""
+msgstr "이번 주에 페도라 5가지"
 
 #. subtitle
 #: questions/includes/fedora/community.yml:22
 msgid "finding information for a weekly article about the happenings in Fedora"
-msgstr ""
+msgstr "페도라에 발생하는 일에 대하여 주간 기사에 정보 찾기"
 
 #. title
 #: questions/includes/fedora/design.yml:3
@@ -859,12 +861,12 @@ msgstr "디자인 팀"
 #. segue1
 #: questions/includes/fedora/design.yml:3
 msgid "Ok."
-msgstr "오케이."
+msgstr "좋아요."
 
 #. subtitle
 #: questions/includes/fedora/design.yml:3
 msgid "creatives serving as a design firm for the Fedora community"
-msgstr "Fedora 커뮤니티를 위한 디자인을 하는 창의적인 사람들"
+msgstr "페도라 커뮤니티를 위해 디자인을 하는 창의적인 사람들"
 
 #. subtitle
 #: questions/includes/fedora/design.yml:10
@@ -879,12 +881,12 @@ msgstr "여러 종류의 디자인 작업에 대해"
 #. title
 #: questions/includes/fedora/design.yml:22
 msgid "Artwork Requests"
-msgstr "작화 요청"
+msgstr "작품 요청"
 
 #. subtitle
 #: questions/includes/fedora/design.yml:22
 msgid "there are people in need of good taste -- you can help"
-msgstr ""
+msgstr "그 곳에는 도울 수 있는 좋은 취향을 가진 사람들이 있습니다 --당신도 도울 수 있습니다"
 
 #. title
 #: questions/includes/fedora/design.yml:26
@@ -894,12 +896,12 @@ msgstr "Hackergotchis"
 #. subtitle
 #: questions/includes/fedora/design.yml:26
 msgid "making cute cut-outs of people's faces"
-msgstr ""
+msgstr "사람들의 얼굴을 귀엽게 잘라 붙여 만들기"
 
 #. title
 #: questions/includes/fedora/design.yml:30
 msgid "Fedora Badges"
-msgstr ""
+msgstr "페도라 기장"
 
 #. subtitle
 #: questions/includes/fedora/design.yml:30
@@ -923,13 +925,13 @@ msgstr "Fedora 워크스테이션에 관심이 있는 사람들"
 #. title
 #: questions/includes/fedora/desktop.yml:7
 msgid "Cinnamon SIG"
-msgstr ""
+msgstr "시나몬 SIG"
 
 #. subtitle
 #: questions/includes/fedora/desktop.yml:7
 msgid ""
 "for those excited about Cinnamon desktop environment spiciness in Fedora"
-msgstr ""
+msgstr "페도라에서 시나몬 데스크탑 환경의 강렬함에 관심 있는 분들을 위하여"
 
 #. title
 #: questions/includes/fedora/desktop.yml:11
@@ -964,22 +966,22 @@ msgstr "Xfce 데스크톱 환경의 통합에 대해 기대하는 사람들"
 #. title
 #: questions/includes/fedora/i18n.yml:3
 msgid "i18n"
-msgstr ""
+msgstr "i18n"
 
 #. subtitle
 #: questions/includes/fedora/i18n.yml:3
 msgid "the Fedora Internationalization subproject"
-msgstr ""
+msgstr "페도라 세계화 하위프로젝트"
 
 #. title
 #: questions/includes/fedora/packaging.yml:3
 msgid "Package Maintainer"
-msgstr "패키지 관리자"
+msgstr "꾸러미(package) 관리자"
 
 #. subtitle
 #: questions/includes/fedora/packaging.yml:3
 msgid "steward of the packages in Fedora"
-msgstr "Fedora의 패키지들을 관리"
+msgstr "페도라 꾸러미(package)들을 관리"
 
 #. subtitle
 #: questions/includes/fedora/qa.yml:4
@@ -989,7 +991,7 @@ msgstr "QA팀에 들어가는 것에 대해서요?"
 #. segue1
 #: questions/includes/fedora/qa.yml:8
 msgid "Certainly."
-msgstr "당연하죠"
+msgstr "당연하죠."
 
 #. segue2
 #: questions/includes/fedora/qa.yml:8
@@ -1009,7 +1011,7 @@ msgstr "릴리즈 검증"
 #. subtitle
 #: questions/includes/fedora/qa.yml:14
 msgid "when there's an upcoming release, that is"
-msgstr "새로운 릴리즈가 나올때에는 "
+msgstr "새로운 출시가 나올 때에는"
 
 #. title
 #: questions/includes/fedora/qa.yml:17
@@ -1019,497 +1021,497 @@ msgstr "테스트 업데이트"
 #. subtitle
 #: questions/includes/fedora/qa.yml:17
 msgid "before they hit the stable repo"
-msgstr "안정된 리포지터리를 달성하기 이전에"
+msgstr "안정된 레포지터리를 달성하기 이전에"
 
 #. title
 #: questions/includes/fedora/qa.yml:20
 msgid "Create Test Cases"
-msgstr ""
+msgstr "시험 사례 생성"
 
 #. subtitle
 #: questions/includes/fedora/qa.yml:20
 msgid "otherwise we won't know what to test"
-msgstr ""
+msgstr "그렇지 않으면 우리는 무엇을 시험하는 지을 알지 못할 것입니다"
 
 #. title
 #: questions/includes/fedora/qa.yml:24
 msgid "Develop Tools"
-msgstr ""
+msgstr "개발 도구"
 
 #. segue1
 #: questions/includes/fedora/qa.yml:24
 msgid "I'm of the same mind."
-msgstr ""
+msgstr "나도 같은 마음입니다."
 
 #. segue2
 #: questions/includes/fedora/qa.yml:24
 msgid "We need people to hack on"
-msgstr ""
+msgstr "우리는 문제를 해결할 사람이 필요합니다"
 
 #. subtitle
 #: questions/includes/fedora/qa.yml:24
 msgid "for continuous awesomeness"
-msgstr ""
+msgstr "연속적인 근사함을 위해"
 
 #. title
 #: questions/includes/fedora/qa.yml:30
 msgid "Taskotron"
-msgstr ""
+msgstr "Taskotron"
 
 #. subtitle
 #: questions/includes/fedora/qa.yml:30
 msgid "a framework for automated task execution"
-msgstr ""
+msgstr "자동화된 작업 실행을 위한 프레임워크"
 
 #. title
 #: questions/includes/fedora/qa.yml:33
 msgid "BlockerBugs"
-msgstr ""
+msgstr "차단기 결점"
 
 #. subtitle
 #: questions/includes/fedora/qa.yml:33
 msgid "used to propose and track release blocking bugs"
-msgstr ""
+msgstr "출시에 차단된 결점을 제안하고 추적하는데 사용됩니다"
 
 #. title
 #: questions/includes/fedora/qa.yml:36
 msgid "Bodhi"
-msgstr ""
+msgstr "Bodhi"
 
 #. subtitle
 #: questions/includes/fedora/qa.yml:36
 msgid "the Fedora Updates System"
-msgstr ""
+msgstr "페도라 최신화 시스템"
 
 #. title
 #: questions/includes/fedora/qa.yml:39
 msgid "fedora-easy-karma"
-msgstr ""
+msgstr "fedora-easy-karma"
 
 #. subtitle
 #: questions/includes/fedora/qa.yml:39
 msgid "a handsome tool to ease testing updates"
-msgstr ""
+msgstr "최신화를 시험하는데 쉽게 하는 멋진 도구"
 
 #. title
 #: questions/includes/fedora/qa.yml:43
 msgid "Take Over"
-msgstr ""
+msgstr "극복하다"
 
 #. segue1
 #: questions/includes/fedora/qa.yml:43
 msgid "That's huge of you."
-msgstr ""
+msgstr "정말 대단하군요."
 
 #. segue2
 #: questions/includes/fedora/qa.yml:43
 msgid "we need someone to head up..."
-msgstr ""
+msgstr "우리는 누군가 나아가게 할 필요가 있습니다..."
 
 #. subtitle
 #: questions/includes/fedora/qa.yml:43
 msgid "some basically abandoned tasks"
-msgstr ""
+msgstr "몇몇 기본적으로 포기한 업무"
 
 #. title
 #: questions/includes/fedora/qa.yml:49
 msgid "Bug Triage"
-msgstr ""
+msgstr "결점 분류"
 
 #. subtitle
 #: questions/includes/fedora/qa.yml:49
 msgid "you'll need a heart of gold"
-msgstr ""
+msgstr "당신의 고귀한 애정이 필요 할 것입니다"
 
 #. title
 #: questions/includes/fedora/server.yml:3
 msgid "Server SIG"
-msgstr ""
+msgstr "서버 SIG"
 
 #. subtitle
 #: questions/includes/fedora/server.yml:3
 msgid "the special-interest-group for Fedora Server"
-msgstr ""
+msgstr "페도라 서버에 관심이 있는 사람들"
 
 #. subtitle
 #: questions/includes/fedora/translation.yml:3
 msgid "about how to join the L10N team?"
-msgstr ""
+msgstr "L10N 팀에 가입 방법에 대해?"
 
 #. segue1
 #: questions/includes/fedora/translation.yml:7
 msgid "Let's get down to business."
-msgstr ""
+msgstr "사업에 착수합시다."
 
 #. segue2
 #: questions/includes/fedora/translation.yml:7
 msgid "Perhaps you'd be interested in translating..."
-msgstr ""
+msgstr "아마도 번역에 흥미가 있군요..."
 
 #. subtitle
 #: questions/includes/fedora/translation.yml:7
 msgid "about L10N tasks"
-msgstr ""
+msgstr "L10N 업무 정보"
 
 #. title
 #: questions/includes/fedora/translation.yml:13
 msgid "User Interfaces"
-msgstr ""
+msgstr "사용자 연결장치"
 
 #. subtitle
 #: questions/includes/fedora/translation.yml:13
 msgid "there are some essential projects that need translating"
-msgstr ""
+msgstr "이는 번역에 필요한 같은 몇 가지 필수적인 프로젝트입니다"
 
 #. title
 #: questions/includes/fedora/translation.yml:16
 msgid "Wiki Pages"
-msgstr ""
+msgstr "위키 페이지"
 
 #. subtitle
 #: questions/includes/fedora/translation.yml:16
 msgid "usually from English to another language"
-msgstr ""
+msgstr "일반적으로 영어에서 다른 언어로"
 
 #. subtitle
 #: questions/includes/fedora/translation.yml:19
 msgid "all the guides and release notes"
-msgstr ""
+msgstr "모든 안내 및 배포 기록"
 
 #. title
 #: questions/includes/fedora/coding/c.yml:15
 #: questions/includes/fedora/translation.yml:22
 msgid "GNOME"
-msgstr ""
+msgstr "그놈"
 
 #. subtitle
 #: questions/includes/fedora/translation.yml:22
 msgid "which has its own translation resources"
-msgstr ""
+msgstr "자신의 번역 자원을 가지고 있는 것"
 
 #. title
 #: questions/includes/fedora/coding/c++.yml:7
 #: questions/includes/fedora/translation.yml:25
 msgid "KDE"
-msgstr ""
+msgstr "KDE"
 
 #. subtitle
 #: questions/includes/fedora/translation.yml:25
 msgid "also with its own translation process"
-msgstr ""
+msgstr "또한 자신의 번역 처리와 함께"
 
 #. segue1
 #: questions/includes/fedora/writing.yml:3
 msgid "Without you no-one would be able to \"RTFM\", as they say."
-msgstr ""
+msgstr "당신 없이 어느 누구도 \"RTFM\" 할 수 없습니다, 그 들이 말하는 것처럼."
 
 #. segue2
 #: questions/includes/fedora/writing.yml:3
 msgid "Would you be interested in something..."
-msgstr ""
+msgstr "어떤 것에 흥미로운 것이 있나요..."
 
 #. subtitle
 #: questions/includes/fedora/writing.yml:3
 msgid "so people know how to use this crazy stuff"
-msgstr ""
+msgstr "그래서 사람들이 이와 같은 미친 물건 사용하는 방법을 알고 있습니다"
 
 #. subtitle
 #: questions/includes/fedora/writing.yml:9
 msgid "about how to join the docs team?"
-msgstr ""
+msgstr "문서 팀에 들어가는 것에 대해서요?"
 
 #. segue1
 #: questions/includes/fedora/writing.yml:13
 msgid "Now we're talking!"
-msgstr ""
+msgstr "이제 우리는 말하고 있습니다!"
 
 #. segue2
 #: questions/includes/fedora/writing.yml:13
 msgid "Let's see.  How about working on..."
-msgstr ""
+msgstr "봅시다. 동작하는 것이 어떤지..."
 
 #. subtitle
 #: questions/includes/fedora/writing.yml:13
 msgid "about documentation related tasks"
-msgstr ""
+msgstr "문서와 관련된 작업에 대하여"
 
 #. title
 #: questions/includes/fedora/writing.yml:19
 msgid "Wiki Gardening"
-msgstr ""
+msgstr "위키 원예"
 
 #. subtitle
 #: questions/includes/fedora/writing.yml:19
 msgid "it tends to get a little overgrown"
-msgstr ""
+msgstr "조금 자란 것 같은 경향이 있습니다"
 
 #. title
 #: questions/includes/fedora/writing.yml:22
 msgid "A Beat"
-msgstr ""
+msgstr "박자"
 
 #. subtitle
 #: questions/includes/fedora/writing.yml:22
 msgid "a section of the release notes and a good place for new contributors"
-msgstr ""
+msgstr "출시 기록 부분과 새로운 공헌자를 위한 좋은 장소"
 
 #. title
 #: questions/includes/fedora/writing.yml:25
 msgid "A Guide"
-msgstr ""
+msgstr "안내"
 
 #. subtitle
 #: questions/includes/fedora/writing.yml:25
 msgid "a more technical type of documentation"
-msgstr ""
+msgstr "보다 기술적인 유형의 문서"
 
 #. title
 #: questions/includes/fedora/writing.yml:28
 msgid "Real Issues"
-msgstr ""
+msgstr "실제 문제"
 
 #. subtitle
 #: questions/includes/fedora/writing.yml:28
 msgid "that people have reported"
-msgstr ""
+msgstr "사람들이 보고 한 것"
 
 #. title
 #: questions/includes/fedora/writing.yml:32
 msgid "Blogging"
-msgstr ""
+msgstr "블로그를 하기"
 
 #. segue1
 #: questions/includes/fedora/writing.yml:32
 msgid "Only the news that's fit to print."
-msgstr ""
+msgstr "인쇄에 적합한 뉴스만."
 
 #. segue2
 #: questions/includes/fedora/writing.yml:32
 msgid "How about something..."
-msgstr ""
+msgstr "어떤 것에 대하여..."
 
 #. subtitle
 #: questions/includes/fedora/writing.yml:32
 msgid "21st century journalism, my friend"
-msgstr ""
+msgstr "21세기 저널리즘, 나의 친구"
 
 #. title
 #: questions/includes/fedora/writing.yml:37
 msgid "More Formal"
-msgstr ""
+msgstr "더 공식적인"
 
 #. segue1
 #: questions/includes/fedora/writing.yml:37
 msgid "Yes!  The spotlight!"
-msgstr ""
+msgstr "예! 주목받기!"
 
 #. segue2
 #: questions/includes/fedora/writing.yml:37
 msgid "You should get involved in writing for..."
-msgstr ""
+msgstr "당신은 서면으로 참여해야 합니다..."
 
 #. subtitle
 #: questions/includes/fedora/writing.yml:37
 msgid "something \"official\""
-msgstr ""
+msgstr "\"공식적인\" 것"
 
 #. title
 #: questions/includes/fedora/writing.yml:42
 msgid "Fedora Magazine"
-msgstr ""
+msgstr "페도라 매거진"
 
 #. subtitle
 #: questions/includes/fedora/writing.yml:42
 msgid "all Fedora news, all the Fedora time"
-msgstr ""
+msgstr "모든 페도라 뉴스, 모든 페도라 시간"
 
 #. title
 #: questions/includes/fedora/writing.yml:45
 msgid "Less Formal"
-msgstr ""
+msgstr "조금 덜 공식적인"
 
 #. segue1
 #: questions/includes/fedora/writing.yml:45
 msgid "We have just the thing for you."
-msgstr ""
+msgstr "우리는 당신을 위한 것입니다."
 
 #. segue2
 #: questions/includes/fedora/writing.yml:45
 msgid "Get your own blog added to the..."
-msgstr ""
+msgstr "자신의 블로그에 추가 되어지는 것을 가져오기..."
 
 #. subtitle
 #: questions/includes/fedora/writing.yml:45
 msgid "something more personal"
-msgstr ""
+msgstr "보다 개인적인 어떤 것"
 
 #. title
 #: questions/includes/fedora/writing.yml:53
 msgid "Fedora Planet"
-msgstr ""
+msgstr "페도라 플래닛"
 
 #. subtitle
 #: questions/includes/fedora/writing.yml:53
 msgid "an aggregator of Fedora bloggers"
-msgstr ""
+msgstr "페도라 블러거 집합체"
 
 #. title
 #: questions/includes/fedora/coding/c++.yml:3
 msgid "LibreOffice"
-msgstr ""
+msgstr "리브레오피스"
 
 #. subtitle
 #: questions/includes/fedora/coding/c++.yml:3
 msgid "a free and open source office suite"
-msgstr ""
+msgstr "무료 및 개방형 업무 제품군"
 
 #. subtitle
 #: questions/includes/fedora/coding/c++.yml:7
 msgid "an integrated set of cross-platform applications"
-msgstr ""
+msgstr "교차 기반 응용프로그램의 통합 구성"
 
 #. title
 #: questions/includes/fedora/coding/c.yml:3
 msgid "OSTree"
-msgstr ""
+msgstr "OSTree"
 
 #. subtitle
 #: questions/includes/fedora/coding/c.yml:3
 msgid "git for operating system binaries"
-msgstr ""
+msgstr "운영체제 바이너리를 위한 깃"
 
 #. title
 #: questions/includes/fedora/coding/c.yml:7
 msgid "systemd"
-msgstr ""
+msgstr "systemd"
 
 #. subtitle
 #: questions/includes/fedora/coding/c.yml:7
 msgid "widely renowned init system and suite of building blocks"
-msgstr ""
+msgstr "널리 알려진 init 시스템과 블록 구성 제품군"
 
 #. title
 #: questions/includes/fedora/coding/c.yml:11
 #: questions/includes/fedora/coding/python.yml:23
 msgid "Cockpit"
-msgstr ""
+msgstr "Cockpit"
 
 #. subtitle
 #: questions/includes/fedora/coding/c.yml:11
 msgid "a server manager that makes it easy to administer via a web browser"
-msgstr ""
+msgstr "웹 검색기를 통해 쉽게 관리자가 쉽게 만들 수 있는 서버 관리자"
 
 #. subtitle
 #: questions/includes/fedora/coding/c.yml:15
 msgid "an easy and elegant way to use your computer"
-msgstr ""
+msgstr "컴퓨터를 사용하는데 쉽고 우아한 방법"
 
 #. title
 #: questions/includes/fedora/coding/c.yml:19
 msgid "The Linux Kernel"
-msgstr ""
+msgstr "리눅스 커널"
 
 #. subtitle
 #: questions/includes/fedora/coding/c.yml:19
 msgid ""
 "that thing that connects application software to the hardware of a computer"
-msgstr ""
+msgstr "응용프로그램을 컴퓨터 하드웨어에 연결하는 그 것"
 
 #. title
 #: questions/includes/fedora/coding/haskell.yml:3
 msgid "Haskell Special Interest Group"
-msgstr ""
+msgstr "하스켈 특별 관심 그룹"
 
 #. subtitle
 #: questions/includes/fedora/coding/haskell.yml:3
 msgid ""
 "Work with the community to make Haskell development in Fedora be awesome!"
-msgstr ""
+msgstr "페도라에서 하스켈 개발을 통해 커뮤니티와 작업하여 함께 멋지게 만듭니다!"
 
 #. title
 #: questions/includes/fedora/coding/java.yml:3
 msgid "Java Special Interest Group"
-msgstr ""
+msgstr "자바 특별 관심 그룹"
 
 #. subtitle
 #: questions/includes/fedora/coding/java.yml:3
 msgid "Work with the community on Java packaging and development"
-msgstr ""
+msgstr "자바 패키징과 개발에 커뮤니티와 작업합니다"
 
 #. title
 #: questions/includes/fedora/coding/java.yml:7
 msgid "JBoss"
-msgstr ""
+msgstr "JBoss"
 
 #. subtitle
 #: questions/includes/fedora/coding/java.yml:7
 msgid "A suite of enterprise middleware"
-msgstr ""
+msgstr "기업용 미들웨어 제품군"
 
 #. title
 #: questions/includes/fedora/coding/java.yml:11
 msgid "fedmsg-java"
-msgstr ""
+msgstr "fedmsg-자바"
 
 #. subtitle
 #: questions/includes/fedora/coding/java.yml:11
 msgid "Interact with fedmsg from the JVM"
-msgstr ""
+msgstr "JVM에서 fedmsg와 함께 상호작용합니다"
 
 #. title
 #: questions/includes/fedora/coding/java.yml:15
 msgid "jenkins-fedmsg-emit"
-msgstr ""
+msgstr "젠킨스-fedmsg-emit"
 
 #. subtitle
 #: questions/includes/fedora/coding/java.yml:15
 msgid "Send fedmsg messages related to Jenkins builds"
-msgstr ""
+msgstr "젠킨스 구성과 연관된 fedmsg 메시지를 전송합니다"
 
 #. title
 #: questions/includes/fedora/coding/python.yml:3
 msgid "Anaconda"
-msgstr ""
+msgstr "아나콘다"
 
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:3
 msgid "the OS installer and all its related projects"
-msgstr ""
+msgstr "운영체제 설치자와 이와 관련된 모든 프로젝트"
 
 #. title
 #: questions/includes/fedora/coding/python.yml:7
 msgid "ABRT"
-msgstr ""
+msgstr "ABRT"
 
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:7
 msgid "the Automatic Bug Reporting Tool"
-msgstr ""
+msgstr "자동 결점 보고 도구"
 
 #. title
 #: questions/includes/fedora/coding/python.yml:11
 msgid "DNF"
-msgstr ""
+msgstr "DNF"
 
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:11
 msgid "Dandified Yum (DNF) is a major rewrite of yum"
-msgstr ""
+msgstr "멋부린 Yum (DNF)는 yum의 중요 대체자입니다"
 
 #. title
 #: questions/includes/fedora/coding/python.yml:15
 msgid "Firewalld"
-msgstr ""
+msgstr "방화벽"
 
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:15
 msgid "a dynamically managed firewall with support for network zones"
-msgstr ""
+msgstr "네트웍 영역을 위해 지원하는 동적 관리된 방화벽"
 
 #. title
 #: questions/includes/fedora/coding/python.yml:19
 msgid "PortingDB"
-msgstr ""
+msgstr "PortingDB"
 
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:19
@@ -1517,122 +1519,124 @@ msgid ""
 "a <a href=\"http://fedora.portingdb.xyz/\">dynamic database</a> of Python 2 "
 "packages needing to be updated to Python 3"
 msgstr ""
+"파이썬 3로 최신화가 필요한 파이썬 2 꾸러미 <a href=\"http://fedora.portingdb.xyz/\">dynamic "
+"database</a>"
 
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:23
 msgid "a web interface for managing and administrating Linux web servers"
-msgstr ""
+msgstr "리눅스 웹 서버 처리와 관리를 위한 웹 연결장치"
 
 #. title
 #: questions/includes/fedora/coding/python.yml:27
 msgid "Web Services"
-msgstr ""
+msgstr "웹 서비스"
 
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:27
 msgid "Fedora Infrastructure team for the win"
-msgstr ""
+msgstr "승리를 위한 페도라 인프라스트럭처 팀"
 
 #. title
 #: questions/includes/fedora/coding/scala.yml:3
 msgid "Fedora Mobile"
-msgstr ""
+msgstr "페도라 이동통신"
 
 #. subtitle
 #: questions/includes/fedora/coding/scala.yml:3
 msgid "Interact with Fedora's community on the go!"
-msgstr ""
+msgstr "이동 중에도 페도라 커뮤니티와 상호작용 해요!"
 
 #. subtitle
 #: questions/includes/fedora/coding/web.yml:4
 msgid "on how to join the websites team?"
-msgstr ""
+msgstr "웹사이트 팀에 들어가는 것에 관해서요?"
 
 #. segue1
 #: questions/includes/fedora/coding/web.yml:9
 msgid "That's my style too."
-msgstr ""
+msgstr "나 또한 같은 유형입니다."
 
 #. segue2
 #: questions/includes/fedora/coding/web.yml:9
 msgid "How about working on the..."
-msgstr ""
+msgstr "동작은 어떤가요..."
 
 #. subtitle
 #: questions/includes/fedora/coding/web.yml:9
 msgid "on different kinds of website tasks"
-msgstr ""
+msgstr "다양한 종류의 웹사이트 업무에"
 
 #. title
 #: questions/includes/fedora/coding/web.yml:16
 msgid "Release Site"
-msgstr ""
+msgstr "출시 사이트"
 
 #. subtitle
 #: questions/includes/fedora/coding/web.yml:16
 msgid "<a href='http://getfedora.org'>getfedora.org</a> is awesome"
-msgstr ""
+msgstr "<a href='http://getfedora.org'>getfedora.org</a>는 굉장해요"
 
 #. title
 #: questions/includes/fedora/coding/web.yml:20
 msgid "Magazine"
-msgstr ""
+msgstr "매거진"
 
 #. subtitle
 #: questions/includes/fedora/coding/web.yml:20
 msgid ""
 "did you even know we had a <a href='http://fedoramagazine.org'>magazine</a>?"
-msgstr ""
+msgstr "우리가 가지고 있는 <a href='http://fedoramagazine.org'>magazine</a>을 알고 있나요 ?"
 
 #. title
 #: questions/includes/fedora/coding/web.yml:24
 msgid "Wiki Theme"
-msgstr ""
+msgstr "위키 테마"
 
 #. subtitle
 #: questions/includes/fedora/coding/web.yml:24
 msgid "it's a little crusty"
-msgstr ""
+msgstr "약간 딱딱합니다"
 
 #. title
 #: questions/includes/fedora/coding/web.yml:28
 msgid "General Theme"
-msgstr ""
+msgstr "일반 테마"
 
 #. subtitle
 #: questions/includes/fedora/coding/web.yml:28
 msgid "there's a list of sites that need standardizing"
-msgstr ""
+msgstr "이 것은 표준화가 필요한 사이트 목록입니다"
 
 #. title
 #: questions/includes/fedora/coding/web.yml:32
 msgid "Translations"
-msgstr ""
+msgstr "번역"
 
 #. subtitle
 #: questions/includes/fedora/coding/web.yml:32
 msgid "we're an international community after all"
-msgstr ""
+msgstr "결국 우리는 국제적인 활동이에요"
 
 #. title
 #: questions/includes/fedora/coding/web.yml:36
 msgid "User Gallery"
-msgstr ""
+msgstr "사용자 겔러리"
 
 #. subtitle
 #: questions/includes/fedora/coding/web.yml:36
 msgid "gallery for mini-interview-style user profiles and stories"
-msgstr ""
+msgstr "작은-대화-형식의사용자 프로파일과 이야기를 위한 사진첩"
 
 #. title
 #: questions/includes/fedora/coding/web.yml:40
 msgid "AskNot Site"
-msgstr ""
+msgstr "AskNOT 사이트"
 
 #. subtitle
 #: questions/includes/fedora/coding/web.yml:40
 msgid "this thing -- the page you're looking at right now!"
-msgstr ""
+msgstr "이 것 --지금 보고 있는 부분!"
 
 #~ msgid "Categorization"
 #~ msgstr "분류"
