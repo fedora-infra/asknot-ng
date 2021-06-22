@@ -1,20 +1,21 @@
-# Yaron Shahrabani <sh.yaron@gmail.com>, 2018. #zanata
-# Omer I.S. <omeritzicschwartz@gmail.com>, 2021.
+# Translations template for asknot-ng.
+# Copyright (C) 2020 ORGANIZATION
+# This file is distributed under the same license as the asknot-ng project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# Hela Basa <r45xveza@pm.me>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-01-14 13:19+0100\n"
-"PO-Revision-Date: 2021-02-22 18:43+0000\n"
-"Last-Translator: Omer I.S. <omeritzicschwartz@gmail.com>\n"
-"Language-Team: Hebrew <https://translate.fedoraproject.org/projects/"
-"fedora-infra/asknot-ng/he/>\n"
-"Language: he\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: si\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n==2 ? 2 : 1;\n"
-"X-Generator: Weblate 4.4.2\n"
+"Generated-By: Babel 2.8.0\n"
 
 #. title
 #. description
@@ -25,7 +26,7 @@ msgstr ""
 #. negative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "No"
-msgstr "לא"
+msgstr ""
 
 #. negative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
@@ -40,7 +41,7 @@ msgstr ""
 #. negative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "No, thanks"
-msgstr "לא, תודה"
+msgstr ""
 
 #. negative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
@@ -50,67 +51,67 @@ msgstr ""
 #. negative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Doesn't sound like me"
-msgstr "לא נשמע כמוני"
+msgstr ""
 
 #. negative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Absolutely not"
-msgstr "ממש לא"
+msgstr ""
 
 #. negative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Next, please"
-msgstr "הבא בבקשה"
+msgstr ""
 
 #. affirmative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Yes"
-msgstr "כן"
+msgstr ""
 
 #. affirmative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Sounds awesome"
-msgstr "נשמע אחלה"
+msgstr ""
 
 #. affirmative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Tell me more"
-msgstr "ארצה לשמוע עוד"
+msgstr ""
 
 #. affirmative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "That's me!"
-msgstr "זה בול אני!"
+msgstr ""
 
 #. affirmative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Totally"
-msgstr "לגמרי"
+msgstr ""
 
 #. affirmative
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Sure"
-msgstr "ברור"
+msgstr ""
 
 #. backlink
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "I was wrong, take me back"
-msgstr "טעיתי, תחזירו אותי אחורה"
+msgstr ""
 
 #. backlink
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "I think I made a mistake"
-msgstr "נראה לי שטעיתי"
+msgstr ""
 
 #. backlink
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "Get me outta here!"
-msgstr "תוציאו אותי מפה!"
+msgstr ""
 
 #. navlink
 #: questions/coala.yml:1 questions/gnome.yml:1
 msgid "Join"
-msgstr "הצטרפות"
+msgstr ""
 
 #. navlink
 #: questions/coala.yml:1
@@ -155,7 +156,7 @@ msgstr ""
 #. title
 #: questions/coala.yml:43
 msgid "Reaching Users"
-msgstr "פנייה למשתמשים"
+msgstr ""
 
 #. subtitle
 #: questions/coala.yml:43
@@ -170,8 +171,8 @@ msgstr ""
 #. subtitle
 #: questions/coala.yml:46
 msgid ""
-"Let's write code analytics. We write the framework, there's bare logic left "
-"for you."
+"Let's write code analytics. We write the framework, there's bare logic "
+"left for you."
 msgstr ""
 
 #. title
@@ -227,8 +228,7 @@ msgstr ""
 
 #. segue1
 #: questions/fedora.yml:36
-msgid ""
-"So you enjoy working on the way users interact with websites and programs?"
+msgid "So you enjoy working on the way users interact with websites and programs?"
 msgstr ""
 
 #. segue2
@@ -706,8 +706,8 @@ msgstr ""
 #. segue1
 #: questions/includes/fedora/coding.yml:27
 msgid ""
-"So, just OOP or functional languages wouldn't do it?  You had to have both, "
-"huh?"
+"So, just OOP or functional languages wouldn't do it?  You had to have "
+"both, huh?"
 msgstr ""
 
 #. subtitle
@@ -722,8 +722,7 @@ msgstr ""
 
 #. segue1
 #: questions/includes/fedora/coding.yml:33
-msgid ""
-"So, you think having native integers is over-rated?  What could go wrong?"
+msgid "So, you think having native integers is over-rated?  What could go wrong?"
 msgstr ""
 
 #. segue2
@@ -751,8 +750,8 @@ msgstr ""
 #: questions/includes/fedora/coding.yml:38
 #: questions/includes/fedora/design.yml:35
 msgid ""
-"web developers that build <a href=\"https://getfedora.org\">getfedora.org</"
-"a> and other awesome sites"
+"web developers that build <a "
+"href=\"https://getfedora.org\">getfedora.org</a> and other awesome sites"
 msgstr ""
 
 #. title
@@ -773,8 +772,8 @@ msgstr ""
 #. segue1
 #: questions/includes/fedora/coding.yml:48
 msgid ""
-"So, you're not happy if your error messages are comprehensible?  We have a "
-"place for you."
+"So, you're not happy if your error messages are comprehensible?  We have "
+"a place for you."
 msgstr ""
 
 #. segue2
@@ -904,8 +903,8 @@ msgstr ""
 #. subtitle
 #: questions/includes/fedora/design.yml:30
 msgid ""
-"make awesome badge art that fuels <a href=\"https://badges.fedoraproject.org"
-"\">badges.fp.o</a>"
+"make awesome badge art that fuels <a "
+"href=\"https://badges.fedoraproject.org\">badges.fp.o</a>"
 msgstr ""
 
 #. title
@@ -925,8 +924,7 @@ msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/desktop.yml:7
-msgid ""
-"for those excited about Cinnamon desktop environment spiciness in Fedora"
+msgid "for those excited about Cinnamon desktop environment spiciness in Fedora"
 msgstr ""
 
 #. title
@@ -1410,7 +1408,8 @@ msgstr ""
 #. subtitle
 #: questions/includes/fedora/coding/c.yml:19
 msgid ""
-"that thing that connects application software to the hardware of a computer"
+"that thing that connects application software to the hardware of a "
+"computer"
 msgstr ""
 
 #. title
@@ -1420,8 +1419,7 @@ msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/coding/haskell.yml:3
-msgid ""
-"Work with the community to make Haskell development in Fedora be awesome!"
+msgid "Work with the community to make Haskell development in Fedora be awesome!"
 msgstr ""
 
 #. title
@@ -1512,8 +1510,8 @@ msgstr ""
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:19
 msgid ""
-"a <a href=\"http://fedora.portingdb.xyz/\">dynamic database</a> of Python 2 "
-"packages needing to be updated to Python 3"
+"a <a href=\"http://fedora.portingdb.xyz/\">dynamic database</a> of Python"
+" 2 packages needing to be updated to Python 3"
 msgstr ""
 
 #. subtitle
@@ -1579,7 +1577,8 @@ msgstr ""
 #. subtitle
 #: questions/includes/fedora/coding/web.yml:20
 msgid ""
-"did you even know we had a <a href='http://fedoramagazine.org'>magazine</a>?"
+"did you even know we had a <a "
+"href='http://fedoramagazine.org'>magazine</a>?"
 msgstr ""
 
 #. title

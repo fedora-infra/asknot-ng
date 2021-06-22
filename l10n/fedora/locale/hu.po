@@ -1,18 +1,20 @@
 # Meskó Balázs <meskobalazs@gmail.com>, 2017. #zanata
+# Balázs Meskó <meskobalazs@mailbox.org>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-01-14 13:19+0100\n"
-"PO-Revision-Date: 2017-07-30 05:09+0000\n"
-"Last-Translator: Meskó Balázs <meskobalazs@gmail.com>\n"
-"Language-Team: Hungarian\n"
+"PO-Revision-Date: 2021-02-10 18:40+0000\n"
+"Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
+"Language-Team: Hungarian <https://translate.fedoraproject.org/projects/"
+"fedora-infra/asknot-ng/hu/>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #. title
 #. description
@@ -205,7 +207,7 @@ msgstr "Mit tehetek a Fedoráért?"
 #. navlink
 #: questions/fedora.yml:1
 msgid "Home"
-msgstr ""
+msgstr "Kezdőlap"
 
 #. navlink
 #: questions/fedora.yml:1
@@ -384,12 +386,12 @@ msgstr "ahogy ők mondják, „ha nincs tesztelve, akkor hibás”"
 #. title
 #: questions/fedora.yml:92
 msgid "Modularity"
-msgstr ""
+msgstr "Modularitás"
 
 #. subtitle
 #: questions/fedora.yml:92
 msgid "rethinking how we compose the distro"
-msgstr ""
+msgstr "a disztribúció összeállításának újragondolása"
 
 #. title
 #: questions/fedora.yml:97
@@ -460,12 +462,12 @@ msgstr "a Fedora jobbá tétele minden nyelven"
 #. title
 #: questions/fedora.yml:125
 msgid "Instruction"
-msgstr ""
+msgstr "Leírás"
 
 #. subtitle
 #: questions/fedora.yml:125
 msgid "spread your knowledge to others in the community"
-msgstr ""
+msgstr "ossza meg tudását a közösség többi tagjával"
 
 #. title
 #. description
@@ -1198,8 +1200,6 @@ msgstr "GNOME"
 
 #. subtitle
 #: questions/includes/fedora/translation.yml:22
-#, fuzzy
-#| msgid "which has it's own translation resources"
 msgid "which has its own translation resources"
 msgstr "amelynek saját fordítási erőforrásai vannak"
 
@@ -1211,8 +1211,6 @@ msgstr "KDE"
 
 #. subtitle
 #: questions/includes/fedora/translation.yml:25
-#, fuzzy
-#| msgid "also with it's own translation process"
 msgid "also with its own translation process"
 msgstr "szintén saját fordítási folyamattal"
 
@@ -1535,21 +1533,17 @@ msgstr "PortingDB"
 
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:19
-#, fuzzy
-#| msgid ""
-#| "a <a href\"http://portingdb-encukou.rhcloud.com/\">dynamic database</a> "
-#| "of Python 2 packages needing to be updated to Python 3"
 msgid ""
 "a <a href=\"http://fedora.portingdb.xyz/\">dynamic database</a> of Python 2 "
 "packages needing to be updated to Python 3"
 msgstr ""
-"olyan Python 2 csomagok <a href\"http://portingdb-encukou.rhcloud.com/"
-"\">dinamikus adatbázisa</a>, amelyeket frissíteni kell Python 3-ra"
+"olyan Python 2 csomagok <a href=\"http://fedora.portingdb.xyz/\">dinamikus "
+"adatbázisa</a>, amelyeket frissíteni kell Python 3-ra"
 
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:23
 msgid "a web interface for managing and administrating Linux web servers"
-msgstr ""
+msgstr "webes felület linuxos webkiszolgálók kezeléséhez"
 
 #. title
 #: questions/includes/fedora/coding/python.yml:27
@@ -1559,7 +1553,7 @@ msgstr "Webszolgáltatások"
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:27
 msgid "Fedora Infrastructure team for the win"
-msgstr "Fedora infrastruktúra csapat, a győzelemért!"
+msgstr "Fedora infrastruktúra csapat, a győzelemért"
 
 #. title
 #: questions/includes/fedora/coding/scala.yml:3

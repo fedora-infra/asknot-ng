@@ -1,19 +1,21 @@
 # Toni Rantala <trantalafilo@gmail.com>, 2017. #zanata
 # Jiri Grönroos <jiri.gronroos@iki.fi>, 2018. #zanata
+# Jan Kuparinen <copper_fin@hotmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-01-14 13:19+0100\n"
-"PO-Revision-Date: 2018-05-12 04:01+0000\n"
-"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
-"Language-Team: Finnish\n"
+"PO-Revision-Date: 2021-02-12 08:40+0000\n"
+"Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
+"Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
+"fedora-infra/asknot-ng/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #. title
 #. description
@@ -173,16 +175,18 @@ msgid ""
 "Let's write code analytics. We write the framework, there's bare logic left "
 "for you."
 msgstr ""
+"Kirjoitetaan koodianalytiikka. Kirjoitamme puitteet, sinulle jää puhdas "
+"logiikka."
 
 #. title
 #: questions/coala.yml:49
 msgid "Scientific Progress"
-msgstr ""
+msgstr "Tieteellinen edistyminen"
 
 #. subtitle
 #: questions/coala.yml:49
 msgid "Join our coAST team and create language independent program analysis."
-msgstr ""
+msgstr "Liity coAST-tiimiimme ja luo kielestä riippumaton ohjelma-analyysi."
 
 #. title
 #: questions/coala.yml:52
@@ -192,7 +196,7 @@ msgstr "Raha"
 #. subtitle
 #: questions/coala.yml:52
 msgid "Help us through donations at gratipay."
-msgstr ""
+msgstr "Auta meitä lahjoittamalla gratipayssä."
 
 #. title
 #. description
@@ -203,7 +207,7 @@ msgstr "Mitä minä voin tehdä Fedoralle?"
 #. navlink
 #: questions/fedora.yml:1
 msgid "Home"
-msgstr ""
+msgstr "Koti"
 
 #. navlink
 #: questions/fedora.yml:1
@@ -250,7 +254,7 @@ msgstr "Ohjelmointi"
 #. segue1
 #: questions/fedora.yml:43
 msgid "Zeroes and ones #allday?  Me too."
-msgstr "Ykkösiä ja nollia #kokopäivä? "
+msgstr "Ykkösiä ja nollia #kokopäivä?  Mulle kanssa."
 
 #. segue2
 #: questions/fedora.yml:43
@@ -260,7 +264,7 @@ msgstr "Mikä on suosikkikielesi?"
 #. subtitle
 #: questions/fedora.yml:43
 msgid "hacking the gibson"
-msgstr ""
+msgstr "gibsonin hakkerointi"
 
 #. title
 #: questions/fedora.yml:50
@@ -381,12 +385,12 @@ msgstr "kuten sanotaan, \"jos sitä ei ole testattu, se on rikki\""
 #. title
 #: questions/fedora.yml:92
 msgid "Modularity"
-msgstr ""
+msgstr "Modulaarisuus"
 
 #. subtitle
 #: questions/fedora.yml:92
 msgid "rethinking how we compose the distro"
-msgstr ""
+msgstr "uudelleenajatellaan kuinka laadimme distribuution"
 
 #. title
 #: questions/fedora.yml:97
@@ -433,7 +437,7 @@ msgstr "Pilvi"
 #. segue1
 #: questions/fedora.yml:111
 msgid "High-minded?"
-msgstr ""
+msgstr "Ylevämielinen?"
 
 #. subtitle
 #: questions/fedora.yml:111
@@ -458,12 +462,12 @@ msgstr "Fedoran parantaminen kaikille kielille"
 #. title
 #: questions/fedora.yml:125
 msgid "Instruction"
-msgstr ""
+msgstr "Ohjeet"
 
 #. subtitle
 #: questions/fedora.yml:125
 msgid "spread your knowledge to others in the community"
-msgstr ""
+msgstr "jaa tietoasi yhteisön muille jäsenille"
 
 #. title
 #. description
@@ -514,7 +518,7 @@ msgstr "Artikkelit"
 #. subtitle
 #: questions/gnome.yml:43
 msgid "Want to help with the engagement team?"
-msgstr ""
+msgstr "Haluatko auttaa sitouttamistiimin kanssa?"
 
 #. title
 #: questions/gnome.yml:46 questions/includes/fedora/translation.yml:19
@@ -555,7 +559,7 @@ msgstr "Asioiden vakauttaminen"
 #. subtitle
 #: questions/gnome.yml:55
 msgid "May GNOME never crash again"
-msgstr "Olkoon GNOME enää koskaan kaatumatta!"
+msgstr "Olkoon GNOME enää koskaan kaatumatta"
 
 #. title
 #: questions/gnome.yml:58
@@ -565,7 +569,7 @@ msgstr "Ohjelmavirheiden korjaaminen"
 #. subtitle
 #: questions/gnome.yml:58
 msgid "Join our Bugsquad!"
-msgstr "Liity bugiliiskausryhmään"
+msgstr "Liity bugiliiskausryhmään!"
 
 #. title
 #: questions/gnome.yml:61
@@ -628,11 +632,13 @@ msgstr "Python"
 #: questions/includes/fedora/coding.yml:3
 msgid "So, you enjoy traceback-driven development?  What could go wrong?"
 msgstr ""
+"Joten, nautitko jäljitykseen perustuvasta kehityksestä? Mikä voi mennä "
+"pieleen?"
 
 #. segue2
 #: questions/includes/fedora/coding.yml:3
 msgid "Are you interested in hacking on..."
-msgstr ""
+msgstr "Oletko kiinnostunut hakkeroinnista ..."
 
 #. subtitle
 #: questions/includes/fedora/coding.yml:3
@@ -698,11 +704,13 @@ msgid ""
 "So you're a believer in <code>AbstractMethodFactoryBean</code>s?  "
 "Straightforward enough..."
 msgstr ""
+"Joten uskot <code>AbstractMethodFactoryBean</code>eihin? Riittävän "
+"suoraviivaista ..."
 
 #. subtitle
 #: questions/includes/fedora/coding.yml:21
 msgid "a nondynamic language for nonrapid development"
-msgstr ""
+msgstr "ei-dynaaminen kieli hitaampaan kehitykseen"
 
 #. title
 #: questions/includes/fedora/coding.yml:27
@@ -721,7 +729,7 @@ msgstr ""
 #. subtitle
 #: questions/includes/fedora/coding.yml:27
 msgid "a nondynamic language for semirapid development"
-msgstr ""
+msgstr "ei-dynaaminen kieli puolinopeaan kehitykseen"
 
 #. title
 #: questions/includes/fedora/coding.yml:33
@@ -775,7 +783,7 @@ msgstr "Ruby"
 #. subtitle
 #: questions/includes/fedora/coding.yml:44
 msgid "hashrockets and bare words"
-msgstr ""
+msgstr "hashroketit ja pelkät sanat"
 
 #. title
 #: questions/includes/fedora/coding.yml:48
@@ -802,6 +810,8 @@ msgid ""
 "imperative and object-oriented with the power of low-level memory "
 "manipulation"
 msgstr ""
+"välttämätöntä ja objektiorientoitua matalan tason muistin manipuloinnin "
+"voimalla"
 
 #. title
 #: questions/includes/fedora/coding/web.yml:4
@@ -815,7 +825,7 @@ msgstr "Yleisesti"
 #. subtitle
 #: questions/includes/fedora/community.yml:3
 msgid "on how to join the Community Operations team?"
-msgstr ""
+msgstr "kuinka liittyä yhteisön operaatioryhmään?"
 
 #. title
 #: questions/includes/fedora/coding/web.yml:9
@@ -879,7 +889,7 @@ msgstr "Ok."
 #. subtitle
 #: questions/includes/fedora/design.yml:3
 msgid "creatives serving as a design firm for the Fedora community"
-msgstr ""
+msgstr "luovat ihmiset, jotka toimivat Fedora-yhteisön suunnitteluyrityksenä"
 
 #. subtitle
 #: questions/includes/fedora/design.yml:10
@@ -904,12 +914,12 @@ msgstr "toiset ihmiset kaipaavat hyvää makua -- sinä voit auttaa"
 #. title
 #: questions/includes/fedora/design.yml:26
 msgid "Hackergotchis"
-msgstr ""
+msgstr "Hackergotchis"
 
 #. subtitle
 #: questions/includes/fedora/design.yml:26
 msgid "making cute cut-outs of people's faces"
-msgstr ""
+msgstr "tehden söpöjä leikkauksia ihmisten kasvoista"
 
 #. title
 #: questions/includes/fedora/design.yml:30
@@ -945,6 +955,8 @@ msgstr "Cinnamon SIG"
 msgid ""
 "for those excited about Cinnamon desktop environment spiciness in Fedora"
 msgstr ""
+"niille, jotka ovat innoissaan Cinnamon-työpöytäympäristön tulisuudesta "
+"Fedorassa"
 
 #. title
 #: questions/includes/fedora/desktop.yml:11
@@ -964,7 +976,7 @@ msgstr "LXDE SIG"
 #. subtitle
 #: questions/includes/fedora/desktop.yml:15
 msgid "to define a high-quality LXDE experience for Fedora users"
-msgstr ""
+msgstr "määritelläkseen korkealaatuisen LXDE-kokemuksen Fedora-käyttäjille"
 
 #. title
 #: questions/includes/fedora/desktop.yml:19
@@ -994,7 +1006,7 @@ msgstr "Paketin ylläpitäjä"
 #. subtitle
 #: questions/includes/fedora/packaging.yml:3
 msgid "steward of the packages in Fedora"
-msgstr ""
+msgstr "pakettien hoitaja Fedorassa"
 
 #. subtitle
 #: questions/includes/fedora/qa.yml:4
@@ -1019,12 +1031,12 @@ msgstr "erilaisia laaduvalvonta- ja testaustehtäviä"
 #. title
 #: questions/includes/fedora/qa.yml:14
 msgid "Validate Releases"
-msgstr ""
+msgstr "Julkaisujen vahvistaminen"
 
 #. subtitle
 #: questions/includes/fedora/qa.yml:14
 msgid "when there's an upcoming release, that is"
-msgstr ""
+msgstr "kun on tulossa julkaisu, se on"
 
 #. title
 #: questions/includes/fedora/qa.yml:17
@@ -1059,12 +1071,12 @@ msgstr "Olen samaa mieltä."
 #. segue2
 #: questions/includes/fedora/qa.yml:24
 msgid "We need people to hack on"
-msgstr ""
+msgstr "Tarvitsemme ihmisiä hakkeroimaan"
 
 #. subtitle
 #: questions/includes/fedora/qa.yml:24
 msgid "for continuous awesomeness"
-msgstr ""
+msgstr "jatkuvaan mahtavuuteen"
 
 #. title
 #: questions/includes/fedora/qa.yml:30
@@ -1100,7 +1112,7 @@ msgstr "Fedora-päivitysjärjestelmä"
 #. title
 #: questions/includes/fedora/qa.yml:39
 msgid "fedora-easy-karma"
-msgstr ""
+msgstr "fedora-easy-karma"
 
 #. subtitle
 #: questions/includes/fedora/qa.yml:39
@@ -1115,7 +1127,7 @@ msgstr "Ota haltuun"
 #. segue1
 #: questions/includes/fedora/qa.yml:43
 msgid "That's huge of you."
-msgstr ""
+msgstr "Se on valtavaa sinusta."
 
 #. segue2
 #: questions/includes/fedora/qa.yml:43
@@ -1130,7 +1142,7 @@ msgstr "joitain käytännössä hylättyjä tehtäviä"
 #. title
 #: questions/includes/fedora/qa.yml:49
 msgid "Bug Triage"
-msgstr ""
+msgstr "Virheiden priorisointi"
 
 #. subtitle
 #: questions/includes/fedora/qa.yml:49
@@ -1145,7 +1157,7 @@ msgstr "Palvelin SIG"
 #. subtitle
 #: questions/includes/fedora/server.yml:3
 msgid "the special-interest-group for Fedora Server"
-msgstr ""
+msgstr "Fedora palvelimen special-interest-group"
 
 #. subtitle
 #: questions/includes/fedora/translation.yml:3
@@ -1200,8 +1212,6 @@ msgstr "GNOME"
 
 #. subtitle
 #: questions/includes/fedora/translation.yml:22
-#, fuzzy
-#| msgid "which has it's own translation resources"
 msgid "which has its own translation resources"
 msgstr "jolla on omat käännösresurssinsa"
 
@@ -1213,8 +1223,6 @@ msgstr "KDE"
 
 #. subtitle
 #: questions/includes/fedora/translation.yml:25
-#, fuzzy
-#| msgid "also with it's own translation process"
 msgid "also with its own translation process"
 msgstr "jolla on myös oma käännösprosessinsa"
 
@@ -1266,12 +1274,12 @@ msgstr "sillä on tapana olla hieman ylikasvanut"
 #. title
 #: questions/includes/fedora/writing.yml:22
 msgid "A Beat"
-msgstr ""
+msgstr "Syke"
 
 #. subtitle
 #: questions/includes/fedora/writing.yml:22
 msgid "a section of the release notes and a good place for new contributors"
-msgstr ""
+msgstr "julkaisutietojen osa ja hyvä paikka uusille avustajille"
 
 #. title
 #: questions/includes/fedora/writing.yml:25
@@ -1386,7 +1394,7 @@ msgstr "vapaa ja avoimen lähdekoodin toimisto-ohjelmisto"
 #. subtitle
 #: questions/includes/fedora/coding/c++.yml:7
 msgid "an integrated set of cross-platform applications"
-msgstr ""
+msgstr "integroitu joukko useilla alustoilla ajettavista sovelluksista"
 
 #. title
 #: questions/includes/fedora/coding/c.yml:3
@@ -1396,7 +1404,7 @@ msgstr "OSTree"
 #. subtitle
 #: questions/includes/fedora/coding/c.yml:3
 msgid "git for operating system binaries"
-msgstr ""
+msgstr "git käyttöjärjestelmän binääreille"
 
 #. title
 #: questions/includes/fedora/coding/c.yml:7
@@ -1406,7 +1414,7 @@ msgstr "systemd"
 #. subtitle
 #: questions/includes/fedora/coding/c.yml:7
 msgid "widely renowned init system and suite of building blocks"
-msgstr ""
+msgstr "laajalti tunnettu init-järjestelmä ja setti rakennuspalikoita"
 
 #. title
 #: questions/includes/fedora/coding/c.yml:11
@@ -1417,7 +1425,7 @@ msgstr "Cockpit"
 #. subtitle
 #: questions/includes/fedora/coding/c.yml:11
 msgid "a server manager that makes it easy to administer via a web browser"
-msgstr "palvelinhallinta joka tekee ylläpidon helpoksi selaimen kautta."
+msgstr "palvelinhallinta joka tekee ylläpidon helpoksi selaimen kautta"
 
 #. subtitle
 #: questions/includes/fedora/coding/c.yml:15
@@ -1433,12 +1441,12 @@ msgstr "Linux-ydin"
 #: questions/includes/fedora/coding/c.yml:19
 msgid ""
 "that thing that connects application software to the hardware of a computer"
-msgstr "se juttu joka yhdistää ohjelmat tietokoneesi rautaan."
+msgstr "se juttu joka yhdistää ohjelmat tietokoneesi rautaan"
 
 #. title
 #: questions/includes/fedora/coding/haskell.yml:3
 msgid "Haskell Special Interest Group"
-msgstr "Haskell Special Interest Group"
+msgstr "Haskell erityisintressiryhmä"
 
 #. subtitle
 #: questions/includes/fedora/coding/haskell.yml:3
@@ -1451,12 +1459,12 @@ msgstr ""
 #. title
 #: questions/includes/fedora/coding/java.yml:3
 msgid "Java Special Interest Group"
-msgstr "Java Special Interest Group"
+msgstr "Java erityisintressiryhmä"
 
 #. subtitle
 #: questions/includes/fedora/coding/java.yml:3
 msgid "Work with the community on Java packaging and development"
-msgstr "Työskentele yhteisön kanssa Javan paketoinnin ja kehityksen parissa."
+msgstr "Työskentele yhteisön kanssa Javan paketoinnin ja kehityksen parissa"
 
 #. title
 #: questions/includes/fedora/coding/java.yml:7
@@ -1466,7 +1474,7 @@ msgstr "JBoss"
 #. subtitle
 #: questions/includes/fedora/coding/java.yml:7
 msgid "A suite of enterprise middleware"
-msgstr ""
+msgstr "Setti yritysympäristön väliohjelmistoista"
 
 #. title
 #: questions/includes/fedora/coding/java.yml:11
@@ -1476,7 +1484,7 @@ msgstr "fedmsg-java"
 #. subtitle
 #: questions/includes/fedora/coding/java.yml:11
 msgid "Interact with fedmsg from the JVM"
-msgstr ""
+msgstr "Vuorovaikuta JVM:n fedmsg:llä"
 
 #. title
 #: questions/includes/fedora/coding/java.yml:15
@@ -1486,7 +1494,7 @@ msgstr "jenkins-fedmsg-emit"
 #. subtitle
 #: questions/includes/fedora/coding/java.yml:15
 msgid "Send fedmsg messages related to Jenkins builds"
-msgstr ""
+msgstr "Lähetä fedmsg viesti koskien Jenkins käännöksiä"
 
 #. title
 #: questions/includes/fedora/coding/python.yml:3
@@ -1516,7 +1524,7 @@ msgstr "DNF"
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:11
 msgid "Dandified Yum (DNF) is a major rewrite of yum"
-msgstr ""
+msgstr "Dandified Yum (DNF) on merkittävästi uudistettu versio yum:ista"
 
 #. title
 #: questions/includes/fedora/coding/python.yml:15
@@ -1531,7 +1539,7 @@ msgstr "dynaamisesti hallittu palomuuri, tuki verkkoalueille"
 #. title
 #: questions/includes/fedora/coding/python.yml:19
 msgid "PortingDB"
-msgstr ""
+msgstr "PortingDB"
 
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:19
@@ -1539,11 +1547,13 @@ msgid ""
 "a <a href=\"http://fedora.portingdb.xyz/\">dynamic database</a> of Python 2 "
 "packages needing to be updated to Python 3"
 msgstr ""
+"<a href=\"http://fedora.portingdb.xyz/\">dynaaminen tietokanta</a> Python 2 "
+"paketeista, jotka pitää päivittää Python 3:n"
 
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:23
 msgid "a web interface for managing and administrating Linux web servers"
-msgstr ""
+msgstr "verkkoliitäntä Linux-verkkopalvelimien käsittelyyn ja hallintaan"
 
 #. title
 #: questions/includes/fedora/coding/python.yml:27
@@ -1588,7 +1598,7 @@ msgstr "erilaisten verkkosivu tehtävien parissa"
 #. title
 #: questions/includes/fedora/coding/web.yml:16
 msgid "Release Site"
-msgstr ""
+msgstr "Julkaisusivusto"
 
 #. subtitle
 #: questions/includes/fedora/coding/web.yml:16
@@ -1615,7 +1625,7 @@ msgstr "Wiki-teema"
 #. subtitle
 #: questions/includes/fedora/coding/web.yml:24
 msgid "it's a little crusty"
-msgstr ""
+msgstr "se on vähän karkea"
 
 #. title
 #: questions/includes/fedora/coding/web.yml:28
@@ -1625,7 +1635,7 @@ msgstr "yleinen teema"
 #. subtitle
 #: questions/includes/fedora/coding/web.yml:28
 msgid "there's a list of sites that need standardizing"
-msgstr ""
+msgstr "siellä on luettelo sivustoista, jotka tarvitsevat standardointia"
 
 #. title
 #: questions/includes/fedora/coding/web.yml:32
@@ -1645,7 +1655,7 @@ msgstr "Käyttäjähakemisto"
 #. subtitle
 #: questions/includes/fedora/coding/web.yml:36
 msgid "gallery for mini-interview-style user profiles and stories"
-msgstr ""
+msgstr "galleria mini-haastattelutyylisille käyttäjäprofiileille ja tarinoille"
 
 #. title
 #: questions/includes/fedora/coding/web.yml:40
