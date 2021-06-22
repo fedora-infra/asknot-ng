@@ -1,12 +1,12 @@
 # Bora Can Aslı <boracasli14@aol.com>, 2018. #zanata
 # Serdar Sağlam <teknomobil@msn.com>, 2019. #zanata
-# Oğuz Ersen <oguzersen@protonmail.com>, 2020.
+# Oğuz Ersen <oguzersen@protonmail.com>, 2020, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-01-14 13:19+0100\n"
-"PO-Revision-Date: 2020-04-02 18:38+0000\n"
+"PO-Revision-Date: 2021-01-25 11:38+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
 "fedora-infra/asknot-ng/tr/>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
-"X-Generator: Weblate 3.11.3\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #. title
 #. description
@@ -209,7 +209,7 @@ msgstr "Fedora için ne yapabilirim?"
 #. navlink
 #: questions/fedora.yml:1
 msgid "Home"
-msgstr ""
+msgstr "Ana Sayfa"
 
 #. navlink
 #: questions/fedora.yml:1
@@ -389,12 +389,12 @@ msgstr "dedikleri gibi, \"test edilmediyse, bozuktur\""
 #. title
 #: questions/fedora.yml:92
 msgid "Modularity"
-msgstr ""
+msgstr "Modülerlik"
 
 #. subtitle
 #: questions/fedora.yml:92
 msgid "rethinking how we compose the distro"
-msgstr ""
+msgstr "dağıtımı nasıl oluşturacağımızı yeniden düşünmek"
 
 #. title
 #: questions/fedora.yml:97
@@ -468,12 +468,12 @@ msgstr "Fedora'yı tüm diller için daha iyi çalışır hâle getirmek"
 #. title
 #: questions/fedora.yml:125
 msgid "Instruction"
-msgstr ""
+msgstr "Talimat"
 
 #. subtitle
 #: questions/fedora.yml:125
 msgid "spread your knowledge to others in the community"
-msgstr ""
+msgstr "bildiklerinizi topluluktaki diğer kişilere yayın"
 
 #. title
 #. description
@@ -1216,7 +1216,7 @@ msgstr "GNOME"
 #. subtitle
 #: questions/includes/fedora/translation.yml:22
 msgid "which has its own translation resources"
-msgstr ""
+msgstr "kendi çeviri kaynaklarına sahiptir"
 
 #. title
 #: questions/includes/fedora/coding/c++.yml:7
@@ -1227,7 +1227,7 @@ msgstr "KDE"
 #. subtitle
 #: questions/includes/fedora/translation.yml:25
 msgid "also with its own translation process"
-msgstr ""
+msgstr "ayrıca kendi çeviri sürecine sahiptir"
 
 #. segue1
 #: questions/includes/fedora/writing.yml:3
@@ -1552,11 +1552,13 @@ msgid ""
 "a <a href=\"http://fedora.portingdb.xyz/\">dynamic database</a> of Python 2 "
 "packages needing to be updated to Python 3"
 msgstr ""
+"Python 3'e güncellenmesi gereken Python 2 paketlerinin <a href=\"http"
+"://fedora.portingdb.xyz/\">dinamik bir veri tabanı</a>"
 
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:23
 msgid "a web interface for managing and administrating Linux web servers"
-msgstr ""
+msgstr "Linux web sunucularını yönetmek için bir web arayüzü"
 
 #. title
 #: questions/includes/fedora/coding/python.yml:27
