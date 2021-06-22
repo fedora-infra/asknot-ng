@@ -1,0 +1,1632 @@
+# Translations template for asknot-ng.
+# Copyright (C) 2020 ORGANIZATION
+# This file is distributed under the same license as the asknot-ng project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# Hela Basa <r45xveza@pm.me>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: asknot-ng 1.0\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2020-01-14 13:19+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: si\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#. title
+#. description
+#: questions/coala.yml:1
+msgid "What can I do for coala?"
+msgstr ""
+
+#. negative
+#: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
+msgid "No"
+msgstr ""
+
+#. negative
+#: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
+msgid "Nope, nope, nope"
+msgstr ""
+
+#. negative
+#: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
+msgid "Nope"
+msgstr ""
+
+#. negative
+#: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
+msgid "No, thanks"
+msgstr ""
+
+#. negative
+#: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
+msgid "Not on your life"
+msgstr ""
+
+#. negative
+#: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
+msgid "Doesn't sound like me"
+msgstr ""
+
+#. negative
+#: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
+msgid "Absolutely not"
+msgstr ""
+
+#. negative
+#: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
+msgid "Next, please"
+msgstr ""
+
+#. affirmative
+#: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
+msgid "Yes"
+msgstr ""
+
+#. affirmative
+#: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
+msgid "Sounds awesome"
+msgstr ""
+
+#. affirmative
+#: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
+msgid "Tell me more"
+msgstr ""
+
+#. affirmative
+#: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
+msgid "That's me!"
+msgstr ""
+
+#. affirmative
+#: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
+msgid "Totally"
+msgstr ""
+
+#. affirmative
+#: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
+msgid "Sure"
+msgstr ""
+
+#. backlink
+#: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
+msgid "I was wrong, take me back"
+msgstr ""
+
+#. backlink
+#: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
+msgid "I think I made a mistake"
+msgstr ""
+
+#. backlink
+#: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
+msgid "Get me outta here!"
+msgstr ""
+
+#. navlink
+#: questions/coala.yml:1 questions/gnome.yml:1
+msgid "Join"
+msgstr ""
+
+#. navlink
+#: questions/coala.yml:1
+msgid "coala documentation"
+msgstr ""
+
+#. navlink
+#: questions/coala.yml:1
+msgid "Get Live Help!"
+msgstr ""
+
+#. segue1
+#: questions/coala.yml:33
+msgid "Want to help coala?"
+msgstr ""
+
+#. segue2
+#: questions/coala.yml:33
+msgid "What do you care about?"
+msgstr ""
+
+#. title
+#: questions/coala.yml:37
+msgid "Visuals!"
+msgstr ""
+
+#. subtitle
+#: questions/coala.yml:37
+msgid "The coala artwork team is just for you!"
+msgstr ""
+
+#. title
+#: questions/coala.yml:40
+msgid "Good, Generic Code"
+msgstr ""
+
+#. subtitle
+#: questions/coala.yml:40
+msgid "Help us improving code quality in the world! Join the core developers."
+msgstr ""
+
+#. title
+#: questions/coala.yml:43
+msgid "Reaching Users"
+msgstr ""
+
+#. subtitle
+#: questions/coala.yml:43
+msgid "Write documentation that is understandable by everyone."
+msgstr ""
+
+#. title
+#: questions/coala.yml:46
+msgid "Crazy Algorithms"
+msgstr ""
+
+#. subtitle
+#: questions/coala.yml:46
+msgid ""
+"Let's write code analytics. We write the framework, there's bare logic "
+"left for you."
+msgstr ""
+
+#. title
+#: questions/coala.yml:49
+msgid "Scientific Progress"
+msgstr ""
+
+#. subtitle
+#: questions/coala.yml:49
+msgid "Join our coAST team and create language independent program analysis."
+msgstr ""
+
+#. title
+#: questions/coala.yml:52
+msgid "Money"
+msgstr ""
+
+#. subtitle
+#: questions/coala.yml:52
+msgid "Help us through donations at gratipay."
+msgstr ""
+
+#. title
+#. description
+#: questions/fedora.yml:1
+msgid "What can I do for Fedora?"
+msgstr ""
+
+#. navlink
+#: questions/fedora.yml:1
+msgid "Home"
+msgstr ""
+
+#. navlink
+#: questions/fedora.yml:1
+msgid "Get Fedora"
+msgstr ""
+
+#. segue1
+#: questions/fedora.yml:32
+msgid "Want to help Fedora?  Tell me..."
+msgstr ""
+
+#. segue2
+#: questions/fedora.yml:32
+msgid "what's your area of interest?"
+msgstr ""
+
+#. title
+#: questions/fedora.yml:36
+msgid "Design!"
+msgstr ""
+
+#. segue1
+#: questions/fedora.yml:36
+msgid "So you enjoy working on the way users interact with websites and programs?"
+msgstr ""
+
+#. segue2
+#: questions/fedora.yml:36
+msgid "How about the..."
+msgstr ""
+
+#. subtitle
+#: questions/fedora.yml:36
+msgid "pixel ninjas"
+msgstr ""
+
+#. title
+#: questions/fedora.yml:43
+msgid "Coding"
+msgstr ""
+
+#. segue1
+#: questions/fedora.yml:43
+msgid "Zeroes and ones #allday?  Me too."
+msgstr ""
+
+#. segue2
+#: questions/fedora.yml:43
+msgid "What's your favorite language?"
+msgstr ""
+
+#. subtitle
+#: questions/fedora.yml:43
+msgid "hacking the gibson"
+msgstr ""
+
+#. title
+#: questions/fedora.yml:50
+msgid "Community Ops"
+msgstr ""
+
+#. segue1
+#: questions/fedora.yml:50
+msgid "Have a knack for community-building?"
+msgstr ""
+
+#. segue2
+#: questions/fedora.yml:50 questions/includes/fedora/coding.yml:38
+#: questions/includes/fedora/design.yml:3
+msgid "Would you like something more"
+msgstr ""
+
+#. subtitle
+#: questions/fedora.yml:50
+msgid "connecting the dots"
+msgstr ""
+
+#. title
+#: questions/fedora.yml:57 questions/gnome.yml:40
+msgid "Writing"
+msgstr ""
+
+#. segue1
+#: questions/fedora.yml:57
+msgid "So, you have a way with words?"
+msgstr ""
+
+#. segue2
+#: questions/fedora.yml:57 questions/fedora.yml:64
+msgid "Would you be more interested in..."
+msgstr ""
+
+#. subtitle
+#: questions/fedora.yml:57
+msgid "wordsmithery"
+msgstr ""
+
+#. title
+#: questions/fedora.yml:64
+msgid "Translation"
+msgstr ""
+
+#. segue1
+#: questions/fedora.yml:64
+msgid "So you know more than one language?  We need you!"
+msgstr ""
+
+#. subtitle
+#: questions/fedora.yml:64
+msgid "we're an international effort, after all"
+msgstr ""
+
+#. title
+#: questions/fedora.yml:71
+msgid "Advocacy"
+msgstr ""
+
+#. segue1
+#: questions/fedora.yml:71
+msgid "So you're a people person?"
+msgstr ""
+
+#. segue2
+#: questions/fedora.yml:71
+msgid "How about becoming a Fedora..."
+msgstr ""
+
+#. subtitle
+#: questions/fedora.yml:71
+msgid "spreading the good word"
+msgstr ""
+
+#. title
+#: questions/fedora.yml:78
+msgid "Packaging"
+msgstr ""
+
+#. segue1
+#: questions/fedora.yml:78
+msgid "So you want to help build the OS?  Excellent."
+msgstr ""
+
+#. segue2
+#: questions/fedora.yml:78
+msgid "Then you'll need to become a Fedora..."
+msgstr ""
+
+#. subtitle
+#: questions/fedora.yml:78
+msgid "getting new software into Fedora"
+msgstr ""
+
+#. title
+#: questions/fedora.yml:85
+msgid "QA and Testing"
+msgstr ""
+
+#. segue1
+#: questions/fedora.yml:85
+msgid "So you like to push all the buttons and break all the things?"
+msgstr ""
+
+#. segue2
+#: questions/fedora.yml:85
+msgid "Are you more interested in something..."
+msgstr ""
+
+#. subtitle
+#: questions/fedora.yml:85
+msgid "as they say, \"if it's not tested, it's broken\""
+msgstr ""
+
+#. title
+#: questions/fedora.yml:92
+msgid "Modularity"
+msgstr ""
+
+#. subtitle
+#: questions/fedora.yml:92
+msgid "rethinking how we compose the distro"
+msgstr ""
+
+#. title
+#: questions/fedora.yml:97
+msgid "The Desktop"
+msgstr ""
+
+#. segue1
+#: questions/fedora.yml:97
+msgid "So you're into making the OS polished and easy to use?"
+msgstr ""
+
+#. segue2
+#: questions/fedora.yml:97 questions/fedora.yml:104 questions/fedora.yml:111
+#: questions/fedora.yml:118
+msgid "You probably want to join the Fedora..."
+msgstr ""
+
+#. subtitle
+#: questions/fedora.yml:97
+msgid "we all have our favorite"
+msgstr ""
+
+#. title
+#: questions/fedora.yml:104
+msgid "The Server"
+msgstr ""
+
+#. segue1
+#: questions/fedora.yml:104
+msgid "So you're into making the OS powerful and flexible?"
+msgstr ""
+
+#. subtitle
+#: questions/fedora.yml:104
+msgid "the best and latest for the datacenter"
+msgstr ""
+
+#. title
+#: questions/fedora.yml:111
+msgid "The Cloud"
+msgstr ""
+
+#. segue1
+#: questions/fedora.yml:111
+msgid "High-minded?"
+msgstr ""
+
+#. subtitle
+#: questions/fedora.yml:111
+msgid "it's where the future lives"
+msgstr ""
+
+#. title
+#: questions/fedora.yml:118
+msgid "Internationalization"
+msgstr ""
+
+#. segue1
+#: questions/fedora.yml:118
+msgid "Have a regional or world perspective?"
+msgstr ""
+
+#. subtitle
+#: questions/fedora.yml:118
+msgid "making Fedora work better for all languages"
+msgstr ""
+
+#. title
+#: questions/fedora.yml:125
+msgid "Instruction"
+msgstr ""
+
+#. subtitle
+#: questions/fedora.yml:125
+msgid "spread your knowledge to others in the community"
+msgstr ""
+
+#. title
+#. description
+#: questions/gnome.yml:1
+msgid "What can I do for GNOME?"
+msgstr ""
+
+#. navlink
+#: questions/gnome.yml:1
+msgid "Get GNOME"
+msgstr ""
+
+#. navlink
+#: questions/gnome.yml:1
+msgid "GNOME.org"
+msgstr ""
+
+#. segue1
+#: questions/gnome.yml:33
+msgid "Want to help GNOME?"
+msgstr ""
+
+#. segue2
+#: questions/gnome.yml:33
+msgid "First tell us what you like!"
+msgstr ""
+
+#. title
+#: questions/gnome.yml:37
+msgid "Design and Usability"
+msgstr ""
+
+#. subtitle
+#: questions/gnome.yml:37
+msgid "Making sure we focus on users."
+msgstr ""
+
+#. subtitle
+#: questions/gnome.yml:40
+msgid "Want to help with your english skills?"
+msgstr ""
+
+#. title
+#: questions/gnome.yml:43
+msgid "Articles"
+msgstr ""
+
+#. subtitle
+#: questions/gnome.yml:43
+msgid "Want to help with the engagement team?"
+msgstr ""
+
+#. title
+#: questions/gnome.yml:46 questions/includes/fedora/translation.yml:19
+#: questions/includes/fedora/writing.yml:3
+msgid "Documentation"
+msgstr ""
+
+#. subtitle
+#: questions/gnome.yml:46
+msgid "Get all the hidden features to the users!"
+msgstr ""
+
+#. title
+#: questions/gnome.yml:49
+msgid "Languages"
+msgstr ""
+
+#. subtitle
+#: questions/gnome.yml:49
+msgid "You could help translating!"
+msgstr ""
+
+#. title
+#: questions/gnome.yml:52
+msgid "Code"
+msgstr ""
+
+#. subtitle
+#: questions/gnome.yml:52
+msgid "Get your hands dirty!"
+msgstr ""
+
+#. title
+#: questions/gnome.yml:55
+msgid "Making Things Stable"
+msgstr ""
+
+#. subtitle
+#: questions/gnome.yml:55
+msgid "May GNOME never crash again"
+msgstr ""
+
+#. title
+#: questions/gnome.yml:58
+msgid "Fixing Bugs"
+msgstr ""
+
+#. subtitle
+#: questions/gnome.yml:58
+msgid "Join our Bugsquad!"
+msgstr ""
+
+#. title
+#: questions/gnome.yml:61
+msgid "Good Tests"
+msgstr ""
+
+#. subtitle
+#: questions/gnome.yml:61
+msgid "The QA team might be right for you."
+msgstr ""
+
+#. title
+#: questions/gnome.yml:64
+msgid "System Administration"
+msgstr ""
+
+#. subtitle
+#: questions/gnome.yml:64
+msgid "Help us managing our infrastructure!"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/advocacy.yml:3
+#: questions/includes/fedora/community.yml:15
+msgid "Ambassador"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/advocacy.yml:3
+#: questions/includes/fedora/community.yml:15
+msgid "the representatives of Fedora"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/cloud.yml:3
+msgid "Cloud SIG"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/cloud.yml:3
+msgid "the special-interest-group for Fedora Cloud"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/cloud.yml:6
+msgid "RDO"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/cloud.yml:6
+msgid "the OpenStack distro for Fedora"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/coding.yml:3
+msgid "Python"
+msgstr ""
+
+#. segue1
+#: questions/includes/fedora/coding.yml:3
+msgid "So, you enjoy traceback-driven development?  What could go wrong?"
+msgstr ""
+
+#. segue2
+#: questions/includes/fedora/coding.yml:3
+msgid "Are you interested in hacking on..."
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/coding.yml:3
+msgid "a dynamic language for rapid development"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/coding.yml:9
+msgid "C"
+msgstr ""
+
+#. segue1
+#: questions/includes/fedora/coding.yml:9
+msgid "So, you think OOP is for hipsters?  Let me tell you, back in my day..."
+msgstr ""
+
+#. segue2
+#: questions/includes/fedora/coding.yml:9
+#: questions/includes/fedora/coding.yml:27
+msgid "How about working on..."
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/coding.yml:9
+msgid "close to the metal"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/coding.yml:15
+msgid "Haskell"
+msgstr ""
+
+#. segue1
+#: questions/includes/fedora/coding.yml:15
+msgid ""
+"So, programming without side-effects is what you're all about?  Sounds "
+"useful!"
+msgstr ""
+
+#. segue2
+#: questions/includes/fedora/coding.yml:15
+#: questions/includes/fedora/coding.yml:21
+msgid "How about..."
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/coding.yml:15
+msgid "a nondynamic language for rapid development"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/coding.yml:21
+msgid "Java"
+msgstr ""
+
+#. segue1
+#: questions/includes/fedora/coding.yml:21
+msgid ""
+"So you're a believer in <code>AbstractMethodFactoryBean</code>s?  "
+"Straightforward enough..."
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/coding.yml:21
+msgid "a nondynamic language for nonrapid development"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/coding.yml:27
+msgid "Scala"
+msgstr ""
+
+#. segue1
+#: questions/includes/fedora/coding.yml:27
+msgid ""
+"So, just OOP or functional languages wouldn't do it?  You had to have "
+"both, huh?"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/coding.yml:27
+msgid "a nondynamic language for semirapid development"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/coding.yml:33
+msgid "JavaScript"
+msgstr ""
+
+#. segue1
+#: questions/includes/fedora/coding.yml:33
+msgid "So, you think having native integers is over-rated?  What could go wrong?"
+msgstr ""
+
+#. segue2
+#: questions/includes/fedora/coding.yml:33
+msgid "There's plenty to do.  How about joining the.."
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/coding.yml:33
+msgid "a dynamic web-oriented language for backend and frontend"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/coding.yml:38
+#: questions/includes/fedora/design.yml:35
+msgid "Websites Team"
+msgstr ""
+
+#. segue1
+#: questions/includes/fedora/coding.yml:38
+msgid "Great!"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/coding.yml:38
+#: questions/includes/fedora/design.yml:35
+msgid ""
+"web developers that build <a "
+"href=\"https://getfedora.org\">getfedora.org</a> and other awesome sites"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/coding.yml:44
+msgid "Ruby"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/coding.yml:44
+msgid "hashrockets and bare words"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/coding.yml:48
+msgid "C++"
+msgstr ""
+
+#. segue1
+#: questions/includes/fedora/coding.yml:48
+msgid ""
+"So, you're not happy if your error messages are comprehensible?  We have "
+"a place for you."
+msgstr ""
+
+#. segue2
+#: questions/includes/fedora/coding.yml:48
+msgid "Try digging into..."
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/coding.yml:48
+msgid ""
+"imperative and object-oriented with the power of low-level memory "
+"manipulation"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/coding/web.yml:4
+#: questions/includes/fedora/community.yml:3
+#: questions/includes/fedora/design.yml:10 questions/includes/fedora/qa.yml:4
+#: questions/includes/fedora/translation.yml:3
+#: questions/includes/fedora/writing.yml:9
+msgid "General"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/community.yml:3
+msgid "on how to join the Community Operations team?"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/coding/web.yml:9
+#: questions/includes/fedora/community.yml:8
+#: questions/includes/fedora/design.yml:15 questions/includes/fedora/qa.yml:8
+#: questions/includes/fedora/translation.yml:7
+#: questions/includes/fedora/writing.yml:13
+msgid "Specific"
+msgstr ""
+
+#. segue1
+#: questions/includes/fedora/community.yml:8
+#: questions/includes/fedora/design.yml:15
+msgid "Excellent!"
+msgstr ""
+
+#. segue2
+#: questions/includes/fedora/community.yml:8
+#: questions/includes/fedora/design.yml:15
+msgid "How does this sound?"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/community.yml:8
+msgid "on different kinds of community tasks"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/community.yml:19
+#: questions/includes/fedora/writing.yml:50
+msgid "Community Blog"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/community.yml:19
+#: questions/includes/fedora/writing.yml:50
+msgid "the central hub of all Fedora news, across the subprojects"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/community.yml:22
+msgid "5 Things in Fedora This Week"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/community.yml:22
+msgid "finding information for a weekly article about the happenings in Fedora"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/design.yml:3
+msgid "Design Team"
+msgstr ""
+
+#. segue1
+#: questions/includes/fedora/design.yml:3
+msgid "Ok."
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/design.yml:3
+msgid "creatives serving as a design firm for the Fedora community"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/design.yml:10
+msgid "on how to join the design team?"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/design.yml:15
+msgid "on different kinds of design tasks"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/design.yml:22
+msgid "Artwork Requests"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/design.yml:22
+msgid "there are people in need of good taste -- you can help"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/design.yml:26
+msgid "Hackergotchis"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/design.yml:26
+msgid "making cute cut-outs of people's faces"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/design.yml:30
+msgid "Fedora Badges"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/design.yml:30
+msgid ""
+"make awesome badge art that fuels <a "
+"href=\"https://badges.fedoraproject.org\">badges.fp.o</a>"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/desktop.yml:3
+msgid "Desktop SIG"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/desktop.yml:3
+msgid "the special-interest-group for Fedora Workstation"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/desktop.yml:7
+msgid "Cinnamon SIG"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/desktop.yml:7
+msgid "for those excited about Cinnamon desktop environment spiciness in Fedora"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/desktop.yml:11
+msgid "KDE SIG"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/desktop.yml:11
+msgid "to provide high-quality, usable KDE software packages"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/desktop.yml:15
+msgid "LXDE SIG"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/desktop.yml:15
+msgid "to define a high-quality LXDE experience for Fedora users"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/desktop.yml:19
+msgid "XFCE SIG"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/desktop.yml:19
+msgid "for those excited about integration of the Xfce desktop environment"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/i18n.yml:3
+msgid "i18n"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/i18n.yml:3
+msgid "the Fedora Internationalization subproject"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/packaging.yml:3
+msgid "Package Maintainer"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/packaging.yml:3
+msgid "steward of the packages in Fedora"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/qa.yml:4
+msgid "about how to join the QA team?"
+msgstr ""
+
+#. segue1
+#: questions/includes/fedora/qa.yml:8
+msgid "Certainly."
+msgstr ""
+
+#. segue2
+#: questions/includes/fedora/qa.yml:8
+msgid "We need people to..."
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/qa.yml:8
+msgid "about different QA and testing tasks"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/qa.yml:14
+msgid "Validate Releases"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/qa.yml:14
+msgid "when there's an upcoming release, that is"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/qa.yml:17
+msgid "Test Updates"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/qa.yml:17
+msgid "before they hit the stable repo"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/qa.yml:20
+msgid "Create Test Cases"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/qa.yml:20
+msgid "otherwise we won't know what to test"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/qa.yml:24
+msgid "Develop Tools"
+msgstr ""
+
+#. segue1
+#: questions/includes/fedora/qa.yml:24
+msgid "I'm of the same mind."
+msgstr ""
+
+#. segue2
+#: questions/includes/fedora/qa.yml:24
+msgid "We need people to hack on"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/qa.yml:24
+msgid "for continuous awesomeness"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/qa.yml:30
+msgid "Taskotron"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/qa.yml:30
+msgid "a framework for automated task execution"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/qa.yml:33
+msgid "BlockerBugs"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/qa.yml:33
+msgid "used to propose and track release blocking bugs"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/qa.yml:36
+msgid "Bodhi"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/qa.yml:36
+msgid "the Fedora Updates System"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/qa.yml:39
+msgid "fedora-easy-karma"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/qa.yml:39
+msgid "a handsome tool to ease testing updates"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/qa.yml:43
+msgid "Take Over"
+msgstr ""
+
+#. segue1
+#: questions/includes/fedora/qa.yml:43
+msgid "That's huge of you."
+msgstr ""
+
+#. segue2
+#: questions/includes/fedora/qa.yml:43
+msgid "we need someone to head up..."
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/qa.yml:43
+msgid "some basically abandoned tasks"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/qa.yml:49
+msgid "Bug Triage"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/qa.yml:49
+msgid "you'll need a heart of gold"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/server.yml:3
+msgid "Server SIG"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/server.yml:3
+msgid "the special-interest-group for Fedora Server"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/translation.yml:3
+msgid "about how to join the L10N team?"
+msgstr ""
+
+#. segue1
+#: questions/includes/fedora/translation.yml:7
+msgid "Let's get down to business."
+msgstr ""
+
+#. segue2
+#: questions/includes/fedora/translation.yml:7
+msgid "Perhaps you'd be interested in translating..."
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/translation.yml:7
+msgid "about L10N tasks"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/translation.yml:13
+msgid "User Interfaces"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/translation.yml:13
+msgid "there are some essential projects that need translating"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/translation.yml:16
+msgid "Wiki Pages"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/translation.yml:16
+msgid "usually from English to another language"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/translation.yml:19
+msgid "all the guides and release notes"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/coding/c.yml:15
+#: questions/includes/fedora/translation.yml:22
+msgid "GNOME"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/translation.yml:22
+msgid "which has its own translation resources"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/coding/c++.yml:7
+#: questions/includes/fedora/translation.yml:25
+msgid "KDE"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/translation.yml:25
+msgid "also with its own translation process"
+msgstr ""
+
+#. segue1
+#: questions/includes/fedora/writing.yml:3
+msgid "Without you no-one would be able to \"RTFM\", as they say."
+msgstr ""
+
+#. segue2
+#: questions/includes/fedora/writing.yml:3
+msgid "Would you be interested in something..."
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/writing.yml:3
+msgid "so people know how to use this crazy stuff"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/writing.yml:9
+msgid "about how to join the docs team?"
+msgstr ""
+
+#. segue1
+#: questions/includes/fedora/writing.yml:13
+msgid "Now we're talking!"
+msgstr ""
+
+#. segue2
+#: questions/includes/fedora/writing.yml:13
+msgid "Let's see.  How about working on..."
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/writing.yml:13
+msgid "about documentation related tasks"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/writing.yml:19
+msgid "Wiki Gardening"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/writing.yml:19
+msgid "it tends to get a little overgrown"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/writing.yml:22
+msgid "A Beat"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/writing.yml:22
+msgid "a section of the release notes and a good place for new contributors"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/writing.yml:25
+msgid "A Guide"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/writing.yml:25
+msgid "a more technical type of documentation"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/writing.yml:28
+msgid "Real Issues"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/writing.yml:28
+msgid "that people have reported"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/writing.yml:32
+msgid "Blogging"
+msgstr ""
+
+#. segue1
+#: questions/includes/fedora/writing.yml:32
+msgid "Only the news that's fit to print."
+msgstr ""
+
+#. segue2
+#: questions/includes/fedora/writing.yml:32
+msgid "How about something..."
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/writing.yml:32
+msgid "21st century journalism, my friend"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/writing.yml:37
+msgid "More Formal"
+msgstr ""
+
+#. segue1
+#: questions/includes/fedora/writing.yml:37
+msgid "Yes!  The spotlight!"
+msgstr ""
+
+#. segue2
+#: questions/includes/fedora/writing.yml:37
+msgid "You should get involved in writing for..."
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/writing.yml:37
+msgid "something \"official\""
+msgstr ""
+
+#. title
+#: questions/includes/fedora/writing.yml:42
+msgid "Fedora Magazine"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/writing.yml:42
+msgid "all Fedora news, all the Fedora time"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/writing.yml:45
+msgid "Less Formal"
+msgstr ""
+
+#. segue1
+#: questions/includes/fedora/writing.yml:45
+msgid "We have just the thing for you."
+msgstr ""
+
+#. segue2
+#: questions/includes/fedora/writing.yml:45
+msgid "Get your own blog added to the..."
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/writing.yml:45
+msgid "something more personal"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/writing.yml:53
+msgid "Fedora Planet"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/writing.yml:53
+msgid "an aggregator of Fedora bloggers"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/coding/c++.yml:3
+msgid "LibreOffice"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/coding/c++.yml:3
+msgid "a free and open source office suite"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/coding/c++.yml:7
+msgid "an integrated set of cross-platform applications"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/coding/c.yml:3
+msgid "OSTree"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/coding/c.yml:3
+msgid "git for operating system binaries"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/coding/c.yml:7
+msgid "systemd"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/coding/c.yml:7
+msgid "widely renowned init system and suite of building blocks"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/coding/c.yml:11
+#: questions/includes/fedora/coding/python.yml:23
+msgid "Cockpit"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/coding/c.yml:11
+msgid "a server manager that makes it easy to administer via a web browser"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/coding/c.yml:15
+msgid "an easy and elegant way to use your computer"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/coding/c.yml:19
+msgid "The Linux Kernel"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/coding/c.yml:19
+msgid ""
+"that thing that connects application software to the hardware of a "
+"computer"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/coding/haskell.yml:3
+msgid "Haskell Special Interest Group"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/coding/haskell.yml:3
+msgid "Work with the community to make Haskell development in Fedora be awesome!"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/coding/java.yml:3
+msgid "Java Special Interest Group"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/coding/java.yml:3
+msgid "Work with the community on Java packaging and development"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/coding/java.yml:7
+msgid "JBoss"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/coding/java.yml:7
+msgid "A suite of enterprise middleware"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/coding/java.yml:11
+msgid "fedmsg-java"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/coding/java.yml:11
+msgid "Interact with fedmsg from the JVM"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/coding/java.yml:15
+msgid "jenkins-fedmsg-emit"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/coding/java.yml:15
+msgid "Send fedmsg messages related to Jenkins builds"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/coding/python.yml:3
+msgid "Anaconda"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/coding/python.yml:3
+msgid "the OS installer and all its related projects"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/coding/python.yml:7
+msgid "ABRT"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/coding/python.yml:7
+msgid "the Automatic Bug Reporting Tool"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/coding/python.yml:11
+msgid "DNF"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/coding/python.yml:11
+msgid "Dandified Yum (DNF) is a major rewrite of yum"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/coding/python.yml:15
+msgid "Firewalld"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/coding/python.yml:15
+msgid "a dynamically managed firewall with support for network zones"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/coding/python.yml:19
+msgid "PortingDB"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/coding/python.yml:19
+msgid ""
+"a <a href=\"http://fedora.portingdb.xyz/\">dynamic database</a> of Python"
+" 2 packages needing to be updated to Python 3"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/coding/python.yml:23
+msgid "a web interface for managing and administrating Linux web servers"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/coding/python.yml:27
+msgid "Web Services"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/coding/python.yml:27
+msgid "Fedora Infrastructure team for the win"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/coding/scala.yml:3
+msgid "Fedora Mobile"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/coding/scala.yml:3
+msgid "Interact with Fedora's community on the go!"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/coding/web.yml:4
+msgid "on how to join the websites team?"
+msgstr ""
+
+#. segue1
+#: questions/includes/fedora/coding/web.yml:9
+msgid "That's my style too."
+msgstr ""
+
+#. segue2
+#: questions/includes/fedora/coding/web.yml:9
+msgid "How about working on the..."
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/coding/web.yml:9
+msgid "on different kinds of website tasks"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/coding/web.yml:16
+msgid "Release Site"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/coding/web.yml:16
+msgid "<a href='http://getfedora.org'>getfedora.org</a> is awesome"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/coding/web.yml:20
+msgid "Magazine"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/coding/web.yml:20
+msgid ""
+"did you even know we had a <a "
+"href='http://fedoramagazine.org'>magazine</a>?"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/coding/web.yml:24
+msgid "Wiki Theme"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/coding/web.yml:24
+msgid "it's a little crusty"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/coding/web.yml:28
+msgid "General Theme"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/coding/web.yml:28
+msgid "there's a list of sites that need standardizing"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/coding/web.yml:32
+msgid "Translations"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/coding/web.yml:32
+msgid "we're an international community after all"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/coding/web.yml:36
+msgid "User Gallery"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/coding/web.yml:36
+msgid "gallery for mini-interview-style user profiles and stories"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/coding/web.yml:40
+msgid "AskNot Site"
+msgstr ""
+
+#. subtitle
+#: questions/includes/fedora/coding/web.yml:40
+msgid "this thing -- the page you're looking at right now!"
+msgstr ""
