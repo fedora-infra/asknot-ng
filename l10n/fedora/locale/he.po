@@ -1,18 +1,20 @@
 # Yaron Shahrabani <sh.yaron@gmail.com>, 2018. #zanata
+# Omer I.S. <omeritzicschwartz@gmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-01-14 13:19+0100\n"
-"PO-Revision-Date: 2018-05-31 01:19+0000\n"
-"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
-"Language-Team: Hebrew\n"
+"PO-Revision-Date: 2021-02-22 18:43+0000\n"
+"Last-Translator: Omer I.S. <omeritzicschwartz@gmail.com>\n"
+"Language-Team: Hebrew <https://translate.fedoraproject.org/projects/"
+"fedora-infra/asknot-ng/he/>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n==2 ? 2 : 1;\n"
-"X-Generator: Zanata 4.6.2\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #. title
 #. description
@@ -93,7 +95,7 @@ msgstr "ברור"
 #. backlink
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
 msgid "I was wrong, take me back"
-msgstr "טעות שלי, אפשר לחזור אחורה?"
+msgstr "טעיתי, תחזירו אותי אחורה"
 
 #. backlink
 #: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
