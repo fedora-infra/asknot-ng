@@ -95,7 +95,7 @@ tree:
     link: https://docs.fedoraproject.org/en-US/modularity/community/
 
   - title: The Desktop
-    subtitle: we all have our favorite
+    subtitle: for those who are passionate about user and developer experience
     image: https://getfedora.org/static/images/logo-color-workstation.png
     segue1: So you're into making the OS polished and easy to use?
     segue2: You probably want to join the Fedora...
