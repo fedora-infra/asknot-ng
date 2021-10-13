@@ -1,9 +1,9 @@
 tree:
   children:
-    - title: Desktop SIG
-      subtitle: the special-interest-group for Fedora Workstation
-      link: https://fedoraproject.org/wiki/SIGs/Desktop
-
+    - title: Workstation Working Group
+      subtitle: the group behind Fedora Workstation
+      link: https://docs.fedoraproject.org/en-US/workstation-working-group/
+      
     - title: Cinnamon SIG
       subtitle: for those excited about Cinnamon desktop environment spiciness in Fedora
       link: https://fedoraproject.org/wiki/Cinnamon_Spin
