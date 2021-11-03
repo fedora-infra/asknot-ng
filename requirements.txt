@@ -2,4 +2,4 @@ mako
 PyYAML
 
 # nose is only required for testing
-nose
+nose2
