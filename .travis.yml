@@ -4,9 +4,9 @@ python:
 cache: pip
 
 # command to install dependencies
-install: pip install nose PyYAML
+install: pip install nose2 PyYAML
 # command to run tests
-script: nosetests
+script: nose2
 
 notifications:
   email: false
