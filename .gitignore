@@ -6,5 +6,6 @@ build
 *.mo
 env
 venv
+/.venv
 .zanata-cache
 container/l10n.conf
