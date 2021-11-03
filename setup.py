@@ -15,7 +15,7 @@ setup(
         'PyYAML',
         ],
     extras_require={
-        'tests': ['nose'],
+        'tests': ['nose2'],
         },
     packages=[],
     py_modules=['asknot_lib'],
