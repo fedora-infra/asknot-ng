@@ -1,11 +1,11 @@
-FROM fedora:latest as builder
+FROM fedora:34 as builder
 
 COPY . /code
 WORKDIR /code
 
 RUN dnf -y install gettext python3-setuptools python3-pyyaml python3-mako python3-babel python3-pygraphviz && dnf clean all && python3 setup.py install && ./build.sh
 
-FROM fedora:latest
+FROM fedora:34
 
 COPY --from=builder /code/build /var/www/html/
 COPY --from=builder /code/container/l10n.conf /etc/httpd/conf/l10n.conf
