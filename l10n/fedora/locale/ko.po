@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-01-14 13:19+0100\n"
-"PO-Revision-Date: 2021-06-22 08:04+0000\n"
+"PO-Revision-Date: 2021-11-11 08:05+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "fedora-infra/asknot-ng/ko/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.7\n"
+"X-Generator: Weblate 4.8.1\n"
 
 #. title
 #. description
@@ -918,7 +918,7 @@ msgstr "데스크톱 SIG"
 #. subtitle
 #: questions/includes/fedora/desktop.yml:3
 msgid "the special-interest-group for Fedora Workstation"
-msgstr "Fedora 워크스테이션에 관심이 있는 사람들"
+msgstr "페도라 워크스테이션에 관심이 있는 사람들"
 
 #. title
 #: questions/includes/fedora/desktop.yml:7
