@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-01-14 13:19+0100\n"
+"POT-Creation-Date: 2021-11-04 12:47+0100\n"
 "PO-Revision-Date: 2020-01-22 19:15+0000\n"
 "Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
 "Language-Team: French <https://translate.stg.fedoraproject.org/projects/"
@@ -356,7 +356,8 @@ msgstr "Empaquetage"
 #. segue1
 #: questions/fedora.yml:78
 msgid "So you want to help build the OS?  Excellent."
-msgstr "Ainsi, vous voulez contribuer à la construction du système ? Excellent."
+msgstr ""
+"Ainsi, vous voulez contribuer à la construction du système ? Excellent."
 
 #. segue2
 #: questions/fedora.yml:78
@@ -418,8 +419,8 @@ msgstr "Vous désirez probablement rejoindre Fedora…"
 
 #. subtitle
 #: questions/fedora.yml:97
-msgid "we all have our favorite"
-msgstr "nous avons tous notre préféré"
+msgid "for those who are passionate about user and developer experience"
+msgstr ""
 
 #. title
 #: questions/fedora.yml:104
@@ -823,7 +824,7 @@ msgstr ""
 #. title
 #: questions/includes/fedora/coding/web.yml:4
 #: questions/includes/fedora/community.yml:3
-#: questions/includes/fedora/design.yml:10 questions/includes/fedora/qa.yml:4
+#: questions/includes/fedora/design.yml:10 questions/includes/fedora/qa.yml:3
 #: questions/includes/fedora/translation.yml:3
 #: questions/includes/fedora/writing.yml:9
 msgid "General"
@@ -837,7 +838,7 @@ msgstr "sur la manière de rejoindre l’équipe des Opérations de le communaut
 #. title
 #: questions/includes/fedora/coding/web.yml:9
 #: questions/includes/fedora/community.yml:8
-#: questions/includes/fedora/design.yml:15 questions/includes/fedora/qa.yml:8
+#: questions/includes/fedora/design.yml:15 questions/includes/fedora/qa.yml:7
 #: questions/includes/fedora/translation.yml:7
 #: questions/includes/fedora/writing.yml:13
 msgid "Specific"
@@ -948,12 +949,14 @@ msgstr ""
 
 #. title
 #: questions/includes/fedora/desktop.yml:3
-msgid "Desktop SIG"
-msgstr "Desktop SIG"
+msgid "Workstation Working Group"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/desktop.yml:3
-msgid "the special-interest-group for Fedora Workstation"
+#, fuzzy
+#| msgid "the special-interest-group for Fedora Workstation"
+msgid "the group behind Fedora Workstation"
 msgstr "le groupe d’intérêt spécial pour Fedora Workstation"
 
 #. title
@@ -1024,144 +1027,144 @@ msgid "steward of the packages in Fedora"
 msgstr "au service des paquets de Fedora"
 
 #. subtitle
-#: questions/includes/fedora/qa.yml:4
+#: questions/includes/fedora/qa.yml:3
 msgid "about how to join the QA team?"
 msgstr "sur la manière de rejoindre l’équipe Assurance qualité de Fedora ?"
 
 #. segue1
-#: questions/includes/fedora/qa.yml:8
+#: questions/includes/fedora/qa.yml:7
 msgid "Certainly."
 msgstr "Certainement."
 
 #. segue2
-#: questions/includes/fedora/qa.yml:8
+#: questions/includes/fedora/qa.yml:7
 msgid "We need people to..."
 msgstr "Nous avons besoin de monde pour…"
 
 #. subtitle
-#: questions/includes/fedora/qa.yml:8
+#: questions/includes/fedora/qa.yml:7
 msgid "about different QA and testing tasks"
 msgstr "à propos de diverses tâche d’assurance qualité et de test"
 
 #. title
-#: questions/includes/fedora/qa.yml:14
+#: questions/includes/fedora/qa.yml:13
 msgid "Validate Releases"
 msgstr "Valider les versions"
 
 #. subtitle
-#: questions/includes/fedora/qa.yml:14
+#: questions/includes/fedora/qa.yml:13
 msgid "when there's an upcoming release, that is"
 msgstr "lorsqu’il y a une version sur le point de sortir qui"
 
 #. title
-#: questions/includes/fedora/qa.yml:17
+#: questions/includes/fedora/qa.yml:16
 msgid "Test Updates"
 msgstr "Mise à jour des tests"
 
 #. subtitle
-#: questions/includes/fedora/qa.yml:17
+#: questions/includes/fedora/qa.yml:16
 msgid "before they hit the stable repo"
 msgstr "avant qu’ils ne rejoignent le dépôt stable"
 
 #. title
-#: questions/includes/fedora/qa.yml:20
+#: questions/includes/fedora/qa.yml:19
 msgid "Create Test Cases"
 msgstr "Créer des situations de test"
 
 #. subtitle
-#: questions/includes/fedora/qa.yml:20
+#: questions/includes/fedora/qa.yml:19
 msgid "otherwise we won't know what to test"
 msgstr "autrement, nous ne saurons pas quoi tester"
 
 #. title
-#: questions/includes/fedora/qa.yml:24
+#: questions/includes/fedora/qa.yml:23
 msgid "Develop Tools"
 msgstr "Développer des outils"
 
 #. segue1
-#: questions/includes/fedora/qa.yml:24
+#: questions/includes/fedora/qa.yml:23
 msgid "I'm of the same mind."
 msgstr "Je suis dans le même état d’esprit."
 
 #. segue2
-#: questions/includes/fedora/qa.yml:24
+#: questions/includes/fedora/qa.yml:23
 msgid "We need people to hack on"
 msgstr "Nous avons besoin de gens pour fouiller en profondeur dans"
 
 #. subtitle
-#: questions/includes/fedora/qa.yml:24
+#: questions/includes/fedora/qa.yml:23
 msgid "for continuous awesomeness"
 msgstr "pour une génialité continuelle"
 
 #. title
-#: questions/includes/fedora/qa.yml:30
+#: questions/includes/fedora/qa.yml:29
 msgid "Taskotron"
 msgstr "Taskotron"
 
 #. subtitle
-#: questions/includes/fedora/qa.yml:30
+#: questions/includes/fedora/qa.yml:29
 msgid "a framework for automated task execution"
 msgstr "une infrastructure pour l’exécution automatique des tâches"
 
 #. title
-#: questions/includes/fedora/qa.yml:33
+#: questions/includes/fedora/qa.yml:32
 msgid "BlockerBugs"
 msgstr "BlockerBugs"
 
 #. subtitle
-#: questions/includes/fedora/qa.yml:33
+#: questions/includes/fedora/qa.yml:32
 msgid "used to propose and track release blocking bugs"
 msgstr ""
 "habitué(e) à proposer et à traquer les bogues qui bloquent les nouvelles "
 "versions"
 
 #. title
-#: questions/includes/fedora/qa.yml:36
+#: questions/includes/fedora/qa.yml:35
 msgid "Bodhi"
 msgstr "Bodhi"
 
 #. subtitle
-#: questions/includes/fedora/qa.yml:36
+#: questions/includes/fedora/qa.yml:35
 msgid "the Fedora Updates System"
 msgstr "le système de mise à jour de Fedora"
 
 #. title
-#: questions/includes/fedora/qa.yml:39
+#: questions/includes/fedora/qa.yml:38
 msgid "fedora-easy-karma"
 msgstr "fedora-easy-karma"
 
 #. subtitle
-#: questions/includes/fedora/qa.yml:39
+#: questions/includes/fedora/qa.yml:38
 msgid "a handsome tool to ease testing updates"
 msgstr "un magnifique outil pour faciliter le test des mises à jour"
 
 #. title
-#: questions/includes/fedora/qa.yml:43
+#: questions/includes/fedora/qa.yml:42
 msgid "Take Over"
 msgstr "Prendre le contrôle"
 
 #. segue1
-#: questions/includes/fedora/qa.yml:43
+#: questions/includes/fedora/qa.yml:42
 msgid "That's huge of you."
 msgstr "C’est grand de votre part."
 
 #. segue2
-#: questions/includes/fedora/qa.yml:43
+#: questions/includes/fedora/qa.yml:42
 msgid "we need someone to head up..."
 msgstr "nous avons besoin de quelqu’un pour diriger…"
 
 #. subtitle
-#: questions/includes/fedora/qa.yml:43
+#: questions/includes/fedora/qa.yml:42
 msgid "some basically abandoned tasks"
 msgstr "quelques tâches essentiellement à l’abandon"
 
 #. title
-#: questions/includes/fedora/qa.yml:49
+#: questions/includes/fedora/qa.yml:48
 msgid "Bug Triage"
 msgstr "Tri de bogues"
 
 #. subtitle
-#: questions/includes/fedora/qa.yml:49
+#: questions/includes/fedora/qa.yml:48
 msgid "you'll need a heart of gold"
 msgstr "il vous faudra être amical et dévoué"
 
@@ -1705,6 +1708,12 @@ msgstr "le site AskNot"
 msgid "this thing -- the page you're looking at right now!"
 msgstr ""
 "cette chose – la page sur laquelle vous vous trouvez juste maintenant !"
+
+#~ msgid "we all have our favorite"
+#~ msgstr "nous avons tous notre préféré"
+
+#~ msgid "Desktop SIG"
+#~ msgstr "Desktop SIG"
 
 #~ msgid "Make coala Accessible"
 #~ msgstr "Rendre coala accessible"

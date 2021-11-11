@@ -5,11 +5,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-01-14 13:19+0100\n"
+"POT-Creation-Date: 2021-11-04 12:47+0100\n"
 "PO-Revision-Date: 2021-08-19 06:05+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
-"Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
-"fedora-infra/asknot-ng/tr/>\n"
+"Language-Team: Turkish <https://translate.fedoraproject.org/projects/fedora-"
+"infra/asknot-ng/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -416,8 +416,8 @@ msgstr "Muhtemelen şuna katılmak istersiniz, Fedora..."
 
 #. subtitle
 #: questions/fedora.yml:97
-msgid "we all have our favorite"
-msgstr "hepimizin favorileri var"
+msgid "for those who are passionate about user and developer experience"
+msgstr ""
 
 #. title
 #: questions/fedora.yml:104
@@ -820,7 +820,7 @@ msgstr ""
 #. title
 #: questions/includes/fedora/coding/web.yml:4
 #: questions/includes/fedora/community.yml:3
-#: questions/includes/fedora/design.yml:10 questions/includes/fedora/qa.yml:4
+#: questions/includes/fedora/design.yml:10 questions/includes/fedora/qa.yml:3
 #: questions/includes/fedora/translation.yml:3
 #: questions/includes/fedora/writing.yml:9
 msgid "General"
@@ -834,7 +834,7 @@ msgstr "Topluluk Operasyonları ekibine nasıl katılabileceğiniz konusunda?"
 #. title
 #: questions/includes/fedora/coding/web.yml:9
 #: questions/includes/fedora/community.yml:8
-#: questions/includes/fedora/design.yml:15 questions/includes/fedora/qa.yml:8
+#: questions/includes/fedora/design.yml:15 questions/includes/fedora/qa.yml:7
 #: questions/includes/fedora/translation.yml:7
 #: questions/includes/fedora/writing.yml:13
 msgid "Specific"
@@ -940,12 +940,14 @@ msgstr ""
 
 #. title
 #: questions/includes/fedora/desktop.yml:3
-msgid "Desktop SIG"
-msgstr "Masaüstü ÖİG'si"
+msgid "Workstation Working Group"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/desktop.yml:3
-msgid "the special-interest-group for Fedora Workstation"
+#, fuzzy
+#| msgid "the special-interest-group for Fedora Workstation"
+msgid "the group behind Fedora Workstation"
 msgstr "Fedora Workstation için özel ilgi grubu"
 
 #. title
@@ -1013,142 +1015,142 @@ msgid "steward of the packages in Fedora"
 msgstr "Fedora'daki paketlerin sorumlusu"
 
 #. subtitle
-#: questions/includes/fedora/qa.yml:4
+#: questions/includes/fedora/qa.yml:3
 msgid "about how to join the QA team?"
 msgstr "QA ekibine nasıl katılabileceğiniz hakkında?"
 
 #. segue1
-#: questions/includes/fedora/qa.yml:8
+#: questions/includes/fedora/qa.yml:7
 msgid "Certainly."
 msgstr "Kesinlikle."
 
 #. segue2
-#: questions/includes/fedora/qa.yml:8
+#: questions/includes/fedora/qa.yml:7
 msgid "We need people to..."
 msgstr "Şunun için insanlara ihtiyacımız var..."
 
 #. subtitle
-#: questions/includes/fedora/qa.yml:8
+#: questions/includes/fedora/qa.yml:7
 msgid "about different QA and testing tasks"
 msgstr "farklı QA ve test görevleri hakkında"
 
 #. title
-#: questions/includes/fedora/qa.yml:14
+#: questions/includes/fedora/qa.yml:13
 msgid "Validate Releases"
 msgstr "Sürümleri Doğrulamak"
 
 #. subtitle
-#: questions/includes/fedora/qa.yml:14
+#: questions/includes/fedora/qa.yml:13
 msgid "when there's an upcoming release, that is"
 msgstr "yaklaşan bir sürüm olduğu zaman"
 
 #. title
-#: questions/includes/fedora/qa.yml:17
+#: questions/includes/fedora/qa.yml:16
 msgid "Test Updates"
 msgstr "Güncellemeleri Test Etmek"
 
 #. subtitle
-#: questions/includes/fedora/qa.yml:17
+#: questions/includes/fedora/qa.yml:16
 msgid "before they hit the stable repo"
 msgstr "kararlı depoya ulaşmadan önce"
 
 #. title
-#: questions/includes/fedora/qa.yml:20
+#: questions/includes/fedora/qa.yml:19
 msgid "Create Test Cases"
 msgstr "Test Senaryoları Oluşturmak"
 
 #. subtitle
-#: questions/includes/fedora/qa.yml:20
+#: questions/includes/fedora/qa.yml:19
 msgid "otherwise we won't know what to test"
 msgstr "aksi takdirde neyi test edeceğimizi bilemeyiz"
 
 #. title
-#: questions/includes/fedora/qa.yml:24
+#: questions/includes/fedora/qa.yml:23
 msgid "Develop Tools"
 msgstr "Araçlar Geliştirmek"
 
 #. segue1
-#: questions/includes/fedora/qa.yml:24
+#: questions/includes/fedora/qa.yml:23
 msgid "I'm of the same mind."
 msgstr "Ben de aynı düşünceye sahibim."
 
 #. segue2
-#: questions/includes/fedora/qa.yml:24
+#: questions/includes/fedora/qa.yml:23
 msgid "We need people to hack on"
 msgstr "Şunun üzerinde çalışacak insanlara ihtiyacımız var"
 
 #. subtitle
-#: questions/includes/fedora/qa.yml:24
+#: questions/includes/fedora/qa.yml:23
 msgid "for continuous awesomeness"
 msgstr "sürekli mükemmellik için"
 
 #. title
-#: questions/includes/fedora/qa.yml:30
+#: questions/includes/fedora/qa.yml:29
 msgid "Taskotron"
 msgstr "Taskotron"
 
 #. subtitle
-#: questions/includes/fedora/qa.yml:30
+#: questions/includes/fedora/qa.yml:29
 msgid "a framework for automated task execution"
 msgstr "bir otomatik görev yürütme çerçevesi"
 
 #. title
-#: questions/includes/fedora/qa.yml:33
+#: questions/includes/fedora/qa.yml:32
 msgid "BlockerBugs"
 msgstr "BlockerBugs"
 
 #. subtitle
-#: questions/includes/fedora/qa.yml:33
+#: questions/includes/fedora/qa.yml:32
 msgid "used to propose and track release blocking bugs"
 msgstr "sürüm engelleyici hataları önermek ve izlemek için kullanılır"
 
 #. title
-#: questions/includes/fedora/qa.yml:36
+#: questions/includes/fedora/qa.yml:35
 msgid "Bodhi"
 msgstr "Bodhi"
 
 #. subtitle
-#: questions/includes/fedora/qa.yml:36
+#: questions/includes/fedora/qa.yml:35
 msgid "the Fedora Updates System"
 msgstr "Fedora Güncellemeleri Sistemi"
 
 #. title
-#: questions/includes/fedora/qa.yml:39
+#: questions/includes/fedora/qa.yml:38
 msgid "fedora-easy-karma"
 msgstr "fedora-easy-karma"
 
 #. subtitle
-#: questions/includes/fedora/qa.yml:39
+#: questions/includes/fedora/qa.yml:38
 msgid "a handsome tool to ease testing updates"
 msgstr "güncellemeleri test etmeyi kolaylaştırmak için yakışıklı bir araç"
 
 #. title
-#: questions/includes/fedora/qa.yml:43
+#: questions/includes/fedora/qa.yml:42
 msgid "Take Over"
 msgstr "Devralmak"
 
 #. segue1
-#: questions/includes/fedora/qa.yml:43
+#: questions/includes/fedora/qa.yml:42
 msgid "That's huge of you."
 msgstr "O sizin büyüklüğünüz."
 
 #. segue2
-#: questions/includes/fedora/qa.yml:43
+#: questions/includes/fedora/qa.yml:42
 msgid "we need someone to head up..."
 msgstr "şunun başına geçecek birilerine ihtiyacımız var..."
 
 #. subtitle
-#: questions/includes/fedora/qa.yml:43
+#: questions/includes/fedora/qa.yml:42
 msgid "some basically abandoned tasks"
 msgstr "çoğunlukla terk edilmiş bazı görevler"
 
 #. title
-#: questions/includes/fedora/qa.yml:49
+#: questions/includes/fedora/qa.yml:48
 msgid "Bug Triage"
 msgstr "Hata Triyajı"
 
 #. subtitle
-#: questions/includes/fedora/qa.yml:49
+#: questions/includes/fedora/qa.yml:48
 msgid "you'll need a heart of gold"
 msgstr "altın bir kalbe ihtiyacınız olacak"
 
@@ -1282,7 +1284,8 @@ msgstr "Bir Not"
 #. subtitle
 #: questions/includes/fedora/writing.yml:22
 msgid "a section of the release notes and a good place for new contributors"
-msgstr "sürüm notlarının bir bölümü ve yeni katkıda bulunanlar için iyi bir yer"
+msgstr ""
+"sürüm notlarının bir bölümü ve yeni katkıda bulunanlar için iyi bir yer"
 
 #. title
 #: questions/includes/fedora/writing.yml:25
@@ -1552,8 +1555,8 @@ msgid ""
 "a <a href=\"http://fedora.portingdb.xyz/\">dynamic database</a> of Python 2 "
 "packages needing to be updated to Python 3"
 msgstr ""
-"Python 3'e güncellenmesi gereken Python 2 paketlerinin <a href=\"http"
-"://fedora.portingdb.xyz/\">dinamik bir veri tabanı</a>"
+"Python 3'e güncellenmesi gereken Python 2 paketlerinin <a href=\"http://"
+"fedora.portingdb.xyz/\">dinamik bir veri tabanı</a>"
 
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:23
@@ -1672,6 +1675,12 @@ msgstr "AskNot Sitesi"
 #: questions/includes/fedora/coding/web.yml:40
 msgid "this thing -- the page you're looking at right now!"
 msgstr "bu şey -- şu anda baktığınız sayfa!"
+
+#~ msgid "we all have our favorite"
+#~ msgstr "hepimizin favorileri var"
+
+#~ msgid "Desktop SIG"
+#~ msgstr "Masaüstü ÖİG'si"
 
 #~ msgid "Make coala Accessible"
 #~ msgstr "coala'yı Erişilebilir Hâle Getirin"

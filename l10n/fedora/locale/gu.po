@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-01-14 13:19+0100\n"
+"POT-Creation-Date: 2021-11-04 12:47+0100\n"
 "PO-Revision-Date: 2018-01-14 09:57+0000\n"
 "Last-Translator: Pranjal Vyas <vyaspranjal33@gmail.com>\n"
 "Language-Team: Gujarati\n"
@@ -407,8 +407,8 @@ msgstr "તમે કદાચ Fedora માં જોડાવા માંગ�
 
 #. subtitle
 #: questions/fedora.yml:97
-msgid "we all have our favorite"
-msgstr "આપણા બધા પાસે આપણું પ્રિય છે"
+msgid "for those who are passionate about user and developer experience"
+msgstr ""
 
 #. title
 #: questions/fedora.yml:104
@@ -797,7 +797,7 @@ msgstr "નીચા-સ્તરની મેમરી મેનીપ્યુ
 #. title
 #: questions/includes/fedora/coding/web.yml:4
 #: questions/includes/fedora/community.yml:3
-#: questions/includes/fedora/design.yml:10 questions/includes/fedora/qa.yml:4
+#: questions/includes/fedora/design.yml:10 questions/includes/fedora/qa.yml:3
 #: questions/includes/fedora/translation.yml:3
 #: questions/includes/fedora/writing.yml:9
 msgid "General"
@@ -811,7 +811,7 @@ msgstr "સમુદાય ક્રિયા ટુકડી માં  કે�
 #. title
 #: questions/includes/fedora/coding/web.yml:9
 #: questions/includes/fedora/community.yml:8
-#: questions/includes/fedora/design.yml:15 questions/includes/fedora/qa.yml:8
+#: questions/includes/fedora/design.yml:15 questions/includes/fedora/qa.yml:7
 #: questions/includes/fedora/translation.yml:7
 #: questions/includes/fedora/writing.yml:13
 msgid "Specific"
@@ -917,12 +917,14 @@ msgstr ""
 
 #. title
 #: questions/includes/fedora/desktop.yml:3
-msgid "Desktop SIG"
-msgstr "ડેસ્કટોપ ખાસ રસ ધરાવતું જૂથ"
+msgid "Workstation Working Group"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/desktop.yml:3
-msgid "the special-interest-group for Fedora Workstation"
+#, fuzzy
+#| msgid "the special-interest-group for Fedora Workstation"
+msgid "the group behind Fedora Workstation"
 msgstr "Fedora વર્કસ્ટેશન માટે વિશેષ રસ ધરાવતું જૂથ"
 
 #. title
@@ -987,142 +989,142 @@ msgid "steward of the packages in Fedora"
 msgstr "Fedora માંના પેકેજોના પ્રબંધક"
 
 #. subtitle
-#: questions/includes/fedora/qa.yml:4
+#: questions/includes/fedora/qa.yml:3
 msgid "about how to join the QA team?"
 msgstr "ગુણવતા ખાત્રીકરણ ટુકડી મા કઈ રીતે જોડાવું ?"
 
 #. segue1
-#: questions/includes/fedora/qa.yml:8
+#: questions/includes/fedora/qa.yml:7
 msgid "Certainly."
 msgstr "ચોક્કસપણે"
 
 #. segue2
-#: questions/includes/fedora/qa.yml:8
+#: questions/includes/fedora/qa.yml:7
 msgid "We need people to..."
 msgstr "અમને લોકોની જરૂર છે ..."
 
 #. subtitle
-#: questions/includes/fedora/qa.yml:8
+#: questions/includes/fedora/qa.yml:7
 msgid "about different QA and testing tasks"
 msgstr "વિવિધ ગુણવતા ખાત્રીકરણ અને પરીક્ષણ ક્રિયાઓ વિશે"
 
 #. title
-#: questions/includes/fedora/qa.yml:14
+#: questions/includes/fedora/qa.yml:13
 msgid "Validate Releases"
 msgstr "release ને માન્ય કરો"
 
 #. subtitle
-#: questions/includes/fedora/qa.yml:14
+#: questions/includes/fedora/qa.yml:13
 msgid "when there's an upcoming release, that is"
 msgstr "જ્યારે આગામી પ્રકાશન છે, તે છે"
 
 #. title
-#: questions/includes/fedora/qa.yml:17
+#: questions/includes/fedora/qa.yml:16
 msgid "Test Updates"
 msgstr "    પરીક્ષણ સુધારાઓ"
 
 #. subtitle
-#: questions/includes/fedora/qa.yml:17
+#: questions/includes/fedora/qa.yml:16
 msgid "before they hit the stable repo"
 msgstr "તેઓ સ્થિર રેપો સુધી પહોંચે તે પેહલા"
 
 #. title
-#: questions/includes/fedora/qa.yml:20
+#: questions/includes/fedora/qa.yml:19
 msgid "Create Test Cases"
 msgstr "    પરીક્ષણ cases બનાવો"
 
 #. subtitle
-#: questions/includes/fedora/qa.yml:20
+#: questions/includes/fedora/qa.yml:19
 msgid "otherwise we won't know what to test"
 msgstr "અન્યથા અમે  નથી જાણતા શું પરીક્ષણ કરવા માટે  હશે"
 
 #. title
-#: questions/includes/fedora/qa.yml:24
+#: questions/includes/fedora/qa.yml:23
 msgid "Develop Tools"
 msgstr "સાધનો વિકસાવો"
 
 #. segue1
-#: questions/includes/fedora/qa.yml:24
+#: questions/includes/fedora/qa.yml:23
 msgid "I'm of the same mind."
 msgstr "હું સરખું જ વિચારું છુ"
 
 #. segue2
-#: questions/includes/fedora/qa.yml:24
+#: questions/includes/fedora/qa.yml:23
 msgid "We need people to hack on"
 msgstr "અમને જરૂર છે લોકો ની હેક કરવા "
 
 #. subtitle
-#: questions/includes/fedora/qa.yml:24
+#: questions/includes/fedora/qa.yml:23
 msgid "for continuous awesomeness"
 msgstr "સતત શ્રેષ્ઠતા માટે"
 
 #. title
-#: questions/includes/fedora/qa.yml:30
+#: questions/includes/fedora/qa.yml:29
 msgid "Taskotron"
 msgstr "ટાસ્ક ઓ ટ્રોન"
 
 #. subtitle
-#: questions/includes/fedora/qa.yml:30
+#: questions/includes/fedora/qa.yml:29
 msgid "a framework for automated task execution"
 msgstr "કાર્ય અમલ સ્વયંસંચાલિત કરવા માટે માળખું"
 
 #. title
-#: questions/includes/fedora/qa.yml:33
+#: questions/includes/fedora/qa.yml:32
 msgid "BlockerBugs"
 msgstr "બ્લોકરબગ્સ"
 
 #. subtitle
-#: questions/includes/fedora/qa.yml:33
+#: questions/includes/fedora/qa.yml:32
 msgid "used to propose and track release blocking bugs"
 msgstr "પ્રકાશન બ્લૉકિંગ બગ્સનો પ્રસ્તાવ અને ટ્રેક કરવા માટે વપરાય છે"
 
 #. title
-#: questions/includes/fedora/qa.yml:36
+#: questions/includes/fedora/qa.yml:35
 msgid "Bodhi"
 msgstr "બોધી"
 
 #. subtitle
-#: questions/includes/fedora/qa.yml:36
+#: questions/includes/fedora/qa.yml:35
 msgid "the Fedora Updates System"
 msgstr "fedora સુધારા તંત્ર"
 
 #. title
-#: questions/includes/fedora/qa.yml:39
+#: questions/includes/fedora/qa.yml:38
 msgid "fedora-easy-karma"
 msgstr "ફેડોરા-સરળ-કર્મ"
 
 #. subtitle
-#: questions/includes/fedora/qa.yml:39
+#: questions/includes/fedora/qa.yml:38
 msgid "a handsome tool to ease testing updates"
 msgstr "પરીક્ષણ સુધારા ને  સરળ બનાવવા માટે એક સુંદર સાધન"
 
 #. title
-#: questions/includes/fedora/qa.yml:43
+#: questions/includes/fedora/qa.yml:42
 msgid "Take Over"
 msgstr "નિયંત્રણ-ગ્રહણ"
 
 #. segue1
-#: questions/includes/fedora/qa.yml:43
+#: questions/includes/fedora/qa.yml:42
 msgid "That's huge of you."
 msgstr "તે તમારા માટે વિશાળ છે"
 
 #. segue2
-#: questions/includes/fedora/qa.yml:43
+#: questions/includes/fedora/qa.yml:42
 msgid "we need someone to head up..."
 msgstr "અમારે કોઈક જોયે છે નેતૃત્વ કરવા માટે ."
 
 #. subtitle
-#: questions/includes/fedora/qa.yml:43
+#: questions/includes/fedora/qa.yml:42
 msgid "some basically abandoned tasks"
 msgstr "કેટલીક ત્ય્જીત ક્રિયાઓ"
 
 #. title
-#: questions/includes/fedora/qa.yml:49
+#: questions/includes/fedora/qa.yml:48
 msgid "Bug Triage"
 msgstr "બગ ટ્રાએજ"
 
 #. subtitle
-#: questions/includes/fedora/qa.yml:49
+#: questions/includes/fedora/qa.yml:48
 msgid "you'll need a heart of gold"
 msgstr "તમારે સોના નું હદય જોશે"
 
@@ -1650,6 +1652,12 @@ msgstr "પૂછો નહીં સાઈટ"
 #: questions/includes/fedora/coding/web.yml:40
 msgid "this thing -- the page you're looking at right now!"
 msgstr "આ વસ્તુ - તમે હમણાં જોઈ રહ્યાં છો તે પૃષ્ઠ!"
+
+#~ msgid "we all have our favorite"
+#~ msgstr "આપણા બધા પાસે આપણું પ્રિય છે"
+
+#~ msgid "Desktop SIG"
+#~ msgstr "ડેસ્કટોપ ખાસ રસ ધરાવતું જૂથ"
 
 #~ msgid "Make coala Accessible"
 #~ msgstr "કોઆલા  ને સુલભ  બનાવો "
