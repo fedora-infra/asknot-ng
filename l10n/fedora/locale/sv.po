@@ -3,11 +3,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-01-14 13:19+0100\n"
+"POT-Creation-Date: 2021-11-04 12:47+0100\n"
 "PO-Revision-Date: 2020-02-29 21:38+0000\n"
 "Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
-"Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
-"fedora-infra/asknot-ng/sv/>\n"
+"Language-Team: Swedish <https://translate.fedoraproject.org/projects/fedora-"
+"infra/asknot-ng/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -411,8 +411,8 @@ msgstr "Du vill förmodligen gå med i Fedora …"
 
 #. subtitle
 #: questions/fedora.yml:97
-msgid "we all have our favorite"
-msgstr "vi har alla våra favoriter"
+msgid "for those who are passionate about user and developer experience"
+msgstr ""
 
 #. title
 #: questions/fedora.yml:104
@@ -809,7 +809,7 @@ msgstr ""
 #. title
 #: questions/includes/fedora/coding/web.yml:4
 #: questions/includes/fedora/community.yml:3
-#: questions/includes/fedora/design.yml:10 questions/includes/fedora/qa.yml:4
+#: questions/includes/fedora/design.yml:10 questions/includes/fedora/qa.yml:3
 #: questions/includes/fedora/translation.yml:3
 #: questions/includes/fedora/writing.yml:9
 msgid "General"
@@ -823,7 +823,7 @@ msgstr "hur man går med i gruppen för gemenskapsoperatörer?"
 #. title
 #: questions/includes/fedora/coding/web.yml:9
 #: questions/includes/fedora/community.yml:8
-#: questions/includes/fedora/design.yml:15 questions/includes/fedora/qa.yml:8
+#: questions/includes/fedora/design.yml:15 questions/includes/fedora/qa.yml:7
 #: questions/includes/fedora/translation.yml:7
 #: questions/includes/fedora/writing.yml:13
 msgid "Specific"
@@ -930,12 +930,14 @@ msgstr ""
 
 #. title
 #: questions/includes/fedora/desktop.yml:3
-msgid "Desktop SIG"
-msgstr "Skrivbords-SIG"
+msgid "Workstation Working Group"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/desktop.yml:3
-msgid "the special-interest-group for Fedora Workstation"
+#, fuzzy
+#| msgid "the special-interest-group for Fedora Workstation"
+msgid "the group behind Fedora Workstation"
 msgstr "specialintressegruppen för Fedora Workstation"
 
 #. title
@@ -1002,142 +1004,142 @@ msgid "steward of the packages in Fedora"
 msgstr "förvaltare av paketen i Fedora"
 
 #. subtitle
-#: questions/includes/fedora/qa.yml:4
+#: questions/includes/fedora/qa.yml:3
 msgid "about how to join the QA team?"
 msgstr "om hur man går med i QA-gruppen?"
 
 #. segue1
-#: questions/includes/fedora/qa.yml:8
+#: questions/includes/fedora/qa.yml:7
 msgid "Certainly."
 msgstr "Javisst."
 
 #. segue2
-#: questions/includes/fedora/qa.yml:8
+#: questions/includes/fedora/qa.yml:7
 msgid "We need people to..."
 msgstr "Vi behöver folk för att …"
 
 #. subtitle
-#: questions/includes/fedora/qa.yml:8
+#: questions/includes/fedora/qa.yml:7
 msgid "about different QA and testing tasks"
 msgstr "om olika QA- och testuppgifter"
 
 #. title
-#: questions/includes/fedora/qa.yml:14
+#: questions/includes/fedora/qa.yml:13
 msgid "Validate Releases"
 msgstr "Validera utgåvor"
 
 #. subtitle
-#: questions/includes/fedora/qa.yml:14
+#: questions/includes/fedora/qa.yml:13
 msgid "when there's an upcoming release, that is"
 msgstr "när en ny utgåva är på gång, alltså"
 
 #. title
-#: questions/includes/fedora/qa.yml:17
+#: questions/includes/fedora/qa.yml:16
 msgid "Test Updates"
 msgstr "Testa uppdateringar"
 
 #. subtitle
-#: questions/includes/fedora/qa.yml:17
+#: questions/includes/fedora/qa.yml:16
 msgid "before they hit the stable repo"
 msgstr "före de går ut till det stabila förrådet"
 
 #. title
-#: questions/includes/fedora/qa.yml:20
+#: questions/includes/fedora/qa.yml:19
 msgid "Create Test Cases"
 msgstr "Skapa testfall"
 
 #. subtitle
-#: questions/includes/fedora/qa.yml:20
+#: questions/includes/fedora/qa.yml:19
 msgid "otherwise we won't know what to test"
 msgstr "annars vet vi inte vad vi skall testa"
 
 #. title
-#: questions/includes/fedora/qa.yml:24
+#: questions/includes/fedora/qa.yml:23
 msgid "Develop Tools"
 msgstr "Utveckla verktyg"
 
 #. segue1
-#: questions/includes/fedora/qa.yml:24
+#: questions/includes/fedora/qa.yml:23
 msgid "I'm of the same mind."
 msgstr "Jag är av samma åsikt."
 
 #. segue2
-#: questions/includes/fedora/qa.yml:24
+#: questions/includes/fedora/qa.yml:23
 msgid "We need people to hack on"
 msgstr "Vi behöver folk för att hacka på"
 
 #. subtitle
-#: questions/includes/fedora/qa.yml:24
+#: questions/includes/fedora/qa.yml:23
 msgid "for continuous awesomeness"
 msgstr "för att fortsatt vara fantastiskt"
 
 #. title
-#: questions/includes/fedora/qa.yml:30
+#: questions/includes/fedora/qa.yml:29
 msgid "Taskotron"
 msgstr "Taskotron"
 
 #. subtitle
-#: questions/includes/fedora/qa.yml:30
+#: questions/includes/fedora/qa.yml:29
 msgid "a framework for automated task execution"
 msgstr "ett ramverk för automatiserad körning av uppgifter"
 
 #. title
-#: questions/includes/fedora/qa.yml:33
+#: questions/includes/fedora/qa.yml:32
 msgid "BlockerBugs"
 msgstr "BlockerBugs"
 
 #. subtitle
-#: questions/includes/fedora/qa.yml:33
+#: questions/includes/fedora/qa.yml:32
 msgid "used to propose and track release blocking bugs"
 msgstr "använd för att föreslå och spåra fel som blockerar utgåvor"
 
 #. title
-#: questions/includes/fedora/qa.yml:36
+#: questions/includes/fedora/qa.yml:35
 msgid "Bodhi"
 msgstr "Bodhi"
 
 #. subtitle
-#: questions/includes/fedora/qa.yml:36
+#: questions/includes/fedora/qa.yml:35
 msgid "the Fedora Updates System"
 msgstr "Fedoras uppdateringssystem"
 
 #. title
-#: questions/includes/fedora/qa.yml:39
+#: questions/includes/fedora/qa.yml:38
 msgid "fedora-easy-karma"
 msgstr "fedora-easy-karma"
 
 #. subtitle
-#: questions/includes/fedora/qa.yml:39
+#: questions/includes/fedora/qa.yml:38
 msgid "a handsome tool to ease testing updates"
 msgstr "ett stiligt verktyg för att förenkla testande av uppdateringar"
 
 #. title
-#: questions/includes/fedora/qa.yml:43
+#: questions/includes/fedora/qa.yml:42
 msgid "Take Over"
 msgstr "Ta över"
 
 #. segue1
-#: questions/includes/fedora/qa.yml:43
+#: questions/includes/fedora/qa.yml:42
 msgid "That's huge of you."
 msgstr "Det är stort av dig."
 
 #. segue2
-#: questions/includes/fedora/qa.yml:43
+#: questions/includes/fedora/qa.yml:42
 msgid "we need someone to head up..."
 msgstr "vi behöver någon som leder …"
 
 #. subtitle
-#: questions/includes/fedora/qa.yml:43
+#: questions/includes/fedora/qa.yml:42
 msgid "some basically abandoned tasks"
 msgstr "några grundläggande övergivna uppgifter"
 
 #. title
-#: questions/includes/fedora/qa.yml:49
+#: questions/includes/fedora/qa.yml:48
 msgid "Bug Triage"
 msgstr "Prioritering av fel"
 
 #. subtitle
-#: questions/includes/fedora/qa.yml:49
+#: questions/includes/fedora/qa.yml:48
 msgid "you'll need a heart of gold"
 msgstr "du kommer behöva ett hjärta av guld"
 
@@ -1663,6 +1665,12 @@ msgstr "AskNot-sajten"
 #: questions/includes/fedora/coding/web.yml:40
 msgid "this thing -- the page you're looking at right now!"
 msgstr "det här — sidan du tittar på just nu!"
+
+#~ msgid "we all have our favorite"
+#~ msgstr "vi har alla våra favoriter"
+
+#~ msgid "Desktop SIG"
+#~ msgstr "Skrivbords-SIG"
 
 #~ msgid "Make coala Accessible"
 #~ msgstr "Göra coala tillgängligt"
