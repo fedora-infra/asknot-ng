@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,6 +18,10 @@
     <link rel="stylesheet" type="text/css" href="../static/jquery.uls/css/jquery.uls.css">
     <link rel="stylesheet" type="text/css" href="../static/jquery.uls/css/jquery.uls.grid.css">
     <link rel="stylesheet" type="text/css" href="../static/jquery.uls/css/jquery.uls.lcd.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">  
+    
     <script>
         var SEP = '${SEP}';
         var all_ids = ${all_ids_as_json};
@@ -28,6 +33,13 @@
       <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
     <![endif]-->
+
+    <!--loading jQuery -->
+    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>  
+
+    <!--loading Bootstrap, CSS only -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>   
+      
   </head>
 
   <body>
@@ -46,7 +58,7 @@
                 % if info['link'] == 'javascript:reloadHome();':
                 class="active"
                 % endif
-                ><a href="${info['link']}">${info['name']}</a></li>
+                ><a href="${info['link']}" target="_blank">${info['name']}</a></li>
                 % endfor
               </ul>
             </nav>
@@ -97,27 +109,27 @@
               <div class="img"><img src="${node['image']}"></div>
               % endif
             </div>
-            % if 'children' in node:
-            <p class="lead">
-              <a data-next="${node['children'][0]['id']}" class="yes btn btn-lg btn-success"><span class="glyphicon glyphicon-ok-sign"></span> ${node['affirmative']}</a>
-            </p>
-            % else:
-            <p class="lead">
-              <a href="${node['link']}" target="_blank" class="btn btn-lg btn-success"><span class="glyphicon glyphicon-ok-sign"></span> ${node['affirmative']}</a>
-            </p>
-            % endif:
+              % if 'children' in node:
+              <p style="display:inline-block;" class="lead">
+                <a data-next="${node['children'][0]['id']}" target="_blank" class="yes btn btn-lg btn-success"><span class="fas fa-check-circle"></span> ${node['affirmative']}</a>
+              </p>
+              % else:
+              <p style="display:inline-block;" class="lead">
+                <a href="${node['link']}" target="_blank" class="btn btn-lg btn-success"><span class="fas fa-check-circle"></span> ${node['affirmative']}</a>
+              </p>
+              % endif:
 
-            % if next != node['id']:
-            <p class="lead">
-              <a data-next="${next}" class="nope btn btn-lg btn-danger"><span class="glyphicon glyphicon-remove-sign"></span> ${node['negative']}</a>
-            </p>
-            % endif
-            % if not toplevel:
-            <p class="lead">
-              <a class="back btn btn-lg btn-warning"><span class="glyphicon glyphicon-circle-arrow-left"></span> ${node['backlink']}</a>
-            </p>
-            % endif
-          </div>
+              % if next != node['id']:
+              <p style="display:inline-block;" class="lead">
+                <a data-next="${next}" class="nope btn btn-lg btn-danger"><span class="fas fa-times-circle"></span> ${node['negative']}</a>
+              </p>
+              % endif
+              % if not toplevel:
+              <p class="lead">
+                <a class="back btn btn-lg btn-warning"><span class="fas fa-arrow-alt-circle-left"></span> ${node['backlink']}</a>
+              </p>
+              % endif
+            </div>
 
           % if 'children' in node:
             % for i, child in enumerate(node['children']):

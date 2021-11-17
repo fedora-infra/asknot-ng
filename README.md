@@ -28,6 +28,14 @@ We have a [Fedora instance up and running][wcidff] if you’d like to poke it.
 
 [![Translation status](https://translate.fedoraproject.org/widgets/fedora-infra/-/asknot-ng/287x66-grey.png)](https://translate.fedoraproject.org/engage/fedora-infra/?utm_source=widget)
 
+## Tools
+
+1. HTML5      - The Structure.
+2. CSS3       - The Style.
+3. Javascript - The Functions.
+4. Jquery     - JavaScript libraries to select, remove, clone, and modify different elements on the page.
+5. Bootstrap  - Bootstrap is a front end framework used to design responsive web pages and applications.
+
 ## Requirements
 
 The site-generator script is written in Python, so you’ll need that.
