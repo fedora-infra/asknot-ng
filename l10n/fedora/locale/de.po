@@ -4,21 +4,22 @@
 # Fabian Affolter <fab@fedoraproject.org>, 2018. #zanata
 # Tobias Weise <tobias.weise@web.de>, 2019. #zanata
 # Brendan Early <mymindstorm@evermiss.net>, 2020.
+# Ettore Atalan <atalanttore@googlemail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-11-04 12:47+0100\n"
-"PO-Revision-Date: 2020-02-24 20:11+0000\n"
-"Last-Translator: Brendan Early <mymindstorm@evermiss.net>\n"
-"Language-Team: German <https://translate.fedoraproject.org/projects/fedora-"
-"infra/asknot-ng/de/>\n"
+"PO-Revision-Date: 2021-11-18 22:16+0000\n"
+"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
+"Language-Team: German <https://translate.fedoraproject.org/projects/"
+"fedora-infra/asknot-ng/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11.2\n"
+"X-Generator: Weblate 4.9\n"
 
 #. title
 #. description
@@ -395,12 +396,12 @@ msgstr ""
 #. title
 #: questions/fedora.yml:92
 msgid "Modularity"
-msgstr ""
+msgstr "Modularität"
 
 #. subtitle
 #: questions/fedora.yml:92
 msgid "rethinking how we compose the distro"
-msgstr ""
+msgstr "Überdenken der Zusammenstellung der Distro"
 
 #. title
 #: questions/fedora.yml:97
@@ -423,6 +424,7 @@ msgstr "Du möchtest wohl Fedora beitreten ?"
 #: questions/fedora.yml:97
 msgid "for those who are passionate about user and developer experience"
 msgstr ""
+"für alle, die sich für die Erfahrung von Benutzern und Entwicklern begeistern"
 
 #. title
 #: questions/fedora.yml:104
@@ -472,12 +474,12 @@ msgstr "Ein besseres Fedora für alle Sprachen"
 #. title
 #: questions/fedora.yml:125
 msgid "Instruction"
-msgstr ""
+msgstr "Anleitung"
 
 #. subtitle
 #: questions/fedora.yml:125
 msgid "spread your knowledge to others in the community"
-msgstr ""
+msgstr "geben Sie Ihr Wissen an andere in der Gemeinschaft weiter"
 
 #. title
 #. description
@@ -952,10 +954,8 @@ msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/desktop.yml:3
-#, fuzzy
-#| msgid "the special-interest-group for Fedora Workstation"
 msgid "the group behind Fedora Workstation"
-msgstr "Die Interessensgruppe für Fedora Workstation"
+msgstr "die Gruppe hinter Fedora Workstation"
 
 #. title
 #: questions/includes/fedora/desktop.yml:7
@@ -1224,10 +1224,8 @@ msgstr "GNOME"
 
 #. subtitle
 #: questions/includes/fedora/translation.yml:22
-#, fuzzy
-#| msgid "which has it's own translation resources"
 msgid "which has its own translation resources"
-msgstr "welches seine eigenen Übersetzungsressourcen hat"
+msgstr "die ihre eigenen Übersetzungsressourcen hat"
 
 #. title
 #: questions/includes/fedora/coding/c++.yml:7
@@ -1237,8 +1235,6 @@ msgstr "KDE"
 
 #. subtitle
 #: questions/includes/fedora/translation.yml:25
-#, fuzzy
-#| msgid "also with it's own translation process"
 msgid "also with its own translation process"
 msgstr "auch mit seinem eigenen Übersetzungsprozess"
 
