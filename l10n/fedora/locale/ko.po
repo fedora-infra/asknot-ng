@@ -1,18 +1,19 @@
+# simmon <simmon@nplob.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-11-04 12:47+0100\n"
-"PO-Revision-Date: 2021-11-11 08:05+0000\n"
+"PO-Revision-Date: 2021-11-14 15:16+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/fedora-"
-"infra/asknot-ng/ko/>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/"
+"fedora-infra/asknot-ng/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.8.1\n"
+"X-Generator: Weblate 4.9\n"
 
 #. title
 #. description
@@ -407,7 +408,7 @@ msgstr "그럼 이것을 해보는 건 어때요..."
 #. subtitle
 #: questions/fedora.yml:97
 msgid "for those who are passionate about user and developer experience"
-msgstr ""
+msgstr "사용자와 개발자 경험에 대하여 열정적인 사람들을 위해"
 
 #. title
 #: questions/fedora.yml:104
@@ -929,14 +930,12 @@ msgstr ""
 #. title
 #: questions/includes/fedora/desktop.yml:3
 msgid "Workstation Working Group"
-msgstr ""
+msgstr "웍스테이션 워킹 그룹"
 
 #. subtitle
 #: questions/includes/fedora/desktop.yml:3
-#, fuzzy
-#| msgid "the special-interest-group for Fedora Workstation"
 msgid "the group behind Fedora Workstation"
-msgstr "페도라 워크스테이션에 관심이 있는 사람들"
+msgstr "페도라 워크스테이션 뒤에 있는 그룹"
 
 #. title
 #: questions/includes/fedora/desktop.yml:7
