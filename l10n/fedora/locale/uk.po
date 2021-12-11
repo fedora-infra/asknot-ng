@@ -126,7 +126,7 @@ msgstr "CoC"
 #. navlink
 #: questions/fedora.yml:1
 msgid "Chat"
-msgstr "Спілкування"
+msgstr "Балачка"
 
 #. segue1
 #: questions/fedora.yml:36
