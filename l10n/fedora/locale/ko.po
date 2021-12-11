@@ -3,11 +3,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-11-04 12:47+0100\n"
+"POT-Creation-Date: 2021-11-13 10:53+0100\n"
 "PO-Revision-Date: 2021-11-14 15:16+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/"
-"fedora-infra/asknot-ng/ko/>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/fedora-"
+"infra/asknot-ng/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -17,190 +17,94 @@ msgstr ""
 
 #. title
 #. description
-#: questions/coala.yml:1
-msgid "What can I do for coala?"
-msgstr "코알라를 위해 무엇을 할 수 있나요?"
+#: questions/fedora.yml:1
+msgid "What can I do for Fedora?"
+msgstr "제가 페도라를 위해 무엇을 할 수 있나요?"
 
 #. negative
-#: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
+#: questions/fedora.yml:1
 msgid "No"
 msgstr "아니요"
 
 #. negative
-#: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
+#: questions/fedora.yml:1
 msgid "Nope, nope, nope"
 msgstr "절대 아닙니다"
 
 #. negative
-#: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
+#: questions/fedora.yml:1
 msgid "Nope"
 msgstr "아뇨"
 
 #. negative
-#: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
+#: questions/fedora.yml:1
 msgid "No, thanks"
 msgstr "아뇨, 괜찮아요"
 
 #. negative
-#: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
+#: questions/fedora.yml:1
 msgid "Not on your life"
 msgstr "절대 아닙니다"
 
 #. negative
-#: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
+#: questions/fedora.yml:1
 msgid "Doesn't sound like me"
 msgstr "저는 아닌 것 같은데요"
 
 #. negative
-#: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
+#: questions/fedora.yml:1
 msgid "Absolutely not"
 msgstr "전혀 아닙니다"
 
 #. negative
-#: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
+#: questions/fedora.yml:1
 msgid "Next, please"
 msgstr "다음으로"
 
 #. affirmative
-#: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
+#: questions/fedora.yml:1
 msgid "Yes"
 msgstr "네"
 
 #. affirmative
-#: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
+#: questions/fedora.yml:1
 msgid "Sounds awesome"
 msgstr "좋아보이는데요"
 
 #. affirmative
-#: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
+#: questions/fedora.yml:1
 msgid "Tell me more"
 msgstr "더 알려주세요"
 
 #. affirmative
-#: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
+#: questions/fedora.yml:1
 msgid "That's me!"
 msgstr "그게 접니다!"
 
 #. affirmative
-#: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
+#: questions/fedora.yml:1
 msgid "Totally"
 msgstr "딱 맞아요"
 
 #. affirmative
-#: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
+#: questions/fedora.yml:1
 msgid "Sure"
 msgstr "그럼요"
 
 #. backlink
-#: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
+#: questions/fedora.yml:1
 msgid "I was wrong, take me back"
 msgstr "이건 좀 아닌 것 같네요... 다시 할게요"
 
 #. backlink
-#: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
+#: questions/fedora.yml:1
 msgid "I think I made a mistake"
 msgstr "실수를 한 것 같은데요"
 
 #. backlink
-#: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
+#: questions/fedora.yml:1
 msgid "Get me outta here!"
 msgstr "이건 아니에요!"
-
-#. navlink
-#: questions/coala.yml:1 questions/gnome.yml:1
-msgid "Join"
-msgstr "참가"
-
-#. navlink
-#: questions/coala.yml:1
-msgid "coala documentation"
-msgstr "코알라 문서"
-
-#. navlink
-#: questions/coala.yml:1
-msgid "Get Live Help!"
-msgstr "실시간 도움 얻기!"
-
-#. segue1
-#: questions/coala.yml:33
-msgid "Want to help coala?"
-msgstr "코알라 돕기를 원하나요?"
-
-#. segue2
-#: questions/coala.yml:33
-msgid "What do you care about?"
-msgstr "무엇에 관심이 있나요?"
-
-#. title
-#: questions/coala.yml:37
-msgid "Visuals!"
-msgstr "미남!"
-
-#. subtitle
-#: questions/coala.yml:37
-msgid "The coala artwork team is just for you!"
-msgstr "코알라 작품 팀은 당신을 위해 있습니다!"
-
-#. title
-#: questions/coala.yml:40
-msgid "Good, Generic Code"
-msgstr "좋아요, 일반적인 코드"
-
-#. subtitle
-#: questions/coala.yml:40
-msgid "Help us improving code quality in the world! Join the core developers."
-msgstr "세상에 코드 품질 향상에 도움을 줍니다 핵심 개발자에 참가하세요."
-
-#. title
-#: questions/coala.yml:43
-msgid "Reaching Users"
-msgstr "사용자에게 도달"
-
-#. subtitle
-#: questions/coala.yml:43
-msgid "Write documentation that is understandable by everyone."
-msgstr "모든 사람에 의해 이해 할 수 있는 문서를 작성합니다."
-
-#. title
-#: questions/coala.yml:46
-msgid "Crazy Algorithms"
-msgstr "미친 알고리즘"
-
-#. subtitle
-#: questions/coala.yml:46
-msgid ""
-"Let's write code analytics. We write the framework, there's bare logic left "
-"for you."
-msgstr ""
-"코드 분석을 작성해 봅시다. 우리는 프레임워크를 작성하고, 당신을 위해 남은 논"
-"리가 있습니다."
-
-#. title
-#: questions/coala.yml:49
-msgid "Scientific Progress"
-msgstr "과학적인 진행"
-
-#. subtitle
-#: questions/coala.yml:49
-msgid "Join our coAST team and create language independent program analysis."
-msgstr ""
-"coAST 팀에 합류하세요. 그리고 언어 독립적인 프로그램 분석을 생성하세요."
-
-#. title
-#: questions/coala.yml:52
-msgid "Money"
-msgstr "돈"
-
-#. subtitle
-#: questions/coala.yml:52
-msgid "Help us through donations at gratipay."
-msgstr "gratipay 에서 기부를 통해 우리를 도울 수 있습니다."
-
-#. title
-#. description
-#: questions/fedora.yml:1
-msgid "What can I do for Fedora?"
-msgstr "제가 페도라를 위해 무엇을 할 수 있나요?"
 
 #. navlink
 #: questions/fedora.yml:1
@@ -212,380 +116,268 @@ msgstr "홈"
 msgid "Get Fedora"
 msgstr "페도라 받기"
 
+#. navlink
+#: questions/fedora.yml:1
+msgid "CoC"
+msgstr ""
+
+#. navlink
+#: questions/fedora.yml:1
+msgid "Chat"
+msgstr ""
+
 #. segue1
-#: questions/fedora.yml:32
+#: questions/fedora.yml:36
 msgid "Want to help Fedora?  Tell me..."
 msgstr "페도라를 돕고 싶나요? 말해주세요..."
 
 #. segue2
-#: questions/fedora.yml:32
+#: questions/fedora.yml:36
 msgid "what's your area of interest?"
 msgstr "관심 분야가 무엇인가요?"
 
 #. title
-#: questions/fedora.yml:36
+#: questions/fedora.yml:40
 msgid "Design!"
 msgstr "디자인!"
 
 #. segue1
-#: questions/fedora.yml:36
+#: questions/fedora.yml:40
 msgid ""
 "So you enjoy working on the way users interact with websites and programs?"
 msgstr "사용자들이 웹사이트나 프로그램와 소통하는 방법을 만들고 싶나요?"
 
 #. segue2
-#: questions/fedora.yml:36
+#: questions/fedora.yml:40
 msgid "How about the..."
 msgstr "이건 어떤가요..."
 
 #. subtitle
-#: questions/fedora.yml:36
+#: questions/fedora.yml:40
 msgid "pixel ninjas"
 msgstr "픽셀 무사"
 
 #. title
-#: questions/fedora.yml:43
+#: questions/fedora.yml:47
 msgid "Coding"
 msgstr "프로그래밍"
 
 #. segue1
-#: questions/fedora.yml:43
+#: questions/fedora.yml:47
 msgid "Zeroes and ones #allday?  Me too."
 msgstr "O 과 1 #하루종일? 나두."
 
 #. segue2
-#: questions/fedora.yml:43
+#: questions/fedora.yml:47
 msgid "What's your favorite language?"
 msgstr "가장 좋아하는 언어가 무엇인가요?"
 
 #. subtitle
-#: questions/fedora.yml:43
+#: questions/fedora.yml:47
 msgid "hacking the gibson"
 msgstr "깁슨을 해킹하기"
 
 #. title
-#: questions/fedora.yml:50
+#: questions/fedora.yml:54
 msgid "Community Ops"
 msgstr "커뮤니티 운영"
 
 #. segue1
-#: questions/fedora.yml:50
+#: questions/fedora.yml:54
 msgid "Have a knack for community-building?"
 msgstr "커뮤니티-구축을 위한 기교를 가지고 있습니까?"
 
 #. segue2
-#: questions/fedora.yml:50 questions/includes/fedora/coding.yml:38
+#: questions/fedora.yml:54 questions/includes/fedora/coding.yml:38
 #: questions/includes/fedora/design.yml:3
 msgid "Would you like something more"
 msgstr "더 원하는게 있나요"
 
 #. subtitle
-#: questions/fedora.yml:50
+#: questions/fedora.yml:54
 msgid "connecting the dots"
 msgstr "점들을 연결합니다"
 
 #. title
-#: questions/fedora.yml:57 questions/gnome.yml:40
+#: questions/fedora.yml:61
 msgid "Writing"
 msgstr "문서 작성"
 
 #. segue1
-#: questions/fedora.yml:57
+#: questions/fedora.yml:61
 msgid "So, you have a way with words?"
 msgstr "글쓰기에 재능이 있으신가요?"
 
 #. segue2
-#: questions/fedora.yml:57 questions/fedora.yml:64
+#: questions/fedora.yml:61 questions/fedora.yml:68
 msgid "Would you be more interested in..."
 msgstr "혹시 이것에 더 관심이 있나요..."
 
 #. subtitle
-#: questions/fedora.yml:57
+#: questions/fedora.yml:61
 msgid "wordsmithery"
 msgstr "문예"
 
 #. title
-#: questions/fedora.yml:64
+#: questions/fedora.yml:68
 msgid "Translation"
 msgstr "번역"
 
 #. segue1
-#: questions/fedora.yml:64
+#: questions/fedora.yml:68
 msgid "So you know more than one language?  We need you!"
 msgstr "다국어를 할 줄 아시나요? 당신이 필요해요!"
 
 #. subtitle
-#: questions/fedora.yml:64
+#: questions/fedora.yml:68
 msgid "we're an international effort, after all"
 msgstr "어차피 우리는 국제적인 활동이에요"
 
 #. title
-#: questions/fedora.yml:71
+#: questions/fedora.yml:75
 msgid "Advocacy"
 msgstr "지지"
 
 #. segue1
-#: questions/fedora.yml:71
+#: questions/fedora.yml:75
 msgid "So you're a people person?"
 msgstr "사람들 만나는 것을 좋아하세요?"
 
 #. segue2
-#: questions/fedora.yml:71
+#: questions/fedora.yml:75
 msgid "How about becoming a Fedora..."
 msgstr "페도라를 생성은 어떤가요..."
 
 #. subtitle
-#: questions/fedora.yml:71
+#: questions/fedora.yml:75
 msgid "spreading the good word"
 msgstr "좋은 말을 나누는 것"
 
 #. title
-#: questions/fedora.yml:78
+#: questions/fedora.yml:82
 msgid "Packaging"
 msgstr "꾸러미(packaging)"
 
 #. segue1
-#: questions/fedora.yml:78
+#: questions/fedora.yml:82
 msgid "So you want to help build the OS?  Excellent."
 msgstr "운영체제 개발을 돕고 싶나요? 멋져요."
 
 #. segue2
-#: questions/fedora.yml:78
+#: questions/fedora.yml:82
 msgid "Then you'll need to become a Fedora..."
 msgstr "그러면 페도라 생성이 필요 할 수 있습니다..."
 
 #. subtitle
-#: questions/fedora.yml:78
+#: questions/fedora.yml:82
 msgid "getting new software into Fedora"
 msgstr "Fedora에 새로운 소프트웨어를 추가하는 것"
 
 #. title
-#: questions/fedora.yml:85
+#: questions/fedora.yml:89
 msgid "QA and Testing"
 msgstr "품질 보증 및 테스팅"
 
 #. segue1
-#: questions/fedora.yml:85
+#: questions/fedora.yml:89
 msgid "So you like to push all the buttons and break all the things?"
 msgstr "막 다 눌러서 부숴보는 것을 좋아하나요?"
 
 #. segue2
-#: questions/fedora.yml:85
+#: questions/fedora.yml:89
 msgid "Are you more interested in something..."
 msgstr "혹시 이것에 더 관심이 있나요..."
 
 #. subtitle
-#: questions/fedora.yml:85
+#: questions/fedora.yml:89
 msgid "as they say, \"if it's not tested, it's broken\""
 msgstr "\"시험하지 않았으면 , 고장나요\"라고 말하듯이"
 
 #. title
-#: questions/fedora.yml:92
+#: questions/fedora.yml:96
 msgid "Modularity"
 msgstr "모듈성"
 
 #. subtitle
-#: questions/fedora.yml:92
+#: questions/fedora.yml:96
 msgid "rethinking how we compose the distro"
 msgstr "배포판 구성에 대한 방법을 다시 생각하기"
 
 #. title
-#: questions/fedora.yml:97
+#: questions/fedora.yml:101
 msgid "The Desktop"
 msgstr "데스크톱"
 
 #. segue1
-#: questions/fedora.yml:97
+#: questions/fedora.yml:101
 msgid "So you're into making the OS polished and easy to use?"
 msgstr "운영체제를 더 가공되게, 그리고 더 쉽게 쓸수 있게 하고싶나요?"
 
 #. segue2
-#: questions/fedora.yml:97 questions/fedora.yml:104 questions/fedora.yml:111
-#: questions/fedora.yml:118
+#: questions/fedora.yml:101 questions/fedora.yml:108 questions/fedora.yml:115
+#: questions/fedora.yml:122
 msgid "You probably want to join the Fedora..."
 msgstr "그럼 이것을 해보는 건 어때요..."
 
 #. subtitle
-#: questions/fedora.yml:97
+#: questions/fedora.yml:101
 msgid "for those who are passionate about user and developer experience"
 msgstr "사용자와 개발자 경험에 대하여 열정적인 사람들을 위해"
 
 #. title
-#: questions/fedora.yml:104
+#: questions/fedora.yml:108
 msgid "The Server"
 msgstr "서버"
 
 #. segue1
-#: questions/fedora.yml:104
+#: questions/fedora.yml:108
 msgid "So you're into making the OS powerful and flexible?"
 msgstr "운영체제를 더욱 강력하게 유연하고 하고 싶나요?"
 
 #. subtitle
-#: questions/fedora.yml:104
+#: questions/fedora.yml:108
 msgid "the best and latest for the datacenter"
 msgstr "데이터 센터를 위한 최고의, 최신의 것"
 
 #. title
-#: questions/fedora.yml:111
+#: questions/fedora.yml:115
 msgid "The Cloud"
 msgstr "클라우드"
 
 #. segue1
-#: questions/fedora.yml:111
+#: questions/fedora.yml:115
 msgid "High-minded?"
 msgstr "마음이 좋은가요?"
 
 #. subtitle
-#: questions/fedora.yml:111
+#: questions/fedora.yml:115
 msgid "it's where the future lives"
 msgstr "미래의 삶이 있는 곳이죠"
 
 #. title
-#: questions/fedora.yml:118
+#: questions/fedora.yml:122
 msgid "Internationalization"
 msgstr "세계화"
 
 #. segue1
-#: questions/fedora.yml:118
+#: questions/fedora.yml:122
 msgid "Have a regional or world perspective?"
 msgstr "지역적 또는 세계적 관점을 갖고 있나요?"
 
 #. subtitle
-#: questions/fedora.yml:118
+#: questions/fedora.yml:122
 msgid "making Fedora work better for all languages"
 msgstr "페도라가 모든 언어를 위해 더 잘 동작하도록 만들기"
 
 #. title
-#: questions/fedora.yml:125
+#: questions/fedora.yml:129
 msgid "Instruction"
 msgstr "설명(지시)"
 
 #. subtitle
-#: questions/fedora.yml:125
+#: questions/fedora.yml:129
 msgid "spread your knowledge to others in the community"
 msgstr "커뮤니티에서 다른 사람들에게 지식을 전파하세요"
-
-#. title
-#. description
-#: questions/gnome.yml:1
-msgid "What can I do for GNOME?"
-msgstr "그놈을 위해 내가 할 수 있는게 무엇인가요?"
-
-#. navlink
-#: questions/gnome.yml:1
-msgid "Get GNOME"
-msgstr "그놈 얻기"
-
-#. navlink
-#: questions/gnome.yml:1
-msgid "GNOME.org"
-msgstr "GNOME.org"
-
-#. segue1
-#: questions/gnome.yml:33
-msgid "Want to help GNOME?"
-msgstr "그놈을 돕고 싶은가요?"
-
-#. segue2
-#: questions/gnome.yml:33
-msgid "First tell us what you like!"
-msgstr "당신이 좋아하는 것을 우리에게 말해주세요!"
-
-#. title
-#: questions/gnome.yml:37
-msgid "Design and Usability"
-msgstr "디자인 및 사용성"
-
-#. subtitle
-#: questions/gnome.yml:37
-msgid "Making sure we focus on users."
-msgstr "사용자에게 집중하도록 만들기."
-
-#. subtitle
-#: questions/gnome.yml:40
-msgid "Want to help with your english skills?"
-msgstr "영어 실력으로 돕기를 원하나요?"
-
-#. title
-#: questions/gnome.yml:43
-msgid "Articles"
-msgstr "조항"
-
-#. subtitle
-#: questions/gnome.yml:43
-msgid "Want to help with the engagement team?"
-msgstr "참여 팀에 도움이 필요한가요?"
-
-#. title
-#: questions/gnome.yml:46 questions/includes/fedora/translation.yml:19
-#: questions/includes/fedora/writing.yml:3
-msgid "Documentation"
-msgstr "문서"
-
-#. subtitle
-#: questions/gnome.yml:46
-msgid "Get all the hidden features to the users!"
-msgstr "숨겨진 기능을 사용자에게 제공합니다!"
-
-#. title
-#: questions/gnome.yml:49
-msgid "Languages"
-msgstr "언어 지원"
-
-#. subtitle
-#: questions/gnome.yml:49
-msgid "You could help translating!"
-msgstr "번역을 도울 수 있습니다!"
-
-#. title
-#: questions/gnome.yml:52
-msgid "Code"
-msgstr "규약"
-
-#. subtitle
-#: questions/gnome.yml:52
-msgid "Get your hands dirty!"
-msgstr "손이 더러워집니다!"
-
-#. title
-#: questions/gnome.yml:55
-msgid "Making Things Stable"
-msgstr "안정적으로 만들기"
-
-#. subtitle
-#: questions/gnome.yml:55
-msgid "May GNOME never crash again"
-msgstr "그놈이 다시 충돌하지 않게 합니다"
-
-#. title
-#: questions/gnome.yml:58
-msgid "Fixing Bugs"
-msgstr "결점 수정하기"
-
-#. subtitle
-#: questions/gnome.yml:58
-msgid "Join our Bugsquad!"
-msgstr "Bugsquad에 가입하세요!"
-
-#. title
-#: questions/gnome.yml:61
-msgid "Good Tests"
-msgstr "좋은 시험"
-
-#. subtitle
-#: questions/gnome.yml:61
-msgid "The QA team might be right for you."
-msgstr "QA 팀이 당신을 위해 있습니다."
-
-#. title
-#: questions/gnome.yml:64
-msgid "System Administration"
-msgstr "시스템 관리"
-
-#. subtitle
-#: questions/gnome.yml:64
-msgid "Help us managing our infrastructure!"
-msgstr "우리의 인프라스트럭처 관리를 도와주세요!"
 
 #. title
 #: questions/includes/fedora/advocacy.yml:3
@@ -1188,6 +980,12 @@ msgstr "위키 페이지"
 msgid "usually from English to another language"
 msgstr "일반적으로 영어에서 다른 언어로"
 
+#. title
+#: questions/includes/fedora/translation.yml:19
+#: questions/includes/fedora/writing.yml:3
+msgid "Documentation"
+msgstr "문서"
+
 #. subtitle
 #: questions/includes/fedora/translation.yml:19
 msgid "all the guides and release notes"
@@ -1655,6 +1453,136 @@ msgstr "AskNOT 사이트"
 #: questions/includes/fedora/coding/web.yml:40
 msgid "this thing -- the page you're looking at right now!"
 msgstr "이 것 --지금 보고 있는 부분!"
+
+#~ msgid "What can I do for coala?"
+#~ msgstr "코알라를 위해 무엇을 할 수 있나요?"
+
+#~ msgid "Join"
+#~ msgstr "참가"
+
+#~ msgid "coala documentation"
+#~ msgstr "코알라 문서"
+
+#~ msgid "Get Live Help!"
+#~ msgstr "실시간 도움 얻기!"
+
+#~ msgid "Want to help coala?"
+#~ msgstr "코알라 돕기를 원하나요?"
+
+#~ msgid "What do you care about?"
+#~ msgstr "무엇에 관심이 있나요?"
+
+#~ msgid "Visuals!"
+#~ msgstr "미남!"
+
+#~ msgid "The coala artwork team is just for you!"
+#~ msgstr "코알라 작품 팀은 당신을 위해 있습니다!"
+
+#~ msgid "Good, Generic Code"
+#~ msgstr "좋아요, 일반적인 코드"
+
+#~ msgid ""
+#~ "Help us improving code quality in the world! Join the core developers."
+#~ msgstr "세상에 코드 품질 향상에 도움을 줍니다 핵심 개발자에 참가하세요."
+
+#~ msgid "Reaching Users"
+#~ msgstr "사용자에게 도달"
+
+#~ msgid "Write documentation that is understandable by everyone."
+#~ msgstr "모든 사람에 의해 이해 할 수 있는 문서를 작성합니다."
+
+#~ msgid "Crazy Algorithms"
+#~ msgstr "미친 알고리즘"
+
+#~ msgid ""
+#~ "Let's write code analytics. We write the framework, there's bare logic "
+#~ "left for you."
+#~ msgstr ""
+#~ "코드 분석을 작성해 봅시다. 우리는 프레임워크를 작성하고, 당신을 위해 남은 "
+#~ "논리가 있습니다."
+
+#~ msgid "Scientific Progress"
+#~ msgstr "과학적인 진행"
+
+#~ msgid ""
+#~ "Join our coAST team and create language independent program analysis."
+#~ msgstr ""
+#~ "coAST 팀에 합류하세요. 그리고 언어 독립적인 프로그램 분석을 생성하세요."
+
+#~ msgid "Money"
+#~ msgstr "돈"
+
+#~ msgid "Help us through donations at gratipay."
+#~ msgstr "gratipay 에서 기부를 통해 우리를 도울 수 있습니다."
+
+#~ msgid "What can I do for GNOME?"
+#~ msgstr "그놈을 위해 내가 할 수 있는게 무엇인가요?"
+
+#~ msgid "Get GNOME"
+#~ msgstr "그놈 얻기"
+
+#~ msgid "GNOME.org"
+#~ msgstr "GNOME.org"
+
+#~ msgid "Want to help GNOME?"
+#~ msgstr "그놈을 돕고 싶은가요?"
+
+#~ msgid "First tell us what you like!"
+#~ msgstr "당신이 좋아하는 것을 우리에게 말해주세요!"
+
+#~ msgid "Design and Usability"
+#~ msgstr "디자인 및 사용성"
+
+#~ msgid "Making sure we focus on users."
+#~ msgstr "사용자에게 집중하도록 만들기."
+
+#~ msgid "Want to help with your english skills?"
+#~ msgstr "영어 실력으로 돕기를 원하나요?"
+
+#~ msgid "Articles"
+#~ msgstr "조항"
+
+#~ msgid "Want to help with the engagement team?"
+#~ msgstr "참여 팀에 도움이 필요한가요?"
+
+#~ msgid "Get all the hidden features to the users!"
+#~ msgstr "숨겨진 기능을 사용자에게 제공합니다!"
+
+#~ msgid "Languages"
+#~ msgstr "언어 지원"
+
+#~ msgid "You could help translating!"
+#~ msgstr "번역을 도울 수 있습니다!"
+
+#~ msgid "Code"
+#~ msgstr "규약"
+
+#~ msgid "Get your hands dirty!"
+#~ msgstr "손이 더러워집니다!"
+
+#~ msgid "Making Things Stable"
+#~ msgstr "안정적으로 만들기"
+
+#~ msgid "May GNOME never crash again"
+#~ msgstr "그놈이 다시 충돌하지 않게 합니다"
+
+#~ msgid "Fixing Bugs"
+#~ msgstr "결점 수정하기"
+
+#~ msgid "Join our Bugsquad!"
+#~ msgstr "Bugsquad에 가입하세요!"
+
+#~ msgid "Good Tests"
+#~ msgstr "좋은 시험"
+
+#~ msgid "The QA team might be right for you."
+#~ msgstr "QA 팀이 당신을 위해 있습니다."
+
+#~ msgid "System Administration"
+#~ msgstr "시스템 관리"
+
+#~ msgid "Help us managing our infrastructure!"
+#~ msgstr "우리의 인프라스트럭처 관리를 도와주세요!"
 
 #~ msgid "we all have our favorite"
 #~ msgstr "우리는 모두 각자 좋아하는 것이 있죠"
