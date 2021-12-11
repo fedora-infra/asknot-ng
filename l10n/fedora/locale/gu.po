@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-11-04 12:47+0100\n"
+"POT-Creation-Date: 2021-11-13 10:53+0100\n"
 "PO-Revision-Date: 2018-01-14 09:57+0000\n"
 "Last-Translator: Pranjal Vyas <vyaspranjal33@gmail.com>\n"
 "Language-Team: Gujarati\n"
@@ -16,187 +16,94 @@ msgstr ""
 
 #. title
 #. description
-#: questions/coala.yml:1
-msgid "What can I do for coala?"
-msgstr "કોઆલા માટે હું શું કરી શકું ?"
+#: questions/fedora.yml:1
+msgid "What can I do for Fedora?"
+msgstr "ફેડોરા  માટે હું  શું  કરી શકું  ?"
 
 #. negative
-#: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
+#: questions/fedora.yml:1
 msgid "No"
 msgstr "ના "
 
 #. negative
-#: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
+#: questions/fedora.yml:1
 msgid "Nope, nope, nope"
 msgstr "નહિ નહિ  નહિ "
 
 #. negative
-#: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
+#: questions/fedora.yml:1
 msgid "Nope"
 msgstr "નહિ "
 
 #. negative
-#: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
+#: questions/fedora.yml:1
 msgid "No, thanks"
 msgstr "ના , ધન્યવાદ "
 
 #. negative
-#: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
+#: questions/fedora.yml:1
 msgid "Not on your life"
 msgstr "તમારા  જીવન  પર નથી "
 
 #. negative
-#: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
+#: questions/fedora.yml:1
 msgid "Doesn't sound like me"
 msgstr "મારી જેવું  સંભળાતું  નથી "
 
 #. negative
-#: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
+#: questions/fedora.yml:1
 msgid "Absolutely not"
 msgstr "બિલકુલ  નહીં "
 
 #. negative
-#: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
+#: questions/fedora.yml:1
 msgid "Next, please"
 msgstr "આગળ ,વિનંતી "
 
 #. affirmative
-#: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
+#: questions/fedora.yml:1
 msgid "Yes"
 msgstr "હા "
 
 #. affirmative
-#: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
+#: questions/fedora.yml:1
 msgid "Sounds awesome"
 msgstr "ભયંકર  સંભળાય  છે "
 
 #. affirmative
-#: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
+#: questions/fedora.yml:1
 msgid "Tell me more"
 msgstr "મને  વધુ  કહો "
 
 #. affirmative
-#: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
+#: questions/fedora.yml:1
 msgid "That's me!"
 msgstr "એ  હું  જ "
 
 #. affirmative
-#: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
+#: questions/fedora.yml:1
 msgid "Totally"
 msgstr "સંપૂર્ણપણે "
 
 #. affirmative
-#: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
+#: questions/fedora.yml:1
 msgid "Sure"
 msgstr "ચોક્કસ "
 
 #. backlink
-#: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
+#: questions/fedora.yml:1
 msgid "I was wrong, take me back"
 msgstr "હું  ખોટો  હતો , મને પાછળ લઇ જાવ "
 
 #. backlink
-#: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
+#: questions/fedora.yml:1
 msgid "I think I made a mistake"
 msgstr "મને  લાગે  છે  મેં  ભૂલ  કરી "
 
 #. backlink
-#: questions/coala.yml:1 questions/fedora.yml:1 questions/gnome.yml:1
+#: questions/fedora.yml:1
 msgid "Get me outta here!"
 msgstr "મને  અહીંથી  બહાર  લઇ  જાવ "
-
-#. navlink
-#: questions/coala.yml:1 questions/gnome.yml:1
-msgid "Join"
-msgstr "જોડાઓ "
-
-#. navlink
-#: questions/coala.yml:1
-msgid "coala documentation"
-msgstr "કોઆલા દસ્તાવેજીકરણ "
-
-#. navlink
-#: questions/coala.yml:1
-msgid "Get Live Help!"
-msgstr "જીવંત  મદદ  મેળવો "
-
-#. segue1
-#: questions/coala.yml:33
-msgid "Want to help coala?"
-msgstr "કોઆલા ને મદદ કરવા માંગો છો ?"
-
-#. segue2
-#: questions/coala.yml:33
-msgid "What do you care about?"
-msgstr "તમે  શેના  વિશે  સંભાળ  લો છો ?"
-
-#. title
-#: questions/coala.yml:37
-msgid "Visuals!"
-msgstr "દ્રશ્યો "
-
-#. subtitle
-#: questions/coala.yml:37
-msgid "The coala artwork team is just for you!"
-msgstr "કોઆલા  કલાકામ  ટુકડી  ફક્ત તમારા  માટે છે "
-
-#. title
-#: questions/coala.yml:40
-msgid "Good, Generic Code"
-msgstr "સારો , યથાર્થ  કોડ "
-
-#. subtitle
-#: questions/coala.yml:40
-msgid "Help us improving code quality in the world! Join the core developers."
-msgstr "અમારી  મદદ  કરો વિશ્વ્  કોડ ગુણવતા સુધારવામાં  મુખ્ય  વિકાસકર્તાઓ  સાથે  જોડાઓ "
-
-#. title
-#: questions/coala.yml:43
-msgid "Reaching Users"
-msgstr "ઉપયોગકર્તાઓ પહોંચવું "
-
-#. subtitle
-#: questions/coala.yml:43
-msgid "Write documentation that is understandable by everyone."
-msgstr "દસ્તાવેજીકરણ લખો  જે  દરેક ને  સમજાય "
-
-#. title
-#: questions/coala.yml:46
-msgid "Crazy Algorithms"
-msgstr "પોકળ  ગાણિતિક નિયમો "
-
-#. subtitle
-#: questions/coala.yml:46
-msgid ""
-"Let's write code analytics. We write the framework, there's bare logic left "
-"for you."
-msgstr "ચાલો  કોડ વિશ્લેષણ  લખીએ. અમે  માળખું  લખીએ , તર્ક  તમારા  માટે રાખ્યા છે "
-
-#. title
-#: questions/coala.yml:49
-msgid "Scientific Progress"
-msgstr "વૈજ્ઞાનિક  પ્રગતિ "
-
-#. subtitle
-#: questions/coala.yml:49
-msgid "Join our coAST team and create language independent program analysis."
-msgstr "અમારી  coAST ટુકડી માં જોડાઓ  અને  ભાષા  સ્વાધીન પ્રોગ્રામ વિશ્લેષણ  બનાવો "
-
-#. title
-#: questions/coala.yml:52
-msgid "Money"
-msgstr "નાણાં "
-
-#. subtitle
-#: questions/coala.yml:52
-msgid "Help us through donations at gratipay."
-msgstr "  અમારી  સહાય  કરો  gratipay થી  દાન દ્વારા"
-
-#. title
-#. description
-#: questions/fedora.yml:1
-msgid "What can I do for Fedora?"
-msgstr "ફેડોરા  માટે હું  શું  કરી શકું  ?"
 
 #. navlink
 #: questions/fedora.yml:1
@@ -208,23 +115,33 @@ msgstr ""
 msgid "Get Fedora"
 msgstr "ફેડોરા  મેળવો "
 
+#. navlink
+#: questions/fedora.yml:1
+msgid "CoC"
+msgstr ""
+
+#. navlink
+#: questions/fedora.yml:1
+msgid "Chat"
+msgstr ""
+
 #. segue1
-#: questions/fedora.yml:32
+#: questions/fedora.yml:36
 msgid "Want to help Fedora?  Tell me..."
 msgstr "ફેડોરા  ને  મદદ  કરવા માંગો  છો ? મને  કહો..."
 
 #. segue2
-#: questions/fedora.yml:32
+#: questions/fedora.yml:36
 msgid "what's your area of interest?"
 msgstr "તમારા રસના ક્ષેત્રો  શું છે"
 
 #. title
-#: questions/fedora.yml:36
+#: questions/fedora.yml:40
 msgid "Design!"
 msgstr "આલેખન "
 
 #. segue1
-#: questions/fedora.yml:36
+#: questions/fedora.yml:40
 msgid ""
 "So you enjoy working on the way users interact with websites and programs?"
 msgstr ""
@@ -232,360 +149,238 @@ msgstr ""
 "જાણવાનું કામ કરવાનો આનંદ માણો છો  ?"
 
 #. segue2
-#: questions/fedora.yml:36
+#: questions/fedora.yml:40
 msgid "How about the..."
 msgstr "મારા  વિશે  કેવું  રહેશે..."
 
 #. subtitle
-#: questions/fedora.yml:36
+#: questions/fedora.yml:40
 msgid "pixel ninjas"
 msgstr "પિક્સેલ  નિન્જાસ "
 
 #. title
-#: questions/fedora.yml:43
+#: questions/fedora.yml:47
 msgid "Coding"
 msgstr "કોડીંગ "
 
 #. segue1
-#: questions/fedora.yml:43
+#: questions/fedora.yml:47
 msgid "Zeroes and ones #allday?  Me too."
 msgstr "શૂન્ય  અને  એક  #આખોદિવસ? હું પણ  "
 
 #. segue2
-#: questions/fedora.yml:43
+#: questions/fedora.yml:47
 msgid "What's your favorite language?"
 msgstr "તમારી  પ્રિય  ભાષા  કઈ  ?"
 
 #. subtitle
-#: questions/fedora.yml:43
+#: questions/fedora.yml:47
 msgid "hacking the gibson"
 msgstr "હેકિંગ  ગિબ્સન "
 
 #. title
-#: questions/fedora.yml:50
+#: questions/fedora.yml:54
 msgid "Community Ops"
 msgstr "સમુદાય  કામગીરી "
 
 #. segue1
-#: questions/fedora.yml:50
+#: questions/fedora.yml:54
 msgid "Have a knack for community-building?"
 msgstr "સમુદાય બાંધકામ  ની કુનેહ છે ?"
 
 #. segue2
-#: questions/fedora.yml:50 questions/includes/fedora/coding.yml:38
+#: questions/fedora.yml:54 questions/includes/fedora/coding.yml:38
 #: questions/includes/fedora/design.yml:3
 msgid "Would you like something more"
 msgstr "શું તમારે કંઈક વધુ જોયે છે ?"
 
 #. subtitle
-#: questions/fedora.yml:50
+#: questions/fedora.yml:54
 msgid "connecting the dots"
 msgstr "બિંદુઓ જોડી રહ્યા છીએ"
 
 #. title
-#: questions/fedora.yml:57 questions/gnome.yml:40
+#: questions/fedora.yml:61
 msgid "Writing"
 msgstr "લેખન"
 
 #. segue1
-#: questions/fedora.yml:57
+#: questions/fedora.yml:61
 msgid "So, you have a way with words?"
 msgstr ""
 "તો  તમે ઉપયોગકર્તા વેબસાઇટ્સ અને કાર્યક્રમો સાથે કેવી રીતે ક્રિયાપ્રતિક્રિયા કરે  છે તે "
 "જાણવાનું કામ કરવાનો આનંદ માણો છો  ?"
 
 #. segue2
-#: questions/fedora.yml:57 questions/fedora.yml:64
+#: questions/fedora.yml:61 questions/fedora.yml:68
 msgid "Would you be more interested in..."
 msgstr "તમને વધુ રસ છે"
 
 #. subtitle
-#: questions/fedora.yml:57
+#: questions/fedora.yml:61
 msgid "wordsmithery"
 msgstr "શબ્દો"
 
 #. title
-#: questions/fedora.yml:64
+#: questions/fedora.yml:68
 msgid "Translation"
 msgstr "અનુવાદન"
 
 #. segue1
-#: questions/fedora.yml:64
+#: questions/fedora.yml:68
 msgid "So you know more than one language?  We need you!"
 msgstr "શું તમે એક કરતા વધારે ભાષા જાણો છો ? અમારે તમારી જરૂર છે"
 
 #. subtitle
-#: questions/fedora.yml:64
+#: questions/fedora.yml:68
 msgid "we're an international effort, after all"
 msgstr "અમે આતંરરાષ્ટ્રીય પ્રયાસો કરીએ છીએ તો પછી"
 
 #. title
-#: questions/fedora.yml:71
+#: questions/fedora.yml:75
 msgid "Advocacy"
 msgstr "હિમાયત"
 
 #. segue1
-#: questions/fedora.yml:71
+#: questions/fedora.yml:75
 msgid "So you're a people person?"
 msgstr "તો તમે જન માનવ છો ?"
 
 #. segue2
-#: questions/fedora.yml:71
+#: questions/fedora.yml:75
 msgid "How about becoming a Fedora..."
 msgstr "ફેડોરા પ્રતિનિધ બનવું કેવું રેહશે ?"
 
 #. subtitle
-#: questions/fedora.yml:71
+#: questions/fedora.yml:75
 msgid "spreading the good word"
 msgstr "સારા શબ્દો ફેલાવો"
 
 #. title
-#: questions/fedora.yml:78
+#: questions/fedora.yml:82
 msgid "Packaging"
 msgstr "પેકેજિંગ"
 
 #. segue1
-#: questions/fedora.yml:78
+#: questions/fedora.yml:82
 msgid "So you want to help build the OS?  Excellent."
 msgstr "તો તમે OS બનાવવામાં મદદ કરવા માંગો છો? ઉત્તમ"
 
 #. segue2
-#: questions/fedora.yml:78
+#: questions/fedora.yml:82
 msgid "Then you'll need to become a Fedora..."
 msgstr "પછી તમારે Fedora બનવાની જરૂર પડશે .."
 
 #. subtitle
-#: questions/fedora.yml:78
+#: questions/fedora.yml:82
 msgid "getting new software into Fedora"
 msgstr "નવા સોફ્ટવેરને Fedora માં મેળવી રહ્યા છે"
 
 #. title
-#: questions/fedora.yml:85
+#: questions/fedora.yml:89
 msgid "QA and Testing"
 msgstr "ગુણવતા ચકાસણી અને પરીક્ષણ"
 
 #. segue1
-#: questions/fedora.yml:85
+#: questions/fedora.yml:89
 msgid "So you like to push all the buttons and break all the things?"
 msgstr "તેથી તમે બધા બટનો દબાણ અને બધી વસ્તુઓ તોડવા માંગો છો?"
 
 #. segue2
-#: questions/fedora.yml:85
+#: questions/fedora.yml:89
 msgid "Are you more interested in something..."
 msgstr "તમને વધુ રસ છે"
 
 #. subtitle
-#: questions/fedora.yml:85
+#: questions/fedora.yml:89
 msgid "as they say, \"if it's not tested, it's broken\""
 msgstr "જેમ તેઓ કહે છે, \"જો તે ચકાસાયેલ નથી, તો તે તૂટી જાય છે\""
 
 #. title
-#: questions/fedora.yml:92
+#: questions/fedora.yml:96
 msgid "Modularity"
 msgstr ""
 
 #. subtitle
-#: questions/fedora.yml:92
+#: questions/fedora.yml:96
 msgid "rethinking how we compose the distro"
 msgstr ""
 
 #. title
-#: questions/fedora.yml:97
+#: questions/fedora.yml:101
 msgid "The Desktop"
 msgstr "ડેસ્કટોપ"
 
 #. segue1
-#: questions/fedora.yml:97
+#: questions/fedora.yml:101
 msgid "So you're into making the OS polished and easy to use?"
 msgstr "તો તમે OS પોલિશડ અને વાપરવા માટે સરળ બનાવવા માં છો?"
 
 #. segue2
-#: questions/fedora.yml:97 questions/fedora.yml:104 questions/fedora.yml:111
-#: questions/fedora.yml:118
+#: questions/fedora.yml:101 questions/fedora.yml:108 questions/fedora.yml:115
+#: questions/fedora.yml:122
 msgid "You probably want to join the Fedora..."
 msgstr "તમે કદાચ Fedora માં જોડાવા માંગો છો ..."
 
 #. subtitle
-#: questions/fedora.yml:97
+#: questions/fedora.yml:101
 msgid "for those who are passionate about user and developer experience"
 msgstr ""
 
 #. title
-#: questions/fedora.yml:104
+#: questions/fedora.yml:108
 msgid "The Server"
 msgstr "સરવર"
 
 #. segue1
-#: questions/fedora.yml:104
+#: questions/fedora.yml:108
 msgid "So you're into making the OS powerful and flexible?"
 msgstr "તો  તમે OS શક્તિશાળી અને લવચીક બનાવવા માંગો છો?"
 
 #. subtitle
-#: questions/fedora.yml:104
+#: questions/fedora.yml:108
 msgid "the best and latest for the datacenter"
 msgstr "શ્રેષ્ઠ અને અદ્યતન data center માટે"
 
 #. title
-#: questions/fedora.yml:111
+#: questions/fedora.yml:115
 msgid "The Cloud"
 msgstr "કલાઉડ"
 
 #. segue1
-#: questions/fedora.yml:111
+#: questions/fedora.yml:115
 msgid "High-minded?"
 msgstr " મોટા મનનું"
 
 #. subtitle
-#: questions/fedora.yml:111
+#: questions/fedora.yml:115
 msgid "it's where the future lives"
 msgstr "તે ક્યાં, જ્યાં ભવિષ્યમાં રહે છે"
 
 #. title
-#: questions/fedora.yml:118
+#: questions/fedora.yml:122
 msgid "Internationalization"
 msgstr "આંતરરાષ્ટ્રીયકરણ"
 
 #. segue1
-#: questions/fedora.yml:118
+#: questions/fedora.yml:122
 msgid "Have a regional or world perspective?"
 msgstr "એક પ્રાદેશિક અથવા વૈશ્વિક પરિપ્રેક્ષ્ય છે?"
 
 #. subtitle
-#: questions/fedora.yml:118
+#: questions/fedora.yml:122
 msgid "making Fedora work better for all languages"
 msgstr "બધી ભાષાઓ માટે Fedora  વધુ સારું કામ કરે "
 
 #. title
-#: questions/fedora.yml:125
+#: questions/fedora.yml:129
 msgid "Instruction"
 msgstr ""
 
 #. subtitle
-#: questions/fedora.yml:125
+#: questions/fedora.yml:129
 msgid "spread your knowledge to others in the community"
 msgstr ""
-
-#. title
-#. description
-#: questions/gnome.yml:1
-msgid "What can I do for GNOME?"
-msgstr "Gnome માટે હું શું કરી શકું ?"
-
-#. navlink
-#: questions/gnome.yml:1
-msgid "Get GNOME"
-msgstr "GNOME પ્રાપ્ત કરો"
-
-#. navlink
-#: questions/gnome.yml:1
-msgid "GNOME.org"
-msgstr "GNOME.org"
-
-#. segue1
-#: questions/gnome.yml:33
-msgid "Want to help GNOME?"
-msgstr "GNOME ની સહાયતા કરવા માંગો છો"
-
-#. segue2
-#: questions/gnome.yml:33
-msgid "First tell us what you like!"
-msgstr "પેહલા અમને કહો  તમને શું ગમે"
-
-#. title
-#: questions/gnome.yml:37
-msgid "Design and Usability"
-msgstr "આલેખન અને ઉપયોગિતા"
-
-#. subtitle
-#: questions/gnome.yml:37
-msgid "Making sure we focus on users."
-msgstr "ખાતરી કરો કે અમે વપરાશકર્તાઓ પર કેન્દ્રિત કરીએ છીએ"
-
-#. subtitle
-#: questions/gnome.yml:40
-msgid "Want to help with your english skills?"
-msgstr "તમારી અંગ્રેજીમાં કુશળતા થી મદદ કરવા માગો છો"
-
-#. title
-#: questions/gnome.yml:43
-msgid "Articles"
-msgstr "લેખો"
-
-#. subtitle
-#: questions/gnome.yml:43
-msgid "Want to help with the engagement team?"
-msgstr "જોડાણ ટુકડી ને મદદ કરવા માંગો છો ?"
-
-#. title
-#: questions/gnome.yml:46 questions/includes/fedora/translation.yml:19
-#: questions/includes/fedora/writing.yml:3
-msgid "Documentation"
-msgstr "દસ્તાવેજીકરણ"
-
-#. subtitle
-#: questions/gnome.yml:46
-msgid "Get all the hidden features to the users!"
-msgstr "બધા છુપાયેલા લક્ષણો વપરાશકર્તાઓ માટે મેળવો!"
-
-#. title
-#: questions/gnome.yml:49
-msgid "Languages"
-msgstr "ભાષાઓ"
-
-#. subtitle
-#: questions/gnome.yml:49
-msgid "You could help translating!"
-msgstr "તમે ભાષાંતર મા મદદ કરી શકો છો"
-
-#. title
-#: questions/gnome.yml:52
-msgid "Code"
-msgstr "કોડ"
-
-#. subtitle
-#: questions/gnome.yml:52
-msgid "Get your hands dirty!"
-msgstr "તમારા હાથ અજમાવો"
-
-#. title
-#: questions/gnome.yml:55
-msgid "Making Things Stable"
-msgstr "વસ્તુઓ સ્થિર બનાવો"
-
-#. subtitle
-#: questions/gnome.yml:55
-msgid "May GNOME never crash again"
-msgstr "GNOME ક્યારેય ભાંગે નહી"
-
-#. title
-#: questions/gnome.yml:58
-msgid "Fixing Bugs"
-msgstr "બગ્સ જોડો"
-
-#. subtitle
-#: questions/gnome.yml:58
-msgid "Join our Bugsquad!"
-msgstr "અમારી બગ્સ ટુકડી મા જોડાઓ"
-
-#. title
-#: questions/gnome.yml:61
-msgid "Good Tests"
-msgstr "સારા પરીક્ષણો"
-
-#. subtitle
-#: questions/gnome.yml:61
-msgid "The QA team might be right for you."
-msgstr "ગુણવતા  ખાત્રીકર્ણ ટુકડી તમારા માટે યોગ્ય હોઈ શકે છે"
-
-#. title
-#: questions/gnome.yml:64
-msgid "System Administration"
-msgstr "સિસ્ટમ વહીવટીતંત્ર"
-
-#. subtitle
-#: questions/gnome.yml:64
-msgid "Help us managing our infrastructure!"
-msgstr "અમારા માળખા નું સંચાલન કરવામાં અમને સહાય કરો!"
 
 #. title
 #: questions/includes/fedora/advocacy.yml:3
@@ -1178,6 +973,12 @@ msgstr "વિકી પાનાં"
 msgid "usually from English to another language"
 msgstr "સામાન્ય રીતે અંગ્રેજીમાં થી અન્ય ભાષામાં"
 
+#. title
+#: questions/includes/fedora/translation.yml:19
+#: questions/includes/fedora/writing.yml:3
+msgid "Documentation"
+msgstr "દસ્તાવેજીકરણ"
+
 #. subtitle
 #: questions/includes/fedora/translation.yml:19
 msgid "all the guides and release notes"
@@ -1652,6 +1453,134 @@ msgstr "પૂછો નહીં સાઈટ"
 #: questions/includes/fedora/coding/web.yml:40
 msgid "this thing -- the page you're looking at right now!"
 msgstr "આ વસ્તુ - તમે હમણાં જોઈ રહ્યાં છો તે પૃષ્ઠ!"
+
+#~ msgid "What can I do for coala?"
+#~ msgstr "કોઆલા માટે હું શું કરી શકું ?"
+
+#~ msgid "Join"
+#~ msgstr "જોડાઓ "
+
+#~ msgid "coala documentation"
+#~ msgstr "કોઆલા દસ્તાવેજીકરણ "
+
+#~ msgid "Get Live Help!"
+#~ msgstr "જીવંત  મદદ  મેળવો "
+
+#~ msgid "Want to help coala?"
+#~ msgstr "કોઆલા ને મદદ કરવા માંગો છો ?"
+
+#~ msgid "What do you care about?"
+#~ msgstr "તમે  શેના  વિશે  સંભાળ  લો છો ?"
+
+#~ msgid "Visuals!"
+#~ msgstr "દ્રશ્યો "
+
+#~ msgid "The coala artwork team is just for you!"
+#~ msgstr "કોઆલા  કલાકામ  ટુકડી  ફક્ત તમારા  માટે છે "
+
+#~ msgid "Good, Generic Code"
+#~ msgstr "સારો , યથાર્થ  કોડ "
+
+#~ msgid ""
+#~ "Help us improving code quality in the world! Join the core developers."
+#~ msgstr ""
+#~ "અમારી  મદદ  કરો વિશ્વ્  કોડ ગુણવતા સુધારવામાં  મુખ્ય  વિકાસકર્તાઓ  સાથે  જોડાઓ "
+
+#~ msgid "Reaching Users"
+#~ msgstr "ઉપયોગકર્તાઓ પહોંચવું "
+
+#~ msgid "Write documentation that is understandable by everyone."
+#~ msgstr "દસ્તાવેજીકરણ લખો  જે  દરેક ને  સમજાય "
+
+#~ msgid "Crazy Algorithms"
+#~ msgstr "પોકળ  ગાણિતિક નિયમો "
+
+#~ msgid ""
+#~ "Let's write code analytics. We write the framework, there's bare logic "
+#~ "left for you."
+#~ msgstr "ચાલો  કોડ વિશ્લેષણ  લખીએ. અમે  માળખું  લખીએ , તર્ક  તમારા  માટે રાખ્યા છે "
+
+#~ msgid "Scientific Progress"
+#~ msgstr "વૈજ્ઞાનિક  પ્રગતિ "
+
+#~ msgid ""
+#~ "Join our coAST team and create language independent program analysis."
+#~ msgstr "અમારી  coAST ટુકડી માં જોડાઓ  અને  ભાષા  સ્વાધીન પ્રોગ્રામ વિશ્લેષણ  બનાવો "
+
+#~ msgid "Money"
+#~ msgstr "નાણાં "
+
+#~ msgid "Help us through donations at gratipay."
+#~ msgstr "  અમારી  સહાય  કરો  gratipay થી  દાન દ્વારા"
+
+#~ msgid "What can I do for GNOME?"
+#~ msgstr "Gnome માટે હું શું કરી શકું ?"
+
+#~ msgid "Get GNOME"
+#~ msgstr "GNOME પ્રાપ્ત કરો"
+
+#~ msgid "GNOME.org"
+#~ msgstr "GNOME.org"
+
+#~ msgid "Want to help GNOME?"
+#~ msgstr "GNOME ની સહાયતા કરવા માંગો છો"
+
+#~ msgid "First tell us what you like!"
+#~ msgstr "પેહલા અમને કહો  તમને શું ગમે"
+
+#~ msgid "Design and Usability"
+#~ msgstr "આલેખન અને ઉપયોગિતા"
+
+#~ msgid "Making sure we focus on users."
+#~ msgstr "ખાતરી કરો કે અમે વપરાશકર્તાઓ પર કેન્દ્રિત કરીએ છીએ"
+
+#~ msgid "Want to help with your english skills?"
+#~ msgstr "તમારી અંગ્રેજીમાં કુશળતા થી મદદ કરવા માગો છો"
+
+#~ msgid "Articles"
+#~ msgstr "લેખો"
+
+#~ msgid "Want to help with the engagement team?"
+#~ msgstr "જોડાણ ટુકડી ને મદદ કરવા માંગો છો ?"
+
+#~ msgid "Get all the hidden features to the users!"
+#~ msgstr "બધા છુપાયેલા લક્ષણો વપરાશકર્તાઓ માટે મેળવો!"
+
+#~ msgid "Languages"
+#~ msgstr "ભાષાઓ"
+
+#~ msgid "You could help translating!"
+#~ msgstr "તમે ભાષાંતર મા મદદ કરી શકો છો"
+
+#~ msgid "Code"
+#~ msgstr "કોડ"
+
+#~ msgid "Get your hands dirty!"
+#~ msgstr "તમારા હાથ અજમાવો"
+
+#~ msgid "Making Things Stable"
+#~ msgstr "વસ્તુઓ સ્થિર બનાવો"
+
+#~ msgid "May GNOME never crash again"
+#~ msgstr "GNOME ક્યારેય ભાંગે નહી"
+
+#~ msgid "Fixing Bugs"
+#~ msgstr "બગ્સ જોડો"
+
+#~ msgid "Join our Bugsquad!"
+#~ msgstr "અમારી બગ્સ ટુકડી મા જોડાઓ"
+
+#~ msgid "Good Tests"
+#~ msgstr "સારા પરીક્ષણો"
+
+#~ msgid "The QA team might be right for you."
+#~ msgstr "ગુણવતા  ખાત્રીકર્ણ ટુકડી તમારા માટે યોગ્ય હોઈ શકે છે"
+
+#~ msgid "System Administration"
+#~ msgstr "સિસ્ટમ વહીવટીતંત્ર"
+
+#~ msgid "Help us managing our infrastructure!"
+#~ msgstr "અમારા માળખા નું સંચાલન કરવામાં અમને સહાય કરો!"
 
 #~ msgid "we all have our favorite"
 #~ msgstr "આપણા બધા પાસે આપણું પ્રિય છે"
