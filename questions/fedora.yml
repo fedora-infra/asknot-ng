@@ -100,21 +100,21 @@ tree:
 
         - title: The Desktop
           subtitle: for those who are passionate about user and developer experience
-          image: https://getfedora.org/static/images/logo-color-workstation.png
+          # image: https://getfedora.org/static/images/logo-color-workstation.png
           segue1: So you're into making the OS polished and easy to use?
           segue2: You probably want to join the Fedora...
           children: includes/fedora/desktop.yml
 
         - title: The Server
           subtitle: the best and latest for the datacenter
-          image: https://getfedora.org/static/images/logo-color-server.png
+          # image: https://getfedora.org/static/images/logo-color-server.png
           segue1: So you're into making the OS powerful and flexible?
           segue2: You probably want to join the Fedora...
           children: includes/fedora/server.yml
 
         - title: The Cloud
           subtitle: it's where the future lives
-          image: https://getfedora.org/static/images/logo-color-cloud.png
+          # image: https://getfedora.org/static/images/logo-color-cloud.png
           segue1: High-minded?
           segue2: You probably want to join the Fedora...
           children: includes/fedora/cloud.yml
