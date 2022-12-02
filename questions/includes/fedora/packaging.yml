@@ -2,4 +2,4 @@ tree:
   children:
     - title: Package Maintainer
       subtitle: steward of the packages in Fedora
-      link: https://fedoraproject.org/wiki/Join_the_package_collection_maintainers#How_to_join_the_Fedora_Package_Collection_Maintainers.3F
+      link: https://docs.fedoraproject.org/en-US/package-maintainers/Joining_the_Package_Maintainers/
