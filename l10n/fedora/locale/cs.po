@@ -865,11 +865,6 @@ msgstr "Potřebujeme, aby někdo hackoval"
 msgid "for continuous awesomeness"
 msgstr "pro nekončící úžasnost"
 
-#. title
-#: questions/includes/fedora/qa.yml:29
-msgid "Taskotron"
-msgstr "Taskotron"
-
 #. subtitle
 #: questions/includes/fedora/qa.yml:29
 msgid "a framework for automated task execution"

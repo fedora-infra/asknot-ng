@@ -848,11 +848,6 @@ msgstr ""
 msgid "for continuous awesomeness"
 msgstr ""
 
-#. title
-#: questions/includes/fedora/qa.yml:29
-msgid "Taskotron"
-msgstr ""
-
 #. subtitle
 #: questions/includes/fedora/qa.yml:29
 msgid "a framework for automated task execution"

@@ -860,11 +860,6 @@ msgstr "우리는 문제를 해결할 사람이 필요합니다"
 msgid "for continuous awesomeness"
 msgstr "연속적인 근사함을 위해"
 
-#. title
-#: questions/includes/fedora/qa.yml:29
-msgid "Taskotron"
-msgstr "Taskotron"
-
 #. subtitle
 #: questions/includes/fedora/qa.yml:29
 msgid "a framework for automated task execution"

@@ -26,9 +26,6 @@ tree:
           segue2: We need people to hack on
 
           children:
-            - title: Taskotron
-              subtitle: a framework for automated task execution
-              link: https://fedoraproject.org/wiki/Taskotron
             - title: BlockerBugs
               subtitle: used to propose and track release blocking bugs
               link: https://qa.fedoraproject.org/blockerbugs/

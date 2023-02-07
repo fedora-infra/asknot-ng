@@ -878,11 +878,6 @@ msgstr "Precisamos de pessoas para invadir"
 msgid "for continuous awesomeness"
 msgstr "por um avanço contínuo"
 
-#. title
-#: questions/includes/fedora/qa.yml:29
-msgid "Taskotron"
-msgstr "Taskotron"
-
 #. subtitle
 #: questions/includes/fedora/qa.yml:29
 msgid "a framework for automated task execution"

@@ -853,11 +853,6 @@ msgstr "અમને જરૂર છે લોકો ની હેક કરવ
 msgid "for continuous awesomeness"
 msgstr "સતત શ્રેષ્ઠતા માટે"
 
-#. title
-#: questions/includes/fedora/qa.yml:29
-msgid "Taskotron"
-msgstr "ટાસ્ક ઓ ટ્રોન"
-
 #. subtitle
 #: questions/includes/fedora/qa.yml:29
 msgid "a framework for automated task execution"
