@@ -1069,11 +1069,6 @@ msgstr "Retoques de la Wiki"
 msgid "it tends to get a little overgrown"
 msgstr "tiende a ser un jardín un poco descuidado"
 
-#. title
-#: questions/includes/fedora/writing.yml:22
-msgid "A Beat"
-msgstr "Un golpe"
-
 #. subtitle
 #: questions/includes/fedora/writing.yml:22
 msgid "a section of the release notes and a good place for new contributors"

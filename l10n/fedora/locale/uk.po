@@ -1064,11 +1064,6 @@ msgstr "Вікісадівництво"
 msgid "it tends to get a little overgrown"
 msgstr "вікі завжди намагається надто розростися"
 
-#. title
-#: questions/includes/fedora/writing.yml:22
-msgid "A Beat"
-msgstr "Частинка"
-
 #. subtitle
 #: questions/includes/fedora/writing.yml:22
 msgid "a section of the release notes and a good place for new contributors"

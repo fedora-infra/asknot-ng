@@ -19,9 +19,6 @@ tree:
             - title: Wiki Gardening
               subtitle: it tends to get a little overgrown
               link: https://fedoraproject.org/wiki/Wiki_gardening_tasks
-            - title: A Beat
-              subtitle: a section of the release notes and a good place for new contributors
-              link: https://fedoraproject.org/wiki/Category:Documentation_beats
             - title: A Guide
               subtitle: a more technical type of documentation
               link: https://fedoraproject.org/wiki/Category:Docs_Project_tasks#Guides

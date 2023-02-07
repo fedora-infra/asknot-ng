@@ -1053,11 +1053,6 @@ msgstr "위키 원예"
 msgid "it tends to get a little overgrown"
 msgstr "조금 자란 것 같은 경향이 있습니다"
 
-#. title
-#: questions/includes/fedora/writing.yml:22
-msgid "A Beat"
-msgstr "박자"
-
 #. subtitle
 #: questions/includes/fedora/writing.yml:22
 msgid "a section of the release notes and a good place for new contributors"

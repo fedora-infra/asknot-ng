@@ -1068,11 +1068,6 @@ msgstr "Wiki gardening"
 msgid "it tends to get a little overgrown"
 msgstr "het wordt vaak een beetje overwoekerd"
 
-#. title
-#: questions/includes/fedora/writing.yml:22
-msgid "A Beat"
-msgstr "Een beat"
-
 #. subtitle
 #: questions/includes/fedora/writing.yml:22
 msgid "a section of the release notes and a good place for new contributors"

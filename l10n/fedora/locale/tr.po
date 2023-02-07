@@ -1065,11 +1065,6 @@ msgstr "Wiki Bakımı"
 msgid "it tends to get a little overgrown"
 msgstr "biraz fazla büyüme eğilimine sahiptir"
 
-#. title
-#: questions/includes/fedora/writing.yml:22
-msgid "A Beat"
-msgstr "Bir Not"
-
 #. subtitle
 #: questions/includes/fedora/writing.yml:22
 msgid "a section of the release notes and a good place for new contributors"
