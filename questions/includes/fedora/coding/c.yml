@@ -14,7 +14,7 @@ tree:
 
     - title: GNOME
       subtitle: an easy and elegant way to use your computer
-      link: http://www.gnome.org/gnome-3/source/
+      link: https://gitlab.gnome.org/
 
     - title: The Linux Kernel
       subtitle: that thing that connects application software to the hardware of a computer
