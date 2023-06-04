@@ -1,13 +1,14 @@
 # Toni Rantala <trantalafilo@gmail.com>, 2017. #zanata
 # Jiri Grönroos <jiri.gronroos@iki.fi>, 2018. #zanata
 # Jan Kuparinen <copper_fin@hotmail.com>, 2021.
+# Ricky Tigg <ricky.tigg@gmail.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-11-13 10:53+0100\n"
-"PO-Revision-Date: 2021-12-02 19:16+0000\n"
-"Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
+"PO-Revision-Date: 2022-02-02 08:16+0000\n"
+"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
 "fedora-infra/asknot-ng/fi/>\n"
 "Language: fi\n"
@@ -15,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9.1\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #. title
 #. description
@@ -676,7 +677,7 @@ msgstr "Suunnitelutiimi"
 #. segue1
 #: questions/includes/fedora/design.yml:3
 msgid "Ok."
-msgstr "Ok."
+msgstr "Sopii."
 
 #. subtitle
 #: questions/includes/fedora/design.yml:3
