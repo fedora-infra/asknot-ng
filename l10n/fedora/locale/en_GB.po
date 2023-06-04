@@ -1,24 +1,25 @@
-# Andi Chandler <andi@gowling.com>, 2018. #zanata
+# Andi Chandler <andi@gowling.com>, 2018. #zanata, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-11-13 10:53+0100\n"
-"PO-Revision-Date: 2018-08-28 10:38+0000\n"
+"PO-Revision-Date: 2023-06-04 19:20+0000\n"
 "Last-Translator: Andi Chandler <andi@gowling.com>\n"
-"Language-Team: English (United Kingdom)\n"
+"Language-Team: English (United Kingdom) <https://translate.fedoraproject.org/"
+"projects/fedora-infra/asknot-ng/en_GB/>\n"
 "Language: en_GB\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.17\n"
 
 #. title
 #. description
 #: questions/fedora.yml:1
 msgid "What can I do for Fedora?"
-msgstr ""
+msgstr "What can I do for Fedora?"
 
 #. negative
 #: questions/fedora.yml:1
@@ -108,353 +109,354 @@ msgstr "Get me outta here!"
 #. navlink
 #: questions/fedora.yml:1
 msgid "Home"
-msgstr ""
+msgstr "Home"
 
 #. navlink
 #: questions/fedora.yml:1
 msgid "Get Fedora"
-msgstr ""
+msgstr "Get Fedora"
 
 #. navlink
 #: questions/fedora.yml:1
 msgid "CoC"
-msgstr ""
+msgstr "CoC"
 
 #. navlink
 #: questions/fedora.yml:1
 msgid "Chat"
-msgstr ""
+msgstr "Chat"
 
 #. segue1
 #: questions/fedora.yml:36
 msgid "Want to help Fedora?  Tell me..."
-msgstr ""
+msgstr "Want to help Fedora?  Tell me..."
 
 #. segue2
 #: questions/fedora.yml:36
 msgid "what's your area of interest?"
-msgstr ""
+msgstr "what's your area of interest?"
 
 #. title
 #: questions/fedora.yml:40
 msgid "Design!"
-msgstr ""
+msgstr "Design!"
 
 #. segue1
 #: questions/fedora.yml:40
 msgid ""
 "So you enjoy working on the way users interact with websites and programs?"
 msgstr ""
+"So you enjoy working on the way users interact with websites and programs?"
 
 #. segue2
 #: questions/fedora.yml:40
 msgid "How about the..."
-msgstr ""
+msgstr "How about the..."
 
 #. subtitle
 #: questions/fedora.yml:40
 msgid "pixel ninjas"
-msgstr ""
+msgstr "pixel ninjas"
 
 #. title
 #: questions/fedora.yml:47
 msgid "Coding"
-msgstr ""
+msgstr "Coding"
 
 #. segue1
 #: questions/fedora.yml:47
 msgid "Zeroes and ones #allday?  Me too."
-msgstr ""
+msgstr "Zeroes and ones #allday?  Me too."
 
 #. segue2
 #: questions/fedora.yml:47
 msgid "What's your favorite language?"
-msgstr ""
+msgstr "What's your favourite language?"
 
 #. subtitle
 #: questions/fedora.yml:47
 msgid "hacking the gibson"
-msgstr ""
+msgstr "hacking the gibson"
 
 #. title
 #: questions/fedora.yml:54
 msgid "Community Ops"
-msgstr ""
+msgstr "Community Ops"
 
 #. segue1
 #: questions/fedora.yml:54
 msgid "Have a knack for community-building?"
-msgstr ""
+msgstr "Have a knack for community-building?"
 
 #. segue2
 #: questions/fedora.yml:54 questions/includes/fedora/coding.yml:38
 #: questions/includes/fedora/design.yml:3
 msgid "Would you like something more"
-msgstr ""
+msgstr "Would you like something more"
 
 #. subtitle
 #: questions/fedora.yml:54
 msgid "connecting the dots"
-msgstr ""
+msgstr "connecting the dots"
 
 #. title
 #: questions/fedora.yml:61
 msgid "Writing"
-msgstr ""
+msgstr "Writing"
 
 #. segue1
 #: questions/fedora.yml:61
 msgid "So, you have a way with words?"
-msgstr ""
+msgstr "So, you have a way with words?"
 
 #. segue2
 #: questions/fedora.yml:61 questions/fedora.yml:68
 msgid "Would you be more interested in..."
-msgstr ""
+msgstr "Would you be more interested in..."
 
 #. subtitle
 #: questions/fedora.yml:61
 msgid "wordsmithery"
-msgstr ""
+msgstr "wordsmithery"
 
 #. title
 #: questions/fedora.yml:68
 msgid "Translation"
-msgstr ""
+msgstr "Translation"
 
 #. segue1
 #: questions/fedora.yml:68
 msgid "So you know more than one language?  We need you!"
-msgstr ""
+msgstr "So you know more than one language?  We need you!"
 
 #. subtitle
 #: questions/fedora.yml:68
 msgid "we're an international effort, after all"
-msgstr ""
+msgstr "we're an international effort, after all"
 
 #. title
 #: questions/fedora.yml:75
 msgid "Advocacy"
-msgstr ""
+msgstr "Advocacy"
 
 #. segue1
 #: questions/fedora.yml:75
 msgid "So you're a people person?"
-msgstr ""
+msgstr "So you're a people person?"
 
 #. segue2
 #: questions/fedora.yml:75
 msgid "How about becoming a Fedora..."
-msgstr ""
+msgstr "How about becoming a Fedora..."
 
 #. subtitle
 #: questions/fedora.yml:75
 msgid "spreading the good word"
-msgstr ""
+msgstr "spreading the good word"
 
 #. title
 #: questions/fedora.yml:82
 msgid "Packaging"
-msgstr ""
+msgstr "Packaging"
 
 #. segue1
 #: questions/fedora.yml:82
 msgid "So you want to help build the OS?  Excellent."
-msgstr ""
+msgstr "So you want to help build the OS?  Excellent."
 
 #. segue2
 #: questions/fedora.yml:82
 msgid "Then you'll need to become a Fedora..."
-msgstr ""
+msgstr "Then you'll need to become a Fedora..."
 
 #. subtitle
 #: questions/fedora.yml:82
 msgid "getting new software into Fedora"
-msgstr ""
+msgstr "getting new software into Fedora"
 
 #. title
 #: questions/fedora.yml:89
 msgid "QA and Testing"
-msgstr ""
+msgstr "QA and Testing"
 
 #. segue1
 #: questions/fedora.yml:89
 msgid "So you like to push all the buttons and break all the things?"
-msgstr ""
+msgstr "So you like to push all the buttons and break all the things?"
 
 #. segue2
 #: questions/fedora.yml:89
 msgid "Are you more interested in something..."
-msgstr ""
+msgstr "Are you more interested in something..."
 
 #. subtitle
 #: questions/fedora.yml:89
 msgid "as they say, \"if it's not tested, it's broken\""
-msgstr ""
+msgstr "as they say, \"if it's not tested, it's broken\""
 
 #. title
 #: questions/fedora.yml:96
 msgid "Modularity"
-msgstr ""
+msgstr "Modularity"
 
 #. subtitle
 #: questions/fedora.yml:96
 msgid "rethinking how we compose the distro"
-msgstr ""
+msgstr "rethinking how we compose the distro"
 
 #. title
 #: questions/fedora.yml:101
 msgid "The Desktop"
-msgstr ""
+msgstr "The Desktop"
 
 #. segue1
 #: questions/fedora.yml:101
 msgid "So you're into making the OS polished and easy to use?"
-msgstr ""
+msgstr "So you're into making the OS polished and easy to use?"
 
 #. segue2
 #: questions/fedora.yml:101 questions/fedora.yml:108 questions/fedora.yml:115
 #: questions/fedora.yml:122
 msgid "You probably want to join the Fedora..."
-msgstr ""
+msgstr "You probably want to join the Fedora..."
 
 #. subtitle
 #: questions/fedora.yml:101
 msgid "for those who are passionate about user and developer experience"
-msgstr ""
+msgstr "for those who are passionate about user and developer experience"
 
 #. title
 #: questions/fedora.yml:108
 msgid "The Server"
-msgstr ""
+msgstr "The Server"
 
 #. segue1
 #: questions/fedora.yml:108
 msgid "So you're into making the OS powerful and flexible?"
-msgstr ""
+msgstr "So you're into making the OS powerful and flexible?"
 
 #. subtitle
 #: questions/fedora.yml:108
 msgid "the best and latest for the datacenter"
-msgstr ""
+msgstr "the best and latest for the datacentre"
 
 #. title
 #: questions/fedora.yml:115
 msgid "The Cloud"
-msgstr ""
+msgstr "The Cloud"
 
 #. segue1
 #: questions/fedora.yml:115
 msgid "High-minded?"
-msgstr ""
+msgstr "High-minded?"
 
 #. subtitle
 #: questions/fedora.yml:115
 msgid "it's where the future lives"
-msgstr ""
+msgstr "it's where the future lives"
 
 #. title
 #: questions/fedora.yml:122
 msgid "Internationalization"
-msgstr ""
+msgstr "Internationalisation"
 
 #. segue1
 #: questions/fedora.yml:122
 msgid "Have a regional or world perspective?"
-msgstr ""
+msgstr "Have a regional or world perspective?"
 
 #. subtitle
 #: questions/fedora.yml:122
 msgid "making Fedora work better for all languages"
-msgstr ""
+msgstr "making Fedora work better for all languages"
 
 #. title
 #: questions/fedora.yml:129
 msgid "Instruction"
-msgstr ""
+msgstr "Instruction"
 
 #. subtitle
 #: questions/fedora.yml:129
 msgid "spread your knowledge to others in the community"
-msgstr ""
+msgstr "spread your knowledge to others in the community"
 
 #. title
 #: questions/includes/fedora/advocacy.yml:3
 #: questions/includes/fedora/community.yml:15
 msgid "Ambassador"
-msgstr ""
+msgstr "Ambassador"
 
 #. subtitle
 #: questions/includes/fedora/advocacy.yml:3
 #: questions/includes/fedora/community.yml:15
 msgid "the representatives of Fedora"
-msgstr ""
+msgstr "the representatives of Fedora"
 
 #. title
 #: questions/includes/fedora/cloud.yml:3
 msgid "Cloud SIG"
-msgstr ""
+msgstr "Cloud SIG"
 
 #. subtitle
 #: questions/includes/fedora/cloud.yml:3
 msgid "the special-interest-group for Fedora Cloud"
-msgstr ""
+msgstr "the special-interest-group for Fedora Cloud"
 
 #. title
 #: questions/includes/fedora/cloud.yml:6
 msgid "RDO"
-msgstr ""
+msgstr "RDO"
 
 #. subtitle
 #: questions/includes/fedora/cloud.yml:6
 msgid "the OpenStack distro for Fedora"
-msgstr ""
+msgstr "the OpenStack distro for Fedora"
 
 #. title
 #: questions/includes/fedora/coding.yml:3
 msgid "Python"
-msgstr ""
+msgstr "Python"
 
 #. segue1
 #: questions/includes/fedora/coding.yml:3
 msgid "So, you enjoy traceback-driven development?  What could go wrong?"
-msgstr ""
+msgstr "So, you enjoy traceback-driven development?  What could go wrong?"
 
 #. segue2
 #: questions/includes/fedora/coding.yml:3
 msgid "Are you interested in hacking on..."
-msgstr ""
+msgstr "Are you interested in hacking on..."
 
 #. subtitle
 #: questions/includes/fedora/coding.yml:3
 msgid "a dynamic language for rapid development"
-msgstr ""
+msgstr "a dynamic language for rapid development"
 
 #. title
 #: questions/includes/fedora/coding.yml:9
 msgid "C"
-msgstr ""
+msgstr "C"
 
 #. segue1
 #: questions/includes/fedora/coding.yml:9
 msgid "So, you think OOP is for hipsters?  Let me tell you, back in my day..."
-msgstr ""
+msgstr "So, you think OOP is for hipsters?  Let me tell you, back in my day..."
 
 #. segue2
 #: questions/includes/fedora/coding.yml:9
 #: questions/includes/fedora/coding.yml:27
 msgid "How about working on..."
-msgstr ""
+msgstr "How about working on..."
 
 #. subtitle
 #: questions/includes/fedora/coding.yml:9
 msgid "close to the metal"
-msgstr ""
+msgstr "close to the metal"
 
 #. title
 #: questions/includes/fedora/coding.yml:15
 msgid "Haskell"
-msgstr ""
+msgstr "Haskell"
 
 #. segue1
 #: questions/includes/fedora/coding.yml:15
@@ -462,22 +464,24 @@ msgid ""
 "So, programming without side-effects is what you're all about?  Sounds "
 "useful!"
 msgstr ""
+"So, programming without side-effects is what you're all about?  Sounds "
+"useful!"
 
 #. segue2
 #: questions/includes/fedora/coding.yml:15
 #: questions/includes/fedora/coding.yml:21
 msgid "How about..."
-msgstr ""
+msgstr "How about..."
 
 #. subtitle
 #: questions/includes/fedora/coding.yml:15
 msgid "a nondynamic language for rapid development"
-msgstr ""
+msgstr "a nondynamic language for rapid development"
 
 #. title
 #: questions/includes/fedora/coding.yml:21
 msgid "Java"
-msgstr ""
+msgstr "Java"
 
 #. segue1
 #: questions/includes/fedora/coding.yml:21
@@ -485,16 +489,18 @@ msgid ""
 "So you're a believer in <code>AbstractMethodFactoryBean</code>s?  "
 "Straightforward enough..."
 msgstr ""
+"So you're a believer in <code>AbstractMethodFactoryBean</code>s?  "
+"Straightforward enough..."
 
 #. subtitle
 #: questions/includes/fedora/coding.yml:21
 msgid "a nondynamic language for nonrapid development"
-msgstr ""
+msgstr "a nondynamic language for nonrapid development"
 
 #. title
 #: questions/includes/fedora/coding.yml:27
 msgid "Scala"
-msgstr ""
+msgstr "Scala"
 
 #. segue1
 #: questions/includes/fedora/coding.yml:27
@@ -502,22 +508,25 @@ msgid ""
 "So, just OOP or functional languages wouldn't do it?  You had to have both, "
 "huh?"
 msgstr ""
+"So, just OOP or functional languages wouldn't do it?  You had to have both, "
+"huh?"
 
 #. subtitle
 #: questions/includes/fedora/coding.yml:27
 msgid "a nondynamic language for semirapid development"
-msgstr ""
+msgstr "a nondynamic language for semirapid development"
 
 #. title
 #: questions/includes/fedora/coding.yml:33
 msgid "JavaScript"
-msgstr ""
+msgstr "JavaScript"
 
 #. segue1
 #: questions/includes/fedora/coding.yml:33
 msgid ""
 "So, you think having native integers is over-rated?  What could go wrong?"
 msgstr ""
+"So, you think having native integers is over-rated?  What could go wrong?"
 
 #. segue2
 #: questions/includes/fedora/coding.yml:33
@@ -527,18 +536,18 @@ msgstr ""
 #. subtitle
 #: questions/includes/fedora/coding.yml:33
 msgid "a dynamic web-oriented language for backend and frontend"
-msgstr ""
+msgstr "a dynamic web-oriented language for backend and frontend"
 
 #. title
 #: questions/includes/fedora/coding.yml:38
 #: questions/includes/fedora/design.yml:35
 msgid "Websites Team"
-msgstr ""
+msgstr "Websites Team"
 
 #. segue1
 #: questions/includes/fedora/coding.yml:38
 msgid "Great!"
-msgstr ""
+msgstr "Great!"
 
 #. subtitle
 #: questions/includes/fedora/coding.yml:38
@@ -551,12 +560,12 @@ msgstr ""
 #. title
 #: questions/includes/fedora/coding.yml:44
 msgid "Ruby"
-msgstr ""
+msgstr "Ruby"
 
 #. subtitle
 #: questions/includes/fedora/coding.yml:44
 msgid "hashrockets and bare words"
-msgstr ""
+msgstr "hashrockets and bare words"
 
 #. title
 #: questions/includes/fedora/coding.yml:48
@@ -569,11 +578,13 @@ msgid ""
 "So, you're not happy if your error messages are comprehensible?  We have a "
 "place for you."
 msgstr ""
+"So, you're not happy if your error messages are comprehensible?  We have a "
+"place for you."
 
 #. segue2
 #: questions/includes/fedora/coding.yml:48
 msgid "Try digging into..."
-msgstr ""
+msgstr "Try digging into..."
 
 #. subtitle
 #: questions/includes/fedora/coding.yml:48
@@ -581,6 +592,8 @@ msgid ""
 "imperative and object-oriented with the power of low-level memory "
 "manipulation"
 msgstr ""
+"imperative and object-oriented with the power of low-level memory "
+"manipulation"
 
 #. title
 #: questions/includes/fedora/coding/web.yml:4
@@ -589,12 +602,12 @@ msgstr ""
 #: questions/includes/fedora/translation.yml:3
 #: questions/includes/fedora/writing.yml:9
 msgid "General"
-msgstr ""
+msgstr "General"
 
 #. subtitle
 #: questions/includes/fedora/community.yml:3
 msgid "on how to join the Community Operations team?"
-msgstr ""
+msgstr "on how to join the Community Operations team?"
 
 #. title
 #: questions/includes/fedora/coding/web.yml:9
@@ -1143,7 +1156,7 @@ msgstr ""
 #. title
 #: questions/includes/fedora/coding/c++.yml:3
 msgid "LibreOffice"
-msgstr ""
+msgstr "LibreOffice"
 
 #. subtitle
 #: questions/includes/fedora/coding/c++.yml:3
@@ -1158,7 +1171,7 @@ msgstr ""
 #. title
 #: questions/includes/fedora/coding/c.yml:3
 msgid "OSTree"
-msgstr ""
+msgstr "OSTree"
 
 #. subtitle
 #: questions/includes/fedora/coding/c.yml:3
@@ -1168,7 +1181,7 @@ msgstr ""
 #. title
 #: questions/includes/fedora/coding/c.yml:7
 msgid "systemd"
-msgstr ""
+msgstr "systemd"
 
 #. subtitle
 #: questions/includes/fedora/coding/c.yml:7
@@ -1226,7 +1239,7 @@ msgstr ""
 #. title
 #: questions/includes/fedora/coding/java.yml:7
 msgid "JBoss"
-msgstr ""
+msgstr "JBoss"
 
 #. subtitle
 #: questions/includes/fedora/coding/java.yml:7
@@ -1236,7 +1249,7 @@ msgstr ""
 #. title
 #: questions/includes/fedora/coding/java.yml:11
 msgid "fedmsg-java"
-msgstr ""
+msgstr "fedmsg-java"
 
 #. subtitle
 #: questions/includes/fedora/coding/java.yml:11
@@ -1246,7 +1259,7 @@ msgstr ""
 #. title
 #: questions/includes/fedora/coding/java.yml:15
 msgid "jenkins-fedmsg-emit"
-msgstr ""
+msgstr "jenkins-fedmsg-emit"
 
 #. subtitle
 #: questions/includes/fedora/coding/java.yml:15
@@ -1256,7 +1269,7 @@ msgstr ""
 #. title
 #: questions/includes/fedora/coding/python.yml:3
 msgid "Anaconda"
-msgstr ""
+msgstr "Anaconda"
 
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:3
@@ -1286,7 +1299,7 @@ msgstr ""
 #. title
 #: questions/includes/fedora/coding/python.yml:15
 msgid "Firewalld"
-msgstr ""
+msgstr "Firewalld"
 
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:15
@@ -1296,7 +1309,7 @@ msgstr ""
 #. title
 #: questions/includes/fedora/coding/python.yml:19
 msgid "PortingDB"
-msgstr ""
+msgstr "PortingDB"
 
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:19
@@ -1323,7 +1336,7 @@ msgstr ""
 #. title
 #: questions/includes/fedora/coding/scala.yml:3
 msgid "Fedora Mobile"
-msgstr ""
+msgstr "Fedora Mobile"
 
 #. subtitle
 #: questions/includes/fedora/coding/scala.yml:3
