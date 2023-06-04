@@ -1,11 +1,12 @@
 # simmon <simmon@nplob.com>, 2021.
+# 김인수 <simmon@nplob.com>, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-11-13 10:53+0100\n"
-"PO-Revision-Date: 2021-12-02 19:16+0000\n"
-"Last-Translator: simmon <simmon@nplob.com>\n"
+"PO-Revision-Date: 2023-04-23 03:20+0000\n"
+"Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "fedora-infra/asknot-ng/ko/>\n"
 "Language: ko\n"
@@ -13,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.9.1\n"
+"X-Generator: Weblate 4.15.2\n"
 
 #. title
 #. description
@@ -357,7 +358,7 @@ msgstr "미래의 삶이 있는 곳이죠"
 #. title
 #: questions/fedora.yml:122
 msgid "Internationalization"
-msgstr "세계화"
+msgstr "국제화"
 
 #. segue1
 #: questions/fedora.yml:122
@@ -414,7 +415,7 @@ msgstr "OpenStack에 Fedora배포"
 #. title
 #: questions/includes/fedora/coding.yml:3
 msgid "Python"
-msgstr "Python"
+msgstr "파이썬"
 
 #. segue1
 #: questions/includes/fedora/coding.yml:3
@@ -563,7 +564,7 @@ msgstr ""
 #. title
 #: questions/includes/fedora/coding.yml:44
 msgid "Ruby"
-msgstr "Ruby"
+msgstr "루비"
 
 #. subtitle
 #: questions/includes/fedora/coding.yml:44
@@ -828,7 +829,7 @@ msgstr "테스트 업데이트"
 #. subtitle
 #: questions/includes/fedora/qa.yml:16
 msgid "before they hit the stable repo"
-msgstr "안정된 레포지터리를 달성하기 이전에"
+msgstr "안정된 저장소를 달성하기 이전에"
 
 #. title
 #: questions/includes/fedora/qa.yml:19
@@ -1265,7 +1266,7 @@ msgstr "JVM에서 fedmsg와 함께 상호작용합니다"
 #. title
 #: questions/includes/fedora/coding/java.yml:15
 msgid "jenkins-fedmsg-emit"
-msgstr "젠킨스-fedmsg-emit"
+msgstr "jenkins-fedmsg-emit"
 
 #. subtitle
 #: questions/includes/fedora/coding/java.yml:15
@@ -1305,7 +1306,7 @@ msgstr "멋부린 Yum (DNF)는 yum의 중요 대체자입니다"
 #. title
 #: questions/includes/fedora/coding/python.yml:15
 msgid "Firewalld"
-msgstr "방화벽"
+msgstr "Firewalld"
 
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:15
