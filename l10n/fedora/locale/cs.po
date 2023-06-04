@@ -3,20 +3,22 @@
 # Josef Hruška <hrusjos@gmail.com>, 2016. #zanata
 # Marek Suchánek <m.suchanek.2@gmail.com>, 2016. #zanata
 # Zdenek <chmelarz@gmail.com>, 2018. #zanata
+# Jan Kalabza <jan.kalabza@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-11-13 10:53+0100\n"
-"PO-Revision-Date: 2018-03-15 05:47+0000\n"
-"Last-Translator: \n"
-"Language-Team: Czech\n"
+"PO-Revision-Date: 2023-04-21 04:20+0000\n"
+"Last-Translator: Jan Kalabza <jan.kalabza@gmail.com>\n"
+"Language-Team: Czech <https://translate.fedoraproject.org/projects/"
+"fedora-infra/asknot-ng/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.15.2\n"
 
 #. title
 #. description
@@ -112,7 +114,7 @@ msgstr "Rychle odsud pryč!"
 #. navlink
 #: questions/fedora.yml:1
 msgid "Home"
-msgstr ""
+msgstr "Domů"
 
 #. navlink
 #: questions/fedora.yml:1
@@ -122,12 +124,12 @@ msgstr "Získejte Fedoru"
 #. navlink
 #: questions/fedora.yml:1
 msgid "CoC"
-msgstr ""
+msgstr "CoC"
 
 #. navlink
 #: questions/fedora.yml:1
 msgid "Chat"
-msgstr ""
+msgstr "Chat"
 
 #. segue1
 #: questions/fedora.yml:36
@@ -196,7 +198,7 @@ msgstr "Jste zručný ve vytváření komunit?"
 #: questions/fedora.yml:54 questions/includes/fedora/coding.yml:38
 #: questions/includes/fedora/design.yml:3
 msgid "Would you like something more"
-msgstr "Chtěli byste něco víc?"
+msgstr "Chtěli byste něco víc"
 
 #. subtitle
 #: questions/fedora.yml:54
@@ -266,7 +268,7 @@ msgstr "Balíčkování"
 #. segue1
 #: questions/fedora.yml:82
 msgid "So you want to help build the OS?  Excellent."
-msgstr "Chcete tedy pomáhat při sestavování OS? Skvěle!"
+msgstr "Chcete tedy pomáhat při sestavování OS? Skvěle."
 
 #. segue2
 #: questions/fedora.yml:82
@@ -301,12 +303,12 @@ msgstr "jak se říká, „když to není otestované, je to porouchané“"
 #. title
 #: questions/fedora.yml:96
 msgid "Modularity"
-msgstr ""
+msgstr "Modularita"
 
 #. subtitle
 #: questions/fedora.yml:96
 msgid "rethinking how we compose the distro"
-msgstr ""
+msgstr "přehodnocení způsobu sestavování distribuce"
 
 #. title
 #: questions/fedora.yml:101
@@ -327,7 +329,7 @@ msgstr "Nejspíš se ve Fedoře chcete přidat do…"
 #. subtitle
 #: questions/fedora.yml:101
 msgid "for those who are passionate about user and developer experience"
-msgstr ""
+msgstr "pro ty, kteří se zajímají o zkušenosti uživatelů a vývojářů"
 
 #. title
 #: questions/fedora.yml:108
@@ -367,7 +369,7 @@ msgstr "Internacionalizace"
 #. segue1
 #: questions/fedora.yml:122
 msgid "Have a regional or world perspective?"
-msgstr "Máte regionální nebo světovou perspektivu"
+msgstr "Máte regionální nebo světovou perspektivu?"
 
 #. subtitle
 #: questions/fedora.yml:122
@@ -377,12 +379,12 @@ msgstr "aby Fedora fungovala lépe pro všechny jazyky"
 #. title
 #: questions/fedora.yml:129
 msgid "Instruction"
-msgstr ""
+msgstr "Pokyny"
 
 #. subtitle
 #: questions/fedora.yml:129
 msgid "spread your knowledge to others in the community"
-msgstr ""
+msgstr "šířit své znalosti mezi ostatní členy komunity"
 
 #. title
 #: questions/includes/fedora/advocacy.yml:3
@@ -725,14 +727,12 @@ msgstr ""
 #. title
 #: questions/includes/fedora/desktop.yml:3
 msgid "Workstation Working Group"
-msgstr ""
+msgstr "Skupina pracovních stanic"
 
 #. subtitle
 #: questions/includes/fedora/desktop.yml:3
-#, fuzzy
-#| msgid "the special-interest-group for Fedora Workstation"
 msgid "the group behind Fedora Workstation"
-msgstr "Skupina zvláštního zájmu Fedory Workstation"
+msgstr "skupina zvláštního zájmu Fedory Workstation"
 
 #. title
 #: questions/includes/fedora/desktop.yml:7
@@ -999,8 +999,6 @@ msgstr "GNOME"
 
 #. subtitle
 #: questions/includes/fedora/translation.yml:22
-#, fuzzy
-#| msgid "which has it's own translation resources"
 msgid "which has its own translation resources"
 msgstr "které má vlastní překladatelskou infrastrukturu"
 
@@ -1012,8 +1010,6 @@ msgstr "KDE"
 
 #. subtitle
 #: questions/includes/fedora/translation.yml:25
-#, fuzzy
-#| msgid "also with it's own translation process"
 msgid "also with its own translation process"
 msgstr "rovněž s vlastním překládacím procesem"
 
@@ -1095,7 +1091,7 @@ msgstr "Blogování"
 #. segue1
 #: questions/includes/fedora/writing.yml:32
 msgid "Only the news that's fit to print."
-msgstr "Jen novinky, které se hodí do tisku"
+msgstr "Jen novinky, které se hodí do tisku."
 
 #. segue2
 #: questions/includes/fedora/writing.yml:32
@@ -1328,26 +1324,22 @@ msgstr "PortingDB"
 
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:19
-#, fuzzy
-#| msgid ""
-#| "a <a href\"http://portingdb-encukou.rhcloud.com/\">dynamic database</a> "
-#| "of Python 2 packages needing to be updated to Python 3"
 msgid ""
 "a <a href=\"http://fedora.portingdb.xyz/\">dynamic database</a> of Python 2 "
 "packages needing to be updated to Python 3"
 msgstr ""
-"<a href\"http://portingdb-encukou.rhcloud.com/\">dynamická databáze</a> "
-"balíčků Pythonu 2, u nichž je potřeba aktualizace na Python 3"
+"a <a href=\"http://fedora.portingdb.xyz/\"> dynamická databáze</a> balíčků "
+"Pythonu 2, u nichž je potřeba aktualizace na Python 3"
 
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:23
 msgid "a web interface for managing and administrating Linux web servers"
-msgstr ""
+msgstr "webové rozhraní pro správu a administraci webových serverů Linux"
 
 #. title
 #: questions/includes/fedora/coding/python.yml:27
 msgid "Web Services"
-msgstr "Web Services"
+msgstr "Webové služby"
 
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:27
