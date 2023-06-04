@@ -1,20 +1,21 @@
 # Patrick Uiterwijk <puiterwijk@redhat.com>, 2016. #zanata
 # Geert Warrink <geert.warrink@onsnet.nu>, 2020.
+# Vanhoorne Michael <michaeltjevanhoorne@gmail.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-11-13 10:53+0100\n"
-"PO-Revision-Date: 2020-02-01 16:16+0000\n"
-"Last-Translator: Geert Warrink <geert.warrink@onsnet.nu>\n"
-"Language-Team: Dutch <https://translate.fedoraproject.org/projects/fedora-"
-"infra/asknot-ng/nl/>\n"
+"PO-Revision-Date: 2022-10-02 07:19+0000\n"
+"Last-Translator: Vanhoorne Michael <michaeltjevanhoorne@gmail.com>\n"
+"Language-Team: Dutch <https://translate.fedoraproject.org/projects/"
+"fedora-infra/asknot-ng/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.10.3\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #. title
 #. description
@@ -125,7 +126,7 @@ msgstr ""
 #. navlink
 #: questions/fedora.yml:1
 msgid "Chat"
-msgstr ""
+msgstr "Chat"
 
 #. segue1
 #: questions/fedora.yml:36
@@ -299,7 +300,7 @@ msgstr "zoals men zegt, \"als het niet getest is, is het kapot\""
 #. title
 #: questions/fedora.yml:96
 msgid "Modularity"
-msgstr ""
+msgstr "Modulariteit"
 
 #. subtitle
 #: questions/fedora.yml:96
@@ -376,7 +377,7 @@ msgstr "Fedora beter laten werken voor alle talen"
 #. title
 #: questions/fedora.yml:129
 msgid "Instruction"
-msgstr ""
+msgstr "Instructie"
 
 #. subtitle
 #: questions/fedora.yml:129
