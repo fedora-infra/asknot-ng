@@ -1,13 +1,14 @@
 # Bora Can Aslı <boracasli14@aol.com>, 2018. #zanata
 # Serdar Sağlam <teknomobil@msn.com>, 2019. #zanata
 # Oğuz Ersen <oguzersen@protonmail.com>, 2020, 2021.
+# Oğuz Ersen <oguz@ersen.moe>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-11-13 10:53+0100\n"
-"PO-Revision-Date: 2021-12-02 19:16+0000\n"
-"Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
+"PO-Revision-Date: 2022-06-06 13:19+0000\n"
+"Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
 "fedora-infra/asknot-ng/tr/>\n"
 "Language: tr\n"
@@ -15,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
-"X-Generator: Weblate 4.9.1\n"
+"X-Generator: Weblate 4.12.2\n"
 
 #. title
 #. description
@@ -121,7 +122,7 @@ msgstr "Fedora'yı Edin"
 #. navlink
 #: questions/fedora.yml:1
 msgid "CoC"
-msgstr ""
+msgstr "CoC"
 
 #. navlink
 #: questions/fedora.yml:1
@@ -553,7 +554,7 @@ msgstr "arka ve ön yüz için web tabanlı dinamik bir dil"
 #: questions/includes/fedora/coding.yml:38
 #: questions/includes/fedora/design.yml:35
 msgid "Websites Team"
-msgstr "Web Siteleri Ekibi"
+msgstr "Web Siteleri Takımı"
 
 #. segue1
 #: questions/includes/fedora/coding.yml:38
@@ -619,7 +620,7 @@ msgstr "Genel"
 #. subtitle
 #: questions/includes/fedora/community.yml:3
 msgid "on how to join the Community Operations team?"
-msgstr "Topluluk Operasyonları ekibine nasıl katılabileceğiniz konusunda?"
+msgstr "Topluluk Operasyonları takımına nasıl katılabileceğiniz konusunda?"
 
 #. title
 #: questions/includes/fedora/coding/web.yml:9
@@ -672,7 +673,7 @@ msgstr "Fedora'daki olaylar hakkında haftalık bir makale için bilgi bulmak"
 #. title
 #: questions/includes/fedora/design.yml:3
 msgid "Design Team"
-msgstr "Tasarım Ekibi"
+msgstr "Tasarım Takımı"
 
 #. segue1
 #: questions/includes/fedora/design.yml:3
@@ -687,7 +688,7 @@ msgstr "Fedora topluluğu için tasarım firması gibi çalışan yaratıcı ki�
 #. subtitle
 #: questions/includes/fedora/design.yml:10
 msgid "on how to join the design team?"
-msgstr "tasarım ekibine nasıl katılabileceğiniz konusunda?"
+msgstr "tasarım takımına nasıl katılabileceğiniz konusunda?"
 
 #. subtitle
 #: questions/includes/fedora/design.yml:15
@@ -805,7 +806,7 @@ msgstr "Fedora'daki paketlerin sorumlusu"
 #. subtitle
 #: questions/includes/fedora/qa.yml:3
 msgid "about how to join the QA team?"
-msgstr "QA ekibine nasıl katılabileceğiniz hakkında?"
+msgstr "QA takımına nasıl katılabileceğiniz hakkında?"
 
 #. segue1
 #: questions/includes/fedora/qa.yml:7
@@ -950,7 +951,7 @@ msgstr "Fedora Server için özel ilgi grubu"
 #. subtitle
 #: questions/includes/fedora/translation.yml:3
 msgid "about how to join the L10N team?"
-msgstr "L10N ekibine nasıl katılabileceğiniz hakkında?"
+msgstr "L10N takımına nasıl katılabileceğiniz hakkında?"
 
 #. segue1
 #: questions/includes/fedora/translation.yml:7
@@ -1038,7 +1039,7 @@ msgstr "insanların bu çılgın şeyleri nasıl kullanacaklarını bilmeleri i�
 #. subtitle
 #: questions/includes/fedora/writing.yml:9
 msgid "about how to join the docs team?"
-msgstr "doküman ekibine nasıl katılabileceğiniz hakkında?"
+msgstr "belgelendirme takımına nasıl katılabileceğiniz hakkında?"
 
 #. segue1
 #: questions/includes/fedora/writing.yml:13
@@ -1355,7 +1356,7 @@ msgstr "Web Hizmetleri"
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:27
 msgid "Fedora Infrastructure team for the win"
-msgstr "yaşasın Fedora Altyapı ekibi"
+msgstr "yaşasın Fedora Altyapı takımı"
 
 #. title
 #: questions/includes/fedora/coding/scala.yml:3
@@ -1370,7 +1371,7 @@ msgstr "Hareket halindeyken Fedora topluluğuyla etkileşime geçin!"
 #. subtitle
 #: questions/includes/fedora/coding/web.yml:4
 msgid "on how to join the websites team?"
-msgstr "web siteleri ekibine nasıl katılabileceğiniz konusunda?"
+msgstr "web siteleri takımına nasıl katılabileceğiniz konusunda?"
 
 #. segue1
 #: questions/includes/fedora/coding/web.yml:9
