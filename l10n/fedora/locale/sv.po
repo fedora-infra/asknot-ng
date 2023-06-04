@@ -1,11 +1,11 @@
 # Göran Uddeborg <goeran@uddeborg.se>, 2016. #zanata, 2020.
-# Luna Jernberg <bittin@reimu.nl>, 2021.
+# Luna Jernberg <bittin@reimu.nl>, 2021, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-11-13 10:53+0100\n"
-"PO-Revision-Date: 2021-12-10 10:16+0000\n"
+"PO-Revision-Date: 2023-04-26 11:20+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
 "fedora-infra/asknot-ng/sv/>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9.1\n"
+"X-Generator: Weblate 4.15.2\n"
 
 #. title
 #. description
@@ -120,7 +120,7 @@ msgstr "Hämta Fedora"
 #. navlink
 #: questions/fedora.yml:1
 msgid "CoC"
-msgstr "CoC"
+msgstr "Uppförandekod"
 
 #. navlink
 #: questions/fedora.yml:1
@@ -1347,7 +1347,7 @@ msgstr "Fedoras infrastrukturgrupp är bäst"
 #. title
 #: questions/includes/fedora/coding/scala.yml:3
 msgid "Fedora Mobile"
-msgstr "Fedora mobilt"
+msgstr "Fedora Mobil"
 
 #. subtitle
 #: questions/includes/fedora/coding/scala.yml:3
