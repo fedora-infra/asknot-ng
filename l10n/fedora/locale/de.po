@@ -5,13 +5,14 @@
 # Tobias Weise <tobias.weise@web.de>, 2019. #zanata
 # Brendan Early <mymindstorm@evermiss.net>, 2020.
 # Ettore Atalan <atalanttore@googlemail.com>, 2021.
+# Joachim Philipp <joachim.philipp@gmail.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-11-13 10:53+0100\n"
-"PO-Revision-Date: 2021-12-06 12:16+0000\n"
-"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
+"PO-Revision-Date: 2022-07-20 13:19+0000\n"
+"Last-Translator: Joachim Philipp <joachim.philipp@gmail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/"
 "fedora-infra/asknot-ng/de/>\n"
 "Language: de\n"
@@ -19,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9.1\n"
+"X-Generator: Weblate 4.13\n"
 
 #. title
 #. description
@@ -115,7 +116,7 @@ msgstr "Bring mich hier weg!"
 #. navlink
 #: questions/fedora.yml:1
 msgid "Home"
-msgstr ""
+msgstr "Startseite"
 
 #. navlink
 #: questions/fedora.yml:1
@@ -125,7 +126,7 @@ msgstr "Fedora herunterladen"
 #. navlink
 #: questions/fedora.yml:1
 msgid "CoC"
-msgstr ""
+msgstr "Konformitätsbescheinigung"
 
 #. navlink
 #: questions/fedora.yml:1
@@ -739,7 +740,7 @@ msgstr ""
 #. title
 #: questions/includes/fedora/desktop.yml:3
 msgid "Workstation Working Group"
-msgstr ""
+msgstr "Workstation Arbeitsgruppe"
 
 #. subtitle
 #: questions/includes/fedora/desktop.yml:3
@@ -1345,21 +1346,18 @@ msgstr "PortingDB"
 
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:19
-#, fuzzy
-#| msgid ""
-#| "a <a href\"http://portingdb-encukou.rhcloud.com/\">dynamic database</a> "
-#| "of Python 2 packages needing to be updated to Python 3"
 msgid ""
 "a <a href=\"http://fedora.portingdb.xyz/\">dynamic database</a> of Python 2 "
 "packages needing to be updated to Python 3"
 msgstr ""
-"Eine <a href\"http://portingdb-encukou.rhcloud.com/\">dynamische Datenbank</"
-"a> an Python 2-Paketen, die auf Python 3 aktualisiert werden müssen"
+"Eine <a href=\"http://fedora.portingdb.xyz/\">dynamische Datenbank</a> an "
+"Python 2-Paketen, die auf Python 3 aktualisiert werden müssen"
 
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:23
 msgid "a web interface for managing and administrating Linux web servers"
 msgstr ""
+"Ein Webinterface zum Management und zur Administration von Linux Webservern"
 
 #. title
 #: questions/includes/fedora/coding/python.yml:27
