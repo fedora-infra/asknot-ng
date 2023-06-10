@@ -1,13 +1,13 @@
 # Patrick Uiterwijk <puiterwijk@redhat.com>, 2016. #zanata
 # Geert Warrink <geert.warrink@onsnet.nu>, 2020, 2023.
-# Vanhoorne Michael <michaeltjevanhoorne@gmail.com>, 2022.
+# Vanhoorne Michael <michaeltjevanhoorne@gmail.com>, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-11-13 10:53+0100\n"
 "PO-Revision-Date: 2023-06-11 13:20+0000\n"
-"Last-Translator: Geert Warrink <geert.warrink@onsnet.nu>\n"
+"Last-Translator: Vanhoorne Michael <michaeltjevanhoorne@gmail.com>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/"
 "fedora-infra/asknot-ng/nl/>\n"
 "Language: nl\n"
@@ -121,7 +121,7 @@ msgstr "Verkrijg Fedora"
 #. navlink
 #: questions/fedora.yml:1
 msgid "CoC"
-msgstr ""
+msgstr "CoC"
 
 #. navlink
 #: questions/fedora.yml:1
