@@ -1,13 +1,13 @@
 # Patrick Uiterwijk <puiterwijk@redhat.com>, 2016. #zanata
-# Geert Warrink <geert.warrink@onsnet.nu>, 2020.
+# Geert Warrink <geert.warrink@onsnet.nu>, 2020, 2023.
 # Vanhoorne Michael <michaeltjevanhoorne@gmail.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-11-13 10:53+0100\n"
-"PO-Revision-Date: 2022-10-02 07:19+0000\n"
-"Last-Translator: Vanhoorne Michael <michaeltjevanhoorne@gmail.com>\n"
+"PO-Revision-Date: 2023-06-11 13:20+0000\n"
+"Last-Translator: Geert Warrink <geert.warrink@onsnet.nu>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/"
 "fedora-infra/asknot-ng/nl/>\n"
 "Language: nl\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.1\n"
+"X-Generator: Weblate 4.17\n"
 
 #. title
 #. description
@@ -111,7 +111,7 @@ msgstr "Haal me hier uit!"
 #. navlink
 #: questions/fedora.yml:1
 msgid "Home"
-msgstr ""
+msgstr "Start"
 
 #. navlink
 #: questions/fedora.yml:1
@@ -305,7 +305,7 @@ msgstr "Modulariteit"
 #. subtitle
 #: questions/fedora.yml:96
 msgid "rethinking how we compose the distro"
-msgstr ""
+msgstr "heroverwegen hoe we de distro samenstellen"
 
 #. title
 #: questions/fedora.yml:101
@@ -328,6 +328,8 @@ msgstr "Je wilt waarschijnlijk lid worden van de Fedora..."
 #: questions/fedora.yml:101
 msgid "for those who are passionate about user and developer experience"
 msgstr ""
+"voor degenen die gepassioneerd zijn door gebruikers- en "
+"ontwikkelaarservaringen"
 
 #. title
 #: questions/fedora.yml:108
@@ -382,7 +384,7 @@ msgstr "Instructie"
 #. subtitle
 #: questions/fedora.yml:129
 msgid "spread your knowledge to others in the community"
-msgstr ""
+msgstr "deel je kennis met anderen in de gemeenschap"
 
 #. title
 #: questions/includes/fedora/advocacy.yml:3
@@ -731,14 +733,12 @@ msgstr ""
 #. title
 #: questions/includes/fedora/desktop.yml:3
 msgid "Workstation Working Group"
-msgstr ""
+msgstr "Workstation Working Group"
 
 #. subtitle
 #: questions/includes/fedora/desktop.yml:3
-#, fuzzy
-#| msgid "the special-interest-group for Fedora Workstation"
 msgid "the group behind Fedora Workstation"
-msgstr "de special-interest-groep voor Fedora Workstation"
+msgstr "de groep achter Fedora Workstation"
 
 #. title
 #: questions/includes/fedora/desktop.yml:7
@@ -1011,7 +1011,7 @@ msgstr "GNOME"
 #. subtitle
 #: questions/includes/fedora/translation.yml:22
 msgid "which has its own translation resources"
-msgstr ""
+msgstr "die zijn eigen vertaalhulpmiddelen heeft"
 
 #. title
 #: questions/includes/fedora/coding/c++.yml:7
@@ -1022,7 +1022,7 @@ msgstr "KDE"
 #. subtitle
 #: questions/includes/fedora/translation.yml:25
 msgid "also with its own translation process"
-msgstr ""
+msgstr "ook met zijn eigen vertaalproces"
 
 #. segue1
 #: questions/includes/fedora/writing.yml:3
@@ -1344,11 +1344,13 @@ msgid ""
 "a <a href=\"http://fedora.portingdb.xyz/\">dynamic database</a> of Python 2 "
 "packages needing to be updated to Python 3"
 msgstr ""
+"een <a href=\"http://fedora.portingdb.xyz/\">dynamische database</a> van "
+"Python 2-pakketten die moet worden bijgewerkt naar Python 3"
 
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:23
 msgid "a web interface for managing and administrating Linux web servers"
-msgstr ""
+msgstr "een webinterface voor het beheren en administreren van Linux-webservers"
 
 #. title
 #: questions/includes/fedora/coding/python.yml:27
