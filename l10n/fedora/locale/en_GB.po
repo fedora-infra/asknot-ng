@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-11-13 10:53+0100\n"
-"PO-Revision-Date: 2023-06-04 19:20+0000\n"
+"PO-Revision-Date: 2023-06-12 22:20+0000\n"
 "Last-Translator: Andi Chandler <andi@gowling.com>\n"
 "Language-Team: English (United Kingdom) <https://translate.fedoraproject.org/"
 "projects/fedora-infra/asknot-ng/en_GB/>\n"
@@ -531,7 +531,7 @@ msgstr ""
 #. segue2
 #: questions/includes/fedora/coding.yml:33
 msgid "There's plenty to do.  How about joining the.."
-msgstr ""
+msgstr "There's plenty to do.  How about joining the.."
 
 #. subtitle
 #: questions/includes/fedora/coding.yml:33
@@ -556,6 +556,8 @@ msgid ""
 "web developers that build <a href=\"https://getfedora.org\">getfedora.org</"
 "a> and other awesome sites"
 msgstr ""
+"web developers that build <a href=\"https://getfedora.org\">getfedora.org</"
+"a> and other awesome sites"
 
 #. title
 #: questions/includes/fedora/coding.yml:44
