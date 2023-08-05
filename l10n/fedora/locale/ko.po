@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-11-13 10:53+0100\n"
-"PO-Revision-Date: 2023-04-23 03:20+0000\n"
+"PO-Revision-Date: 2023-08-06 17:21+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "fedora-infra/asknot-ng/ko/>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.15.2\n"
+"X-Generator: Weblate 4.18.2\n"
 
 #. title
 #. description
@@ -824,7 +824,7 @@ msgstr "새로운 출시가 나올 때에는"
 #. title
 #: questions/includes/fedora/qa.yml:16
 msgid "Test Updates"
-msgstr "테스트 업데이트"
+msgstr "시험 최신화"
 
 #. subtitle
 #: questions/includes/fedora/qa.yml:16
