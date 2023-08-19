@@ -2,14 +2,14 @@
 # magjogui <magjogui@fedoraproject.org>, 2015. #zanata
 # tatica leandro <tatica@fedoraproject.org>, 2015. #zanata
 # Máximo Castañeda Riloba <mcrcctm@gmail.com>, 2016. #zanata
-# Emilio Herrera <ehespinosa57@gmail.com>, 2018. #zanata, 2022.
-# Emilio Herrera <ehespinosa57@gmail.com>, 2019. #zanata, 2022.
+# Emilio Herrera <ehespinosa57@gmail.com>, 2018. #zanata, 2022, 2023.
+# Emilio Herrera <ehespinosa57@gmail.com>, 2019. #zanata, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-11-13 10:53+0100\n"
-"PO-Revision-Date: 2022-12-11 10:19+0000\n"
+"PO-Revision-Date: 2023-08-20 10:21+0000\n"
 "Last-Translator: Emilio Herrera <ehespinosa57@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/"
 "fedora-infra/asknot-ng/es/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 4.18.2\n"
 
 #. title
 #. description
@@ -129,7 +129,7 @@ msgstr "CoC"
 #. navlink
 #: questions/fedora.yml:1
 msgid "Chat"
-msgstr ""
+msgstr "Chat"
 
 #. segue1
 #: questions/fedora.yml:36
@@ -303,12 +303,12 @@ msgstr "como se suele decir: «Si no está probado, no sirve»"
 #. title
 #: questions/fedora.yml:96
 msgid "Modularity"
-msgstr ""
+msgstr "Modularidad"
 
 #. subtitle
 #: questions/fedora.yml:96
 msgid "rethinking how we compose the distro"
-msgstr ""
+msgstr "para repensar cómo componemos la distribución"
 
 #. title
 #: questions/fedora.yml:101
