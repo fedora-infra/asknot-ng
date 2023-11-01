@@ -2,7 +2,7 @@ tree:
   children:
     - title: LibreOffice
       subtitle: a free and open source office suite
-      link: http://www.libreoffice.org/about-us/source-code/
+      link: https://www.libreoffice.org/about-us/source-code/
 
     - title: KDE
       subtitle: an integrated set of cross-platform applications

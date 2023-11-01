@@ -6,11 +6,11 @@ tree:
 
     - title: systemd
       subtitle: widely renowned init system and suite of building blocks
-      link: http://www.freedesktop.org/wiki/Software/systemd/
+      link: https://www.freedesktop.org/wiki/Software/systemd/
 
     - title: Cockpit
       subtitle: a server manager that makes it easy to administer via a web browser
-      link: http://cockpit-project.org/
+      link: https://cockpit-project.org/
 
     - title: GNOME
       subtitle: an easy and elegant way to use your computer
@@ -18,4 +18,4 @@ tree:
 
     - title: The Linux Kernel
       subtitle: that thing that connects application software to the hardware of a computer
-      link: http://kernelnewbies.org/FirstKernelPatch
+      link: https://kernelnewbies.org/FirstKernelPatch
