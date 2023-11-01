@@ -3,7 +3,7 @@ tree:
     - title: General
       subtitle: on how to join the Community Operations team?
       image: https://badges.fedoraproject.org/pngs/fpl-blessing.png
-      link: https://docs.fedoraproject.org/en-US/commops/
+      link: https://docs.fedoraproject.org/en-US/commops/contribute/commops-landing/
 
     - title: Specific
       subtitle: on different kinds of community tasks

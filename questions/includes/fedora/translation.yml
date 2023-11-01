@@ -18,7 +18,7 @@ tree:
           link: https://fedoraproject.org/wiki/Fedora_Project_Wiki:Translating
         - title: Documentation
           subtitle: all the guides and release notes
-          link: https://gitlab.com/fedora/docs/docs-website/docs-fp-o
+          link: https://docs.fedoraproject.org/en-US/fedora-docs/contributing-docs/
         - title: GNOME
           subtitle: which has its own translation resources
           link: https://wiki.gnome.org/TranslationProject

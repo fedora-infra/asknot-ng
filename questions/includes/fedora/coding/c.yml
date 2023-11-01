@@ -2,7 +2,7 @@ tree:
   children:
     - title: OSTree
       subtitle: git for operating system binaries
-      link: https://ostree.readthedocs.io/en/latest/
+      link: https://ostreedev.github.io/ostree/
 
     - title: systemd
       subtitle: widely renowned init system and suite of building blocks
@@ -14,7 +14,7 @@ tree:
 
     - title: GNOME
       subtitle: an easy and elegant way to use your computer
-      link: https://gitlab.gnome.org/
+      link: https://gitlab.gnome.org/GNOME
 
     - title: The Linux Kernel
       subtitle: that thing that connects application software to the hardware of a computer
