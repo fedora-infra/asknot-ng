@@ -860,11 +860,6 @@ msgstr "Olyan emberekre van szükségünk, akik hekkelik a következőt:"
 msgid "for continuous awesomeness"
 msgstr "a folyamatos nagyszerűségért"
 
-#. title
-#: questions/includes/fedora/qa.yml:29
-msgid "Taskotron"
-msgstr "Taskotron"
-
 #. subtitle
 #: questions/includes/fedora/qa.yml:29
 msgid "a framework for automated task execution"
@@ -1057,11 +1052,6 @@ msgstr "Wiki kertészkedés"
 #: questions/includes/fedora/writing.yml:19
 msgid "it tends to get a little overgrown"
 msgstr "néha kicsit túlnőnek a dolgokat"
-
-#. title
-#: questions/includes/fedora/writing.yml:22
-msgid "A Beat"
-msgstr "Egy beat"
 
 #. subtitle
 #: questions/includes/fedora/writing.yml:22

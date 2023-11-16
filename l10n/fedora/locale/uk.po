@@ -868,11 +868,6 @@ msgstr "Нам потрібен хтось, хто працюватиме над
 msgid "for continuous awesomeness"
 msgstr "щоб не порушувати зачарування"
 
-#. title
-#: questions/includes/fedora/qa.yml:29
-msgid "Taskotron"
-msgstr "Taskotron"
-
 #. subtitle
 #: questions/includes/fedora/qa.yml:29
 msgid "a framework for automated task execution"
@@ -1068,11 +1063,6 @@ msgstr "Вікісадівництво"
 #: questions/includes/fedora/writing.yml:19
 msgid "it tends to get a little overgrown"
 msgstr "вікі завжди намагається надто розростися"
-
-#. title
-#: questions/includes/fedora/writing.yml:22
-msgid "A Beat"
-msgstr "Частинка"
 
 #. subtitle
 #: questions/includes/fedora/writing.yml:22

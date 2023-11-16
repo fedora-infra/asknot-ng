@@ -860,11 +860,6 @@ msgstr ""
 msgid "for continuous awesomeness"
 msgstr ""
 
-#. title
-#: questions/includes/fedora/qa.yml:29
-msgid "Taskotron"
-msgstr ""
-
 #. subtitle
 #: questions/includes/fedora/qa.yml:29
 msgid "a framework for automated task execution"
@@ -1056,11 +1051,6 @@ msgstr ""
 #. subtitle
 #: questions/includes/fedora/writing.yml:19
 msgid "it tends to get a little overgrown"
-msgstr ""
-
-#. title
-#: questions/includes/fedora/writing.yml:22
-msgid "A Beat"
 msgstr ""
 
 #. subtitle

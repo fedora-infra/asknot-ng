@@ -853,11 +853,6 @@ msgstr "અમને જરૂર છે લોકો ની હેક કરવ
 msgid "for continuous awesomeness"
 msgstr "સતત શ્રેષ્ઠતા માટે"
 
-#. title
-#: questions/includes/fedora/qa.yml:29
-msgid "Taskotron"
-msgstr "ટાસ્ક ઓ ટ્રોન"
-
 #. subtitle
 #: questions/includes/fedora/qa.yml:29
 msgid "a framework for automated task execution"
@@ -1054,11 +1049,6 @@ msgstr "વિકી બાગ"
 #: questions/includes/fedora/writing.yml:19
 msgid "it tends to get a little overgrown"
 msgstr "તે થોડું વધતું જાય છે"
-
-#. title
-#: questions/includes/fedora/writing.yml:22
-msgid "A Beat"
-msgstr "અ બીટ"
 
 #. subtitle
 #: questions/includes/fedora/writing.yml:22

@@ -862,11 +862,6 @@ msgstr "Vi behöver folk för att hacka på"
 msgid "for continuous awesomeness"
 msgstr "för att fortsatt vara fantastiskt"
 
-#. title
-#: questions/includes/fedora/qa.yml:29
-msgid "Taskotron"
-msgstr "Taskotron"
-
 #. subtitle
 #: questions/includes/fedora/qa.yml:29
 msgid "a framework for automated task execution"
@@ -1059,11 +1054,6 @@ msgstr "Wiki-trädgårdsskötsel"
 #: questions/includes/fedora/writing.yml:19
 msgid "it tends to get a little overgrown"
 msgstr "den tenderar att bli lite övervuxen"
-
-#. title
-#: questions/includes/fedora/writing.yml:22
-msgid "A Beat"
-msgstr "En notis"
 
 #. subtitle
 #: questions/includes/fedora/writing.yml:22

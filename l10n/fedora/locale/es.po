@@ -872,11 +872,6 @@ msgstr "Necesitamos gente que ayude con"
 msgid "for continuous awesomeness"
 msgstr "para genialidad continua"
 
-#. title
-#: questions/includes/fedora/qa.yml:29
-msgid "Taskotron"
-msgstr "Taskotron"
-
 #. subtitle
 #: questions/includes/fedora/qa.yml:29
 msgid "a framework for automated task execution"
@@ -1073,11 +1068,6 @@ msgstr "Retoques de la Wiki"
 #: questions/includes/fedora/writing.yml:19
 msgid "it tends to get a little overgrown"
 msgstr "tiende a ser un jardín un poco descuidado"
-
-#. title
-#: questions/includes/fedora/writing.yml:22
-msgid "A Beat"
-msgstr "Un golpe"
 
 #. subtitle
 #: questions/includes/fedora/writing.yml:22

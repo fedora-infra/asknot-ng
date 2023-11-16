@@ -872,11 +872,6 @@ msgstr "Şunun üzerinde çalışacak insanlara ihtiyacımız var"
 msgid "for continuous awesomeness"
 msgstr "sürekli mükemmellik için"
 
-#. title
-#: questions/includes/fedora/qa.yml:29
-msgid "Taskotron"
-msgstr "Taskotron"
-
 #. subtitle
 #: questions/includes/fedora/qa.yml:29
 msgid "a framework for automated task execution"
@@ -1069,11 +1064,6 @@ msgstr "Wiki Bakımı"
 #: questions/includes/fedora/writing.yml:19
 msgid "it tends to get a little overgrown"
 msgstr "biraz fazla büyüme eğilimine sahiptir"
-
-#. title
-#: questions/includes/fedora/writing.yml:22
-msgid "A Beat"
-msgstr "Bir Not"
 
 #. subtitle
 #: questions/includes/fedora/writing.yml:22
