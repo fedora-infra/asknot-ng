@@ -6,7 +6,7 @@ tree:
 
     - title: JBoss
       subtitle: A suite of enterprise middleware
-      link: http://www.jboss.org/get-involved/
+      link: https://tools.jboss.org/getinvolved/
 
     - title: fedmsg-java
       subtitle: Interact with fedmsg from the JVM

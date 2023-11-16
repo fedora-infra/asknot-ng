@@ -14,13 +14,13 @@ tree:
 
       children:
         - title: Release Site
-          subtitle: "<a href='http://getfedora.org'>getfedora.org</a> is awesome"
+          subtitle: "<a href='https://getfedora.org'>getfedora.org</a> is awesome"
           image: https://badges.fedoraproject.org/pngs/rock-the-web.png
           link: https://fedoraproject.org/wiki/Websites
         - title: Magazine
-          subtitle: "did you even know we had a <a href='http://fedoramagazine.org'>magazine</a>?"
+          subtitle: "did you even know we had a <a href='https://fedoramagazine.org'>magazine</a>?"
           image: https://badges.fedoraproject.org/pngs/extra!-extra!.png
-          link: http://fedoraproject.org/wiki/Magazine
+          link: https://fedoraproject.org/wiki/Magazine
         - title: Wiki Theme
           subtitle: it's a little crusty
           image: https://badges.fedoraproject.org/pngs/junior-editor.png

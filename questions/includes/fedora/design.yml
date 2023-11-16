@@ -21,7 +21,7 @@ tree:
                 children:
                     - title: Artwork Requests
                       subtitle: there are people in need of good taste -- you can help
-                      link: https://pagure.io/design/issues
+                      link: https://gitlab.com/fedora/design/team/requests/-/issues
                       image: https://badges.fedoraproject.org/pngs/artist-04-putti.png
                     - title: Hackergotchis
                       subtitle: making cute cut-outs of people's faces
