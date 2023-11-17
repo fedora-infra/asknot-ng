@@ -548,10 +548,10 @@ msgstr "ઉતમ"
 #: questions/includes/fedora/coding.yml:38
 #: questions/includes/fedora/design.yml:35
 msgid ""
-"web developers that build <a href=\"https://getfedora.org\">getfedora.org</"
+"web developers that build <a href=\"https://fedoraproject.org\">fedoraproject.org</"
 "a> and other awesome sites"
 msgstr ""
-" વેબ વિકાસકર્તાઓ જે <a href=\"https://getfedora.org\">getfedora.org</a>અને અન્ય "
+" વેબ વિકાસકર્તાઓ જે <a href=\"https://fedoraproject.org\">fedoraproject.org</a>અને અન્ય "
 "સરસ સાઈટો બનાવે છે"
 
 #. title
@@ -1378,8 +1378,8 @@ msgstr "પ્રકાશન સાઈટ"
 
 #. subtitle
 #: questions/includes/fedora/coding/web.yml:16
-msgid "<a href='http://getfedora.org'>getfedora.org</a> is awesome"
-msgstr "<a href='http://getfedora.org'>fedora મેળવો</a> પ્રભાવશાળી છે"
+msgid "<a href='https://fedoraproject.org'>fedoraproject.org</a> is awesome"
+msgstr "<a href='https://fedoraproject.org'>fedora મેળવો</a> પ્રભાવશાળી છે"
 
 #. title
 #: questions/includes/fedora/coding/web.yml:20

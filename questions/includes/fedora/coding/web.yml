@@ -14,7 +14,7 @@ tree:
 
       children:
         - title: Release Site
-          subtitle: "<a href='https://getfedora.org'>getfedora.org</a> is awesome"
+          subtitle: "<a href='https://fedoraproject.org'>fedoraproject.org</a> is awesome"
           image: https://badges.fedoraproject.org/pngs/rock-the-web.png
           link: https://fedoraproject.org/wiki/Websites
         - title: Magazine
