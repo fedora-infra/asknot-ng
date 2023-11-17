@@ -36,7 +36,7 @@ tree:
       segue2: There's plenty to do.  How about joining the..
       children:
         - title: Websites Team
-          subtitle: web developers that build <a href="https://getfedora.org">getfedora.org</a> and other awesome sites
+          subtitle: web developers that build <a href="https://fedoraproject.org">fedoraproject.org</a> and other awesome sites
           segue1: Great!
           segue2: Would you like something more
           children: coding/web.yml
