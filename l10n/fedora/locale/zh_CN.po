@@ -547,10 +547,10 @@ msgstr "棒极了！"
 #: questions/includes/fedora/coding.yml:38
 #: questions/includes/fedora/design.yml:35
 msgid ""
-"web developers that build <a href=\"https://getfedora.org\">getfedora.org</"
+"web developers that build <a href=\"https://fedoraproject.org\">fedoraproject.org</"
 "a> and other awesome sites"
 msgstr ""
-"web 开发者将会构建<a href=\"https://getfedora.org\">getfedora.org</a> 以及其他精美的站点"
+"web 开发者将会构建<a href=\"https://fedoraproject.org\">fedoraproject.org</a> 以及其他精美的站点"
 
 #. title
 #: questions/includes/fedora/coding.yml:44
@@ -1361,7 +1361,7 @@ msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/coding/web.yml:16
-msgid "<a href='http://getfedora.org'>getfedora.org</a> is awesome"
+msgid "<a href='https://fedoraproject.org'>fedoraproject.org</a> is awesome"
 msgstr ""
 
 #. title

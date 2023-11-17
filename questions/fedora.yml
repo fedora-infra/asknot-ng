@@ -27,7 +27,7 @@ navlinks:
     - name: Home
       link: "javascript:reloadHome();"
     - name: Get Fedora
-      link: https://getfedora.org
+      link: https://fedoraproject.org
     - name: CoC
       link: https://docs.fedoraproject.org/en-US/project/code-of-conduct/
     - name: Chat

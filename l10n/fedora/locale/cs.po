@@ -560,10 +560,10 @@ msgstr "Výborně!"
 #: questions/includes/fedora/coding.yml:38
 #: questions/includes/fedora/design.yml:35
 msgid ""
-"web developers that build <a href=\"https://getfedora.org\">getfedora.org</"
+"web developers that build <a href=\"https://fedoraproject.org\">fedoraproject.org</"
 "a> and other awesome sites"
 msgstr ""
-"weboví vývojáři, kteří vytváří <a href=\"https://getfedora.org\">getfedora."
+"weboví vývojáři, kteří vytváří <a href=\"https://fedoraproject.org\">getfedora."
 "org</a> a další parádní stránky"
 
 #. title
@@ -1383,8 +1383,8 @@ msgstr "Stránka s vydáními"
 
 #. subtitle
 #: questions/includes/fedora/coding/web.yml:16
-msgid "<a href='http://getfedora.org'>getfedora.org</a> is awesome"
-msgstr "<a href='http://getfedora.org'>getfedora.org</a> je super"
+msgid "<a href='https://fedoraproject.org'>fedoraproject.org</a> is awesome"
+msgstr "<a href='https://fedoraproject.org'>fedoraproject.org</a> je super"
 
 #. title
 #: questions/includes/fedora/coding/web.yml:20
