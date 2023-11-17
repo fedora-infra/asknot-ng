@@ -5,7 +5,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: asknot-ng
+    image: asknot
     ports:
       - "8080:80"
     network_mode: "host"
