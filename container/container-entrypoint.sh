@@ -1,1 +1,0 @@
-exec httpd -DFOREGROUND -DNO_DETACH
