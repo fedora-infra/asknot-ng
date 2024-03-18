@@ -1436,15 +1436,8 @@ msgstr ""
 msgid "this thing -- the page you're looking at right now!"
 msgstr ""
 
-#. title
-#: questions/includes/fedora/qa.yml:29
-msgid "Taskotron"
-msgstr "Taskotron"
-
-#. title
-#: questions/includes/fedora/writing.yml:22
-msgid "A Beat"
-msgstr ""
+#~ msgid "Taskotron"
+#~ msgstr "Taskotron"
 
 #~ msgid "What can I do for coala?"
 #~ msgstr "What can I do for coala?"

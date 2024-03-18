@@ -569,8 +569,8 @@ msgid ""
 "web developers that build <a href=\"https://getfedora.org\">getfedora.org</"
 "a> and other awesome sites"
 msgstr ""
-"les développeurs du web qui construisent <a href=\"https://getfedora.org"
-"\">getfedora.org</a> et d’autres sites tout aussi géniaux"
+"les développeurs du web qui construisent <a href=\"https://getfedora."
+"org\">getfedora.org</a> et d’autres sites tout aussi géniaux"
 
 #. title
 #: questions/includes/fedora/coding.yml:44
@@ -730,8 +730,8 @@ msgstr "Badges de Fedora"
 #. subtitle
 #: questions/includes/fedora/design.yml:30
 msgid ""
-"make awesome badge art that fuels <a href=\"https://badges.fedoraproject.org"
-"\">badges.fp.o</a>"
+"make awesome badge art that fuels <a href=\"https://badges.fedoraproject."
+"org\">badges.fp.o</a>"
 msgstr ""
 "créer des badges géniaux pour alimenter <a href=\"https://badges."
 "fedoraproject.org\">badges.fp.o</a>"
@@ -1438,8 +1438,8 @@ msgstr "Magazine"
 msgid ""
 "did you even know we had a <a href='http://fedoramagazine.org'>magazine</a>?"
 msgstr ""
-"saviez-vous au moins que nous avions un <a href=\"http://fedoramagazine.org"
-"\">magazine</a> ?"
+"saviez-vous au moins que nous avions un <a href=\"http://fedoramagazine."
+"org\">magazine</a> ?"
 
 #. title
 #: questions/includes/fedora/coding/web.yml:24
@@ -1665,9 +1665,9 @@ msgstr ""
 
 #~ msgid ""
 #~ "a daemon for managing the deployment of <a href=\"https://fedoraproject."
-#~ "org/wiki/Server/Product_Requirements_Document#Featured_Server_Roles"
-#~ "\">Server Roles</a>"
+#~ "org/wiki/Server/"
+#~ "Product_Requirements_Document#Featured_Server_Roles\">Server Roles</a>"
 #~ msgstr ""
 #~ "un démon pour gérer le déploiement des  <a href=\"https://fedoraproject."
-#~ "org/wiki/Server/Product_Requirements_Document#Featured_Server_Roles"
-#~ "\">Server Roles</a> "
+#~ "org/wiki/Server/"
+#~ "Product_Requirements_Document#Featured_Server_Roles\">Server Roles</a> "
