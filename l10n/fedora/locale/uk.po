@@ -1,5 +1,5 @@
-# Yuri Chornoivan <yurchor@ukr.net>, 2016. #zanata, 2020, 2021.
-# Yuri Chornoivan <yurchor@ukr.net>, 2019. #zanata, 2020, 2021.
+# Yuri Chornoivan <yurchor@ukr.net>, 2016. #zanata, 2020, 2021, 2023.
+# Yuri Chornoivan <yurchor@ukr.net>, 2019. #zanata, 2020, 2021, 2023.
 # Borys Dikovets <bordik@gmail.com>, 2023.
 msgid ""
 msgstr ""
@@ -7,7 +7,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-11-13 10:53+0100\n"
 "PO-Revision-Date: 2023-11-22 19:01+0000\n"
-"Last-Translator: Borys Dikovets <bordik@gmail.com>\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
 "fedora-infra/asknot-ng/uk/>\n"
 "Language: uk\n"
@@ -128,7 +128,7 @@ msgstr "CoC"
 #. navlink
 #: questions/fedora.yml:1
 msgid "Chat"
-msgstr "Балачка"
+msgstr "Спілкування"
 
 #. segue1
 #: questions/fedora.yml:36
