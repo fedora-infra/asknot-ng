@@ -698,8 +698,8 @@ msgstr "Stema Fedora"
 #. subtitle
 #: questions/includes/fedora/design.yml:30
 msgid ""
-"make awesome badge art that fuels <a href=\"https://badges.fedoraproject.org"
-"\">badges.fp.o</a>"
+"make awesome badge art that fuels <a href=\"https://badges.fedoraproject."
+"org\">badges.fp.o</a>"
 msgstr ""
 
 #. title
@@ -1511,9 +1511,9 @@ msgstr ""
 
 #~ msgid ""
 #~ "a daemon for managing the deployment of <a href=\"https://fedoraproject."
-#~ "org/wiki/Server/Product_Requirements_Document#Featured_Server_Roles"
-#~ "\">Server Roles</a>"
+#~ "org/wiki/Server/"
+#~ "Product_Requirements_Document#Featured_Server_Roles\">Server Roles</a>"
 #~ msgstr ""
 #~ "një demon për administrim vëniesh në punë <a href=\"https://fedoraproject."
-#~ "org/wiki/Server/Product_Requirements_Document#Featured_Server_Roles"
-#~ "\">Rolesh Shërbyesi</a>"
+#~ "org/wiki/Server/"
+#~ "Product_Requirements_Document#Featured_Server_Roles\">Rolesh Shërbyesi</a>"

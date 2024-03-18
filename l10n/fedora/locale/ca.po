@@ -562,8 +562,8 @@ msgid ""
 "web developers that build <a href=\"https://getfedora.org\">getfedora.org</"
 "a> and other awesome sites"
 msgstr ""
-"desenvolupadors webs que construeixen <a href=\"https://getfedora.org"
-"\">getfedora.org</a> i d'altres llocs impressionants"
+"desenvolupadors webs que construeixen <a href=\"https://getfedora."
+"org\">getfedora.org</a> i d'altres llocs impressionants"
 
 #. title
 #: questions/includes/fedora/coding.yml:44
@@ -723,8 +723,8 @@ msgstr "Insígnies de Fedora"
 #. subtitle
 #: questions/includes/fedora/design.yml:30
 msgid ""
-"make awesome badge art that fuels <a href=\"https://badges.fedoraproject.org"
-"\">badges.fp.o</a>"
+"make awesome badge art that fuels <a href=\"https://badges.fedoraproject."
+"org\">badges.fp.o</a>"
 msgstr ""
 "creeu insígnies genials que siguin l'enveja a <a href=\"https://badges."
 "fedoraproject.org\">badges.fp.o</a>"
@@ -1649,8 +1649,8 @@ msgstr "això mateix -- la pàgina que esteu veient ara mateix!"
 
 #~ msgid ""
 #~ "a daemon for managing the deployment of <a href=\"https://fedoraproject."
-#~ "org/wiki/Server/Product_Requirements_Document#Featured_Server_Roles"
-#~ "\">Server Roles</a>"
+#~ "org/wiki/Server/"
+#~ "Product_Requirements_Document#Featured_Server_Roles\">Server Roles</a>"
 #~ msgstr ""
 #~ "un dimoni per a la gestió del desplegament dels <a href=\"https://"
 #~ "fedoraproject.org/wiki/Server/"

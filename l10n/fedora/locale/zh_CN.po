@@ -487,7 +487,8 @@ msgstr "Java"
 msgid ""
 "So you're a believer in <code>AbstractMethodFactoryBean</code>s?  "
 "Straightforward enough..."
-msgstr "所以你是一个 <code>AbstractMethodFactoryBean</code> 的信徒？足够直截了当……"
+msgstr ""
+"所以你是一个 <code>AbstractMethodFactoryBean</code> 的信徒？足够直截了当……"
 
 #. subtitle
 #: questions/includes/fedora/coding.yml:21
@@ -550,7 +551,8 @@ msgid ""
 "web developers that build <a href=\"https://getfedora.org\">getfedora.org</"
 "a> and other awesome sites"
 msgstr ""
-"web 开发者将会构建<a href=\"https://getfedora.org\">getfedora.org</a> 以及其他精美的站点"
+"web 开发者将会构建<a href=\"https://getfedora.org\">getfedora.org</a> 以及其"
+"他精美的站点"
 
 #. title
 #: questions/includes/fedora/coding.yml:44
@@ -701,9 +703,11 @@ msgstr "Fedora 勋章"
 #. subtitle
 #: questions/includes/fedora/design.yml:30
 msgid ""
-"make awesome badge art that fuels <a href=\"https://badges.fedoraproject.org"
-"\">badges.fp.o</a>"
-msgstr "制作美妙的勋章以驱动 <a href=\"https://badges.fedoraproject.org\">badges.fp.o</a>"
+"make awesome badge art that fuels <a href=\"https://badges.fedoraproject."
+"org\">badges.fp.o</a>"
+msgstr ""
+"制作美妙的勋章以驱动 <a href=\"https://badges.fedoraproject.org\">badges.fp."
+"o</a>"
 
 #. title
 #: questions/includes/fedora/desktop.yml:3
