@@ -65,7 +65,7 @@ Create a virtualenv into which you can install the module.
 
 Run the script with the Fedora configuration::
 
-    $ ./asknot-ng.py templates/index.html questions/fedora.yml l10n/fedora/locale --theme fedora
+./asknot-ng.py templates/index.html questions/fedora.yml l10n/fedora/locale --theme fedora
 
 After the command finishes with `Wrote build/en/index.html` you can open up `build/en/index.html` in your favorite browser.
 
