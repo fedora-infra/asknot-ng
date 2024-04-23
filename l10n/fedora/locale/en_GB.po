@@ -712,8 +712,8 @@ msgstr ""
 #. subtitle
 #: questions/includes/fedora/design.yml:30
 msgid ""
-"make awesome badge art that fuels <a href=\"https://badges.fedoraproject.org"
-"\">badges.fp.o</a>"
+"make awesome badge art that fuels <a href=\"https://badges.fedoraproject."
+"org\">badges.fp.o</a>"
 msgstr ""
 
 #. title
@@ -1434,6 +1434,16 @@ msgstr ""
 #. subtitle
 #: questions/includes/fedora/coding/web.yml:40
 msgid "this thing -- the page you're looking at right now!"
+msgstr ""
+
+#. title
+#: questions/includes/fedora/qa.yml:29
+msgid "Taskotron"
+msgstr "Taskotron"
+
+#. title
+#: questions/includes/fedora/writing.yml:22
+msgid "A Beat"
 msgstr ""
 
 #~ msgid "What can I do for coala?"
