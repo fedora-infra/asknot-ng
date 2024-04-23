@@ -41,12 +41,16 @@ We have a [Fedora instance up and running][wcidff] if you’d like to poke it.
 The site-generator script is written in Python, so you’ll need that.
 Furthermore, see [requirements.txt][requirements] or just run::
 
-    $ sudo dnf install python-mako PyYAML python-virtualenv
+```
+sudo dnf install python-mako PyYAML python-virtualenv
+```
 
 The script can optionally generate an svg visualizing your question tree.  This
 requires pygraphviz which you could install like so:
 
-    $ sudo dnf install python-pygraphviz
+```
+sudo dnf install python-pygraphviz
+```
 
 ## Giving it a run
 
@@ -54,34 +58,42 @@ Install the requirements, first.
 
 Clone the repo::
 
-    $ git clone https://github.com/fedora-infra/asknot-ng.git
-    $ cd asknot-ng
+```
+git clone https://github.com/fedora-infra/asknot-ng.git
+cd asknot-ng
+```
 
 Create a virtualenv into which you can install the module.
 
-    $ virtualenv --system-site-packages venv
-    $ source venv/bin/activate
-    $ python setup.py develop
+```
+virtualenv --system-site-packages venv
+source venv/bin/activate
+python setup.py develop
+```
 
 Run the script with the Fedora configuration::
+```
+./asknot-ng.py templates/index.html questions/fedora.yml l10n/fedora/locale --theme fedora
+```
 
-    $ ./asknot-ng.py templates/index.html questions/fedora.yml l10n/fedora/locale --theme fedora
-    Wrote build/en/index.html
-
-and open up `build/en/index.html` in your favorite browser.
+After the command finishes with `Wrote build/en/index.html` you can open up `build/en/index.html` in your favorite browser.
 
 ## Preparing Translations
 
 First, setup a virtualenv, install Babel, and build the egg info.
 
-    $ virtualenv venv
-    $ source venv/bin/activate
-    $ pip install Babel
-    $ python setup.py develop
+```
+virtualenv venv
+source venv/bin/activate
+pip install Babel
+python setup.py develop
+```
 
 Then, extract the translatable strings:
 
-    $ python setup.py extract_messages --output-file l10n/fedora/locale/asknot-ng.pot --input-dir=.
+```
+python setup.py extract_messages --output-file l10n/fedora/locale/asknot-ng.pot --input-dir=.
+```
 
 ## Container
 
