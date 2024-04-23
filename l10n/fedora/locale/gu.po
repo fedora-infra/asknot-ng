@@ -704,8 +704,8 @@ msgstr "fedora બિલ્લાઓ"
 #. subtitle
 #: questions/includes/fedora/design.yml:30
 msgid ""
-"make awesome badge art that fuels <a href=\"https://badges.fedoraproject.org"
-"\">badges.fp.o</a>"
+"make awesome badge art that fuels <a href=\"https://badges.fedoraproject."
+"org\">badges.fp.o</a>"
 msgstr ""
 "અદ્ભુત બિલ્લા કલા બનાવો કે  <a href=\"https://badges.fedoraproject.org\">badges."
 "fp.o</a> માં પ્રાણ પૂરે"
@@ -1610,8 +1610,8 @@ msgstr "આ વસ્તુ - તમે હમણાં જોઈ રહ્ય�
 
 #~ msgid ""
 #~ "a daemon for managing the deployment of <a href=\"https://fedoraproject."
-#~ "org/wiki/Server/Product_Requirements_Document#Featured_Server_Roles"
-#~ "\">Server Roles</a>"
+#~ "org/wiki/Server/"
+#~ "Product_Requirements_Document#Featured_Server_Roles\">Server Roles</a>"
 #~ msgstr ""
 #~ "એક daemon વિસ્તારણ ના સંચાલન માટે  <a href=\"https://fedoraproject.org/wiki/"
 #~ "Server/Product_Requirements_Document#Featured_Server_Roles\">સર્વર ભૂમિકાઓ</"

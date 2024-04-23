@@ -3,21 +3,23 @@
 # Jérôme Bivia <jerome.bivia@gmail.com>, 2016. #zanata
 # Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>, 2017. #zanata, 2020.
 # Julien Humbert <julroy67@gmail.com>, 2020.
+# pkikoun camara <pkikoun@hotmail.com>, 2024.
+# William Modave <willymdv@gmail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-11-13 10:53+0100\n"
-"PO-Revision-Date: 2020-01-22 19:15+0000\n"
-"Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
-"Language-Team: French <https://translate.stg.fedoraproject.org/projects/"
+"PO-Revision-Date: 2024-03-18 18:36+0000\n"
+"Last-Translator: William Modave <willymdv@gmail.com>\n"
+"Language-Team: French <https://translate.fedoraproject.org/projects/"
 "fedora-infra/asknot-ng/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.10.3\n"
+"X-Generator: Weblate 5.4\n"
 
 #. title
 #. description
@@ -113,7 +115,7 @@ msgstr "Sortez-moi d’ici !"
 #. navlink
 #: questions/fedora.yml:1
 msgid "Home"
-msgstr ""
+msgstr "Accueil"
 
 #. navlink
 #: questions/fedora.yml:1
@@ -123,12 +125,12 @@ msgstr "Obtenir Fedora"
 #. navlink
 #: questions/fedora.yml:1
 msgid "CoC"
-msgstr ""
+msgstr "Code de conduite"
 
 #. navlink
 #: questions/fedora.yml:1
 msgid "Chat"
-msgstr ""
+msgstr "Chat"
 
 #. segue1
 #: questions/fedora.yml:36
@@ -161,7 +163,7 @@ msgstr "Et en ce qui concerne…"
 #. subtitle
 #: questions/fedora.yml:40
 msgid "pixel ninjas"
-msgstr "pixel ninjas"
+msgstr "ninjas du pixel"
 
 #. title
 #: questions/fedora.yml:47
@@ -186,7 +188,7 @@ msgstr "s’attaquer au Gibson"
 #. title
 #: questions/fedora.yml:54
 msgid "Community Ops"
-msgstr "Community Ops"
+msgstr "Opérations communautaires"
 
 #. segue1
 #: questions/fedora.yml:54
@@ -303,12 +305,12 @@ msgstr "comme on dit, « ce qui n’est pas testé est cassé »"
 #. title
 #: questions/fedora.yml:96
 msgid "Modularity"
-msgstr ""
+msgstr "Modularité"
 
 #. subtitle
 #: questions/fedora.yml:96
 msgid "rethinking how we compose the distro"
-msgstr ""
+msgstr "revoir notre approche de la composition de la distribution"
 
 #. title
 #: questions/fedora.yml:101
@@ -332,6 +334,7 @@ msgstr "Vous désirez probablement rejoindre Fedora…"
 #: questions/fedora.yml:101
 msgid "for those who are passionate about user and developer experience"
 msgstr ""
+"pour ceux qui sont passionnés par l'expérience utilisateur et développeur"
 
 #. title
 #: questions/fedora.yml:108
@@ -381,12 +384,12 @@ msgstr "faire en sorte que Fedora marche mieux dans toutes les langues"
 #. title
 #: questions/fedora.yml:129
 msgid "Instruction"
-msgstr ""
+msgstr "Consigne"
 
 #. subtitle
 #: questions/fedora.yml:129
 msgid "spread your knowledge to others in the community"
-msgstr ""
+msgstr "partagez vos connaissances avec les autres membres de la communauté"
 
 #. title
 #: questions/includes/fedora/advocacy.yml:3
@@ -403,7 +406,7 @@ msgstr "les représentants de Fedora"
 #. title
 #: questions/includes/fedora/cloud.yml:3
 msgid "Cloud SIG"
-msgstr "Cloud SIG"
+msgstr "Groupe d'Intérêt Spécial Cloud"
 
 #. subtitle
 #: questions/includes/fedora/cloud.yml:3
@@ -468,7 +471,7 @@ msgstr "près du matériel"
 #. title
 #: questions/includes/fedora/coding.yml:15
 msgid "Haskell"
-msgstr "Haskell"
+msgstr "Langage Haskell"
 
 #. segue1
 #: questions/includes/fedora/coding.yml:15
@@ -512,7 +515,7 @@ msgstr "un langage non dynamique pour un développement non rapide"
 #. title
 #: questions/includes/fedora/coding.yml:27
 msgid "Scala"
-msgstr "Scala"
+msgstr "Langage Scala"
 
 #. segue1
 #: questions/includes/fedora/coding.yml:27
@@ -544,7 +547,7 @@ msgstr ""
 #. segue2
 #: questions/includes/fedora/coding.yml:33
 msgid "There's plenty to do.  How about joining the.."
-msgstr "Il y a des tas de choses à faire. Que diriez vous de rejoindre…"
+msgstr "Il y a beaucoup à faire. Que diriez vous de rejoindre…"
 
 #. subtitle
 #: questions/includes/fedora/coding.yml:33
@@ -569,8 +572,8 @@ msgid ""
 "web developers that build <a href=\"https://getfedora.org\">getfedora.org</"
 "a> and other awesome sites"
 msgstr ""
-"les développeurs du web qui construisent <a href=\"https://getfedora.org"
-"\">getfedora.org</a> et d’autres sites tout aussi géniaux"
+"les développeurs du web qui construisent <a href=\"https://getfedora."
+"org\">getfedora.org</a> et d’autres sites tout aussi géniaux"
 
 #. title
 #: questions/includes/fedora/coding.yml:44
@@ -730,8 +733,8 @@ msgstr "Badges de Fedora"
 #. subtitle
 #: questions/includes/fedora/design.yml:30
 msgid ""
-"make awesome badge art that fuels <a href=\"https://badges.fedoraproject.org"
-"\">badges.fp.o</a>"
+"make awesome badge art that fuels <a href=\"https://badges.fedoraproject."
+"org\">badges.fp.o</a>"
 msgstr ""
 "créer des badges géniaux pour alimenter <a href=\"https://badges."
 "fedoraproject.org\">badges.fp.o</a>"
@@ -739,19 +742,17 @@ msgstr ""
 #. title
 #: questions/includes/fedora/desktop.yml:3
 msgid "Workstation Working Group"
-msgstr ""
+msgstr "Groupe de travail Workstation"
 
 #. subtitle
 #: questions/includes/fedora/desktop.yml:3
-#, fuzzy
-#| msgid "the special-interest-group for Fedora Workstation"
 msgid "the group behind Fedora Workstation"
-msgstr "le groupe d’intérêt spécial pour Fedora Workstation"
+msgstr "Le groupe derrière Fedora Workstation"
 
 #. title
 #: questions/includes/fedora/desktop.yml:7
 msgid "Cinnamon SIG"
-msgstr "Cinnamon SIG"
+msgstr "Groupe d'intérêt spécial Cinnamon"
 
 #. subtitle
 #: questions/includes/fedora/desktop.yml:7
@@ -1021,10 +1022,8 @@ msgstr "GNOME"
 
 #. subtitle
 #: questions/includes/fedora/translation.yml:22
-#, fuzzy
-#| msgid "which has it's own translation resources"
 msgid "which has its own translation resources"
-msgstr "qui dispose des ses propres ressources des traductions"
+msgstr "qui possède ses propres ressources de traduction"
 
 #. title
 #: questions/includes/fedora/coding/c++.yml:7
@@ -1034,10 +1033,8 @@ msgstr "KDE"
 
 #. subtitle
 #: questions/includes/fedora/translation.yml:25
-#, fuzzy
-#| msgid "also with it's own translation process"
 msgid "also with its own translation process"
-msgstr "également avec son propre processus de traduction"
+msgstr "aussi avec son propre mécanisme de traduction"
 
 #. segue1
 #: questions/includes/fedora/writing.yml:3
@@ -1361,22 +1358,17 @@ msgstr "PortingDB"
 
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:19
-#, fuzzy
-#| msgid ""
-#| "a <a href\"http://portingdb-encukou.rhcloud.com/\">dynamic database</a> "
-#| "of Python 2 packages needing to be updated to Python 3"
 msgid ""
 "a <a href=\"http://fedora.portingdb.xyz/\">dynamic database</a> of Python 2 "
 "packages needing to be updated to Python 3"
 msgstr ""
-"une <a href\"http://portingdb-encukou.rhcloud.com/\">base de données "
-"dynamique </a> de paquets Python 2 qui ont besoin d’être mis à jour pour "
-"Python 3"
+"une <a href=\"http://fedora.portingdb.xyz/\">base de données dynamique</a> "
+"des paquets Python 2 nécessitant une mise à jour vers Python 3"
 
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:23
 msgid "a web interface for managing and administrating Linux web servers"
-msgstr ""
+msgstr "Une interface web pour gérer et administrer les serveurs web Linux"
 
 #. title
 #: questions/includes/fedora/coding/python.yml:27
@@ -1438,8 +1430,8 @@ msgstr "Magazine"
 msgid ""
 "did you even know we had a <a href='http://fedoramagazine.org'>magazine</a>?"
 msgstr ""
-"saviez-vous au moins que nous avions un <a href=\"http://fedoramagazine.org"
-"\">magazine</a> ?"
+"saviez-vous au moins que nous avions un <a href=\"http://fedoramagazine."
+"org\">magazine</a> ?"
 
 #. title
 #: questions/includes/fedora/coding/web.yml:24
@@ -1665,9 +1657,9 @@ msgstr ""
 
 #~ msgid ""
 #~ "a daemon for managing the deployment of <a href=\"https://fedoraproject."
-#~ "org/wiki/Server/Product_Requirements_Document#Featured_Server_Roles"
-#~ "\">Server Roles</a>"
+#~ "org/wiki/Server/"
+#~ "Product_Requirements_Document#Featured_Server_Roles\">Server Roles</a>"
 #~ msgstr ""
 #~ "un démon pour gérer le déploiement des  <a href=\"https://fedoraproject."
-#~ "org/wiki/Server/Product_Requirements_Document#Featured_Server_Roles"
-#~ "\">Server Roles</a> "
+#~ "org/wiki/Server/"
+#~ "Product_Requirements_Document#Featured_Server_Roles\">Server Roles</a> "

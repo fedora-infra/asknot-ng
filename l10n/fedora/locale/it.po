@@ -1,13 +1,14 @@
 # Andrea Masala <andrea.masala87@gmail.com>, 2016. #zanata
 # Alessio Ciregia <alciregi@gmail.com>, 2018. #zanata
 # Nathan <nathan95@live.it>, 2023.
+# Alessandro Bugliazzini <yattatux@posteo.net>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-11-13 10:53+0100\n"
-"PO-Revision-Date: 2023-07-16 07:20+0000\n"
-"Last-Translator: Nathan <nathan95@live.it>\n"
+"PO-Revision-Date: 2024-04-23 10:36+0000\n"
+"Last-Translator: Alessandro Bugliazzini <yattatux@posteo.net>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/"
 "fedora-infra/asknot-ng/it/>\n"
 "Language: it\n"
@@ -15,13 +16,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.18.2\n"
+"X-Generator: Weblate 5.4\n"
 
 #. title
 #. description
 #: questions/fedora.yml:1
 msgid "What can I do for Fedora?"
-msgstr ""
+msgstr "Cosa posso fare per Fedora?"
 
 #. negative
 #: questions/fedora.yml:1
@@ -112,12 +113,12 @@ msgstr "Portami fuori di qui!"
 #. navlink
 #: questions/fedora.yml:1
 msgid "Home"
-msgstr ""
+msgstr "Home"
 
 #. navlink
 #: questions/fedora.yml:1
 msgid "Get Fedora"
-msgstr ""
+msgstr "Scarica Fedora"
 
 #. navlink
 #: questions/fedora.yml:1
@@ -128,7 +129,7 @@ msgstr "CoC"
 #. navlink
 #: questions/fedora.yml:1
 msgid "Chat"
-msgstr ""
+msgstr "Chat"
 
 #. segue1
 #: questions/fedora.yml:36
@@ -703,8 +704,8 @@ msgstr ""
 #. subtitle
 #: questions/includes/fedora/design.yml:30
 msgid ""
-"make awesome badge art that fuels <a href=\"https://badges.fedoraproject.org"
-"\">badges.fp.o</a>"
+"make awesome badge art that fuels <a href=\"https://badges.fedoraproject."
+"org\">badges.fp.o</a>"
 msgstr ""
 
 #. title
