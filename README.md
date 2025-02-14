@@ -155,7 +155,7 @@ Happy Hacking!
 [default-template]: https://github.com/fedora-infra/asknot-ng/blob/develop/templates/index.html
 [requirements]: https://github.com/fedora-infra/asknot-ng/blob/develop/requirements.txt
 [patches]: https://help.github.com/articles/editing-files-in-another-user-s-repository/
-[wcidfm]: http://whatcanidoformozilla.org
+[wcidfm]: https://web.archive.org/web/20220714110613/https://www.whatcanidoformozilla.org/
 [wcidff]: http://whatcanidoforfedora.org
 [jdm]: http://www.joshmatthews.net
 [wham]: http://wham.fi
