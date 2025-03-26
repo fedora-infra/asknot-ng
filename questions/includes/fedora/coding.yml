@@ -1,34 +1,41 @@
 tree:
   children:
-    - title: Python
-      subtitle: a dynamic language for rapid development
-      segue1: So, you enjoy traceback-driven development?  What could go wrong?
-      segue2: Are you interested in hacking on...
-      children: coding/python.yml
 
     - title: C
       subtitle: close to the metal
       segue1: So, you think OOP is for hipsters?  Let me tell you, back in my day...
       segue2: How about working on...
-      children: coding/c.yml
+      link: https://docs.fedoraproject.org/en-US/defensive-coding/programming-languages/C/
 
-    - title: Haskell
-      subtitle: a nondynamic language for rapid development
-      segue1: So, programming without side-effects is what you're all about?  Sounds useful!
-      segue2: How about...
-      children: coding/haskell.yml
+    - title: C++
+      subtitle: imperative and object-oriented with the power of low-level memory manipulation
+      segue1: So, you're not happy if your error messages are comprehensible?  We have a place for you
+      segue2: Try digging into...
+      link: https://docs.fedoraproject.org/en-US/defensive-coding/programming-languages/CXX/
 
     - title: Java
       subtitle: a nondynamic language for nonrapid development
-      segue1: So you're a believer in <code>AbstractMethodFactoryBean</code>s?  Straightforward enough...
+      segue1: So you're a believer in <code>AbstractMethodFactoryBean</code>s?  Straightforward enough
       segue2: How about...
-      children: coding/java.yml
+      link: https://docs.fedoraproject.org/en-US/defensive-coding/programming-languages/Java/
 
-    - title: Scala
-      subtitle: a nondynamic language for semirapid development
+    - title: Python
+      subtitle: a dynamic language for rapid development
+      segue1: So, you enjoy traceback-driven development?  What could go wrong?
+      segue2: Are you interested in hacking on...
+      link: https://docs.fedoraproject.org/en-US/defensive-coding/programming-languages/Python/
+
+    - title: Shell
+      subtitle: scripting for the command line
+      segue1: So, programming without side-effects is what you're all about?  Sounds useful!
+      segue2: How about...
+      link: https://docs.fedoraproject.org/en-US/defensive-coding/programming-languages/Shell/
+
+    - title: GO
+      subtitle: a statically typed language with a focus on simplicity and performance
       segue1: So, just OOP or functional languages wouldn't do it?  You had to have both, huh?
       segue2: How about working on...
-      children: coding/scala.yml
+      link: https://docs.fedoraproject.org/en-US/defensive-coding/programming-languages/Go/
 
     - title: JavaScript
       subtitle: a dynamic web-oriented language for backend and frontend
@@ -39,14 +46,10 @@ tree:
           subtitle: web developers that build <a href="https://getfedora.org">getfedora.org</a> and other awesome sites
           segue1: Great!
           segue2: Would you like something more
-          children: coding/web.yml
+          link: https://docs.fedoraproject.org/en-US/websites/
 
-    - title: Ruby
-      subtitle: hashrockets and bare words
-      link: https://fedoraproject.org/wiki/Ruby_SIG
-
-    - title: C++
-      subtitle: imperative and object-oriented with the power of low-level memory manipulation
-      segue1: So, you're not happy if your error messages are comprehensible?  We have a place for you.
-      segue2: Try digging into...
-      children: coding/c++.yml
+    - title: Vala
+      subtitle: a statically typed language with a focus on simplicity and performance
+      segue1: So, just OOP or functional languages wouldn't do it?  You had to have both, huh?
+      segue2: How about working on...
+      link: https://docs.fedoraproject.org/en-US/defensive-coding/programming-languages/Vala/

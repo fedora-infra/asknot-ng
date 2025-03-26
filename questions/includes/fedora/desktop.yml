@@ -1,21 +1,30 @@
 tree:
   children:
-    - title: Workstation Working Group
-      subtitle: the group behind Fedora Workstation
-      link: https://docs.fedoraproject.org/en-US/workstation-working-group/
-      
-    - title: Cinnamon SIG
-      subtitle: for those excited about Cinnamon desktop environment spiciness in Fedora
-      link: https://fedoraproject.org/wiki/Cinnamon_Spin
 
-    - title: KDE SIG
-      subtitle: to provide high-quality, usable KDE software packages
-      link: https://fedoraproject.org/wiki/SIGs/KDE
+    - title: The Desktop
+      subtitle: for those who are passionate about user and developer experience
+      link: https://docs.fedoraproject.org/en-US/workstation-docs/
 
-    - title: LXDE SIG
-      subtitle: to define a high-quality LXDE experience for Fedora users
-      link: https://fedoraproject.org/wiki/LXDE_SIG
+    - title: Atomics Desktops
+      subtitle: for those who are passionate about user and developer experience
+      link: https://docs.fedoraproject.org/en-US/emerging/
 
-    - title: XFCE SIG
-      subtitle: for those excited about integration of the Xfce desktop environment
-      link: https://fedoraproject.org/wiki/SIGs/Xfce
+    - title: The Server
+      subtitle: the best and latest for the datacenter
+      link: https://docs.fedoraproject.org/en-US/fedora-server/
+
+    - title: The Cloud
+      subtitle: it's where the future lives
+      link: https://fedoraproject.org/cloud/
+
+    - title: IOT
+      subtitle: the internet of things
+      link: https://docs.fedoraproject.org/en-US/iot/
+
+    - title: The CoreOS
+      subtitle: the future of containerized applications
+      link: https://docs.fedoraproject.org/en-US/fedora-coreos/
+
+    - title: Spins and Labs
+      subtitle: for those who are passionate about user and developer experience
+      link: https://docs.fedoraproject.org/en-US/spins-labs/

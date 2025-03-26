@@ -5,34 +5,31 @@ tree:
           image: https://badges.fedoraproject.org/pngs/artist-01-apprentice.png
           segue1: Ok.
           segue2: Would you like something more
-
           children:
-              - title: General
-                subtitle: on how to join the design team?
-                image: https://badges.fedoraproject.org/pngs/artist-02-badger-of-urbino.png
-                link: https://fedoraproject.org/wiki/Join_the_Design_Team
-
-              - title: Specific
-                subtitle: on different kinds of design tasks
-                image: https://badges.fedoraproject.org/pngs/artist-03-birth-of-badger.png
-                segue1: Excellent!
-                segue2: How does this sound?
-
-                children:
-                    - title: Artwork Requests
-                      subtitle: there are people in need of good taste -- you can help
-                      link: https://gitlab.com/fedora/design/team/requests/-/issues
-                      image: https://badges.fedoraproject.org/pngs/artist-04-putti.png
-                    - title: Hackergotchis
-                      subtitle: making cute cut-outs of people's faces
-                      image: https://badges.fedoraproject.org/pngs/artist-05-vitruvian-badger.png
-                      link: https://fedoraproject.org/wiki/Artwork/HackergotchiService
-                    - title: Fedora Badges
-                      subtitle: make awesome badge art that fuels <a href="https://badges.fedoraproject.org">badges.fp.o</a>
-                      image: https://badges.fedoraproject.org/pngs/artist-06-creation-of-badger.png
-                      link: https://pagure.io/fedora-badges
+          - title: General
+            subtitle: on how to join the design team?
+            image: https://badges.fedoraproject.org/pngs/artist-02-badger-of-urbino.png
+            link: https://fedoraproject.org/wiki/Join_the_Design_Team
+          - title: Specific
+            subtitle: on different kinds of design tasks
+            image: https://badges.fedoraproject.org/pngs/artist-03-birth-of-badger.png
+            segue1: Excellent!
+            segue2: How does this sound?
+            children:
+            - title: Artwork Requests
+              subtitle: there are people in need of good taste -- you can help
+              link: https://gitlab.com/fedora/design/team/requests/-/issues
+              image: https://badges.fedoraproject.org/pngs/artist-04-putti.png
+            - title: Hackergotchis
+              subtitle: making cute cut-outs of people's faces
+              image: https://badges.fedoraproject.org/pngs/artist-05-vitruvian-badger.png
+              link: https://fedoraproject.org/wiki/Artwork/HackergotchiService
+            - title: Fedora Badges
+              subtitle: make awesome badge art that fuels <a href="https://badges.fedoraproject.org">badges.fp.o</a>
+              image: https://badges.fedoraproject.org/pngs/artist-06-creation-of-badger.png
+              link: https://pagure.io/fedora-badges          
 
         - title: Websites Team
           subtitle: web developers that build <a href="https://getfedora.org">getfedora.org</a> and other awesome sites
           image: https://badges.fedoraproject.org/pngs/rock-the-web.png
-          children: coding/web.yml
+          link: https://docs.fedoraproject.org/en-US/websites/
