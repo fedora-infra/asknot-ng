@@ -13,7 +13,7 @@ import yaml
 
 # Lists of translatable strings so we know what to extract at extraction time
 # and so we know what to translate at render time.
-translatable_collections = ['negatives', 'affirmatives', 'backlinks']
+translatable_collections = ['negatives', 'affirmatives', 'backlinks', 'wlinks']
 translatable_fields = ['title', 'description', 'segue1', 'segue2', 'subtitle']
 
 if sys.version_info[0] == 2:
@@ -47,6 +47,7 @@ defaults = {
     'negatives': ['No, thanks'],
     'affirmatives': ['Yes, please'],
     'backlinks': ['I was wrong, take me back'],
+    'wlinks': ['I will Join'],
     'SEP': '#',  # Make this '/' for cool prod environments
 }
 
@@ -121,7 +122,7 @@ def prepare_tree(data, node, parent=None, seen=None, _=lambda x: x):
     A few things happen here:
         - Translatable strings are marked up so they can be translated.
         - Unique ids are assigned to each node in the tree for use by JS.
-        - Texts for 'yes', 'no', and 'go back' are assigned at random per node.
+        - Texts for 'yes', 'no', 'go back' and 'wlink' are assigned at random per node.
         - For each node that doesn't have an image defined, propagate the image
           defined by its parent node.
 
@@ -146,6 +147,7 @@ def prepare_tree(data, node, parent=None, seen=None, _=lambda x: x):
     node['affirmative'] = random.choice(data['affirmatives'])
     node['negative'] = random.choice(data['negatives'])
     node['backlink'] = random.choice(data['backlinks'])
+    node['wlink'] = random.choice(data['wlinks'])
 
     # Propagate parent images to children unless otherwise specified.
     if parent and not 'image' in node and 'image' in parent:
