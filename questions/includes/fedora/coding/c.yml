@@ -6,7 +6,7 @@ tree:
 
     - title: systemd
       subtitle: widely renowned init system and suite of building blocks
-      link: https://www.freedesktop.org/wiki/Software/systemd/
+      link: https://systemd.io/
 
     - title: Cockpit
       subtitle: a server manager that makes it easy to administer via a web browser
