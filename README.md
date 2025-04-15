@@ -121,7 +121,7 @@ In your Favorite Browser Just type:
 
 Connect to server in nautilis and add this directions
 
-sftp://<FAS>@fedorapeople.org/home/fedora/<FAS>/public_html
+sftp://FAS@fedorapeople.org/home/fedora/<FAS>/public_html
 
 make a directory : mkdir wcidff
 
@@ -130,7 +130,7 @@ copy files from /static directory
 
 Share the space:
 
-https://<fas>.fedorapeople.org/wcidff/en/index.html
+https://FAS.fedorapeople.org/wcidff/en/index.html
 
 ## Application Deployment
 
