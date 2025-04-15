@@ -1,21 +1,34 @@
 tree:
   children:
-    - title: Workstation Working Group
-      subtitle: the group behind Fedora Workstation
-      link: https://docs.fedoraproject.org/en-US/workstation-working-group/
+
+    - title: The Desktop
+      subtitle: for those who are passionate -> <a href="https://fedoraproject.org/workstation/">get.workstation</a>
+      link: https://docs.fedoraproject.org/en-US/workstation-docs
       
-    - title: Cinnamon SIG
-      subtitle: for those excited about Cinnamon desktop environment spiciness in Fedora
-      link: https://fedoraproject.org/wiki/Cinnamon_Spin
+    - title: Atomics Desktops
+      subtitle: for those who are passionate about the latest and greatest desktop technologies -> <a href="https://fedoraproject.org/atomic-desktops/">get.atomics</a>
+      link: https://docs.fedoraproject.org/en-US/emerging/
 
-    - title: KDE SIG
-      subtitle: to provide high-quality, usable KDE software packages
-      link: https://fedoraproject.org/wiki/SIGs/KDE
+    - title: The Server
+      subtitle: the best and latest for the datacenter -> <a href="https://fedoraproject.org/server/">get.server</a>
+      link: https://docs.fedoraproject.org/en-US/fedora-server/
 
-    - title: LXDE SIG
-      subtitle: to define a high-quality LXDE experience for Fedora users
-      link: https://fedoraproject.org/wiki/LXDE_SIG
+    - title: The Cloud
+      subtitle: it's where the future lives -> <a href="https://fedoraproject.org/cloud/">get.cloud</a>
+      link: https://fedoraproject.org/cloud/
 
-    - title: XFCE SIG
-      subtitle: for those excited about integration of the Xfce desktop environment
-      link: https://fedoraproject.org/wiki/SIGs/Xfce
+    - title: IOT
+      subtitle: the internet of things -> <a href="https://fedoraproject.org/iot/">get.iot</a>
+      link: https://docs.fedoraproject.org/en-US/iot/
+
+    - title: The CoreOS
+      subtitle: the future of containerized applications -> <a href="https://fedoraproject.org/coreos/">get.coreos</a>
+      link: https://docs.fedoraproject.org/en-US/fedora-coreos/
+
+    - title: Spins
+      subtitle: enhance your experience! -> <a href="https://fedoraproject.org/spins/">get.spins</a>
+      link: https://docs.fedoraproject.org/en-US/spins-labs/
+
+    - title: Labs
+      subtitle: selections of curated bundles -> <a href="https://fedoraproject.org/labs">get.labs</a>
+      link: https://docs.fedoraproject.org/en-US/spins-labs/

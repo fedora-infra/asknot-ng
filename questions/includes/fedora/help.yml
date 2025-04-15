@@ -1,0 +1,22 @@
+tree:
+  children:
+    - title: Askfedora
+      subtitle: Ask and Answer anything about installing, using, troubleshooting, customizing, or upgrading any variant of Fedora
+      image: https://badges.fedoraproject.org/pngs/askbot-curious-penguin-01.png
+      link: https://discussion.fedoraproject.org/c/ask/6
+
+    - title: Discussion
+      subtitle: Discuss anything about Fedora, its community, and its governance
+      link: https://discussion.fedoraproject.org/c/project/7
+
+    - title: Join-SIG
+      subtitle: You're a well verser Members and want to Help other to Join the community
+      segue1: Excellent!
+      image: https://badges.fedoraproject.org/pngs/join_SIG.png
+      link: https://docs.fedoraproject.org/en-US/fedora-join/welcome/welcome/
+
+    - title: Intructors
+      subtitle: Would you like to share your knowledged?
+      segue1: Excellent!
+      image: https://badges.fedoraproject.org/pngs/sensei.png
+      link: https://docs.fedoraproject.org/en-US/fedora-join/classroom/classroom/

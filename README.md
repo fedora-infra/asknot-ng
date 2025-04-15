@@ -117,6 +117,21 @@ In your Favorite Browser Just type:
  localhost:8080
 ```
 
+## How you can share
+
+Connect to server in nautilis and add this directions
+
+sftp://FAS@fedorapeople.org/home/fedora/<FAS>/public_html
+
+make a directory : mkdir wcidff
+
+copy files from build directory: /eng/
+copy files from /static directory
+
+Share the space:
+
+https://FAS.fedorapeople.org/wcidff/en/index.html
+
 ## Application Deployment
 
 ``asknot-ng`` currently runs on Fedora infrastructure Openshift instance. There are 2 deployments one in [staging] and one in [production].
@@ -149,7 +164,7 @@ always.
 Happy Hacking!
 
 [threebean]: http://threebean.org
-[fedora]: http://getfedora.org
+[fedora]: http://fedoraproject.org
 [example-questions]: https://github.com/fedora-infra/asknot-ng/blob/develop/questions/example.yml
 [fedora-questions]: https://github.com/fedora-infra/asknot-ng/blob/develop/questions/fedora.yml
 [default-template]: https://github.com/fedora-infra/asknot-ng/blob/develop/templates/index.html

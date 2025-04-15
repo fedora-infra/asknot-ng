@@ -1,6 +1,6 @@
 tree:
   children:
-    - title: Ambassador
+    - title: Advocacy
       subtitle: the representatives of Fedora
-      image: https://badges.fedoraproject.org/pngs/fas-ambassador.png
-      link: https://fedoraproject.org/wiki/Ambassadors#Who_are_we.3F
+      image: https://badges.fedoraproject.org/pngs/fedora-advocate.png
+      link: https://docs.fedoraproject.org/en-US/mindshare-committee/advocate/
