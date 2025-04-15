@@ -7,9 +7,9 @@ tree:
           segue2: Would you like something more
           children:
           - title: General
-            subtitle: on how to join the design team?
+            subtitle: Know the TEAM
             image: https://badges.fedoraproject.org/pngs/artist-02-badger-of-urbino.png
-            link: https://fedoraproject.org/wiki/Join_the_Design_Team
+            link: https://docs.fedoraproject.org/en-US/design/
           - title: Specific
             subtitle: on different kinds of design tasks
             image: https://badges.fedoraproject.org/pngs/artist-03-birth-of-badger.png
@@ -27,9 +27,4 @@ tree:
             - title: Fedora Badges
               subtitle: make awesome badge art that fuels <a href="https://badges.fedoraproject.org">badges.fp.o</a>
               image: https://badges.fedoraproject.org/pngs/artist-06-creation-of-badger.png
-              link: https://pagure.io/fedora-badges          
-
-        - title: Websites Team
-          subtitle: web developers that build <a href="https://getfedora.org">getfedora.org</a> and other awesome sites
-          image: https://badges.fedoraproject.org/pngs/rock-the-web.png
-          link: https://docs.fedoraproject.org/en-US/websites/
+              link: https://pagure.io/fedora-badges

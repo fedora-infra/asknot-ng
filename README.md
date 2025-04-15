@@ -164,7 +164,7 @@ always.
 Happy Hacking!
 
 [threebean]: http://threebean.org
-[fedora]: http://getfedora.org
+[fedora]: http://fedoraproject.org
 [example-questions]: https://github.com/fedora-infra/asknot-ng/blob/develop/questions/example.yml
 [fedora-questions]: https://github.com/fedora-infra/asknot-ng/blob/develop/questions/fedora.yml
 [default-template]: https://github.com/fedora-infra/asknot-ng/blob/develop/templates/index.html

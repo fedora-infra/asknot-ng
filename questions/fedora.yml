@@ -1,6 +1,6 @@
 title: What can I do for Fedora?
 description: What can I do for Fedora?
-favicon: https://getfedora.org/static/images/favicon.ico
+favicon: https://fedoraproject.org/favicon.ico
 google-site-verification: a-S_XZt6rQej92LXTbscezXa1RLTN1KoaLoPUyvwAGM
 negatives:
     - "No"
@@ -31,6 +31,11 @@ tree:
           segue1: So you enjoy working on the way users interact with websites and programs?
           segue2: How about the...
           children: includes/fedora/design.yml
+
+        - title: Websites Team
+          subtitle: web developers that build <a href="https://fedoraproject.org">fedoraproject.org</a> and other awesome sites
+          image: https://badges.fedoraproject.org/pngs/rock-the-web.png
+          link: https://docs.fedoraproject.org/en-US/websites/
 
         - title: Coding
           subtitle: hacking the gibson
