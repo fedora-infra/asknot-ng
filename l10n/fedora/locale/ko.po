@@ -555,10 +555,10 @@ msgstr "좋아요!"
 #: questions/includes/fedora/coding.yml:38
 #: questions/includes/fedora/design.yml:35
 msgid ""
-"web developers that build <a href=\"https://getfedora.org\">getfedora.org</"
+"web developers that build <a href=\"https://fedoraproject.org\">fedoraproject.org</"
 "a> and other awesome sites"
 msgstr ""
-"<a href=\"https://getfedora.org\">getfedora.org</a>등을 비롯한 기가 막히는 사"
+"<a href=\"https://fedoraproject.org\">fedoraproject.org</a>등을 비롯한 기가 막히는 사"
 "이트들을 개발하는 웹 개발자들"
 
 #. title
@@ -1379,8 +1379,8 @@ msgstr "출시 사이트"
 
 #. subtitle
 #: questions/includes/fedora/coding/web.yml:16
-msgid "<a href='http://getfedora.org'>getfedora.org</a> is awesome"
-msgstr "<a href='http://getfedora.org'>getfedora.org</a>는 굉장해요"
+msgid "<a href='https://fedoraproject.org'>fedoraproject.org</a> is awesome"
+msgstr "<a href='https://fedoraproject.org'>fedoraproject.org</a>는 굉장해요"
 
 #. title
 #: questions/includes/fedora/coding/web.yml:20

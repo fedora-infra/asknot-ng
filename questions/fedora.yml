@@ -1,6 +1,6 @@
 title: What can I do for Fedora?
 description: What can I do for Fedora?
-favicon: https://getfedora.org/static/images/favicon.ico
+favicon: https://fedoraproject.org/favicon.ico
 google-site-verification: a-S_XZt6rQej92LXTbscezXa1RLTN1KoaLoPUyvwAGM
 negatives:
     - "No"
@@ -27,7 +27,7 @@ navlinks:
     - name: Home
       link: "javascript:reloadHome();"
     - name: Get Fedora
-      link: https://getfedora.org
+      link: https://fedoraproject.org
     - name: CoC
       link: https://docs.fedoraproject.org/en-US/project/code-of-conduct/
     - name: Chat
