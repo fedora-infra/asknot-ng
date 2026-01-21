@@ -111,11 +111,7 @@ podman-compose up -d
 
 ###### Verifiying
 
-In your Favorite Browser Just type:
-
-```
- localhost:8080
-```
+In your favorite browser navigate to [localhost:8080](http://localhost:8080).
 
 ## Application Deployment
 
