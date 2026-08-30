@@ -4,13 +4,13 @@
 # Rafael Rodrigues Nakano <lazpeng@gmail.com>, 2017. #zanata
 # Rodrigo de Araujo Sousa Fonseca <rodrigodearaujo@fedoraproject.org>, 2017. #zanata
 # Wolnei Cândido Tomazelli Junior <wolnei@fedoraproject.org>, 2017. #zanata
-# Rafael Fontenelle <rafaelff@gnome.org>, 2020, 2022.
+# Rafael Fontenelle <rafaelff@gnome.org>, 2020, 2022, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-11-13 10:53+0100\n"
-"PO-Revision-Date: 2022-06-06 13:19+0000\n"
+"PO-Revision-Date: 2026-04-06 20:58+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/fedora-infra/asknot-ng/pt_BR/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 4.12.2\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #. title
 #. description
@@ -1415,7 +1415,7 @@ msgstr "Revista"
 msgid ""
 "did you even know we had a <a href='http://fedoramagazine.org'>magazine</a>?"
 msgstr ""
-"você sabia que nós temos uma<a href='http://fedoramagazine.org'>revista</a>?"
+"você sabia que nós temos uma <a href='http://fedoramagazine.org'>revista</a>?"
 
 #. title
 #: questions/includes/fedora/coding/web.yml:24
