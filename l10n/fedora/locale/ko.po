@@ -1,11 +1,11 @@
 # simmon <simmon@nplob.com>, 2021.
-# 김인수 <simmon@nplob.com>, 2022, 2023.
+# 김인수 <simmon@nplob.com>, 2022, 2023, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-11-13 10:53+0100\n"
-"PO-Revision-Date: 2023-08-06 17:21+0000\n"
+"PO-Revision-Date: 2026-06-12 16:10+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/fedora-"
 "infra/asknot-ng/ko/>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.18.2\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. title
 #. description
@@ -558,8 +558,8 @@ msgid ""
 "web developers that build <a href=\"https://getfedora.org\">getfedora.org</"
 "a> and other awesome sites"
 msgstr ""
-"<a href=\"https://getfedora.org\">getfedora.org</a>등을 비롯한 기가 막히는 사"
-"이트들을 개발하는 웹 개발자들"
+"<a href=\"https://getfedora.org\">getfedora.org</a> 및 다른 멋진 사이트들을 "
+"제작하는 웹 개발자들"
 
 #. title
 #: questions/includes/fedora/coding.yml:44
@@ -1380,7 +1380,7 @@ msgstr "출시 사이트"
 #. subtitle
 #: questions/includes/fedora/coding/web.yml:16
 msgid "<a href='http://getfedora.org'>getfedora.org</a> is awesome"
-msgstr "<a href='http://getfedora.org'>getfedora.org</a>는 굉장해요"
+msgstr "<a href='http://getfedora.org'>getfedora.org</a> 는 멋져요"
 
 #. title
 #: questions/includes/fedora/coding/web.yml:20
@@ -1392,8 +1392,8 @@ msgstr "매거진"
 msgid ""
 "did you even know we had a <a href='http://fedoramagazine.org'>magazine</a>?"
 msgstr ""
-"우리가 가지고 있는 <a href='http://fedoramagazine.org'>magazine</a>을 알고 있"
-"나요 ?"
+"우리가 <a href='http://fedoramagazine.org'>magazine</a> 이 있다는 것을 알고 "
+"있나요 ?"
 
 #. title
 #: questions/includes/fedora/coding/web.yml:24
@@ -1438,7 +1438,7 @@ msgstr "작은-대화-형식의사용자 프로파일과 이야기를 위한 사
 #. title
 #: questions/includes/fedora/coding/web.yml:40
 msgid "AskNot Site"
-msgstr "AskNOT 사이트"
+msgstr "AskNot 사이트"
 
 #. subtitle
 #: questions/includes/fedora/coding/web.yml:40
