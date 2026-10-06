@@ -6,13 +6,14 @@
 # Brendan Early <mymindstorm@evermiss.net>, 2020.
 # Ettore Atalan <atalanttore@googlemail.com>, 2021.
 # Joachim Philipp <joachim.philipp@gmail.com>, 2022.
+# Mario Blättermann <mario.blaettermann@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-11-13 10:53+0100\n"
-"PO-Revision-Date: 2022-07-20 13:19+0000\n"
-"Last-Translator: Joachim Philipp <joachim.philipp@gmail.com>\n"
+"PO-Revision-Date: 2026-01-27 20:58+0000\n"
+"Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/fedora-"
 "infra/asknot-ng/de/>\n"
 "Language: de\n"
@@ -20,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.13\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #. title
 #. description
@@ -106,7 +107,7 @@ msgstr "Ich bin hier falsch, bring mich zurück."
 #. backlink
 #: questions/fedora.yml:1
 msgid "I think I made a mistake"
-msgstr "Ich glaube ich habe einen Fehler gemacht."
+msgstr "Ich glaube, ich habe einen Fehler gemacht."
 
 #. backlink
 #: questions/fedora.yml:1
@@ -439,7 +440,7 @@ msgstr ""
 #. segue2
 #: questions/includes/fedora/coding.yml:3
 msgid "Are you interested in hacking on..."
-msgstr "Interessiert am Programmieren mit ... "
+msgstr "Interessiert am Programmieren mit ..."
 
 #. subtitle
 #: questions/includes/fedora/coding.yml:3
@@ -929,7 +930,7 @@ msgstr "Das ist großartig von dir."
 #. segue2
 #: questions/includes/fedora/qa.yml:42
 msgid "we need someone to head up..."
-msgstr "wir brauchen jemanden um anzuleiten"
+msgstr "wir brauchen jemanden um anzuleiten …"
 
 #. subtitle
 #: questions/includes/fedora/qa.yml:42
@@ -1108,7 +1109,7 @@ msgstr "Bloggen"
 #. segue1
 #: questions/includes/fedora/writing.yml:32
 msgid "Only the news that's fit to print."
-msgstr "Nur das Neue passt um es zu drucken"
+msgstr "Nur das Neue passt, um es zu drucken."
 
 #. segue2
 #: questions/includes/fedora/writing.yml:32
@@ -1255,7 +1256,7 @@ msgstr "Haskell Interessensgruppe"
 msgid ""
 "Work with the community to make Haskell development in Fedora be awesome!"
 msgstr ""
-"Mit der Gemeinschaft zusammenarbeiten, damit  die Haskell-Entwicklung bei "
+"Mit der Gemeinschaft zusammenarbeiten, damit die Haskell-Entwicklung bei "
 "Fedora großartig wird!"
 
 #. title
@@ -1440,7 +1441,7 @@ msgstr "Allgemeine Ansicht"
 #. subtitle
 #: questions/includes/fedora/coding/web.yml:28
 msgid "there's a list of sites that need standardizing"
-msgstr "Es gibt eine Liste von Seiten, die standartisiert werden müssen."
+msgstr "Es gibt eine Liste von Seiten, die standardisiert werden müssen."
 
 #. title
 #: questions/includes/fedora/coding/web.yml:32
