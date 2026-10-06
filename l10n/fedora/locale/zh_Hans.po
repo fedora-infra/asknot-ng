@@ -4,13 +4,14 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
 # Languages add-on <noreply-addon-languages@weblate.org>, 2026.
 # 耗子 <haozi@loli.email>, 2026.
+# Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: asknot-ng 1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-11-13 10:53+0100\n"
-"PO-Revision-Date: 2026-04-02 23:58+0000\n"
-"Last-Translator: 耗子 <haozi@loli.email>\n"
+"PO-Revision-Date: 2026-06-20 09:12+0000\n"
+"Last-Translator: Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>\n"
 "Language-Team: Chinese (Simplified Han script) <https://"
 "translate.fedoraproject.org/projects/fedora-infra/asknot-ng/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -18,532 +19,532 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 2026.6.1\n"
 "Generated-By: Babel 2.9.1\n"
 
 #. title
 #. description
 #: questions/fedora.yml:1
 msgid "What can I do for Fedora?"
-msgstr "我能为 Fedora 做些什么？"
+msgstr ""
 
 #. negative
 #: questions/fedora.yml:1
 msgid "No"
-msgstr "否"
+msgstr ""
 
 #. negative
 #: questions/fedora.yml:1
 msgid "Nope, nope, nope"
-msgstr "不不不"
+msgstr ""
 
 #. negative
 #: questions/fedora.yml:1
 msgid "Nope"
-msgstr "不是"
+msgstr ""
 
 #. negative
 #: questions/fedora.yml:1
 msgid "No, thanks"
-msgstr "谢谢，不用"
+msgstr ""
 
 #. negative
 #: questions/fedora.yml:1
 msgid "Not on your life"
-msgstr "不适合我"
+msgstr ""
 
 #. negative
 #: questions/fedora.yml:1
 msgid "Doesn't sound like me"
-msgstr "听起来与我不像"
+msgstr ""
 
 #. negative
 #: questions/fedora.yml:1
 msgid "Absolutely not"
-msgstr "千万不要"
+msgstr ""
 
 #. negative
 #: questions/fedora.yml:1
 msgid "Next, please"
-msgstr "下一个"
+msgstr ""
 
 #. affirmative
 #: questions/fedora.yml:1
 msgid "Yes"
-msgstr "是"
+msgstr ""
 
 #. affirmative
 #: questions/fedora.yml:1
 msgid "Sounds awesome"
-msgstr "听起来很棒"
+msgstr ""
 
 #. affirmative
 #: questions/fedora.yml:1
 msgid "Tell me more"
-msgstr "告诉我更多"
+msgstr ""
 
 #. affirmative
 #: questions/fedora.yml:1
 msgid "That's me!"
-msgstr "对，那就是我！"
+msgstr ""
 
 #. affirmative
 #: questions/fedora.yml:1
 msgid "Totally"
-msgstr "完全正确"
+msgstr ""
 
 #. affirmative
 #: questions/fedora.yml:1
 msgid "Sure"
-msgstr "好"
+msgstr ""
 
 #. backlink
 #: questions/fedora.yml:1
 msgid "I was wrong, take me back"
-msgstr "我错了，带我回去"
+msgstr ""
 
 #. backlink
 #: questions/fedora.yml:1
 msgid "I think I made a mistake"
-msgstr "我想我弄错了"
+msgstr ""
 
 #. backlink
 #: questions/fedora.yml:1
 msgid "Get me outta here!"
-msgstr "让我离开这里！"
+msgstr ""
 
 #. navlink
 #: questions/fedora.yml:1
 msgid "Home"
-msgstr "首页"
+msgstr ""
 
 #. navlink
 #: questions/fedora.yml:1
 msgid "Get Fedora"
-msgstr "获取 Fedora"
+msgstr ""
 
 #. navlink
 #: questions/fedora.yml:1
 msgid "CoC"
-msgstr "CoC"
+msgstr ""
 
 #. navlink
 #: questions/fedora.yml:1
 msgid "Chat"
-msgstr "聊天"
+msgstr ""
 
 #. segue1
 #: questions/fedora.yml:36
 msgid "Want to help Fedora?  Tell me..."
-msgstr "想要帮助 Fedora？请告诉我………"
+msgstr ""
 
 #. segue2
 #: questions/fedora.yml:36
 msgid "what's your area of interest?"
-msgstr "你感兴趣的方面是？"
+msgstr ""
 
 #. title
 #: questions/fedora.yml:40
 msgid "Design!"
-msgstr "设计！"
+msgstr ""
 
 #. segue1
 #: questions/fedora.yml:40
 msgid "So you enjoy working on the way users interact with websites and programs?"
-msgstr "所以你很享受改进用户与网站和程序之间的交互体验的工作？"
+msgstr ""
 
 #. segue2
 #: questions/fedora.yml:40
 msgid "How about the..."
-msgstr "你怎么看……"
+msgstr ""
 
 #. subtitle
 #: questions/fedora.yml:40
 msgid "pixel ninjas"
-msgstr "像素忍者"
+msgstr ""
 
 #. title
 #: questions/fedora.yml:47
 msgid "Coding"
-msgstr "写代码"
+msgstr ""
 
 #. segue1
 #: questions/fedora.yml:47
 msgid "Zeroes and ones #allday?  Me too."
-msgstr "#整天 面对 0 和 1？我也是。"
+msgstr ""
 
 #. segue2
 #: questions/fedora.yml:47
 msgid "What's your favorite language?"
-msgstr "你最喜欢的语言是？"
+msgstr ""
 
 #. subtitle
 #: questions/fedora.yml:47
 msgid "hacking the gibson"
-msgstr "黑入吉布森"
+msgstr ""
 
 #. title
 #: questions/fedora.yml:54
 msgid "Community Ops"
-msgstr "社区管理"
+msgstr ""
 
 #. segue1
 #: questions/fedora.yml:54
 msgid "Have a knack for community-building?"
-msgstr "拥有构建社区的诀窍？"
+msgstr ""
 
 #. segue2
 #: questions/fedora.yml:54 questions/includes/fedora/coding.yml:38
 #: questions/includes/fedora/design.yml:3
 msgid "Would you like something more"
-msgstr "你想要了解更多吗"
+msgstr ""
 
 #. subtitle
 #: questions/fedora.yml:54
 msgid "connecting the dots"
-msgstr "连点为线"
+msgstr ""
 
 #. title
 #: questions/fedora.yml:61
 msgid "Writing"
-msgstr "写作"
+msgstr ""
 
 #. segue1
 #: questions/fedora.yml:61
 msgid "So, you have a way with words?"
-msgstr "所以，你对文章有自己的一套？"
+msgstr ""
 
 #. segue2
 #: questions/fedora.yml:61 questions/fedora.yml:68
 msgid "Would you be more interested in..."
-msgstr "你感兴趣的会不会是……"
+msgstr ""
 
 #. subtitle
 #: questions/fedora.yml:61
 msgid "wordsmithery"
-msgstr "语言大师"
+msgstr ""
 
 #. title
 #: questions/fedora.yml:68
 msgid "Translation"
-msgstr "翻译"
+msgstr ""
 
 #. segue1
 #: questions/fedora.yml:68
 msgid "So you know more than one language?  We need you!"
-msgstr "所以你懂得超过一门语言？我们需要你！"
+msgstr ""
 
 #. subtitle
 #: questions/fedora.yml:68
 msgid "we're an international effort, after all"
-msgstr "我们毕竟是国际范儿"
+msgstr ""
 
 #. title
 #: questions/fedora.yml:75
 msgid "Advocacy"
-msgstr "宣传"
+msgstr ""
 
 #. segue1
 #: questions/fedora.yml:75
 msgid "So you're a people person?"
-msgstr "所以你是一个有亲和力的人？"
+msgstr ""
 
 #. segue2
 #: questions/fedora.yml:75
 msgid "How about becoming a Fedora..."
-msgstr "要不要成为一名 Fedora 的……"
+msgstr ""
 
 #. subtitle
 #: questions/fedora.yml:75
 msgid "spreading the good word"
-msgstr "传唱我们的赞歌"
+msgstr ""
 
 #. title
 #: questions/fedora.yml:82
 msgid "Packaging"
-msgstr "打包"
+msgstr ""
 
 #. segue1
 #: questions/fedora.yml:82
 msgid "So you want to help build the OS?  Excellent."
-msgstr "所以你想帮助构建操作系统？棒极了。"
+msgstr ""
 
 #. segue2
 #: questions/fedora.yml:82
 msgid "Then you'll need to become a Fedora..."
-msgstr "接着你将会成为 Fedora 的……"
+msgstr ""
 
 #. subtitle
 #: questions/fedora.yml:82
 msgid "getting new software into Fedora"
-msgstr "将新的软件引入 Fedora"
+msgstr ""
 
 #. title
 #: questions/fedora.yml:89
 msgid "QA and Testing"
-msgstr "QA 测试"
+msgstr ""
 
 #. segue1
 #: questions/fedora.yml:89
 msgid "So you like to push all the buttons and break all the things?"
-msgstr "所以你想要按下所有的按钮然后毁掉一切？"
+msgstr ""
 
 #. segue2
 #: questions/fedora.yml:89
 msgid "Are you more interested in something..."
-msgstr "那么你会不会对这些更感兴趣呢……"
+msgstr ""
 
 #. subtitle
 #: questions/fedora.yml:89
 msgid "as they say, \"if it's not tested, it's broken\""
-msgstr "正如他们说的，“不做测试非好汉”"
+msgstr ""
 
 #. title
 #: questions/fedora.yml:96
 msgid "Modularity"
-msgstr "模块化"
+msgstr ""
 
 #. subtitle
 #: questions/fedora.yml:96
 msgid "rethinking how we compose the distro"
-msgstr "重新思考我们如何组成发行版"
+msgstr ""
 
 #. title
 #: questions/fedora.yml:101
 msgid "The Desktop"
-msgstr "桌面"
+msgstr ""
 
 #. segue1
 #: questions/fedora.yml:101
 msgid "So you're into making the OS polished and easy to use?"
-msgstr "所以你想让操作系统变得优雅易用？"
+msgstr ""
 
 #. segue2
 #: questions/fedora.yml:101 questions/fedora.yml:108 questions/fedora.yml:115
 #: questions/fedora.yml:122
 msgid "You probably want to join the Fedora..."
-msgstr "你可能想要加入 Fedora 的……"
+msgstr ""
 
 #. subtitle
 #: questions/fedora.yml:101
 msgid "for those who are passionate about user and developer experience"
-msgstr "为了那些对用户和开发者体验的充满热情的人"
+msgstr ""
 
 #. title
 #: questions/fedora.yml:108
 msgid "The Server"
-msgstr "服务器"
+msgstr ""
 
 #. segue1
 #: questions/fedora.yml:108
 msgid "So you're into making the OS powerful and flexible?"
-msgstr "所以你想让操作系统变得强大灵活？"
+msgstr ""
 
 #. subtitle
 #: questions/fedora.yml:108
 msgid "the best and latest for the datacenter"
-msgstr "数据中心的最佳和最新选择"
+msgstr ""
 
 #. title
 #: questions/fedora.yml:115
 msgid "The Cloud"
-msgstr "云计算"
+msgstr ""
 
 #. segue1
 #: questions/fedora.yml:115
 msgid "High-minded?"
-msgstr "高瞻远瞩？"
+msgstr ""
 
 #. subtitle
 #: questions/fedora.yml:115
 msgid "it's where the future lives"
-msgstr "那就是未来所在"
+msgstr ""
 
 #. title
 #: questions/fedora.yml:122
 msgid "Internationalization"
-msgstr "国际化"
+msgstr ""
 
 #. segue1
 #: questions/fedora.yml:122
 msgid "Have a regional or world perspective?"
-msgstr "具有一个区域化和全球化的视野？"
+msgstr ""
 
 #. subtitle
 #: questions/fedora.yml:122
 msgid "making Fedora work better for all languages"
-msgstr "让 Fedora 在所有语言下都能工作地更好"
+msgstr ""
 
 #. title
 #: questions/fedora.yml:129
 msgid "Instruction"
-msgstr "指导"
+msgstr ""
 
 #. subtitle
 #: questions/fedora.yml:129
 msgid "spread your knowledge to others in the community"
-msgstr "向社区中的其他人传播您的知识"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/advocacy.yml:3
 #: questions/includes/fedora/community.yml:15
 msgid "Ambassador"
-msgstr "大使"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/advocacy.yml:3
 #: questions/includes/fedora/community.yml:15
 msgid "the representatives of Fedora"
-msgstr "Fedora 的代表"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/cloud.yml:3
 msgid "Cloud SIG"
-msgstr "云计算特别兴趣小组"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/cloud.yml:3
 msgid "the special-interest-group for Fedora Cloud"
-msgstr "Fedora Cloud 的特别兴趣小组"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/cloud.yml:6
 msgid "RDO"
-msgstr "RDO"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/cloud.yml:6
 msgid "the OpenStack distro for Fedora"
-msgstr "面向 Fedora 的 OpenStack 发行版"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/coding.yml:3
 msgid "Python"
-msgstr "Python"
+msgstr ""
 
 #. segue1
 #: questions/includes/fedora/coding.yml:3
 msgid "So, you enjoy traceback-driven development?  What could go wrong?"
-msgstr "所以，您很享受回溯驱动的开发？这又能出什么问题呢？"
+msgstr ""
 
 #. segue2
 #: questions/includes/fedora/coding.yml:3
 msgid "Are you interested in hacking on..."
-msgstr "你有兴趣 hacking……"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/coding.yml:3
 msgid "a dynamic language for rapid development"
-msgstr "一门用于快速开发的动态语言"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/coding.yml:9
 msgid "C"
-msgstr "C"
+msgstr ""
 
 #. segue1
 #: questions/includes/fedora/coding.yml:9
 msgid "So, you think OOP is for hipsters?  Let me tell you, back in my day..."
-msgstr "所以你觉得 OOP 很时髦？让我来告诉你，想当初……"
+msgstr ""
 
 #. segue2
 #: questions/includes/fedora/coding.yml:9
 #: questions/includes/fedora/coding.yml:27
 msgid "How about working on..."
-msgstr "那么不如用……"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/coding.yml:9
 msgid "close to the metal"
-msgstr "接近底层"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/coding.yml:15
 msgid "Haskell"
-msgstr "Haskell"
+msgstr ""
 
 #. segue1
 #: questions/includes/fedora/coding.yml:15
 msgid ""
 "So, programming without side-effects is what you're all about?  Sounds "
 "useful!"
-msgstr "所以，你想要的不过是在没有副作用的情况下编程？听起来很有用！"
+msgstr ""
 
 #. segue2
 #: questions/includes/fedora/coding.yml:15
 #: questions/includes/fedora/coding.yml:21
 msgid "How about..."
-msgstr "也许是……"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/coding.yml:15
 msgid "a nondynamic language for rapid development"
-msgstr "一门用于快速开发的非动态语言"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/coding.yml:21
 msgid "Java"
-msgstr "Java"
+msgstr ""
 
 #. segue1
 #: questions/includes/fedora/coding.yml:21
 msgid ""
 "So you're a believer in <code>AbstractMethodFactoryBean</code>s?  "
 "Straightforward enough..."
-msgstr "所以你是一个 <code>AbstractMethodFactoryBean</code> 的信徒？足够直截了当……"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/coding.yml:21
 msgid "a nondynamic language for nonrapid development"
-msgstr "一门用于非快速开发的非动态语言"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/coding.yml:27
 msgid "Scala"
-msgstr "Scala"
+msgstr ""
 
 #. segue1
 #: questions/includes/fedora/coding.yml:27
 msgid ""
 "So, just OOP or functional languages wouldn't do it?  You had to have "
 "both, huh?"
-msgstr "所以，只是 OOP 或者函数式编程已经满足不了你了吗？你是想全都要？"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/coding.yml:27
 msgid "a nondynamic language for semirapid development"
-msgstr "一门用于不是那么快速开发的非动态语言"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/coding.yml:33
 msgid "JavaScript"
-msgstr "JavaScript"
+msgstr ""
 
 #. segue1
 #: questions/includes/fedora/coding.yml:33
 msgid "So, you think having native integers is over-rated?  What could go wrong?"
-msgstr "所以，你觉得拥有原生的整数类型有点太高级了？这又能出什么问题呢？"
+msgstr ""
 
 #. segue2
 #: questions/includes/fedora/coding.yml:33
 msgid "There's plenty to do.  How about joining the.."
-msgstr "有太多可以做的了。为什么不加入……"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/coding.yml:33
 msgid "a dynamic web-oriented language for backend and frontend"
-msgstr "一门动态的面向 Web 的前端和后端语言"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/coding.yml:38
 #: questions/includes/fedora/design.yml:35
 msgid "Websites Team"
-msgstr "网站团队"
+msgstr ""
 
 #. segue1
 #: questions/includes/fedora/coding.yml:38
 msgid "Great!"
-msgstr "棒极了！"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/coding.yml:38
@@ -552,42 +553,40 @@ msgid ""
 "web developers that build <a "
 "href=\"https://getfedora.org\">getfedora.org</a> and other awesome sites"
 msgstr ""
-"web 开发者将会构建<a href=\"https://getfedora.org\">getfedora.org</a> 以及其"
-"他精美的站点"
 
 #. title
 #: questions/includes/fedora/coding.yml:44
 msgid "Ruby"
-msgstr "Ruby"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/coding.yml:44
 msgid "hashrockets and bare words"
-msgstr "哈希火箭和裸词"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/coding.yml:48
 msgid "C++"
-msgstr "C++"
+msgstr ""
 
 #. segue1
 #: questions/includes/fedora/coding.yml:48
 msgid ""
 "So, you're not happy if your error messages are comprehensible?  We have "
 "a place for you."
-msgstr "所以你觉得你的错误信息竟然能够被理解而感到不爽？我们给你留了一个位置。"
+msgstr ""
 
 #. segue2
 #: questions/includes/fedora/coding.yml:48
 msgid "Try digging into..."
-msgstr "尝试挖一下……"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/coding.yml:48
 msgid ""
 "imperative and object-oriented with the power of low-level memory "
 "manipulation"
-msgstr "以底层内存操作之力做关键之事与面向对象"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/coding/web.yml:4
@@ -596,12 +595,12 @@ msgstr "以底层内存操作之力做关键之事与面向对象"
 #: questions/includes/fedora/translation.yml:3
 #: questions/includes/fedora/writing.yml:9
 msgid "General"
-msgstr "通用的"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/community.yml:3
 msgid "on how to join the Community Operations team?"
-msgstr "关于如何加入社区行动团队？"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/coding/web.yml:9
@@ -610,96 +609,96 @@ msgstr "关于如何加入社区行动团队？"
 #: questions/includes/fedora/translation.yml:7
 #: questions/includes/fedora/writing.yml:13
 msgid "Specific"
-msgstr "特别的"
+msgstr ""
 
 #. segue1
 #: questions/includes/fedora/community.yml:8
 #: questions/includes/fedora/design.yml:15
 msgid "Excellent!"
-msgstr "极好！"
+msgstr ""
 
 #. segue2
 #: questions/includes/fedora/community.yml:8
 #: questions/includes/fedora/design.yml:15
 msgid "How does this sound?"
-msgstr "这听起来如何？"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/community.yml:8
 msgid "on different kinds of community tasks"
-msgstr "关于不同种类的社区任务"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/community.yml:19
 #: questions/includes/fedora/writing.yml:50
 msgid "Community Blog"
-msgstr "社区博客"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/community.yml:19
 #: questions/includes/fedora/writing.yml:50
 msgid "the central hub of all Fedora news, across the subprojects"
-msgstr "所有 Fedora 新闻的汇总，横跨所有子项目"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/community.yml:22
 msgid "5 Things in Fedora This Week"
-msgstr "本周 Fedora 的 5 大头条"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/community.yml:22
 msgid "finding information for a weekly article about the happenings in Fedora"
-msgstr "寻找用于每周文章的、关于 Fedora 正在发生故事的素材"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/design.yml:3
 msgid "Design Team"
-msgstr "设计团队"
+msgstr ""
 
 #. segue1
 #: questions/includes/fedora/design.yml:3
 msgid "Ok."
-msgstr "好的。"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/design.yml:3
 msgid "creatives serving as a design firm for the Fedora community"
-msgstr "为 Fedora 社区提供设计服务的创意团队"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/design.yml:10
 msgid "on how to join the design team?"
-msgstr "关于如何加入设计团队？"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/design.yml:15
 msgid "on different kinds of design tasks"
-msgstr "关于不同种类的设计任务"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/design.yml:22
 msgid "Artwork Requests"
-msgstr "艺术作品请求"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/design.yml:22
 msgid "there are people in need of good taste -- you can help"
-msgstr "这里需要一些具有良好品味的人——您可以提供帮助"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/design.yml:26
 msgid "Hackergotchis"
-msgstr "Hackergotchi"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/design.yml:26
 msgid "making cute cut-outs of people's faces"
-msgstr "制作可爱的人物头像剪影"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/design.yml:30
 msgid "Fedora Badges"
-msgstr "Fedora 勋章"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/design.yml:30
@@ -707,604 +706,602 @@ msgid ""
 "make awesome badge art that fuels <a "
 "href=\"https://badges.fedoraproject.org\">badges.fp.o</a>"
 msgstr ""
-"制作美妙的勋章以驱动 <a href=\"https://badges.fedoraproject.org\">"
-"badges.fp.o</a>"
 
 #. title
 #: questions/includes/fedora/desktop.yml:3
 msgid "Workstation Working Group"
-msgstr "工作站版本工作组"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/desktop.yml:3
 msgid "the group behind Fedora Workstation"
-msgstr "Fedora 工作站版本背后的小组"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/desktop.yml:7
 msgid "Cinnamon SIG"
-msgstr "Cinnamon 特别兴趣组"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/desktop.yml:7
 msgid "for those excited about Cinnamon desktop environment spiciness in Fedora"
-msgstr "面向那些热衷于 Cinnamon 桌面环境定制版 Fedora 的人"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/desktop.yml:11
 msgid "KDE SIG"
-msgstr "KDE 特别兴趣组"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/desktop.yml:11
 msgid "to provide high-quality, usable KDE software packages"
-msgstr "提供高质量的可用的 KDE 软件包"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/desktop.yml:15
 msgid "LXDE SIG"
-msgstr "LXDE 特别兴趣组"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/desktop.yml:15
 msgid "to define a high-quality LXDE experience for Fedora users"
-msgstr "为 Fedora 用户定义高质量的 LXDE 体验"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/desktop.yml:19
 msgid "XFCE SIG"
-msgstr "XFCE 特别兴趣组"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/desktop.yml:19
 msgid "for those excited about integration of the Xfce desktop environment"
-msgstr "面向对于整合 Xfce 桌面环境感到无比兴奋的人"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/i18n.yml:3
 msgid "i18n"
-msgstr "i18n"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/i18n.yml:3
 msgid "the Fedora Internationalization subproject"
-msgstr "Fedora 国际化子项目"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/packaging.yml:3
 msgid "Package Maintainer"
-msgstr "软件包维护者"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/packaging.yml:3
 msgid "steward of the packages in Fedora"
-msgstr "Fedora 软件包管家"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/qa.yml:3
 msgid "about how to join the QA team?"
-msgstr "关于如何加入 QA 团队？"
+msgstr ""
 
 #. segue1
 #: questions/includes/fedora/qa.yml:7
 msgid "Certainly."
-msgstr "当然。"
+msgstr ""
 
 #. segue2
 #: questions/includes/fedora/qa.yml:7
 msgid "We need people to..."
-msgstr "我们需要人来……"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/qa.yml:7
 msgid "about different QA and testing tasks"
-msgstr "关于不同的 QA 与测试任务"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/qa.yml:13
 msgid "Validate Releases"
-msgstr "验证发行"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/qa.yml:13
 msgid "when there's an upcoming release, that is"
-msgstr "只要有即将到来的发布，就会有"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/qa.yml:16
 msgid "Test Updates"
-msgstr "测试更新"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/qa.yml:16
 msgid "before they hit the stable repo"
-msgstr "在它们进入稳定仓库之前"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/qa.yml:19
 msgid "Create Test Cases"
-msgstr "创造测试用例"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/qa.yml:19
 msgid "otherwise we won't know what to test"
-msgstr "否则我们就不知道测试什么"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/qa.yml:23
 msgid "Develop Tools"
-msgstr "开发工具"
+msgstr ""
 
 #. segue1
 #: questions/includes/fedora/qa.yml:23
 msgid "I'm of the same mind."
-msgstr "我和你有同样的想法。"
+msgstr ""
 
 #. segue2
 #: questions/includes/fedora/qa.yml:23
 msgid "We need people to hack on"
-msgstr "我们需要人手来开发"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/qa.yml:23
 msgid "for continuous awesomeness"
-msgstr "为了保持优秀"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/qa.yml:29
 msgid "a framework for automated task execution"
-msgstr "一个面向自动任务执行的框架"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/qa.yml:32
 msgid "BlockerBugs"
-msgstr "BlockerBugs"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/qa.yml:32
 msgid "used to propose and track release blocking bugs"
-msgstr "用于提出和追踪阻碍发行的 bug"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/qa.yml:35
 msgid "Bodhi"
-msgstr "Bodhi"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/qa.yml:35
 msgid "the Fedora Updates System"
-msgstr "Fedora 更新系统"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/qa.yml:38
 msgid "fedora-easy-karma"
-msgstr "fedora-easy-karma"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/qa.yml:38
 msgid "a handsome tool to ease testing updates"
-msgstr "一个简化测试更新的美妙工具"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/qa.yml:42
 msgid "Take Over"
-msgstr "接手"
+msgstr ""
 
 #. segue1
 #: questions/includes/fedora/qa.yml:42
 msgid "That's huge of you."
-msgstr "你太棒了。"
+msgstr ""
 
 #. segue2
 #: questions/includes/fedora/qa.yml:42
 msgid "we need someone to head up..."
-msgstr "我们需要有人来负责……"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/qa.yml:42
 msgid "some basically abandoned tasks"
-msgstr "一些基本上被遗弃的任务"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/qa.yml:48
 msgid "Bug Triage"
-msgstr "Bug Triage"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/qa.yml:48
 msgid "you'll need a heart of gold"
-msgstr "你将会需要一颗金子般的心"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/server.yml:3
 msgid "Server SIG"
-msgstr "服务器特别兴趣组"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/server.yml:3
 msgid "the special-interest-group for Fedora Server"
-msgstr "Fedora Server 的特别兴趣组"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/translation.yml:3
 msgid "about how to join the L10N team?"
-msgstr "关于如何加入 L10N 团队？"
+msgstr ""
 
 #. segue1
 #: questions/includes/fedora/translation.yml:7
 msgid "Let's get down to business."
-msgstr "让我们开始吧。"
+msgstr ""
 
 #. segue2
 #: questions/includes/fedora/translation.yml:7
 msgid "Perhaps you'd be interested in translating..."
-msgstr "也许你对翻译感兴趣……"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/translation.yml:7
 msgid "about L10N tasks"
-msgstr "关于 L10N 的任务"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/translation.yml:13
 msgid "User Interfaces"
-msgstr "用户界面"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/translation.yml:13
 msgid "there are some essential projects that need translating"
-msgstr "有很多必要的项目亟待翻译"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/translation.yml:16
 msgid "Wiki Pages"
-msgstr "Wiki 页面"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/translation.yml:16
 msgid "usually from English to another language"
-msgstr "通常是从英语到其他语言"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/translation.yml:19
 #: questions/includes/fedora/writing.yml:3
 msgid "Documentation"
-msgstr "文档"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/translation.yml:19
 msgid "all the guides and release notes"
-msgstr "所有的指南与发行注记"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/coding/c.yml:15
 #: questions/includes/fedora/translation.yml:22
 msgid "GNOME"
-msgstr "GNOME"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/translation.yml:22
 msgid "which has its own translation resources"
-msgstr "其拥有自己的翻译资源"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/coding/c++.yml:7
 #: questions/includes/fedora/translation.yml:25
 msgid "KDE"
-msgstr "KDE"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/translation.yml:25
 msgid "also with its own translation process"
-msgstr "其也有自己的翻译流程"
+msgstr ""
 
 #. segue1
 #: questions/includes/fedora/writing.yml:3
 msgid "Without you no-one would be able to \"RTFM\", as they say."
-msgstr "正如他们所说，如果没有你的话，也就没有人能说出“RTFM”了。"
+msgstr ""
 
 #. segue2
 #: questions/includes/fedora/writing.yml:3
 msgid "Would you be interested in something..."
-msgstr "你也许会对这些东西感兴趣……"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/writing.yml:3
 msgid "so people know how to use this crazy stuff"
-msgstr "所以人们知道如何使用这个疯狂的东西"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/writing.yml:9
 msgid "about how to join the docs team?"
-msgstr "关于如何加入文档团队？"
+msgstr ""
 
 #. segue1
 #: questions/includes/fedora/writing.yml:13
 msgid "Now we're talking!"
-msgstr "现在我们说到点子上了！"
+msgstr ""
 
 #. segue2
 #: questions/includes/fedora/writing.yml:13
 msgid "Let's see.  How about working on..."
-msgstr "让我看一看。不如来做……"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/writing.yml:13
 msgid "about documentation related tasks"
-msgstr "关于文档和相关的任务"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/writing.yml:19
 msgid "Wiki Gardening"
-msgstr "Wiki 维护"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/writing.yml:19
 msgid "it tends to get a little overgrown"
-msgstr "它往往会变得有点杂乱"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/writing.yml:22
 msgid "a section of the release notes and a good place for new contributors"
-msgstr "发行说明的一个章节，也是新贡献者的好起点"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/writing.yml:25
 msgid "A Guide"
-msgstr "指南"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/writing.yml:25
 msgid "a more technical type of documentation"
-msgstr "更技术性的文档"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/writing.yml:28
 msgid "Real Issues"
-msgstr "实际问题"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/writing.yml:28
 msgid "that people have reported"
-msgstr "人们报告的问题"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/writing.yml:32
 msgid "Blogging"
-msgstr "写博客"
+msgstr ""
 
 #. segue1
 #: questions/includes/fedora/writing.yml:32
 msgid "Only the news that's fit to print."
-msgstr "只报道合适的新闻。"
+msgstr ""
 
 #. segue2
 #: questions/includes/fedora/writing.yml:32
 msgid "How about something..."
-msgstr "来点什么呢……"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/writing.yml:32
 msgid "21st century journalism, my friend"
-msgstr "21 世纪的新闻业，朋友"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/writing.yml:37
 msgid "More Formal"
-msgstr "更正式的"
+msgstr ""
 
 #. segue1
 #: questions/includes/fedora/writing.yml:37
 msgid "Yes!  The spotlight!"
-msgstr "太好了！聚光灯！"
+msgstr ""
 
 #. segue2
 #: questions/includes/fedora/writing.yml:37
 msgid "You should get involved in writing for..."
-msgstr "你应该参与为……撰写文章"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/writing.yml:37
 msgid "something \"official\""
-msgstr "“官方”的东西"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/writing.yml:42
 msgid "Fedora Magazine"
-msgstr "Fedora 社区杂志"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/writing.yml:42
 msgid "all Fedora news, all the Fedora time"
-msgstr "所有 Fedora 新闻，所有 Fedora 时间"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/writing.yml:45
 msgid "Less Formal"
-msgstr "不太正式的"
+msgstr ""
 
 #. segue1
 #: questions/includes/fedora/writing.yml:45
 msgid "We have just the thing for you."
-msgstr "我们正好有适合你的。"
+msgstr ""
 
 #. segue2
 #: questions/includes/fedora/writing.yml:45
 msgid "Get your own blog added to the..."
-msgstr "把你的博客添加到……"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/writing.yml:45
 msgid "something more personal"
-msgstr "更个人化的东西"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/writing.yml:53
 msgid "Fedora Planet"
-msgstr "Fedora Planet"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/writing.yml:53
 msgid "an aggregator of Fedora bloggers"
-msgstr "Fedora 博客聚合器"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/coding/c++.yml:3
 msgid "LibreOffice"
-msgstr "LibreOffice"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/coding/c++.yml:3
 msgid "a free and open source office suite"
-msgstr "一个自由开源的办公套件"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/coding/c++.yml:7
 msgid "an integrated set of cross-platform applications"
-msgstr "一套跨平台的集成应用程序"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/coding/c.yml:3
 msgid "OSTree"
-msgstr "OSTree"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/coding/c.yml:3
 msgid "git for operating system binaries"
-msgstr "操作系统二进制文件的 git"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/coding/c.yml:7
 msgid "systemd"
-msgstr "systemd"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/coding/c.yml:7
 msgid "widely renowned init system and suite of building blocks"
-msgstr "广受赞誉的初始化系统和构建模块套件"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/coding/c.yml:11
 #: questions/includes/fedora/coding/python.yml:23
 msgid "Cockpit"
-msgstr "Cockpit"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/coding/c.yml:11
 msgid "a server manager that makes it easy to administer via a web browser"
-msgstr "一个服务器管理器，让您可以通过 Web 浏览器轻松管理"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/coding/c.yml:15
 msgid "an easy and elegant way to use your computer"
-msgstr "一种简单优雅的电脑使用方式"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/coding/c.yml:19
 msgid "The Linux Kernel"
-msgstr "Linux 内核"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/coding/c.yml:19
 msgid ""
 "that thing that connects application software to the hardware of a "
 "computer"
-msgstr "将应用软件连接到计算机硬件的那个东西"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/coding/haskell.yml:3
 msgid "Haskell Special Interest Group"
-msgstr "Haskell 特别兴趣小组"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/coding/haskell.yml:3
 msgid "Work with the community to make Haskell development in Fedora be awesome!"
-msgstr "与社区合作，让 Fedora 上的 Haskell 开发变得更棒！"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/coding/java.yml:3
 msgid "Java Special Interest Group"
-msgstr "Java 特别兴趣小组"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/coding/java.yml:3
 msgid "Work with the community on Java packaging and development"
-msgstr "与社区合作进行 Java 打包和开发"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/coding/java.yml:7
 msgid "JBoss"
-msgstr "JBoss"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/coding/java.yml:7
 msgid "A suite of enterprise middleware"
-msgstr "一套企业级中间件"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/coding/java.yml:11
 msgid "fedmsg-java"
-msgstr "fedmsg-java"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/coding/java.yml:11
 msgid "Interact with fedmsg from the JVM"
-msgstr "从 JVM 与 fedmsg 交互"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/coding/java.yml:15
 msgid "jenkins-fedmsg-emit"
-msgstr "jenkins-fedmsg-emit"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/coding/java.yml:15
 msgid "Send fedmsg messages related to Jenkins builds"
-msgstr "发送与 Jenkins 构建相关的 fedmsg 消息"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/coding/python.yml:3
 msgid "Anaconda"
-msgstr "Anaconda"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:3
 msgid "the OS installer and all its related projects"
-msgstr "操作系统安装程序及其所有相关项目"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/coding/python.yml:7
 msgid "ABRT"
-msgstr "ABRT"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:7
 msgid "the Automatic Bug Reporting Tool"
-msgstr "自动错误报告工具"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/coding/python.yml:11
 msgid "DNF"
-msgstr "DNF"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:11
 msgid "Dandified Yum (DNF) is a major rewrite of yum"
-msgstr "Dandified Yum (DNF) 是 yum 的重大重写"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/coding/python.yml:15
 msgid "Firewalld"
-msgstr "Firewalld"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:15
 msgid "a dynamically managed firewall with support for network zones"
-msgstr "一个支持网络区域的动态管理防火墙"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/coding/python.yml:19
 msgid "PortingDB"
-msgstr "PortingDB"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:19
@@ -1312,122 +1309,120 @@ msgid ""
 "a <a href=\"http://fedora.portingdb.xyz/\">dynamic database</a> of Python"
 " 2 packages needing to be updated to Python 3"
 msgstr ""
-"一个记录需要从 Python 2 升级到 Python 3 的包的<a href=\"http://"
-"fedora.portingdb.xyz/\">动态数据库</a>"
 
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:23
 msgid "a web interface for managing and administrating Linux web servers"
-msgstr "一个用于管理 Linux Web 服务器的 Web 界面"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/coding/python.yml:27
 msgid "Web Services"
-msgstr "Web 服务"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/coding/python.yml:27
 msgid "Fedora Infrastructure team for the win"
-msgstr "Fedora 基础设施团队大获全胜"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/coding/scala.yml:3
 msgid "Fedora Mobile"
-msgstr "Fedora Mobile"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/coding/scala.yml:3
 msgid "Interact with Fedora's community on the go!"
-msgstr "随时随地与 Fedora 社区互动！"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/coding/web.yml:4
 msgid "on how to join the websites team?"
-msgstr "关于如何加入网站团队？"
+msgstr ""
 
 #. segue1
 #: questions/includes/fedora/coding/web.yml:9
 msgid "That's my style too."
-msgstr "这也是我的风格。"
+msgstr ""
 
 #. segue2
 #: questions/includes/fedora/coding/web.yml:9
 msgid "How about working on the..."
-msgstr "来试试……"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/coding/web.yml:9
 msgid "on different kinds of website tasks"
-msgstr "不同类型的网站任务"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/coding/web.yml:16
 msgid "Release Site"
-msgstr "发布站点"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/coding/web.yml:16
 msgid "<a href='http://getfedora.org'>getfedora.org</a> is awesome"
-msgstr "<a href='http://getfedora.org'>getfedora.org</a> 棒极了"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/coding/web.yml:20
 msgid "Magazine"
-msgstr "杂志"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/coding/web.yml:20
 msgid ""
 "did you even know we had a <a "
 "href='http://fedoramagazine.org'>magazine</a>?"
-msgstr "你知道我们有一本<a href='http://fedoramagazine.org'>杂志</a>吗？"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/coding/web.yml:24
 msgid "Wiki Theme"
-msgstr "Wiki 主题"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/coding/web.yml:24
 msgid "it's a little crusty"
-msgstr "它有点过时了"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/coding/web.yml:28
 msgid "General Theme"
-msgstr "通用主题"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/coding/web.yml:28
 msgid "there's a list of sites that need standardizing"
-msgstr "有一个需要统一标准的网站列表"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/coding/web.yml:32
 msgid "Translations"
-msgstr "翻译"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/coding/web.yml:32
 msgid "we're an international community after all"
-msgstr "我们毕竟是国际范儿"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/coding/web.yml:36
 msgid "User Gallery"
-msgstr "用户展示"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/coding/web.yml:36
 msgid "gallery for mini-interview-style user profiles and stories"
-msgstr "迷你访谈式用户个人资料和故事展示"
+msgstr ""
 
 #. title
 #: questions/includes/fedora/coding/web.yml:40
 msgid "AskNot Site"
-msgstr "AskNot 网站"
+msgstr ""
 
 #. subtitle
 #: questions/includes/fedora/coding/web.yml:40
 msgid "this thing -- the page you're looking at right now!"
-msgstr "就是这个——你现在看到的这个页面！"
+msgstr ""
